@@ -1,0 +1,86 @@
+Title: Converting a Unix timestamp to a real Postgres date
+Date: 2011-01-10 07:30
+Author: mark
+Category: Geek, Programming
+Tags: date, postgres, sql
+Slug: converting-a-unix-timestamp-to-a-real-postgres-date
+
+Let’s say you have a Postgres database with a table that looks like
+this:
+
+<table cellspacing="0" cellpadding="0" border="0">
+</p>
+<p>
+<tr>
+</p>
+<p>
+<th>
+thing\_id
+</th>
+<th>
+unix\_date
+</th>
+</p>
+<p>
+</tr>
+</p>
+<p>
+<tr>
+<td>
+1
+</td>
+<td>
+1253764800
+</td>
+</tr>
+</p>
+<p>
+<tr>
+<td>
+2
+</td>
+<td>
+1253804507
+</td>
+</tr>
+</p>
+<p>
+<tr>
+<td>
+3
+</td>
+<td>
+1253764810
+</td>
+</tr>
+</p>
+<p>
+<tr>
+<td>
+4
+</td>
+<td>
+1253764801
+</td>
+</tr>
+</p>
+<p>
+</table>
+</p>
+
+See how **unix\_date** field is a [Unix timestamp][]?
+
+Well what if we want to deal with it as an actual [Postgres date
+type][]?
+
+Turns out it’s pretty easy with the following SQL:
+
+<p>
+~~~~ {.sql name="code"}
+SELECT*, TIMESTAMP 'epoch' + unix_date * INTERVAL '1 second' as real_dateFROM mytable
+~~~~
+
+</p>
+
+  [Unix timestamp]: http://en.wikipedia.org/wiki/Unix_time
+  [Postgres date type]: http://www.postgresql.org/docs/8.1/static/datatype-datetime.html

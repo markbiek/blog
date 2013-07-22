@@ -1,0 +1,9 @@
+RewriteEngine On
+
+#Rewrite to pull theme files from our cookieless subdomain
+RewriteRule ^.*?theme/(.*?)$          http://static.biek.org/blog/$1       [L]
+
+RewriteRule ^feed[/]*$  /blog/feeds/all.atom.xml      [L,NC]
+
+RewriteCond %{DOCUMENT_ROOT}/blog/$0 !-f
+RewriteRule ^(.*?)/(.*?)/(.*?)[/]*$     $3.html [L,NC]
