@@ -34,12 +34,24 @@ Buddy][]][] to help with building your regular expressions.
 Here's an example that does some simple testing as well as grouped
 matching including retrieving subgroups.
 
-<p>
-~~~~ {.vb name="code"}
-    Dim szLine As String    Dim regex As New RegExp    Dim colregmatch As MatchCollection    With regex        .MultiLine = False        .Global = True        .IgnoreCase = False    End With    szLine = "Analyzed range (from-to)   10  100"    regex.Pattern = "^Analyzed range"    If regex.Test(szLine) Then        regex.Pattern = ".*?([0-9]+).*?([0-9]+)"        Set colregmatch = regex.Execute(szLine)        'From        Debug.Print colregmatch.Item(0).submatches.Item(0)        'To        Debug.Print colregmatch.Item(0).submatches.Item(1)     End If
-~~~~
-
-</p>
+    Dim szLine As String    
+    Dim regex As New RegExp    
+    Dim colregmatch As MatchCollection    
+    With regex        
+        .MultiLine = False        
+        .Global = True        
+        .IgnoreCase = False    
+    End With    
+    szLine = "Analyzed range (from-to)   10  100"    
+    regex.Pattern = "    Analyzed range"    
+    If regex.Test(szLine) Then        
+        regex.Pattern = ".*?([0-9]+).*?([0-9]+)"        
+        Set colregmatch = regex.Execute(szLine)        
+        'From        
+        Debug.Print colregmatch.Item(0).submatches.Item(0)        
+        'To        
+        Debug.Print colregmatch.Item(0).submatches.Item(1)     
+    End If
 
   [RegExp object]: http://msdn.microsoft.com/en-us/library/ms974570.aspx#scripting05_topic2
   [Regex Buddy]: http://farm4.static.flickr.com/3447/3228727140_280fa74bce.jpg?v=0
