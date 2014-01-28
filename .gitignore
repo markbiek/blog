@@ -1,0 +1,5 @@
+.svn
+*.pyc
+cleanposts.py
+develop_server.sh
+pelican-themes/

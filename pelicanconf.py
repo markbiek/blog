@@ -14,7 +14,7 @@ DEFAULT_PAGINATION = 5
 
 TIMEZONE = 'America/Kentucky/Louisville'
 DEFAULT_LANG = u'en'
-#DISQUS_SITENAME = 'antelopelovefan'
+DISQUS_SITENAME = 'markbiekorg'
 GOOGLE_ANALYTICS = 'UA-6890403-1'
 
 FILES_TO_COPY = (('extra/.htaccess', '.htaccess'),)
