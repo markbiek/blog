@@ -98,19 +98,11 @@ Here are a few of mine
 And, with that, I'll leave you with the 5 tenents of marriage, as
 related to me by one of my two favorite priests on my wedding day.
 
-<h4>
-Humor  
-</p>
-Humility  
-
-Sex  
-
-Compassion  
-
-<p>
-Understanding
-</h4>
-</p>
+### Humor  
+### Humility  
+### Sex  
+### Compassion  
+### Understanding
 
 8 great years and counting.
 
