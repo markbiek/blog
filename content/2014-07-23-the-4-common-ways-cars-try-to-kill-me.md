@@ -11,22 +11,22 @@ Most of the close-calls fit into one of the four common types.
 
 ![The Right Hook](http://static.biek.org/blog/img/the-right-hook.png)
 
-In this situation, a car making a right turn either pulls directly in front of you or almost hits you from the left.
+In this situation, a car making a right turn either pulls in front of you or almost hits you from the left.
 
 ![The Left-Turn Cutoff](http://static.biek.org/blog/img/the-left-turn-cutoff.png)
 
 Here, you're cycling in a straight line when a car coming in the opposite direction makes a left turn. You are either cut off or hit/almost-hit from the left.
 
-In many cases, the car is entering a parking lot and will come to a near-stop directly in front of you.
+Often, the car is entering a parking lot and will come to a near-stop in front of you.
 
 ![The T-Bone](http://static.biek.org/blog/img/the-t-bone.png)
 
-Any situation where a car comes at you from the side (generally the right side). I've found this happens a lot when a car is at a stop sign attempting to turn out onto a busy street.
+Any situation where a car comes at you from the side (the right side is most common). I've found this happens a lot when a car is at a stop sign attempting to turn out onto a busy street.
 
-The driver is so busy looking left and right at traffic, they forget to look directly in front. I also see a shocking number of cases where the driver is just looking in completely the wrong direction (looking right when they're turning right, etc).
+The driver is so busy looking left and right at traffic, they forget to look in front. Many times, the driver is just looking in the wrong direction (to the right when they're turning right, etc).
 
 ![The Impatient Sideswipe](http://static.biek.org/blog/img/the-impatient-sideswipe.png)
 
 This one is less common than the others but has happened often enough I thought it was worth mentioning.
 
-In this case, there is a line of cars in the left lane backed up behind someone turning left. You are riding normally up the right lane when someone gets tired of waiting and swerves over at you.
+In this case, there is a line of cars in the left lane backed up behind someone turning left. You are riding up the right lane when someone gets tired of waiting and swerves over at you.
