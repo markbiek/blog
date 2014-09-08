@@ -19,6 +19,7 @@ GOOGLE_ANALYTICS = 'UA-6890403-1'
 
 FILES_TO_COPY = (('extra/.htaccess', '.htaccess'),)
 THEME = "pelican-themes/mnmlist"
+#THEME = "pelican-themes/alftheme"
 
 # Blogroll
 LINKS =  ()
