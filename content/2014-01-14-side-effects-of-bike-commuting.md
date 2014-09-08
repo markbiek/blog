@@ -22,7 +22,7 @@ Since it's dark when I head to work and getting dim when I head home, I have to 
 
 ## Extra laundry
 * Dirty clothes set #1: I get up and work out before work.
-* Dirty clothes set #2: I have clothes that I ride too and from work in.
+* Dirty clothes set #2: I have clothes that I ride to and from work in.
 * Dirty clothes set #3: My actual work clothes that I wear all day.
 
 All minor but amusing things about cycling to work.
