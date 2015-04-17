@@ -3,3 +3,4 @@
 cleanposts.py
 develop_server.sh
 pelican-themes/
+*.*.swp
