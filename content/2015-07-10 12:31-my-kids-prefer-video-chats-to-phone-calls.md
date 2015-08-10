@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: my-kids-prefer-video-chats-to-phone-calls
 
-### My kids prefer video chats to phone calls
-
 I remember having a rotary phone and, despite growing up with all sorts of nifty technology, video chat still seems like wizardry to me.
 
 I use it all the time but it its like magic. Its a mystical treat.

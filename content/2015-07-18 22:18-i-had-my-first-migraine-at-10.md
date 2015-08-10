@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: i-had-my-first-migraine-at-10
 
-### I had my first migraine at 10
-
 I was at a YMCA summer camp sleepover when I had my first migraine. I got up to go to the bathroom, walked into the bathroom with it's harsh flourescent lights, and suddenly the room was swimming.
 
 I saw floating colored lights as my vision shrunk down to a pinpoint, pain like my head had been bashed in with a rock, and then I was vomiting all over the room.

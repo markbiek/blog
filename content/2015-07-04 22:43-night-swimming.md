@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: night-swimming
 
-### Night swimming
-
 I'd imagine the first time I went skinny dipping was as a child, but I don't specifically remember it.
 
 I do remember the most glorious time though. Mid-September, 1994.

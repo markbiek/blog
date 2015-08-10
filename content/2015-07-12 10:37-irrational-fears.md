@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: irrational-fears
 
-### Irrational fears
-
 I was worried about one thing leading up to the birth of my first-born.
 
 I was worried that the hospital would accidentally switch her and wed bring home the wrong baby.

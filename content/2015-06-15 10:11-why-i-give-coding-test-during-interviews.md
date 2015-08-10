@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: why-i-give-coding-test-during-interviews
 
-### Why I give coding test during interviews
-
 [https://flic.kr/p/cXtQV](https://flic.kr/p/cXtQV)
 
 Actually, a lot of the time, I dont.

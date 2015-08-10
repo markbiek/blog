@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: my-geometry-teacher-was-an-alcoholic
 
-### My Geometry teacher was an alcoholic?
-
 I took Geometry over the summer between my freshman and sophomore years of high school.
 
 Class was at Shasta High School and I was lucky enough to have two friends with me.

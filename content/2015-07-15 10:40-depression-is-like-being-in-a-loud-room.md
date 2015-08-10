@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: depression-is-like-being-in-a-loud-room
 
-### Depression is like being in a loud room
-
 > Its like I was in a loud room for so long, I didnt know how long it was[all that] lingering tension and unhappiness just buzzing around in my skull.
 
 I stole that title from a blog post by [Wil Wheaton](http://wilwheaton.net/2012/09/depression-lies/) who speaks openly about his own depression, a fact that I am grateful for.

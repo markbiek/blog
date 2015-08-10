@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: the-worst-thing-you-could-be-in-the-80-s-was-poor
 
-### The worst thing you could be in the 80's was poor
-
 When I was kid in the 80's, everything was about social class.
 
 Every movie was rich kids versus poor kids. Or every TV show was the poor kid dropped into the rich family.

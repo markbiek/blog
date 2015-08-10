@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: you-never-know-fear-until-you-become-a-parent
 
-### You never know fear until you become a parent
-
 We were having dinner at my in-laws one night when my oldest kids were 2 and 3.
 
 They live out in the country next to a small pond.

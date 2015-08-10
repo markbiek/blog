@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: the-worst-restaurant-review-ever
 
-### The worst restaurant review ever
-
 Jane and I popped into the new Highlands restaurant [Stout](http://www.courier-journal.com/story/news/local/highlands-crescenthill/2015/03/31/stout-burgers-beers-open-end-may/70730224/) tonight.
 
 Don't misunderstand the title of this post. The restaurant was fine, its the review thats not very good. Ive never written a restaurant review before.

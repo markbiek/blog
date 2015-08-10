@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: the-intimacy-of-smell
 
-### The intimacy of smell
-
 I was having a conversation with a friend, many years ago when she brought up the intimacy of smell.
 
 She talked about the mechanism by which we smell. She explained that molecules from the thing youre smelling go into your nose and trigger special olfactory receptors in your nasal cavity.

@@ -4,7 +4,6 @@ Author: mark
 Category: Personal
 Tags: 
 Slug: naked-body-surfing-in-ecuador
-### Body surfing naked in Ecuador
 
 I was living in Ecuador for the semester when 1997 spring break rolled around.
 

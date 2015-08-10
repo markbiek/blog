@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: pitbull-dogs-are-family
 
-### Pitbull dogs are family
-
 Last September our family got our first-ever dog, a pitbull-mix named Junior.
 
 He is the most amazing dog. Hes strong and fast but also kind and gentle.

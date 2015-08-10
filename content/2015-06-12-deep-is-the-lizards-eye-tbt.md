@@ -4,7 +4,6 @@ Author: mark
 Category: Personal
 Tags: 
 Slug: deep-is-the-lizards-eye-tbt
-### Deep is the lizards eye #tbt
 
 This is one of the first poems I ever wrote. Its painfully obvious I had just turned 12. I was heavily into horror fiction (Stephen King, John Saul, Dean Koontz, etc) and had an extensive knife collection. Also, in hindsight, very tolerant parents. I suspect that I would not have lasted long in the zero-tolerance schools of today.
 

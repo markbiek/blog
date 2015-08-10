@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: i-m-tired-of-all-the-gun-violence
 
-### Im tired of all the gun violence
-
 [https://flic.kr/p/52hcnB](https://flic.kr/p/52hcnB)
 
 [Multiple Weekend Shootings In Louisville Leave 4 Dead, 2 Injured](http://www.lex18.com/story/28054027/multiple-weekend-shootings-in-louisville-leave-4-dead-2-injured)

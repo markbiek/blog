@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: there-is-an-art-to-asking-questions
 
-### There is an art to asking questions
-
 As a developer, you will find yourself asking many questions and answering many others.
 
 Everyone in this business knows the frustration of getting a bug report that reads along the lines of It doesnt work. with no other details.

@@ -4,7 +4,6 @@ Author: mark
 Category: Personal
 Tags: 
 Slug: journalism-is-dead
-### Journalism is dead
 
 The 24-hour news cycle has replaced true reporting with sensationalism and fear-mongering.
 

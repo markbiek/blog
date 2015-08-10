@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: storage-devices-i-have-loved
 
-### Storage devices I have loved
-
 I got my first computer, a Commodore 64, in 1984. Some people used the cassette drive but we always had a 5.25" floppy drive.
 
 <img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*lpQ9g6GNUK-nT6f6VouMgg.jpeg" />

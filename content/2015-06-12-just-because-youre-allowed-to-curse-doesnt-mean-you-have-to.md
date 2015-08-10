@@ -4,7 +4,6 @@ Author: mark
 Category: Personal
 Tags: 
 Slug: just-because-youre-allowed-to-curse-doesnt-mean-you-have-to
-### Just because youre allowed to curse doesnt mean you have to.
 
 Were entering an amazing time in terms of Television and entertainment.
 

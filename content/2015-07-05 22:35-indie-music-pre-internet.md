@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: indie-music-pre-internet
 
-### Indie music, pre-Internet
-
 I was a 15-year old camp counselor in the summer of 1994 when I first heard it. Music drifting out of a nearby cabin.
 
 My friends Stephanie and Jen were singing [The Gulf War Song](h[ttps://www.y](https://en.wikipedia.org/wiki/Moxy_Fr%C3%BCvous)outube.com/watch?v=XkMdZ8P5kuo) by Moxy Frvous and it gave me chills like nothing I had ever heard before or since.

@@ -4,7 +4,6 @@ Author: mark
 Category: Personal
 Tags: 
 Slug: i-ride-a-bike-to-be-a-better-person
-### I ride a bike to be a better person
 
 https://flic.kr/p/8NFfSj
 

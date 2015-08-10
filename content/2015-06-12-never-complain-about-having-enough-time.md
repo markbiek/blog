@@ -4,7 +4,6 @@ Author: mark
 Category: Personal
 Tags: 
 Slug: never-complain-about-having-enough-time
-### Never complain about having enough time
 
 https://flic.kr/p/ugZeY
 

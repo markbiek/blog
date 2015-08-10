@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: zen-and-the-art-of-resource-editing
 
-### Zen and the art of resource editing
-
 I was a Macintosh guy for a long time.
 
 I started with the Commodore 64, then a weird Sony word processor, and ended up with a Macintosh LC at the beginning of high school.

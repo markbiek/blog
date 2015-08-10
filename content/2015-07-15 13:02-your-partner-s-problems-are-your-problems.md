@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: your-partner-s-problems-are-your-problems
 
-### Your partners problems are your problems
-
 Life is messy, despite all efforts to make it tidy.
 
 There are always issues to deal with, problems to solve. You might think that there are problems that are yours and problems that are your partners, but thats not true.

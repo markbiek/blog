@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: i-hate-notifications
 
-### I hate notifications
-
 The only notification I have enabled on my phone is the text message notification. Its the easiest way to communicate with the most important people in my life.
 
 I turn everything else off.

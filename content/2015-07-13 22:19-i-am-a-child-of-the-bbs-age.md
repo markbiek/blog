@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: i-am-a-child-of-the-bbs-age
 
-### I am a child of the BBS age
-
 My first online experience was in about 7th grade (1988?). My mom owned a medical transcription business and she had recently switched from electric typewriters to dual-floppy drive Sony computers. I dont know the exact model information but they were a few models down the line from this sort of thing:
 
 <img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*PEIgcT2_I1AOsixCx1vEDA.gif" />

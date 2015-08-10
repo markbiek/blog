@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: stories-and-thoughts
 
-### Stories and thoughts
-
 I had trouble when I started writing every day. I didnt have much to say so I shared stories from my past.
 
 I kept writing but, every time I told a story, I felt like I was cheating. I felt like I had to have grand thoughts and ideas to share instead.

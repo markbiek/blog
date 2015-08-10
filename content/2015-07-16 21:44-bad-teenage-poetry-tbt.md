@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: bad-teenage-poetry-tbt
 
-### Bad teenage poetry #tbt
-
 > I think this was written when I was 14 or 15. Clearly about a girl I was infatuated with, not sure who.
 
 she is a soft girl

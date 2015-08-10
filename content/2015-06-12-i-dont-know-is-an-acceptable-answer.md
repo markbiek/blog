@@ -4,7 +4,6 @@ Author: mark
 Category: Personal
 Tags: 
 Slug: i-dont-know-is-an-acceptable-answer
-### I dont know is an acceptable answer
 
 https://flic.kr/p/bpZtvb
 

@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: acts-of-rebellion
 
-### Acts of rebellion
-
 <img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*RmcCEUoggPdq_x44Qqk0GA.jpeg" />
 [https://flic.kr/p/voUmcL](https://flic.kr/p/voUmcL)
 

@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: a-relationship-is-a-choice
 
-### A relationship is a choice
-
 A relationship starts when you choose someone and they choose you back, above all other people.
 
 To use my favorite quote from the book [Microserfs](http://www.amazon.com/Microserfs-A-Novel-Douglas-Coupland/dp/0061624268),

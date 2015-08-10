@@ -4,7 +4,6 @@ Author: mark
 Category: Personal
 Tags: 
 Slug: go-fuck-yourself-with-your-atom-bomb
-### Go fuck yourself with your atom bomb
 
 Agnes Flannegan Chapel, Lewis & Clark College
 

@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: the-glorious-act-of-creation
 
-### The glorious act of creation
-
 > Find a bit of beauty in the world today.
 
 > Share it.

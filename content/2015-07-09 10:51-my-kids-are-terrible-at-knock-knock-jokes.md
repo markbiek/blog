@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: my-kids-are-terrible-at-knock-knock-jokes
 
-### My kids are terrible at knock knock jokes
-
 How can you be bad at knock knock jokes? Theyre the simplest form of joke on the planet.
 
 And yet, my kids are.

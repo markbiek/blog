@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: gaming-handhelds-i-have-loved
 
-### Gaming handhelds I have loved
-
 The first handheld gaming device I ever owned was the [Punch-Out!! Micro vs. System](http://punchout.wikia.com/wiki/Punch-Out!!_(Micro_vs._System)).
 
 The clam shell opened to reveal two controllers and you and a friend could battle each other in a rudimentary boxing game.

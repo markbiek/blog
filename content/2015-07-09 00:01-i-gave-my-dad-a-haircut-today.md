@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: i-gave-my-dad-a-haircut-today
 
-### I gave my dad a haircut today
-
 <img src="https://d262ilb51hltx0.cloudfront.net/max/960/1*p1mb-vpp44A6WQ-faoNmLg.jpeg" alt="" />
 
 I am 36 years old and my dad is 62.
