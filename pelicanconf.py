@@ -25,10 +25,10 @@ LINKS =  ()
 
 # Social widget
 SOCIAL = (
-            ('<img src="//static.biek.org/blog/img/twitter-128-black.png" alt="@antelopelovefan" />', 'https://twitter.com/antelopelovefan'),
-            ('<img src="//static.biek.org/blog/img/stackoverflow-128-black.png" alt="Stackoverflow Careers" />', 'http://careers.stackoverflow.com/markbiek'),
-            ('<img src="//static.biek.org/blog/img/github-128-black.png" alt="GitHub" />', 'https://github.com/markbiek?tab=repositories'),
-            ('<img src="//static.biek.org/blog/img/instagram-128-black.png" alt="Instagram" />', 'http://instagram.com/markbiek/'),
-            ('<span class="oi oi-lock-locked" title="lock-locked" aria-hidden="true"></span>', 'http://mark.biek.org/pub.asc'),
+            ('<i class="fa fa-twitter-square"></i>', 'https://twitter.com/antelopelovefan'),
+            ('<i class="fa fa-file-text"></i>', 'http://careers.stackoverflow.com/markbiek'),
+            ('<i class="fa fa-github-square"></i>', 'https://github.com/markbiek?tab=repositories'),
+            ('<i class="fa fa-instagram"></i>', 'http://instagram.com/markbiek/'),
+            ('<i class="fa fa-lock"></i>', 'http://mark.biek.org/pub.asc'),
         )
 
