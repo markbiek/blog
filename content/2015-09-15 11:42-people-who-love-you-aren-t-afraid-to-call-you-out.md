@@ -1,4 +1,4 @@
-Title: People who love you arent afraid to call you out.
+Title: People who love you aren't afraid to call you out.
 Date: 2015-09-15 11:42
 Author: antelopelovefan
 Category: 

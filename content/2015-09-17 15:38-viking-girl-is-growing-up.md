@@ -23,7 +23,7 @@ When she was still on the inside, she was The Bug (or just Bug). Jane had an ear
 
 We’ve used various shortenings of her name. She introduces herself to people by her full name but has no objections to our nicknames.
 
-One of our favorite women in world'is a swimmer at JCC and Lakeside. She is a force of nature and she and Jane adore each other. Early on, she christened bestowed upon Jane the title of Strong Nordic Woman.
+One of our favorite women in world is a swimmer at JCC and Lakeside. She is a force of nature and she and Jane adore each other. Early on, she bestowed upon Jane the title of Strong Nordic Woman.
 
 I’ve settled on Viking Girl when I write about my daughter. It seems fitting since she’s the offspring of a Strong Nordic Woman.
 

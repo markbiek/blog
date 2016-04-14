@@ -1,4 +1,4 @@
-Title: Dont let your weaknesses define you
+Title: Don't let your weaknesses define you
 Date: 2015-10-25 09:13
 Author: antelopelovefan
 Category: 

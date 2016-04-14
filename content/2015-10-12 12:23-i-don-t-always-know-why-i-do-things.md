@@ -1,4 +1,4 @@
-Title: I dont always know why I do things
+Title: I don't always know why I do things
 Date: 2015-10-12 12:23
 Author: antelopelovefan
 Category: 
