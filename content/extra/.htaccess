@@ -6,4 +6,4 @@ RewriteRule ^.*?theme/(.*?)$          https://static.biek.org/blog/$1       [L]
 RewriteRule ^feed[/]*$  /blog/feeds/all.atom.xml      [L,NC]
 
 RewriteCond %{DOCUMENT_ROOT}/blog/$0 !-f
-RewriteRule ^(.*?)/(.*?)/(.*?)[/]*$     $3.html [L,NC]
+RewriteRule ^(.*?)/(.*?)/(.*?)[/]*$     $1-$2-$3.html [L,NC]

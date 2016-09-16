@@ -5,16 +5,13 @@ AUTHOR = u'Mark Biek'
 SITENAME = u'Antelope Love Fan'
 SITEURL = '//mark.biek.org/blog'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
-
-FEED = 'feeds/all.atom.xml'
-FEED_ATOM = 'feeds/all.atom.xml'
+ARTICLE_SAVE_AS = "{date:%Y}-{date:%m}-{slug}.html"
 
 RELATIVE_URLS = False
 DEFAULT_PAGINATION = 5
 
 TIMEZONE = 'America/Kentucky/Louisville'
 DEFAULT_LANG = u'en'
-DISQUS_SITENAME = 'markbiekorg'
 GOOGLE_ANALYTICS = 'UA-6890403-1'
 
 FILES_TO_COPY = (('extra/.htaccess', '.htaccess'),)

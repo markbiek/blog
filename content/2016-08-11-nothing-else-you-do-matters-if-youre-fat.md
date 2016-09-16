@@ -5,7 +5,7 @@ Category: Personal
 Tags: fitness,weight
 Slug: nothing-else-you-do-matters-if-youre-fat
 
-I am 38 years old. I am about 6' 1" and weigh around 30lbs.
+I am 38 years old. I am about 6' 1" and weigh around 230lbs.
 
 This puts my BMI right at the beginning of the *Obese* range ([problems with BMI aside](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=problems%20with%20bmi)).
 
