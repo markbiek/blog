@@ -44,6 +44,7 @@ html: clean $(OUTPUTDIR)/index.html
 $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 	rsync -azu /data/websites/mark.biek.org/htdocs/blog/theme/ /data/websites/static.biek.org/htdocs/blog/
+	rsync -avzu $(INPUTDIR)/extra/ $(OUTPUTDIR)
 
 
 clean:
