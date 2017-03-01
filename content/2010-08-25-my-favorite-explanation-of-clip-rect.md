@@ -11,12 +11,10 @@ accompanying drawing) from [Ben Wilson][].
 
 The basic format of clip() is:
 
-<p>
-~~~~ {.html name="code"}
+<code>
   clip:  rect(top (1), right (2), bottom (3), left (4));
-~~~~
+</code>
 
-</p>
 *Note that IE doesn’t use commas to separate the arguments to rect:
 rect(top right bottom left);*
 
@@ -34,17 +32,12 @@ element.
     the bottom)
 4.  Left: How far over to the left to start.
 
-</p>
-
 In the drawing above, we have a 100x100 box and we’re going to clip it
 to 90x90 so the clip rect would be:
 
-<p>
-~~~~ {.css name="code"}
+<code>
   clip:  rect(10px, 90px, 90px, 10px);
-~~~~
-
-</p>
+</code>
 
   [clip: rect();]: http://www.w3schools.com/css/pr_pos_clip.asp
   [Ben Wilson]: http://thelocust.org/

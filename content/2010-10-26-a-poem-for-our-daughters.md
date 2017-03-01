@@ -11,8 +11,6 @@ poem written in it and it never ceases to thrill me.
 I look forward to the day when my daughter is old enough to appreciate
 it.
 
-<p>
-> </p>
 > I am a girl
 >
 > I don’t giggle, I laugh
@@ -30,8 +28,3 @@ it.
 > and when I smile at you, take me seriously
 >
 > ‘cause I only smile when I want to.
->
-> <p>
-
-</p>
-
