@@ -7,6 +7,9 @@ INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR="/home/mark/www/mark.biek.org/htdocs/blog"
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
+THEME_DIR=$(BASEDIR)/pelican-themes/alftheme
+PUB_DIR=/data/websites/mark.biek.org/htdocs/blog
+STATIC_DIR=/data/websites/static.biek.org/htdocs/blog
 
 FTP_HOST=localhost
 FTP_USER=anonymous
@@ -46,6 +49,14 @@ $(OUTPUTDIR)/%.html:
 	rsync -azu /data/websites/mark.biek.org/htdocs/blog/theme/ /data/websites/static.biek.org/htdocs/blog/
 	rsync -avzu $(INPUTDIR)/extra/ $(OUTPUTDIR)
 
+theme: cleantheme
+	rsync -avzu $(THEME_DIR)/static/ $(STATIC_DIR)
+	rsync -avzu $(THEME_DIR)/static/ $(PUB_DIR)
+
+cleantheme:
+	[ ! -d $(PUB_DIR)/css ] || rm -f $(PUB_DIR)/theme/css/*
+	[ ! -d $(STATIC_DIR)/css ] || rm -f $(STATIC_DIR)/css/*
+	[ ! -d $(STATIC_DIR)/js ] || rm -f $(STATIC_DIR)/js/*
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || find $(OUTPUTDIR) -mindepth 1 -delete

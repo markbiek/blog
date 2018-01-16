@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 
 AUTHOR = u'Mark Biek'
-SITENAME = u'Antelope Love Fan'
+SITENAME = u'Mark Biek'
 SITEURL = '//mark.biek.org/blog'
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = "{date:%Y}-{date:%m}-{slug}.html"
