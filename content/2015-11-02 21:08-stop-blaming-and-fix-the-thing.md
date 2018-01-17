@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: stop-blaming-and-fix-the-thing
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*Toilf7MVsa6wpZV8x04A9Q.jpeg" width="1024" height="685" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*Toilf7MVsa6wpZV8x04A9Q.jpeg"  />
 
 People get fixated on who is to blame when something is broken, especially in software development.
 

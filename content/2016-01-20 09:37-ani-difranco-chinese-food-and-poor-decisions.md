@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: ani-difranco-chinese-food-and-poor-decisions
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*_RXFknn-IlmpMVl7NhVRAQ.jpeg" width="2048" height="1367" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*_RXFknn-IlmpMVl7NhVRAQ.jpeg"  />
 
 Jane and I were obsessed with [China Bay](http://www.yelp.com/biz/china-bay-restaurant-and-lounge-beaverton), a little Chinese restaurant down at Johns Landing in Southwest Portland. We stopped going so much once they moved to Beaverton and now it seems theyre no longer in business.
 

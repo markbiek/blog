@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: i-don-t-always-know-why-i-do-things
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*guLmQ_ZBHu1rEXCt_vFi3w.jpeg" width="1500" height="1000" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*guLmQ_ZBHu1rEXCt_vFi3w.jpeg"  />
 
 Sometimes, Jane asks why I did something a certain way and I don’t always have a good answer.
 

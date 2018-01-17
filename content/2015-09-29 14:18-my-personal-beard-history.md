@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: my-personal-beard-history
 
-<img src="https://cdn-images-1.medium.com/max/800/1*Tm_p-dee6Lwgczyckabvtw.jpeg" width="960" height="960" />
+<img src="https://cdn-images-1.medium.com/max/800/1*Tm_p-dee6Lwgczyckabvtw.jpeg"  />
 
 People always ask me, “How long did it take you to grow that beard?”.
 

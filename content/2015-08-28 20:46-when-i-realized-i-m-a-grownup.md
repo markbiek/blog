@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: when-i-realized-i-m-a-grownup
 
-<img src="https://cdn-images-2.medium.com/max/800/1*TzMDUdgV86_dPAj5sHUEOA.png" width="500" height="381" />
+<img src="https://cdn-images-2.medium.com/max/800/1*TzMDUdgV86_dPAj5sHUEOA.png"  />
 
 I’ve heard people say you don’t feel like a grownup until you have kids, but I don’t think that was true for me.
 

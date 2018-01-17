@@ -15,15 +15,15 @@ I got up and ate breakfast with the kids. Then Jane and I walked them to school.
 
 Flew to Philly.
 
-<img src="https://cdn-images-1.medium.com/max/600/1*tE-spdN7Jpei7QAwVpbnxA.jpeg" width="2448" height="3264" />
+<img src="https://cdn-images-1.medium.com/max/600/1*tE-spdN7Jpei7QAwVpbnxA.jpeg"  />
 
 Pope Francis was also flying to Philly.
 
-<img src="https://cdn-images-1.medium.com/max/600/1*Tm_p-dee6Lwgczyckabvtw.jpeg" width="960" height="960" />
+<img src="https://cdn-images-1.medium.com/max/600/1*Tm_p-dee6Lwgczyckabvtw.jpeg"  />
 
 Watched movies, ate dinner at Legal Seafood, tried to stay entertained.
 
-<img src="https://cdn-images-1.medium.com/max/600/1*YvXyuaF5B05_elVqjkXS5A.jpeg" width="2448" height="3264" />
+<img src="https://cdn-images-1.medium.com/max/600/1*YvXyuaF5B05_elVqjkXS5A.jpeg"  />
 
 Walked around the entire Philadelphia airport. Pissed off that we couldn’t walk from the F Terminal to the C terminal.
 
@@ -33,5 +33,5 @@ Of course you can’t sleep. Watched more movies, read, and so on.
 
 A long way to spend the night.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*WWgC3arPNaAeUQXZtuaKoA.jpeg" width="2448" height="2448" />
+<img src="https://cdn-images-1.medium.com/max/800/1*WWgC3arPNaAeUQXZtuaKoA.jpeg"  />
 

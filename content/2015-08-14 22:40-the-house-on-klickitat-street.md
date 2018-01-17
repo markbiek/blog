@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-house-on-klickitat-street
 
-<img src="https://cdn-images-2.medium.com/max/800/1*bc-bH60PGhINQ_4KN6vNyg.png" width="214" height="300" />
+<img src="https://cdn-images-2.medium.com/max/800/1*bc-bH60PGhINQ_4KN6vNyg.png"  />
 
 Jane and I almost bought a house on Klickitat Street, the same street where Ramona Quimby lived.
 

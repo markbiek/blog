@@ -21,7 +21,7 @@ On the rare occasion I needed to move large numbers of files around, I had a fri
 
 After college, around 1998, I got my first zip drive. I mainly used it for shuttling files back and forth from work to home since I only had dial-up Internet at the time. The drive pictured is the 250mb version, although I only ever owned the 125mb model.
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/1280/1*Hgah1NqtLhQREwsB0I7b3g.jpeg" width="512" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/1280/1*Hgah1NqtLhQREwsB0I7b3g.jpeg"  />
 
 Somewhere in the early 2000s, I got my first thumbdrive. I'm pretty sure it was a 64mb model. Then a 128mb version.
 

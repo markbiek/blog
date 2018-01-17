@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: more-bardstown-rd-pedestrian-safety-improvements
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*Vbw-laxVSrxt4CKDUqjsJQ.jpeg" width="2448" height="3264" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*Vbw-laxVSrxt4CKDUqjsJQ.jpeg"  />
 
 Anyone who’s ever tried to cross Bardstown Rd at Weber Ave knows what a complete joke that crosswalk is.
 

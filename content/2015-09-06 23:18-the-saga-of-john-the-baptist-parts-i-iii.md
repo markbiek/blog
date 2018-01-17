@@ -7,7 +7,7 @@ Slug: the-saga-of-john-the-baptist-parts-i-iii
 
 > I started my first blog back in 2001 on the antelopelovefan'com domain. Here is a small sample from the beginning.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*qYXXaiyf91swlvoOBfNmAw.jpeg" width="2312" height="3728" />
+<img src="https://cdn-images-1.medium.com/max/800/1*qYXXaiyf91swlvoOBfNmAw.jpeg"  />
 
 ### Part I
 

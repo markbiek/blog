@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: louisville-needs-to-step-up-its-bike-lane-game
 
-<img src="https://cdn-images-1.medium.com/max/800/1*mTrcSyFvPCFovec91opAhQ.jpeg" width="640" height="360" />
+<img src="https://cdn-images-1.medium.com/max/800/1*mTrcSyFvPCFovec91opAhQ.jpeg"  />
 
 Ive been commuting downtown by bike 4 days per week for the last 2 years. I even bought a nice c[ommuter bike ](http://onyourleftcycles.net/)for myself last year.
 

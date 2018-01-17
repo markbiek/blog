@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: all-the-kids-i-ve-hit
 
-<img src="https://cdn-images-2.medium.com/max/800/1*iNsUppC4wGL8sW76DoINaQ.jpeg" width="640" height="627" />
+<img src="https://cdn-images-2.medium.com/max/800/1*iNsUppC4wGL8sW76DoINaQ.jpeg"  />
 
 #### 4th Grade
 

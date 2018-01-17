@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: my-dog-has-many-smells
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*BRJqYwU2ty1acKFWV15ERQ.jpeg" width="640" height="640" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*BRJqYwU2ty1acKFWV15ERQ.jpeg"  />
 
 My dog smells like many different things from moment to moment.
 

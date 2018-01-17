@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: middle-school-shadow-economy
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*aWZiLUUvVJHqkphHsB6g0Q.jpeg" width="2230" height="1862" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*aWZiLUUvVJHqkphHsB6g0Q.jpeg"  />
 
 In the absence of cold, hard cash, people will find some other currency to use.
 

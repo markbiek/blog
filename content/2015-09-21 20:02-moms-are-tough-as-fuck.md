@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: moms-are-tough-as-fuck
 
-<img src="https://cdn-images-1.medium.com/max/800/1*Oilk9Je9wp9X8LzOpjDb3Q.jpeg" width="802" height="631" />
+<img src="https://cdn-images-1.medium.com/max/800/1*Oilk9Je9wp9X8LzOpjDb3Q.jpeg"  />
 
 I discovered that cartoon last mother’s day. It does an amazing job of describing the trials of being pregnant and giving birth.
 

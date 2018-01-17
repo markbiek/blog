@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-importance-of-teaching-civil-disobedience-to-our-children
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*12f82TvDoT3DdOQC0ysxxw.jpeg" width="1440" height="823" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*12f82TvDoT3DdOQC0ysxxw.jpeg"  />
 
 > Civil disobedience is the active, professed refusal to obey certain laws, demands, and commands of a government, or of an occupying international power. Civil disobedience is a symbolic or ritualistic violation of the law, rather than a rejection of the system as a whole.
 

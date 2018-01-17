@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: that-time-i-hit-a-kid-with-my-car
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*YHTS0YBC12mNA1Id-W6wUQ.jpeg" width="1024" height="683" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*YHTS0YBC12mNA1Id-W6wUQ.jpeg"  />
 
 I’m working as a lifeguard and it is the summer of 1996.
 

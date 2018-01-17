@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-first-poet-to-blow-my-mind
 
-<img src="https://cdn-images-2.medium.com/max/800/1*29Q-MDXVg7PFx9g5jieJcg.jpeg" width="800" height="1055" />
+<img src="https://cdn-images-2.medium.com/max/800/1*29Q-MDXVg7PFx9g5jieJcg.jpeg"  />
 
 I discovered Richard Brautigan when I was about 13. I was looking through old books of my dad’s when I came across a copy of Rommel Drives on Deep Into Egypt.
 

@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: what-s-happening-at-bowman-field
 
-<img src="https://cdn-images-1.medium.com/max/800/1*O3Xgo4v6DtWn-lYcnAuCvQ.jpeg" width="1000" height="1333" />
+<img src="https://cdn-images-1.medium.com/max/800/1*O3Xgo4v6DtWn-lYcnAuCvQ.jpeg"  />
 
 There’s something about engineers. Whatever their discipline, they love to talk about their projects.
 

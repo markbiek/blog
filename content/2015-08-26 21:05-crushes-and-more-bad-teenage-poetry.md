@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: crushes-and-more-bad-teenage-poetry
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*PsunMNy1A8sy-LIU6Sk5CQ.jpeg" width="376" height="282" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*PsunMNy1A8sy-LIU6Sk5CQ.jpeg"  />
 
 This was a story that repeated itself over and over again in high school (and let’s be honest, quite a bit of first semester of college too).
 
@@ -36,5 +36,5 @@ This bit from the amazing essay [Your Princess is in Another Castle](http://www.
 
 I eventually figured that lesson out for myself. And that lead to another lesson. That a great friendship can lead to great love.
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*3ZPZhuGBiA3j9qykpxl5_A.jpeg" width="376" height="282" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*3ZPZhuGBiA3j9qykpxl5_A.jpeg"  />
 

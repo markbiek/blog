@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: my-cultural-knowledge-void
 
-<img src="https://cdn-images-2.medium.com/max/800/1*_JUmYSnbQ87NwDpueUiFPQ.jpeg" width="801" height="601" />
+<img src="https://cdn-images-2.medium.com/max/800/1*_JUmYSnbQ87NwDpueUiFPQ.jpeg"  />
 
 I’m going to tell you a secret.
 

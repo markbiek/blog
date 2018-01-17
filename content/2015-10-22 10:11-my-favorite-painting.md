@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: my-favorite-painting
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*v8CztVwjx9c5S0yfp8wTgw.jpeg" width="2043" height="1708" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*v8CztVwjx9c5S0yfp8wTgw.jpeg"  />
 
 It’s 1997 and I am living in Cuenca, Ecuador for the semester. My host parents are Bertha and Guido Alvarez.
 

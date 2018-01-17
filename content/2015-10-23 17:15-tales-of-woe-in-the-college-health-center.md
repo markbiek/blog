@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: tales-of-woe-in-the-college-health-center
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*zMDJArCcfQqZ-XoUzOpOqg.jpeg" width="1385" height="840" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*zMDJArCcfQqZ-XoUzOpOqg.jpeg"  />
 
 > I attended Lewis & Clark College from 1994–1998 so these stories may not reflect the L&C Health Center of today. I really hope they don’t
 

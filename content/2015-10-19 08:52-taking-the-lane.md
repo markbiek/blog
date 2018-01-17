@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: taking-the-lane
 
-<img src="https://cdn-images-1.medium.com/max/800/1*SQhlsXpRdW5f_G7YvZElcw.jpeg" width="654" height="653" />
+<img src="https://cdn-images-1.medium.com/max/800/1*SQhlsXpRdW5f_G7YvZElcw.jpeg"  />
 
 Fellow cyclists, I am here to set you free!
 

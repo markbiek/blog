@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-strangest-domain-name
 
-<img src="https://cdn-images-1.medium.com/max/800/1*X4M68-X0gbWGcHZFKJi50Q.gif" width="500" height="250" />
+<img src="https://cdn-images-1.medium.com/max/800/1*X4M68-X0gbWGcHZFKJi50Q.gif"  />
 
 How many of you can say you’ve owned a domain like impenetrabledogsassheuristic'com?
 

@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: tales-of-high-school-theater
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*XPOcNJJE2CH74y9HFNq5eQ.jpeg" width="1602" height="1221" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*XPOcNJJE2CH74y9HFNq5eQ.jpeg"  />
 
 #### My Fair Lady
 

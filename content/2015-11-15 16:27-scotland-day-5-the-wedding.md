@@ -7,7 +7,7 @@ Slug: scotland-day-5-the-wedding
 
 #### The Morning
 
-<img src="https://cdn-images-1.medium.com/max/600/1*ubXXsoHi_0qum368E4m3_g.jpeg" width="2126" height="2126" />
+<img src="https://cdn-images-1.medium.com/max/600/1*ubXXsoHi_0qum368E4m3_g.jpeg"  />
 
 Jane: With a belly still full of Innis & Gunn beer, I wake and am too full to eat a thing. We are ready for our morning run. The weather is lovely — a good Scottish morning, overcast, damp and chilly. We head to the canal and begin the run. Mark’s training schedule calls for 12 miles. He is ready to do a 5K instead, because today is a special day, but I say, “No way. We’re doing 8.” We decide we will run 4 miles down the canal and 4 miles back. Unfortunately, about 3 miles into the run, my body decides, for the first time all week, that it is ready to participate in gastrointestinal activities, and if I run one step further, I will forever defile my pants, so I tell Mark I have to stop and walk. He continues his run, as he is on a roll. I begin to walk back towards the house, wishing at every moment for a toilet, contemplating the possibility of stopping in a bush by the thistle on the side of the canal. At one point, I come to a church. It is architectually beautiful and there is a neat old cemetery behind the sanctuary. I think, “Surely, the church is open for the parishioners who may wish to come in and pray. And they most certainly have a restroom.” I try every door. Having walked around the entire church, I come to the conclusion that it is abandoned and no longer in use. It’s locked up tight as a drum. I continue my very uncomfortable walk back to the house, clenching and worrying about whether or not I will recognize the turn off when I reach the point at the canal when I need to head back home. It turns out all right in the end, thankfully.
 
@@ -39,7 +39,7 @@ The pictures are amazing.
 
 #### The Reception
 
-<img src="https://cdn-images-1.medium.com/max/600/1*6qFBh5D0i1HweXCdM_vgNA.jpeg" width="669" height="1000" />
+<img src="https://cdn-images-1.medium.com/max/600/1*6qFBh5D0i1HweXCdM_vgNA.jpeg"  />
 
 Jane: We get lost on the way to the reception. Jamesie kindly offers to drive us from the church, and the moment we get into his very fancy BMW, he asks if I would like a beer. “Well, why not,” I say, because I think he is joking, but he pulls over, goes into the trunk and pulls out a bottle of Bud Light. He realizes he has no bottle opener, and calls his sister in the car behind us to ask if she has one. I keep saying I don’t really need a beer at all, but these sentiments are ignored. The Scottish people are a very hospitable and accommodating bunch, and if they believe you want something, they will stop at nothing to obtain it for you.
 
@@ -49,7 +49,7 @@ Eventually, we find the Glenbervie House and it is beautiful. A large estate set
 
 We spend a long time chatting with everyone, drinking beers and soda with lime, eating hors d’oeuvres, waiting for dinner to be served. When it is time to find our tables, we go to look at the seating chart and find that we are at a table with no one we have ever met, which in the world of a Biek is quite possibly the most terrifying thing that can happen.
 
-<img src="https://cdn-images-1.medium.com/max/600/1*s8JtlEng9tGcXBGIH_tupw.jpeg" width="2448" height="3264" />
+<img src="https://cdn-images-1.medium.com/max/600/1*s8JtlEng9tGcXBGIH_tupw.jpeg"  />
 
 We sit at our table and say hello politely to all the other diners, and then we sit quietly for a long time. Soon the speeches begin. The bride’s father makes a lovely speech about how proud he is. The best man makes a very funny speech in which we find out that he described the groom’s sister’s boyfriend as “foxy” when they first met, because in Ireland, where he is from, foxy is a way to describe a redhead. The highlight of the speeches is when the groom, Billy, makes his speech. He declares that he has quite a few things to get off his chest, and now that he is part of Julie’s family, he would like to tell them exactly what he thinks of them. He proceeds to tell us how the birth of one couple’s son has taken attention away from him. Another couple gave Julie a better present than him last Christmas. His laundry list of complaints goes on and on and becomes more and more ludicrous, and I am reminded why we made the Herculean effort to cross the ocean and be here for the joining together of these two amazing people — two hilarious, beautiful, kind, fun people who will spend the rest of their lives together. How could we miss that?
 
@@ -59,15 +59,15 @@ The meal itself is amazing. There are many courses, and each one is more delecta
 
 The bride and groom do cut into a large tiered cake at one point with an enormous sword. It is pretty fantastic to watch. Billy says later, he was relieved to find out after the initial cut that they did not have to do the entire cake that way.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*XUvc_by8OmTcMws6DLc0XA.jpeg" width="960" height="960" />
+<img src="https://cdn-images-1.medium.com/max/800/1*XUvc_by8OmTcMws6DLc0XA.jpeg"  />
 
 Soon it is time for the dancing to commence. Billy and Julie start us off with their first dance, and as I watch the two young lovers, filled with joy, gaze adoringly into each other’s eyes, I find myself recalling that moment when Mark and I held each other and laughed and smiled, and felt so full of happiness at the promise of the beginning of our life together. A tear falls down my cheek as I think of all the wonderful adventures that these two sweet souls will share together, and I selfishly hope that our paths will cross more often than every 6–10 years.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*kgiVYqcOuIKoT-KVHh6mww.jpeg" width="960" height="960" />
+<img src="https://cdn-images-1.medium.com/max/800/1*kgiVYqcOuIKoT-KVHh6mww.jpeg"  />
 
 Before we know it, the group dances begin, and the groom’s father, Billy, snatches me up and tells me that I must participate. The first dance is so complicated that I never come anywhere close to doing it right. I feel ridiculous and clumsy, but I continue to flail about the dance floor and laugh riotously at my preposterous attempts to do whatever this dance is. I almost wish for the YMCA or the hokey pokey. My favorite group dance is a line dance, where each couple takes a turn, and the woman swings around by the elbows with every man in line, while the man swings around by the elbows with every woman in line. (The next morning, several ladies show me their bruised arms, as many people take this dance as a challenge to see how forcefully one can propel their dancing partner.) It is fairly simple to follow along with this dance, and everyone is having so much fun that the laughter and enjoyment are contagious.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*KBg7Ys_mX78z6Qc09i0cqw.jpeg" width="2448" height="3264" />
+<img src="https://cdn-images-1.medium.com/max/800/1*KBg7Ys_mX78z6Qc09i0cqw.jpeg"  />
 
 #### The Elephant Tie
 
@@ -113,7 +113,7 @@ In and out, forward and back, over and over, encircling them with our well-wishe
 
 #### The Guest House (Our American Friends)
 
-<img src="https://cdn-images-1.medium.com/max/600/1*J1Ps4hQ_E0bRvmYQQZzLyQ.jpeg" width="2368" height="3200" />
+<img src="https://cdn-images-1.medium.com/max/600/1*J1Ps4hQ_E0bRvmYQQZzLyQ.jpeg"  />
 
 Mark: Some people move into another room of the main house to continue celebrating. Another smaller group of us hike back to the guest house after the reception ends. It’s about 100 meters down a dark dirt road and we use our cell phones as torches.
 

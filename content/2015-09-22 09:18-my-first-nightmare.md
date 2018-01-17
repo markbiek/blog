@@ -9,7 +9,7 @@ My first nightmare
 
 #### Or at least the first one I remember.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*DUFoNAmRUcUgleCnbcDryg.jpeg" width="600" height="800" />
+<img src="https://cdn-images-1.medium.com/max/800/1*DUFoNAmRUcUgleCnbcDryg.jpeg"  />
 
 I was 4 or 5 and living in Eureka, CA at the time.
 

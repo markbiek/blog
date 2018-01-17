@@ -13,15 +13,15 @@ April of 1992 saw the one and only issue of The Mercy Underground, Mercy High Sc
 
 Here it is, in its entirety.
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*44bg07vDlo6vhFKHOOp6Sw.jpeg" width="2536" height="3268" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*44bg07vDlo6vhFKHOOp6Sw.jpeg"  />
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*YKl5V0O5uqYAdAQUx08CCg.jpeg" width="2536" height="3268" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*YKl5V0O5uqYAdAQUx08CCg.jpeg"  />
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*t6DUsUzqjptCaxlMb5dECQ.jpeg" width="2536" height="3268" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*t6DUsUzqjptCaxlMb5dECQ.jpeg"  />
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*Qh4lVrBwIXVpgjNTfZJRgA.jpeg" width="2536" height="3268" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*Qh4lVrBwIXVpgjNTfZJRgA.jpeg"  />
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*Lsjqtlmn4ZnYaCQ0-kgt8w.jpeg" width="2536" height="3268" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*Lsjqtlmn4ZnYaCQ0-kgt8w.jpeg"  />
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*lSM8qGryKXsQzC4_1ohMwA.jpeg" width="2536" height="3268" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*lSM8qGryKXsQzC4_1ohMwA.jpeg"  />
 

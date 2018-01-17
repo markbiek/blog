@@ -9,7 +9,7 @@ Just temporarily disconnected
 
 #### Travel, Young love, and International Communication
 
-<img src="https://cdn-images-1.medium.com/max/800/1*NzPtLEHl_RF0RUA-fJPtjg.jpeg" width="1000" height="683" />
+<img src="https://cdn-images-1.medium.com/max/800/1*NzPtLEHl_RF0RUA-fJPtjg.jpeg"  />
 
 In today’s world of instant-everything, it’s hard to imagine how hard it was to communicate with someone overseas in 1997.
 

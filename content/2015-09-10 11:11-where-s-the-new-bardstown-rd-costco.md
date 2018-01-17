@@ -7,7 +7,7 @@ Slug: where-s-the-new-bardstown-rd-costco
 
 Most people have heard that Costco [is coming](http://www.wdrb.com/story/28624595/costco-plans-bardstown-road-store-at-old-showcase-cinemas-site) to Bardstown Rd at the site of the former Showcase Cinemas near Bashford Manor.
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*ee0GpCo1UWOxM6nh4d8TXg.png" width="642" height="480" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*ee0GpCo1UWOxM6nh4d8TXg.png"  />
 
 ### Property Information
 

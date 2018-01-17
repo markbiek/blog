@@ -7,7 +7,7 @@ Slug: a-farewell-to-a-server
 
 > A silly, Hemingway-esque short story. This is a work of fiction. Names, characters, businesses, places, events and incidents are either the products of the author’s imagination or used in a fictitious manner. Any resemblance to actual persons, living or dead, or actual events is purely coincidental.
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*bocAOtfEiIA_K4fa-UTsTw.jpeg" width="1024" height="680" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*bocAOtfEiIA_K4fa-UTsTw.jpeg"  />
 
 The technician delivered the new server alone in early October. A new server had been installed and he was to take away the old server.
 

@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: basics-of-pedestrian-safety
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*NkQ1uXfEKNXlUNDMDyyGFA.jpeg" width="1024" height="843" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*NkQ1uXfEKNXlUNDMDyyGFA.jpeg"  />
 
 I want to live in a world where pedestrians are kings again.
 

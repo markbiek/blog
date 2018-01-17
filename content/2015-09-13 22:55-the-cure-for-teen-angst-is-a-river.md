@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-cure-for-teen-angst-is-a-river
 
-<img src="https://cdn-images-1.medium.com/max/600/1*L2LA8vl4ApyiISw9v3fM7Q.jpeg" width="320" height="500" />
+<img src="https://cdn-images-1.medium.com/max/600/1*L2LA8vl4ApyiISw9v3fM7Q.jpeg"  />
 
 Late summer of 1994, I was headed off to Lewis & Clark college.
 

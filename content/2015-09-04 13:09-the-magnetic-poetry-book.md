@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-magnetic-poetry-book
 
-<img src="https://cdn-images-1.medium.com/max/800/1*93kC0WuMJvQsl3MEpvGKAQ.jpeg" width="2015" height="2015" />
+<img src="https://cdn-images-1.medium.com/max/800/1*93kC0WuMJvQsl3MEpvGKAQ.jpeg"  />
 
 I got the journal pictured above on a high school trip to Berkeley. We were the Model UN delegation to North Korea. Our only moment of glory was an attempt to induce the East Bloc countries to take back Western Europe.
 
@@ -15,7 +15,7 @@ This journal came from a purveyor of Ethiopian goods, his wares spread out on a 
 
 The journal stayed unused until college where it was reborn as The Magnetic Poetry Book. I had been given a magnetic poetry set as part of a care package and we spent many evenings making absurd and perverted poems.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*y5iGrHQx6IHkI4AgNSlkvw.jpeg" width="240" height="180" />
+<img src="https://cdn-images-1.medium.com/max/800/1*y5iGrHQx6IHkI4AgNSlkvw.jpeg"  />
 
 > I squish a thousand puppies with my bare hands.
 

@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: gnocchi-is-a-labor-of-love
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*282DTX3K9lY4f72Vj9-Phw.jpeg" width="2448" height="2448" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*282DTX3K9lY4f72Vj9-Phw.jpeg"  />
 
 #### Prep
 

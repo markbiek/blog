@@ -17,7 +17,7 @@ I would bring my friend Russell and we’d bum around town while my parents work
 
 My favorite was walking out to Soda Springs. I loved being out in the woods. It was so quiet and there were beaver dams if you walked out far enough.
 
-<img src="https://cdn-images-2.medium.com/max/800/1*U9hasa5hsLdmdVpLciYAOA.jpeg" width="860" height="580" />
+<img src="https://cdn-images-2.medium.com/max/800/1*U9hasa5hsLdmdVpLciYAOA.jpeg"  />
 
 Of course a lot of people went to Soda Springs to party. We always found empty liquor bottles and beer cans, the remnents of a bonfire.
 

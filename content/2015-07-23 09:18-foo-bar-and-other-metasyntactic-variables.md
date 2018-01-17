@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: foo-bar-and-other-metasyntactic-variables
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/600/1*jQEX5RU7n6DSj1_xgeUmsA.jpeg" width="640" height="640" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/600/1*jQEX5RU7n6DSj1_xgeUmsA.jpeg"  />
 
 Anyone who deals with code for a living has come across foo or bar as a placeholder. You may have even cursed someone who used it as a permanent name, leaving you to decipher the intent.
 

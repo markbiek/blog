@@ -5,13 +5,13 @@ Category:
 Tags: 
 Slug: ordering-pizza-in-germany
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*_J2KSnYfEqMj0GIxwQ7dUQ.jpeg" width="1024" height="768" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*_J2KSnYfEqMj0GIxwQ7dUQ.jpeg"  />
 
 Jane and I spent a month in Germany in the summer of 1998. We had just graduated from college and the trip was a gift from our parents.
 
 On this particular day, we were staying in Eisenach, right in the middle of the country. We’d had a long day of travel and didn’t want to go out so we decided to see if we could get a pizza delivered to our hotel.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*jqEnkyjl9vzPsoWhaV4vvg.jpeg" width="640" height="521" />
+<img src="https://cdn-images-1.medium.com/max/800/1*jqEnkyjl9vzPsoWhaV4vvg.jpeg"  />
 
 We were staying in the Hotel Burgfried, a lovely place which had a phone and a shower right in the room. And it was only DM150!
 
@@ -25,7 +25,7 @@ To my surprise that worked. She dug around in her desk for a few minutes and cam
 
 We didn’t want to go anywhere so I asked, “Lieferung?” to see if the place delivered. She said yes, they did but she couldn’t find the phone number. It was close to the hotel so I decided to take my chances and walk down there.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*tT3SEBA809VA2gT66yg5ag.jpeg" width="250" height="250" />
+<img src="https://cdn-images-1.medium.com/max/800/1*tT3SEBA809VA2gT66yg5ag.jpeg"  />
 
 Pizza Da Angelo was a tiny place with quite a few people in it. Everyone was welcoming but I couldn’t find anyone who spoke English to assist me. I did have the foresight to bring my mini German/English dictionary. I sat down and did a little research and came up with:
 

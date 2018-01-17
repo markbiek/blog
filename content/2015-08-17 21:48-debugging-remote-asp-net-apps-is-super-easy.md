@@ -27,17 +27,17 @@ The server I was dealing with didn’t have Studio so I just shared that folder 
 
 That will pop up a little window that looks like this:
 
-<img src="https://cdn-images-2.medium.com/max/800/1*VWICkLt9hOgpYPAejiBODg.jpeg" width="749" height="250" />
+<img src="https://cdn-images-2.medium.com/max/800/1*VWICkLt9hOgpYPAejiBODg.jpeg"  />
 
 Step 2:
 
 On your development machine, run Debug:Attach to Process, and enter the name of your server in Qualifier box. Then attach to the w3wp'exe (IIS) process.
 
-<img src="https://cdn-images-2.medium.com/max/800/1*r8N7ZLYqHboosKW2csFXVA.jpeg" width="987" height="772" />
+<img src="https://cdn-images-2.medium.com/max/800/1*r8N7ZLYqHboosKW2csFXVA.jpeg"  />
 
 Step 3:
 
 Hit your website in a browser and debug normally.
 
-<img src="https://cdn-images-2.medium.com/max/800/1*9d9yjNv3utm619cY1x0rqQ.gif" width="245" height="179" />
+<img src="https://cdn-images-2.medium.com/max/800/1*9d9yjNv3utm619cY1x0rqQ.gif"  />
 

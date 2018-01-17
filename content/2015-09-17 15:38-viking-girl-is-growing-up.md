@@ -9,11 +9,11 @@ My oldest is about to turn 13.
 
 Somehow, this:
 
-<img src="https://cdn-images-1.medium.com/max/800/1*Ald9yLBXhp5hVjDP3fahlw.jpeg" width="1280" height="960" />
+<img src="https://cdn-images-1.medium.com/max/800/1*Ald9yLBXhp5hVjDP3fahlw.jpeg"  />
 
 has turned into this:
 
-<img src="https://cdn-images-1.medium.com/max/800/1*6mBBOdvte3uLlnl84fvNaA.jpeg" width="3872" height="2592" />
+<img src="https://cdn-images-1.medium.com/max/800/1*6mBBOdvte3uLlnl84fvNaA.jpeg"  />
 
 I don’t understand how it happened. She’s big now, though not as big as she thinks she is.
 

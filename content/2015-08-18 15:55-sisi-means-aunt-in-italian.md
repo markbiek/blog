@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: sisi-means-aunt-in-italian
 
-<img src="https://cdn-images-2.medium.com/max/2000/1*-STNaZM6U_MYiwCJCoonUw.jpeg" width="2048" height="1152" />
+<img src="https://cdn-images-2.medium.com/max/2000/1*-STNaZM6U_MYiwCJCoonUw.jpeg"  />
 
 The Italian half of my family is from [McCloud, CA](https://www.google.com/maps/place/McCloud,+CA+96057/@41.249777,-122.137854,14z/data=!3m1!4b1!4m2!3m1!1s0x54cc2ce080c58e6f:0x22658dff6b52c1d3), a tiny logging/railroad town near the base of Mt Shasta.
 

@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: i-m-always-afraid-i-m-in-trouble
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*BwovcG8QU8yB1ZzJd0xeyQ.jpeg" width="1024" height="681" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*BwovcG8QU8yB1ZzJd0xeyQ.jpeg"  />
 
 I’m am always convinced that I’m in trouble for something.
 

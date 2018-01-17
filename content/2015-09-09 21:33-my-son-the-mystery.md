@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: my-son-the-mystery
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*A6lVMywuM32mc5Y1XXRJ7w.jpeg" width="1000" height="750" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*A6lVMywuM32mc5Y1XXRJ7w.jpeg"  />
 
 My youngest son, the 9 year old, is a strange little creature.
 

@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: amanda-grimes-i-m-sorry
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*o-aaFyvlTQQzgBrBbvujnw.jpeg" width="282" height="376" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*o-aaFyvlTQQzgBrBbvujnw.jpeg"  />
 
 I ran for Student Council in my Sophomore year of high school.
 

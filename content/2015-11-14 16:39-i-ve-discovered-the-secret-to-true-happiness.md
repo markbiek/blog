@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: i-ve-discovered-the-secret-to-true-happiness
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*M8J2M7QrWVSbty3fyCerJQ.jpeg" width="2048" height="1383" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*M8J2M7QrWVSbty3fyCerJQ.jpeg"  />
 
 I’ve discovered the true secret to happiness and, because I’m a nice guy, I’m going to share it with all of you.
 

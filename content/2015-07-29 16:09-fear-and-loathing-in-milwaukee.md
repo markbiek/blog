@@ -7,7 +7,7 @@ Slug: fear-and-loathing-in-milwaukee
 
 #### Adventures at GE Medical Systems
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/2000/1*S-Q6I5XJxezvWLzQpvhx5w.png" width="1481" height="796" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/2000/1*S-Q6I5XJxezvWLzQpvhx5w.png"  />
 
 My first job out of school, as I’ve said before, was for a medium-sized startup called PinPoint Corporation. We made active RFID tracking tags and I worked on the suite of software for managing and tracking said tags.
 

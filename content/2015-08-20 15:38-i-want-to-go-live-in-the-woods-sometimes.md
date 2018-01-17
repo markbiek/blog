@@ -13,7 +13,7 @@ There are some days where it’s impossible to think of humanity as anything oth
 
 I don’t even think it’s malice, just pure self-absorption. I can’t decide if that’s a comfort or if it just makes the whole thing worse.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*2sy-DfSVyn9xWYCNWq5_jg.jpeg" width="862" height="454" />
+<img src="https://cdn-images-1.medium.com/max/800/1*2sy-DfSVyn9xWYCNWq5_jg.jpeg"  />
 
 I’m riding to work and I signal left to change lanes so I can make my turn. The car coming from behind me speeds up, then matches my speed so I can’t get over. People yell at me and I can’t even figure out what they’re mad about
 
@@ -31,5 +31,5 @@ I used to know a family where the dad would say “Time to blast my way out of t
 
 Sometimes coming home to this is the only thing that gets me through the day.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*L6Olg6YOUJ7gJdLc-HM4Jg.jpeg" width="3872" height="2592" />
+<img src="https://cdn-images-1.medium.com/max/800/1*L6Olg6YOUJ7gJdLc-HM4Jg.jpeg"  />
 

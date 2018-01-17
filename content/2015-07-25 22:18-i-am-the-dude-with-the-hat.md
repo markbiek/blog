@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: i-am-the-dude-with-the-hat
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*q0HAFp29yMNy4HPxGGP1sw.jpeg" width="640" height="640" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*q0HAFp29yMNy4HPxGGP1sw.jpeg"  />
 
 There is [a hat](http://www.riverz.com/riverz/1-riverz-utah.html) from the San Francisco Hat Company that I spent almost a year lusting after.
 

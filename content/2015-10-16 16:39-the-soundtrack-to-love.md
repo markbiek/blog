@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-soundtrack-to-love
 
-<img src="https://cdn-images-1.medium.com/max/800/1*7mqa9-aZaFfsd2ukJeDvDg.png" width="645" height="854" />
+<img src="https://cdn-images-1.medium.com/max/800/1*7mqa9-aZaFfsd2ukJeDvDg.png"  />
 
 Jane and I fell in love to music.
 

@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: my-kids-are-allowed-to-read-anything-they-want
 
-<img src="https://cdn-images-1.medium.com/max/800/1*5SM-Tqts3RKK5ikb_Njk8A.jpeg" width="700" height="1080" />
+<img src="https://cdn-images-1.medium.com/max/800/1*5SM-Tqts3RKK5ikb_Njk8A.jpeg"  />
 
 Chapter 39 of The House on Mango Street has one of the characters speaking in the aftermath of a sexual assault. It’s sad and a tiny bit disturbing but not graphic.
 

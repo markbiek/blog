@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-budding-photographer-or-why-i-can-t-hear-garth-brooks-anymore
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*zC6xv7Mf50V7A9S6IV6Smw.jpeg" width="1024" height="712" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*zC6xv7Mf50V7A9S6IV6Smw.jpeg"  />
 
 Digital photography is amazing. The effortlessness. The immediate feedback. The tools for manipulating and enhancing images. I got my first digital camera at 14 and have had one ever since.
 
@@ -39,7 +39,7 @@ The first time I got pinched by a crab. We got to swim in the Gulf of Mexico and
 
 There is something magical about being in place with other people where the only goal is creation. The only constraints are there to guide you. There is only work that doesn’t even seem like work.
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*OtsHpeiqCiFlcdcDb0A48g.jpeg" width="1024" height="712" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*OtsHpeiqCiFlcdcDb0A48g.jpeg"  />
 
 There is thought and beauty and art.
 

@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: advice-from-my-mom
 
-<img src="https://cdn-images-1.medium.com/max/800/1*1HA4eiVMqKqC2YBkF7AQJg.jpeg" width="666" height="507" />
+<img src="https://cdn-images-1.medium.com/max/800/1*1HA4eiVMqKqC2YBkF7AQJg.jpeg"  />
 
 My mom has dropped a lot of wisdom on me over the years. I was too young and full of hubris to get most of it the first time around, but I sure appreciate it now.
 

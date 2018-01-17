@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: restaurant-reviews-the-bardstown
 
-<img src="https://cdn-images-1.medium.com/max/800/1*MQfuvi2Vdsstox2_SeWiUA.jpeg" width="878" height="419" />
+<img src="https://cdn-images-1.medium.com/max/800/1*MQfuvi2Vdsstox2_SeWiUA.jpeg"  />
 
 The brick building at the corner of Speed Ave and Bardstown Rd has been many things over the years. The only one I even remember was Judge Roy Bean’s, a steakhouse of some sort. It look wholly unappetizing from the outside and we never tried it and didn’t feel sad when it left.
 

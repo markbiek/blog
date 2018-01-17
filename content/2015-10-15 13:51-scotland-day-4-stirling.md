@@ -33,7 +33,7 @@ I manage to pay for lunch with some difficulty (fending off the hospitality of o
 
 The Wallace Monument is a 220ft (67m) tower built in the late 19th century. You can climb the 246 steps to the top, stopping in rooms along the way to view William Wallace artifacts and various historical displays.
 
-<img src="https://cdn-images-1.medium.com/max/800/1*yvI6e82gOJ7aTNsZtNqkPg.jpeg" width="669" height="1000" />
+<img src="https://cdn-images-1.medium.com/max/800/1*yvI6e82gOJ7aTNsZtNqkPg.jpeg"  />
 
 We opt to hike up the short hill to the base of the monument.
 
@@ -47,13 +47,13 @@ Then we round a corner and there’s another set of stairs. These lead to a flat
 
 I reach the top of the stairs and stop, stunned. The wind howls all around me and I can see for miles and miles in every direction. It’s so exposed, I almost feel like I’m on the top of a mountain.
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*zCGeZIXXZwr3PqWhue06iw.jpeg" width="1920" height="284" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*zCGeZIXXZwr3PqWhue06iw.jpeg"  />
 
 There are a few clouds but the sun is shining and the air is clear. The view is almost unbelievable.
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*rz0aWr5LNPMZ_CNGmXXQ2g.jpeg" width="3872" height="2592" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*rz0aWr5LNPMZ_CNGmXXQ2g.jpeg"  />
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*8WkRcEiOmElA9vhdRvhRmw.jpeg" width="3264" height="2448" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*8WkRcEiOmElA9vhdRvhRmw.jpeg"  />
 
 We stay on top for as long as we can stand the cold, then hike back down. There’s a coffee shop in the visitor’s center where we all sit and rest before the drive back to Kirkintilloch.
 

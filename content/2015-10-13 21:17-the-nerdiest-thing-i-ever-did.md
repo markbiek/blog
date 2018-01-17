@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-nerdiest-thing-i-ever-did
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*r53CEcK5Y7HOT8b5d13MGA.jpeg" width="1024" height="768" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*r53CEcK5Y7HOT8b5d13MGA.jpeg"  />
 
 I’ve done a lot of super nerdy things in my life. Like, a lot.
 

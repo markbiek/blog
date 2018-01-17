@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-only-rule-is-work
 
-<img src="https://cdn-images-2.medium.com/max/800/1*BC63h62v5jT6_mBwVLcDFA.jpeg" width="400" height="483" />
+<img src="https://cdn-images-2.medium.com/max/800/1*BC63h62v5jT6_mBwVLcDFA.jpeg"  />
 
 > The only rule is work.
 

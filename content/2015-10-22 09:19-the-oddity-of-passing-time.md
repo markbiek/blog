@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-oddity-of-passing-time
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*jpmLXfu0tw0NfrH9BSNx1g.jpeg" width="1452" height="1008" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*jpmLXfu0tw0NfrH9BSNx1g.jpeg"  />
 
 I’ve written many times about the Fir Acres writing workshop I did when I was 13 (and this won’t be the last time I come back to it).
 

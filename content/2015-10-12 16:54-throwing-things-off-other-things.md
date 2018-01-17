@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: throwing-things-off-other-things
 
-<img src="https://cdn-images-1.medium.com/max/800/1*_XkuVWIxG641a5XgExZVQQ.jpeg" width="2446" height="2446" />
+<img src="https://cdn-images-1.medium.com/max/800/1*_XkuVWIxG641a5XgExZVQQ.jpeg"  />
 
 There’s something about kids and throwing things off of, or into, things.
 

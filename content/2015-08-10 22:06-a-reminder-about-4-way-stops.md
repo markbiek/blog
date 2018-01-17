@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: a-reminder-about-4-way-stops
 
-<img src="https://cdn-images-2.medium.com/max/800/1*pKmrSt37lgueLJxkfYnYmA.jpeg" width="640" height="480" />
+<img src="https://cdn-images-2.medium.com/max/800/1*pKmrSt37lgueLJxkfYnYmA.jpeg"  />
 
 Here’s a scenario that happens to me all the time.
 

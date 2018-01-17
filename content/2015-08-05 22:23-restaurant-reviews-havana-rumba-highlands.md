@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: restaurant-reviews-havana-rumba-highlands
 
-<img src="https://cdn-images-1.medium.com/max/800/1*lmWeEl5aULiUUKdWrMlD-A.jpeg" width="795" height="573" />
+<img src="https://cdn-images-1.medium.com/max/800/1*lmWeEl5aULiUUKdWrMlD-A.jpeg"  />
 
 You may be familiar with the Havana Rumbas in St. Matthews or down Shelbyville Rd in Middletown. But my favorite is the one in the Highlands at Douglass Loop.
 

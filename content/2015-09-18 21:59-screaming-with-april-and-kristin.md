@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: screaming-with-april-and-kristin
 
-<img src="https://cdn-images-1.medium.com/max/800/1*dtm1ekjbm_g7ZU9QbwxdWQ.jpeg" width="372" height="256" />
+<img src="https://cdn-images-1.medium.com/max/800/1*dtm1ekjbm_g7ZU9QbwxdWQ.jpeg"  />
 
 I introduced my friend Justin to April and Kristin at a school dance sometime either Sophomore or Junior year. He went to Shasta High School in Redding, CA and we went to Mercy High in Red Bluff.
 

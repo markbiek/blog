@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: reflections-on-friends
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*mI6xAe1gu7u5vduwnze3LA.jpeg" width="2000" height="1000" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*mI6xAe1gu7u5vduwnze3LA.jpeg"  />
 
 I started watching [Friends](http://www.imdb.com/title/tt0108778/) sometime in the late 1990s, when the series was well underway. There were a couple of years where Jane and I didnt have cable so wed miss a season and have to catch up.
 

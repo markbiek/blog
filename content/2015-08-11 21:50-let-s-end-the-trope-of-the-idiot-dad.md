@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: let-s-end-the-trope-of-the-idiot-dad
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*WyMafsZPcHepyqmZ8x7gHg.png" width="437" height="346" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*WyMafsZPcHepyqmZ8x7gHg.png"  />
 
 > Merriam-Webster gives a definition of “trope” as a “figure of speech.” In storytelling, a trope is just that — a conceptual figure of speech, a storytelling shorthand for a concept that the audience will recognize and understand instantly.
 

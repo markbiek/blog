@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: scenes-from-the-weekend-day-of-the-dead
 
-<img src="https://cdn-images-1.medium.com/max/1200/1*X7HQYxKFDKCwo8YlQd-2hg.jpeg" width="2448" height="3264" />
+<img src="https://cdn-images-1.medium.com/max/1200/1*X7HQYxKFDKCwo8YlQd-2hg.jpeg"  />
 
 It’s Friday November 6, 2015 and we’ve gone downtown for the Day of the Dead Festival on 4th St.
 

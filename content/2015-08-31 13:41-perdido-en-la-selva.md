@@ -19,7 +19,7 @@ It was raining and the trail kept getting smaller and muddier. We scrambled up a
 
 Nothing but green for miles.
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*sQeJzF1ZSES4EJlnKYMg0g.jpeg" width="1000" height="575" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*sQeJzF1ZSES4EJlnKYMg0g.jpeg"  />
 
 We followed the path down the other side only to find that it ended at a swiftly running river. It was then that I realized we hadn’t seen anyone else from the group in close to an hour.
 

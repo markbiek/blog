@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: what-i-want-in-a-job
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/2000/1*cIAW2i3rV_uo9UDcx6OtGg.jpeg" width="1024" height="680" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/2000/1*cIAW2i3rV_uo9UDcx6OtGg.jpeg"  />
 
 I’ve spent a lot of time over the course of my career thinking about what I want in a job. The answer has varied a bit over time. But I think I’ve narrowed it down to these things.
 

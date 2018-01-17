@@ -84,7 +84,7 @@ https://www.buzzfeed.com/benrosen/how-to-snapchat-like-the-teens?utm_term=.cgaOA
 
 ----
 
-<img src="https://static.biek.org/blog/img/antelopelovefan-snapchat.jpg" width="320" />
+<img src="https://static.biek.org/blog/img/antelopelovefan-snapchat.jpg"  />
 
 [^1]:
 Obviously children shouldn't be sharing naked stuff. It's a little more nuanced for grownups. Sexting and the like can be part of a normal, grownup, sexual relationship and that's totally OK. What's _never_ OK is to share nudes without permission or steal nudes you weren't meant to see. A common response is "Well, they shouldn't have taken those pictures to begin with" and that's a bunch of a shit. People have a fundamental right to privacy.

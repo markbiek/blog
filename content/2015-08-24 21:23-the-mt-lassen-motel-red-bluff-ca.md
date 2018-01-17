@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-mt-lassen-motel-red-bluff-ca
 
-<img src="https://cdn-images-1.medium.com/max/800/1*9HC3b003ROWuSnQjQm14xA.jpeg" width="716" height="455" />
+<img src="https://cdn-images-1.medium.com/max/800/1*9HC3b003ROWuSnQjQm14xA.jpeg"  />
 
 I went to Mercy High School in Red Bluff, CA. It is a small school a block off Main St and within site of the Sacramento River.
 

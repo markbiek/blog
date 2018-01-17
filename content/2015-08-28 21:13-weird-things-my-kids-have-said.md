@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: weird-things-my-kids-have-said
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*VFA1SgsTxVwSPSGzotx_Nw.jpeg" width="1000" height="1333" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*VFA1SgsTxVwSPSGzotx_Nw.jpeg"  />
 
 From 2006 to mid-2014, I wrote down as many of the bizarre things our kids did/said as I could. I haven’t been as dilligent about it lately and I’m starting to regret it.
 

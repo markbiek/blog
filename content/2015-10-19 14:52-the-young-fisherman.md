@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-young-fisherman
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*UBWJQP1ezHNikafY1FV3hw.jpeg" width="3872" height="2592" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*UBWJQP1ezHNikafY1FV3hw.jpeg"  />
 
 I was never very good at fishing. I didn’t catch much and I didn’t know a lot about my equipment. In retrospect, I think I just liked sitting quietly next to a body of water.
 

@@ -6,7 +6,7 @@ Tags:
 Slug: freshman-year-in-hell
 
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/2000/1*njPZr2oQyLSQFHNo41ObOA.jpeg" width="50%" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/2000/1*njPZr2oQyLSQFHNo41ObOA.jpeg"  />
 
 I spent my freshman year at Nova High School in Redding, CA.
 

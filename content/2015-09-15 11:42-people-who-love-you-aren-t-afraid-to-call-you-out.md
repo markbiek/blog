@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: people-who-love-you-aren-t-afraid-to-call-you-out
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*ZByznuSp1lq2aY7TzL7h8Q.jpeg" width="1024" height="683" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*ZByznuSp1lq2aY7TzL7h8Q.jpeg"  />
 
 I am an asshole sometimes.
 

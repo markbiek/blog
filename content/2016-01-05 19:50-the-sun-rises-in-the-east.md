@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-sun-rises-in-the-east
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*g6F9_I78Pt9ZetJgRWW0IA.jpeg" width="1122" height="393" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*g6F9_I78Pt9ZetJgRWW0IA.jpeg"  />
 
 The back of the house I grew up in points North.
 

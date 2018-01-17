@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: a-good-team-needs-good-company-culture
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*Si3KBY_6NGbJFJgSISIHfg.jpeg" width="1632" height="1180" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*Si3KBY_6NGbJFJgSISIHfg.jpeg"  />
 
 Good teams and good company culture are interconnected.
 

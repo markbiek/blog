@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: that-time-i-walked-a-little-old-ecuadorian-lady-home
 
-<img src="https://d262ilb51hltx0.cloudfront.net/max/2000/1*n97sQGsUqSf5BSUR-_g18g.jpeg" width="1024" height="680" />
+<img src="https://d262ilb51hltx0.cloudfront.net/max/2000/1*n97sQGsUqSf5BSUR-_g18g.jpeg"  />
 
 #### Cuenca, Ecuador 1997
 

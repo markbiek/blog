@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: the-interview-where-i-completely-froze
 
-<img src="https://cdn-images-1.medium.com/max/2000/1*sxGv6dVZYEA2Pci92g_1Dg.jpeg" width="1024" height="687" />
+<img src="https://cdn-images-1.medium.com/max/2000/1*sxGv6dVZYEA2Pci92g_1Dg.jpeg"  />
 
 I usually interview pretty well.
 

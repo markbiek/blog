@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: focus-on-the-things-you-did-right
 
-<img src="https://cdn-images-1.medium.com/max/800/1*YoOANfvI6mZSmY1dqY9Xow.jpeg" width="640" height="624" />
+<img src="https://cdn-images-1.medium.com/max/800/1*YoOANfvI6mZSmY1dqY9Xow.jpeg"  />
 
 It’s easy to get down on myself.
 
