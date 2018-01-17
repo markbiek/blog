@@ -5,4 +5,4 @@ Category: Personal
 Tags: music
 Slug: dolores-orierdan-rip
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a9ojzRpvK2s?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/a9ojzRpvK2s?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
