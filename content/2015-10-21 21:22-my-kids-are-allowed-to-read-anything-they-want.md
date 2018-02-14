@@ -1,6 +1,6 @@
 Title: My kids are allowed to read anything they want
 Date: 2015-10-21 21:22
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: my-kids-are-allowed-to-read-anything-they-want

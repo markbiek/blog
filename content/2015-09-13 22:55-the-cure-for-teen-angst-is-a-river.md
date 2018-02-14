@@ -1,6 +1,6 @@
 Title: The cure for teen angst is a river
 Date: 2015-09-13 22:55
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: the-cure-for-teen-angst-is-a-river

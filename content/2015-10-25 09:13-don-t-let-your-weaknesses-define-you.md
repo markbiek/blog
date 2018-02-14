@@ -1,6 +1,6 @@
 Title: Don't let your weaknesses define you
 Date: 2015-10-25 09:13
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: don-t-let-your-weaknesses-define-you

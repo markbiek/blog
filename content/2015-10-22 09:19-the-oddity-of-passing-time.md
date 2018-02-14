@@ -1,6 +1,6 @@
 Title: The oddity of passing time
 Date: 2015-10-22 09:19
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: the-oddity-of-passing-time

@@ -1,6 +1,6 @@
 Title: My favorite video store
 Date: 2015-11-13 09:50
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: my-favorite-video-store

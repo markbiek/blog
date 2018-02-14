@@ -1,6 +1,6 @@
 Title: Moms are tough as fuck
 Date: 2015-09-21 20:02
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: moms-are-tough-as-fuck

@@ -1,6 +1,6 @@
 Title: Indie music, pre-Internet
 Date: 2015-07-05 22:35
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: indie-music-pre-internet

@@ -1,6 +1,6 @@
 Title: A reminder about 4-way stops
 Date: 2015-08-10 22:06
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: a-reminder-about-4-way-stops

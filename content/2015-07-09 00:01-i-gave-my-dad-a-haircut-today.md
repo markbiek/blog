@@ -1,6 +1,6 @@
 Title: I gave my dad a haircut today
 Date: 2015-07-09 00:01
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: i-gave-my-dad-a-haircut-today

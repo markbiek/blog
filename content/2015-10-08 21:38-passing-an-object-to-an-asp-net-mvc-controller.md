@@ -1,6 +1,6 @@
 Title: Passing an object to an ASP.NET MVC Controller
 Date: 2015-10-08 21:38
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: passing-an-object-to-an-asp-net-mvc-controller

@@ -1,6 +1,6 @@
 Title: I hate notifications
 Date: 2015-06-23 10:27
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: i-hate-notifications

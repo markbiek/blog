@@ -1,6 +1,6 @@
 Title: Zen and the art of resource editing
 Date: 2015-06-26 21:20
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: zen-and-the-art-of-resource-editing

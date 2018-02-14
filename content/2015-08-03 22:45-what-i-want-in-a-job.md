@@ -1,6 +1,6 @@
 Title: What I want in a job.
 Date: 2015-08-03 22:45
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: what-i-want-in-a-job

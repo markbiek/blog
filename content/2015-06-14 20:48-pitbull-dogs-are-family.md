@@ -1,6 +1,6 @@
 Title: Pitbull dogs are family
 Date: 2015-06-14 20:48
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: pitbull-dogs-are-family

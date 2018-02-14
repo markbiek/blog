@@ -1,6 +1,6 @@
 Title: Scotland, Day 1: Traveling
 Date: 2015-09-30 13:03
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: scotland-day-1-traveling

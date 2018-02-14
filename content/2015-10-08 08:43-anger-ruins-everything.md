@@ -1,6 +1,6 @@
 Title: Anger ruins everything
 Date: 2015-10-08 08:43
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: anger-ruins-everything

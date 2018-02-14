@@ -1,6 +1,6 @@
 Title: Scotland, Day 2: Glasgow
 Date: 2015-10-02 11:54
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: scotland-day-2-glasgow

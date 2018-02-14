@@ -1,6 +1,6 @@
 Title: Bad teenage poetry #tbt
 Date: 2015-07-16 21:44
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: bad-teenage-poetry-tbt

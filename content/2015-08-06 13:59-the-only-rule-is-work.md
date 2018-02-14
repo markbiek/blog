@@ -1,6 +1,6 @@
 Title: The only rule is work
 Date: 2015-08-06 13:59
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: the-only-rule-is-work

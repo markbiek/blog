@@ -1,6 +1,6 @@
 Title: Scenes from the weekend: Day of the Dead
 Date: 2015-11-10 10:07
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: scenes-from-the-weekend-day-of-the-dead

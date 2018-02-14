@@ -1,6 +1,6 @@
 Title: Scotland, Day 5: The Wedding
 Date: 2015-11-15 16:27
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: scotland-day-5-the-wedding

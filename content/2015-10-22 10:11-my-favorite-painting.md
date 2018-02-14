@@ -1,6 +1,6 @@
 Title: My favorite painting
 Date: 2015-10-22 10:11
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: my-favorite-painting

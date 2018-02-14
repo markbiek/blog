@@ -1,6 +1,6 @@
 Title: Vernacular: A digression
 Date: 2015-10-03 16:35
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: vernacular-a-digression

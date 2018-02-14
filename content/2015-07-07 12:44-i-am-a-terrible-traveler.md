@@ -1,6 +1,6 @@
 Title: I am a terrible traveler
 Date: 2015-07-07 12:44
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: i-am-a-terrible-traveler

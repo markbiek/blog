@@ -1,6 +1,6 @@
 Title: Basics of pedestrian safety
 Date: 2015-11-02 15:42
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: basics-of-pedestrian-safety

@@ -1,6 +1,6 @@
 Title: Stop blaming and fix the thing
 Date: 2015-11-02 21:08
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: stop-blaming-and-fix-the-thing

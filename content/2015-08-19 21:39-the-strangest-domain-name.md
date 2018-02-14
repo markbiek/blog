@@ -1,6 +1,6 @@
 Title: The strangest domain name
 Date: 2015-08-19 21:39
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: the-strangest-domain-name

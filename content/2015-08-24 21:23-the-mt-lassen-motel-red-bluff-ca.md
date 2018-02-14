@@ -1,6 +1,6 @@
 Title: The Mt. Lassen Motel, Red Bluff, CA
 Date: 2015-08-24 21:23
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: the-mt-lassen-motel-red-bluff-ca

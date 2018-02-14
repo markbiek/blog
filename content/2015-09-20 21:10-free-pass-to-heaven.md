@@ -1,6 +1,6 @@
 Title: Free pass to Heaven
 Date: 2015-09-20 21:10
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: free-pass-to-heaven

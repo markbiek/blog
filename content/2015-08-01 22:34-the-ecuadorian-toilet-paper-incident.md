@@ -1,6 +1,6 @@
 Title: The Ecuadorian toilet paper incident
 Date: 2015-08-01 22:34
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: the-ecuadorian-toilet-paper-incident

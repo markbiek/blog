@@ -1,6 +1,6 @@
 Title: Stories of love and hair
 Date: 2015-10-06 08:48
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: stories-of-love-and-hair

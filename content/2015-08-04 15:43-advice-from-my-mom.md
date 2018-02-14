@@ -1,6 +1,6 @@
 Title: Advice from my mom
 Date: 2015-08-04 15:43
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: advice-from-my-mom

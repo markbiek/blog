@@ -1,6 +1,6 @@
 Title: My son is me, but also not me.
 Date: 2015-09-13 21:34
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: my-son-is-me-but-also-not-me

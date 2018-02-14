@@ -1,6 +1,6 @@
 Title: My cultural knowledge void
 Date: 2015-08-22 21:17
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: my-cultural-knowledge-void

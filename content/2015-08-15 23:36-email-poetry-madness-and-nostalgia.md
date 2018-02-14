@@ -1,6 +1,6 @@
 Title: Email, poetry, madness and nostalgia
 Date: 2015-08-15 23:36
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: email-poetry-madness-and-nostalgia

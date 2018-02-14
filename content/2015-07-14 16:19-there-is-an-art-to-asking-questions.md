@@ -1,6 +1,6 @@
 Title: There is an art to asking questions
 Date: 2015-07-14 16:19
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: there-is-an-art-to-asking-questions

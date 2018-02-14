@@ -1,6 +1,6 @@
 Title: Gnocchi is a labor of love
 Date: 2015-10-26 21:43
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: gnocchi-is-a-labor-of-love

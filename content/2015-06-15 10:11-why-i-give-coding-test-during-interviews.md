@@ -1,6 +1,6 @@
 Title: Why I give coding test during interviews
 Date: 2015-06-15 10:11
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: why-i-give-coding-test-during-interviews

@@ -1,6 +1,6 @@
 Title: Lets end the trope of the idiot dad
 Date: 2015-08-11 21:50
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: let-s-end-the-trope-of-the-idiot-dad

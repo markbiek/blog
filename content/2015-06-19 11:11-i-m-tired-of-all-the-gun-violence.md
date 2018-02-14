@@ -1,6 +1,6 @@
 Title: I'm tired of all the gun violence
 Date: 2015-06-19 11:11
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: i-m-tired-of-all-the-gun-violence

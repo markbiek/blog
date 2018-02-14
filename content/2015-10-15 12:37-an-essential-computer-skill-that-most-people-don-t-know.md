@@ -1,6 +1,6 @@
 Title: An essential computer skill that most people dont know
 Date: 2015-10-15 12:37
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: an-essential-computer-skill-that-most-people-don-t-know

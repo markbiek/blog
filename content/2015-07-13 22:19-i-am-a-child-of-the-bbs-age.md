@@ -1,6 +1,6 @@
 Title: I am a child of the BBS age
 Date: 2015-07-13 22:19
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: i-am-a-child-of-the-bbs-age

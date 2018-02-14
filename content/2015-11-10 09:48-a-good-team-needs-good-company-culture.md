@@ -1,6 +1,6 @@
 Title: A good team needs good company culture
 Date: 2015-11-10 09:48
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: a-good-team-needs-good-company-culture

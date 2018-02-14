@@ -1,6 +1,6 @@
 Title: The magnetic poetry book
 Date: 2015-09-04 13:09
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: the-magnetic-poetry-book

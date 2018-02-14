@@ -1,6 +1,6 @@
 Title: Amanda Grimes, I'm sorry
 Date: 2015-07-26 22:34
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: amanda-grimes-i-m-sorry

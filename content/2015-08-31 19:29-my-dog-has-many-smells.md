@@ -1,6 +1,6 @@
 Title: My dog has many smells
 Date: 2015-08-31 19:29
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: my-dog-has-many-smells

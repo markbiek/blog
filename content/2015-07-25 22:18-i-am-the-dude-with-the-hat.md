@@ -1,6 +1,6 @@
 Title: I am the dude with the hat
 Date: 2015-07-25 22:18
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: i-am-the-dude-with-the-hat

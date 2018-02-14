@@ -1,6 +1,6 @@
 Title: Scotland, Day 3: Edinburgh
 Date: 2015-10-05 16:26
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: scotland-day-3-edinburgh

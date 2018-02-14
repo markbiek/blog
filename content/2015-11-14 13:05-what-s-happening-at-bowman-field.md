@@ -1,6 +1,6 @@
 Title: What's happening at Bowman Field?
 Date: 2015-11-14 13:05
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: what-s-happening-at-bowman-field

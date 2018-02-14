@@ -1,6 +1,6 @@
 Title: Focus on the things you did right
 Date: 2015-09-08 13:27
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: focus-on-the-things-you-did-right

@@ -1,6 +1,6 @@
 Title: Weird things my kids have said
 Date: 2015-08-28 21:13
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: weird-things-my-kids-have-said

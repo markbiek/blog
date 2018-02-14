@@ -1,6 +1,6 @@
 Title: Foo, bar, and other metasyntactic variables
 Date: 2015-07-23 09:18
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: foo-bar-and-other-metasyntactic-variables

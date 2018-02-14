@@ -1,6 +1,6 @@
 Title: Stories and thoughts
 Date: 2015-06-24 12:47
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: stories-and-thoughts

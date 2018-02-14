@@ -1,6 +1,6 @@
 Title: My personal beard history
 Date: 2015-09-29 14:18
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: my-personal-beard-history

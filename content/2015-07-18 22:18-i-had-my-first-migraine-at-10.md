@@ -1,6 +1,6 @@
 Title: I had my first migraine at 10
 Date: 2015-07-18 22:18
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: i-had-my-first-migraine-at-10

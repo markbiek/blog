@@ -1,6 +1,6 @@
 Title: The budding photographer or why I cant hear Garth Brooks anymore
 Date: 2015-07-30 23:32
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: the-budding-photographer-or-why-i-can-t-hear-garth-brooks-anymore

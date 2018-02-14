@@ -1,6 +1,6 @@
 Title: The worst thing you could be in the 80's was poor
 Date: 2015-07-11 19:33
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: the-worst-thing-you-could-be-in-the-80-s-was-poor

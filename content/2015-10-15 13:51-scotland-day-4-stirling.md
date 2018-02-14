@@ -1,6 +1,6 @@
 Title: Scotland, Day 4: Stirling
 Date: 2015-10-15 13:51
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: scotland-day-4-stirling

@@ -1,6 +1,6 @@
 Title: Ani DiFranco, Chinese food, and poor decisions
 Date: 2016-01-20 09:37
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: ani-difranco-chinese-food-and-poor-decisions

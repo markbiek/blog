@@ -1,6 +1,6 @@
 Title: A relationship is a choice
 Date: 2015-07-10 07:21
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: a-relationship-is-a-choice

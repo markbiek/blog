@@ -1,6 +1,6 @@
 Title: A Farewell to a Server
 Date: 2015-10-27 20:17
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: a-farewell-to-a-server

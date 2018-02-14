@@ -1,6 +1,6 @@
 Title: Perdido en la selva
 Date: 2015-08-31 13:41
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: perdido-en-la-selva

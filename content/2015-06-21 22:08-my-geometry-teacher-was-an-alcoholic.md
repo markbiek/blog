@@ -1,6 +1,6 @@
 Title: My Geometry teacher was an alcoholic?
 Date: 2015-06-21 22:08
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: my-geometry-teacher-was-an-alcoholic

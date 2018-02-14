@@ -1,6 +1,6 @@
 Title: Generating a client-side PDF with Javascript
 Date: 2015-10-04 09:25
-Author: antelopelovefan
+Author: mark
 Category: 
 Tags: 
 Slug: generating-a-client-side-pdf-with-javascript
