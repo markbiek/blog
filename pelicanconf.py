@@ -12,7 +12,7 @@ DEFAULT_PAGINATION = 5
 
 TIMEZONE = 'America/Kentucky/Louisville'
 DEFAULT_LANG = u'en'
-GOOGLE_ANALYTICS = 'UA-6890403-1'
+# GOOGLE_ANALYTICS = 'UA-6890403-1'
 
 FILES_TO_COPY = (('extra/.htaccess', '.htaccess'),)
 THEME = "pelican-themes/alftheme"
