@@ -18,13 +18,13 @@ considered [combining multiple commands][] into a single alias before.
 Which leads us to my favorite Bash trick of all time; the single thing I
 use more than anything else.
 
-<p>
-> </p>
+
+> 
 > Performing actions in a loop over the output of another command.
 >
-> <p>
+> 
 
-</p>
+
 
 There are different ways to do this, the most compact being [xargs][],
 but I prefer to use **while read**.
@@ -41,12 +41,12 @@ Here's one I use all the time:
 **Deleting all .svn directories from a path** (handy for making a
 working copy not be a working copy any more).
 
-<p>
+
 ~~~~ {.bash name="code"}
   find ./ -type d -name ".svn" | while read d; do rm -rf "$d"; done
 ~~~~
 
-</p>
+
 
 Let's break this down a little.
 
@@ -64,12 +64,12 @@ directory in the $d variable.
 
 The basic form of the while loop looks like this:
 
-<p>
+
 ~~~~ {.bash name="code"}
   while read d; do <stuff happens here> done
 ~~~~
 
-</p>
+
 
 What you do within the while loop is entirely up to you. All of the
 usual Bash concepts for stringing commands together (using ;, &, or |)
@@ -80,8 +80,8 @@ that has newline-separated output.**
 
 Let's say you have a file that contains a list of files like this:
 
-<p>
-> </p>
+
+> 
 > foo\_file1.txt
 >
 > foo\_file2.txt
@@ -94,17 +94,17 @@ Let's say you have a file that contains a list of files like this:
 >
 > bar\_file2.txt
 >
-> <p>
+> 
 
-</p>
+
 Maybe we want to make all files that start with "bar\_" world-writable.
 
-<p>
+
 ~~~~ {.bash name="code"}
   egrep "^bar_" filelist.txt | while read f; do chmod a+w "$f"; done
 ~~~~
 
-</p>
+
 
 The egrep command gives us all lines from the file that start with
 "bar\_". That output gets piped to the while loop which does the chmod
@@ -131,23 +131,23 @@ tables in a database. We have the egrep call to strip out the first line
 of the output which isn't actually a table name. This example just
 prints out the name of each table.
 
-<p>
+
 ~~~~ {.bash name="code"}
   mysql -B -e "show tables" thedb | egrep -v "^Tables_in_" | while read tbl; do echo "$tbl"; done
 ~~~~
 
-</p>
+
 
 Step two does a SELECT on each table and prints all of the ids with an
 invalid price. Once again, we do a grep to strip out some extra info
 that mysql is printing out.
 
-<p>
+
 ~~~~ {.bash name="code"}
   mysql -B -e "show tables" thedb | egrep -v "^Tables_in_" | while read tbl; do mysql -B -e "SELECT id FROM $tbl WHERE price >= 10000" | egrep "^[0-9]"; done
 ~~~~
 
-</p>
+
 
 That's the Bash trick I use the most. Remember, it works for anything
 that has newline-separated output.

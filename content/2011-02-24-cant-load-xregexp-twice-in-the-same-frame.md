@@ -11,27 +11,27 @@ Have you ever gotten this error when using jQuery to handle DOM events?
 
 In many cases, I’ve found that to be caused by code like this:
 
-<p>
+
 ~~~~ {.”javascript” name="”code”"}
 $(‘a.foo’).click( function() {  alert(‘You clicked on me!’);});
 ~~~~
 
-</p>
+
 
 when **a.foo** * doesn’t exist in the DOM yet*.
 
 The fix? Use [jQuery.live()][] to bind to the event.
 
-<p>
+
 ~~~~ {.”javascript” name="”code”"}
 $(‘a.foo’).live( ‘click’, function() {  alert(‘You clicked on me!’);});
 ~~~~
 
-</p>
+
 
 * * * * *
 
-</p>
+
 I've also run into a couple of situations where Chrome Extensions for
 formatting JSON & XML also caused this error in some cases. Disabling
 those extensions also fixed the error.

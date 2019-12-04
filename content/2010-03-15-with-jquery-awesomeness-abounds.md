@@ -17,7 +17,7 @@ My favorite reasons for the switch:
     Prototype and jQuery is pretty similar, I find jQuery code to be
     slightly more compact to write and easier to read.
 
-</p>
+
 
 The [jQuery API][] is full of all kinds of handy functions. I encourage
 browsing it on a regular basis. You never know what you may find that
@@ -37,12 +37,12 @@ Here's a simple example of how it works.
 
 Let's say our survey consists of the following HTML:
 
-<p>
+
 ~~~~ {.html name="code"}
         <div id="Questions">            <div id="Q1">                <input type="radio" name="choice" id="choice1" class="showHideTrigger" value="1">gt; Choice 1<br />                <input type="radio" name="choice" id="choice2" class="showHideTrigger" value="2">gt; Choice 2<br />                <input type="radio" name="choice" id="choice3" class="showHideTrigger" value="3">gt; Choice 3<br />            </div>gt; <!-- /Q1 -->            <div id="Q2a" style="display:none;">                2.  This is Q2a:  <input type="text" name="input_q2a" id="input_q2a" value="" />            </div>gt; <!-- /Q2a -->            <div id="Q2b" style="display:none;">                2.  This is Q2b:  <input type="text" name="input_q2b" id="input_q2b" value="" />            </div>gt; <!-- /Q2a -->        </div>gt; <!-- /Questions -->
 ~~~~
 
-</p>
+
 
 The show/hide pattern is going to look like this:
 
@@ -50,27 +50,27 @@ The show/hide pattern is going to look like this:
 -   Clicking *Choice 2* shows Q2b and hides Q2a.
 -   Clicking *Choice 3* hides both Q2a and Q2b.
 
-</p>
+
 
 We use the **.data()** to store the meta-information about what to show
 and hide. We also set up the click event handler for each of the radio
 buttons (technically, anything that has the .showHideTrigger class).
 
-<p>
+
 ~~~~ {.javascript name="code"}
             $(document).ready( function() {                $('#choice1').data('show', '#Q2a');                $('#choice1').data('hide', '#Q2b');                $('#choice2').data('show', '#Q2b');                $('#choice2').data('hide', '#Q2a');                $('#choice3').data('hide', '#Q2a,#Q2b');                //Setup the event handler for each element that will show/hide                //another element when clicked                $('.showHideTrigger').click( function(event) {                    showHide(this);                });            });
 ~~~~
 
-</p>
+
 
 And here's the code for the **showHide()** function:
 
-<p>
+
 ~~~~ {.javascript name="code"}
            function showHide(elem) {                if(elem.checked) {                    if($(elem).data('hide')) {                        $($(elem).data('hide')).each( function(i) {                            $(this).hide();                            this.checked = false;                        });                    }                    if($(elem).data('show')) {                        $($(elem).data('show')).each( function(i) {                            $(this).show();                        });                    }                }            }
 ~~~~
 
-</p>
+
 
 Every time a radio button is clicked, the function checks to see if it
 has "show" or "hide" data associated with it. It assumes that the data
@@ -82,12 +82,12 @@ And here's an ultra-compact version courtesy of a colleague at
 chaining with jQuery because the code below is much cleaner than my
 first pass above.
 
-<p>
+
 ~~~~ {.javascript name="code"}
 $(function () {    $('#choice1').data('show', '#Q2a').data('hide', '#Q2b');    $('#choice2').data('show', '#Q2b').data('hide', '#Q2a');    $('#choice3').data('hide', '#Q2a,#Q2b');    //Setup the event handler for each element that will show/hide    //another element when clicked    $('.showHideTrigger').click( function() {      $($(this).data('show')).show();    $($(this).data('hide')).hide();  });  });  
 ~~~~
 
-</p>
+
 
   [PrototypeJS]: http://www.prototypejs.org/
   [jQuery]: http://jquery.com/

@@ -43,18 +43,18 @@ easy to come up with.
 
 ### Step 1: Authentication
 
-</p>
+
 
 I've talked about [authenticating against a Google account][] using PHP.
 Here's a simple little snippet to get the Auth code using Python
 instead:
 
-<p>
+
 ~~~~ {.python name="code"}
 def getAuthInfo( email, password, source, service = 'writely', accountType = 'GOOGLE'):    loginUrl = 'https://www.google.com/accounts/ClientLogin'    loginData = {            'accountType': accountType,            'Email': email,            'Passwd': password,            'service': service,            'source': source,            'session': 1            }    req = urllib2.Request( loginUrl , urllib.urlencode(loginData))    res = urllib2.urlopen(req)    data = res.read()    authInfo = {}    for item in data.split():        fields = item.split('=')        authInfo[fields[0]] = fields[1]    return authInfo
 ~~~~
 
-</p>
+
 
 The *service* parameter tells Google which service you're authenticating
 against. The default here is **writely** which is the Document List
@@ -64,7 +64,7 @@ values. The one you're generally interested in is *Auth*.
 
 ### Step 2: Getting the list of documents
 
-</p>
+
 You can retrieve [a list of documents][] by sending an **authenticated
 request** to
 
@@ -78,12 +78,12 @@ this:
 
 and here's the Python code for actually retrieving the list:
 
-<p>
+
 ~~~~ {.python name="code"}
 def getDocList(auth):    docListUrl = 'https://docs.google.com/feeds/documents/private/full'    header = {'Authorization': 'GoogleLogin auth=' + auth}    req = urllib2.Request( docListUrl, None, header)    res = urllib2.urlopen(req)    data = res.read()    return data
 ~~~~
 
-</p>
+
 
 You can see how the HTTP header is just a Python dictionary that we pass
 to the URL.
@@ -92,12 +92,12 @@ The response to this API call is a big block of XML containing a list of
 **entry** elements for each document. An <entry\> element looks like
 this:
 
-<p>
+
 ~~~~ {.xml name="code"}
     type="text/html" />      test.user    test.user@gmail.com      scheme="http://schemas.google.com/g/2005#kind"  term="http://schemas.google.com/docs/2007#document" />    scheme="http://schemas.google.com/g/2005/labels"  term="http://schemas.google.com/g/2005/labels#starred" />  http://docs.google.com/feeds/documents/private/full/document%3Adocument_id    type="text/html" />    rel="self" type="application/atom+xml" />  Test Document  2007-07-03T18:02:50.338Z
 ~~~~
 
-</p>
+
 
 The **label** attribute of the first **<category\>** child element
 contains the type of the document. This is important because different
@@ -106,12 +106,12 @@ Spreadsheets.
 
 This is a simple function for retrieving the document list:
 
-<p>
+
 ~~~~ {.python name="code"}
 def getDocList(auth):    docListUrl = 'https://docs.google.com/feeds/documents/private/full'    header = {'Authorization': 'GoogleLogin auth=' + auth}    req = urllib2.Request( docListUrl, None, header)    res = urllib2.urlopen(req)    data = res.read()    return data
 ~~~~
 
-</p>
+
 
 This code snippet that shows authenticating, getting the document list,
 and looping over each entry in the list. This version is extracting the
@@ -123,36 +123,36 @@ This code also grabs the document type (document, presentation, or
 spreadsheet) and takes the document title and cleans it up so it's
 suitable to use as an output filename.
 
-<p>
+
 ~~~~ {.python name="code"}
     authInfo = getAuthInfo( 'username@gmail.com', 'password', 'My Backup Script', 'writely')    docListXML = getDocList( authInfo['Auth'])    docList = minidom.parseString(docListXML)    for entry in docList.getElementsByTagName('entry'):        ids = entry.getElementsByTagName('id')        categories = entry.getElementsByTagName('category')        titles = entry.getElementsByTagName('title')        docIDLink = ids[0].firstChild.nodeValue        fields = docIDLink.split('%3A')        docID = fields[-1]        title = titles[0].firstChild.nodeValue        cleanTitle = re.sub('[^aA-zZ0-9 ]', '', title)        categoryLabel = categories[0].attributes['label'].value        downloadDoc(docID, categoryLabel, cleanTitle)
 ~~~~
 
-</p>
+
 
 ### Step 3: Downloading each document
 
-</p>
+
 
 There are three different URLs to use for the three different types of
 documents.
 
 -   Documents:
-    </p>
-    <p>
+    
+    
     *http://docs.google.com/feeds/download/documents/Export?docID=**example\_document\_id**&exportFormat=**example\_format***
 -   Presentations:
-    </p>
+    
     *http://docs.google.com/feeds/download/presentations/Export?docID=**example\_document\_id**&exportFormat=**example\_format***
 
-    <p>
+    
 -   Spreadsheets:
-    </p>
+    
     *http://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=**example\_spreadsheet\_id**&fmcmd=**example\_format***
 
-    <p>
+    
 
-</p>
+
 
 There are also a number of different export formats for each type of
 document.
@@ -160,18 +160,18 @@ document.
 -   [Document and Presentation export formats][]
 -   [Spreadsheet export formats][]
 
-</p>
+
 
 Actually downloading the file is just a matter of sending an
 authenticated GET request to the appropriate URL and here's a function
 to do it:
 
-<p>
+
 ~~~~ {.python name="code"}
 def downloadDoc(docID, categoryLabel, cleanTitle, auth):    if categoryLabel == 'document':        docUrl = 'http://docs.google.com/feeds/download/documents/Export?docID=' + docID + '&exportFormat=doc'        ext = '.doc'    elif categoryLabel == 'presentation':        docUrl = 'http://docs.google.com/feeds/download/presentations/Export?docID=' + docID + '&exportFormat=ppt'        ext = '.ppt'    elif categoryLabel == 'spreadsheet':        docUrl = 'http://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=' + docID + '&fmcmd=4'        ext = '.xls'        print "Warning:  Downloading spreadsheets doesn't work yet."        return    else:        print 'Error:  Unknown category label (' + categoryLabel + ')'    filename = cleanTitle + ext    print 'Saving "' + filename + '"'    header = {'Authorization': 'GoogleLogin auth=' + auth}    req = urllib2.Request( docUrl, None, header)    res = urllib2.urlopen(req)    file = open(filename, 'w')    file.write(res.read())    file.close()
 ~~~~
 
-</p>
+
 
 You just pass the function a document id, categoryLabel (document,
 presentation, or spreadsheet), and an output filename. This version
@@ -191,7 +191,7 @@ peace of mind.
     appropriate folders
 -   Don't download files that haven't changed since the last download
 
-</p>
+
 
   [Google Docs]: 
   [strategy]: http://mark.biek.org/blog/2009/01/your-data-is-your-life-why-arent-you-protecting-it/

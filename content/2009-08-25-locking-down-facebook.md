@@ -10,7 +10,7 @@ go over the \#1 rule of Social Media:
 
 ### If you don't want the whole world to see it, don't put it online.
 
-</p>
+
 
 Things happen. Facebook has messed up privacy settings before and
 exposed private information. Accounts get hacked. Companies go out of
@@ -23,7 +23,7 @@ account.
 
 ### Step 1: Create a Friend List for limited access Facebook Friends
 
-</p>
+
 
 First, click on the **Friends** link from your home page.
 
@@ -39,7 +39,7 @@ Give your list a meaningful name. Mine's called "Minimal Access People".
 
 ### Step 2: Lock down your profile
 
-</p>
+
 Go to the "Privacy Settings" of your account.
 
 ![image][3]
@@ -61,7 +61,7 @@ item. Here's a drilldown of the Education settings.
 
 ### Step 3: Lock down photos
 
-</p>
+
 The most important Photo privacy setting is the "Photos Tagged of You"
 setting (which is part of your Profile privacy settings).
 
@@ -91,7 +91,7 @@ your Facebook photos.
 
 ### Step 4: Yay!
 
-</p>
+
 There you have it, a few basic ways to lock down your Facebook account.
 Hopefully this gives you a small degree of comfort about who gets to see
 what about you.

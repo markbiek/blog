@@ -15,7 +15,6 @@ I've identified two major reasons why we can't hire anyone good:
 -   We can't pay premium salaries for really talented people
 -   There's a lot of mandatory overtime.
 
-</p>
 Let's start with the first one. We're not a huge company so, on the
 surface, paying above-average salaries probably seems like a waste. What
 I can't get anyone to realize is that **this is horribly wrong**. Hiring
@@ -66,7 +65,6 @@ you job-hunting programmers.
     want to work here. I just want to stay in Louisville" is not going
     to give me warm-fuzzies when I ask why you want to work for us.
 
-</p>
 Now for the testing. I always ask people to write a very small amount
 code and I have a few different questions that I like to ask (most of
 them, I've cribbed from other people). I usually vary the questions
@@ -89,7 +87,6 @@ little bit of the languages you claim to know.
     relationships & some normalization-iisues to consider. Then they get
     asked to come up with SQL for certain queries.
 
-</p>
 And it kills me how many people claiming years of experience can't do
 these simple things. I know this has been discussed to death (Google
 ["FizzBuzz"][]) but it's still mind-boggling to me.

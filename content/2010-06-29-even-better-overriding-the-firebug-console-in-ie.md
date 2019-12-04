@@ -12,12 +12,12 @@ your code.
 The only problem that first version is that it's too much to type.
 Here's a much shorter way of doing it using object literal notation.
 
-<p>
+
 ~~~~ {.javascript name="code"}
 if(typeof console=='undefined'){console={log:function(){}};}
 ~~~~
 
-</p>
+
 
 It'd be easy to enough add a handler for the **console.debug** function
 and to have those functions actually do something in IE (of course you

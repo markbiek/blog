@@ -14,8 +14,8 @@ with it.
 Here's a list of the packages that I had to install on my Ubuntu 9.0.4
 server to get CherryPy running
 
-<p>
-> </p>
+
+> 
 > apt-get install python
 >
 > apt-get install python-setuptools
@@ -42,9 +42,9 @@ server to get CherryPy running
 >
 > apt-get install python-psycopg
 >
-> <p>
+> 
 
-</p>
+
 
 Want to get a "Hello World" example of CherryPy working? It's incredible
 easy, especially if you use CherryPy's built-in webserver (which seems
@@ -52,28 +52,28 @@ like it'll handle the sort of loads I'm going to be dealing with).
 
 Here's the code:
 
-<p>
+
 ~~~~ {.python name="code"}
 import cherrypycherrypy.config.update( {'server.socket_host': '127.0.0.1',                        'server.socket_port':  80,                        })class HelloWorld:        def index(self):            return "Hello World"        index.exposed = Truecherrypy.quickstart(HelloWorld())
 ~~~~
 
-</p>
+
 
 Then, as root, run the following command to start the built-in webserver
 *(assuming the code above is in the file /var/www/hello.py)*:
 
-<p>
-> </p>
+
+> 
 > python /var/www/hello.py
 >
-> <p>
+> 
 
-</p>
+
 
 If all goes well, you should see something like this:
 
-<p>
-> </p>
+
+> 
 > [16/Jun/2009:21:08:00] ENGINE Listening for SIGHUP.
 >
 > [16/Jun/2009:21:08:00] ENGINE Listening for SIGTERM.
@@ -82,9 +82,9 @@ If all goes well, you should see something like this:
 >
 > [16/Jun/2009:21:08:00] ENGINE Bus STARTING
 >
-> <p>
+> 
 
-</p>
+
 
 Go to [http://localhost][] in your browser and you should see the text
 "Hello World."
@@ -92,19 +92,19 @@ Go to [http://localhost][] in your browser and you should see the text
 And here's a quick database example that connects to a PostgreSQL
 database called **testdb** with a single table called **todo**.
 
-<p>
+
 ~~~~ {.sql name="code"}
 CREATE TABLE todo (    id integer NOT NULL,    title text,    created timestamp without time zone DEFAULT now(),    done boolean DEFAULT false);INSERT INTO todo (id, title, created, done) VALUES (1, 'Learn CherryPy', '2009-06-15 11:31:38.106307', false);
 ~~~~
 
-</p>
 
-<p>
+
+
 ~~~~ {.python name="code"}
 import cherrypyimport psycopgimport syscherrypy.config.update( {'server.socket_host': '10.0.0.4',                        'server.socket_port':  80,                        })class HelloWorld:        def index(self):            conn = psycopg.connect('dbname=testdb', 'user=myuser', 'password=mypass')            mark = conn.cursor()            mark.execute('SELECT * FROM todo');            rec = mark.fetchall()            body = ''            for row in rec:                body += str(row)            return body        index.exposed = Truecherrypy.quickstart(HelloWorld())
 ~~~~
 
-</p>
+
 
 That's a **very** basic intro to CherryPy. The [complete
 documentation][] has lots of great stuff and I'll be back to write more

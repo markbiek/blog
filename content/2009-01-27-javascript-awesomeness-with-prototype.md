@@ -16,12 +16,12 @@ HTML file. You can do this by downloading the latest version from
 Or you can let Google do the hard work by adding this to your HTML
 header:
 
-<p>
+
 ~~~~ {.html name="code"}
     
 ~~~~
 
-</p>
+
 
 The first thing I'll mention is how fantastic the [Prototype API
 Documentation][] is. Once you've covered the basics, I highly recommend
@@ -32,24 +32,24 @@ onload event. You might normally do it like this **<body
 onload="someFunction();"\>** but I like the method below because it
 keeps all of our javascript separate from the HTML.
 
-<p>
+
 ~~~~ {.js name="code"}
 Event.observe(window, 'load', function() {    alert('Hello World!');});
 ~~~~
 
-</p>
+
 
 The basic format of [Event][].observe is **Event.observe(<element\>,
 '<event\>', <event-handling-function\>)**
 
 We could just as easily have done this
 
-<p>
+
 ~~~~ {.js name="code"}
 function HelloWorld() {    alert('Hello World!');}Event.observe(window, 'load', HelloWorld);
 ~~~~
 
-</p>
+
 
 but I generally use the first version. I think having the handling
 function inline makes it a little easier to read.
@@ -57,23 +57,23 @@ function inline makes it a little easier to read.
 Now let's talk about how easy it is to get objects out of the DOM.
 Here's some HTML
 
-<p>
+
 ~~~~ {.html name="code"}
         
 ~~~~
 
-</p>
+
 
 Let's set up an event handler for the click event on that submit button.
 We just need to add a few lines to our existing window load event
 handler.
 
-<p>
+
 ~~~~ {.js name="code"}
 Event.observe(window, 'load', function() {    Event.observe( $('dostuff'), 'click', function() {        alert('Hello World!');    });});
 ~~~~
 
-</p>
+
 
 As you can see, we've just added an Event.observe call inside the window
 load event handler. The key thing to note is **$('dostuff')**. The **$**
@@ -86,21 +86,21 @@ object, let's talk about dealing with multiple objects.
 
 Here's some more HTML
 
-<p>
+
 ~~~~ {.html name="code"}
                                                 
 ~~~~
 
-</p>
+
 
 Let's update our window load javascript code
 
-<p>
+
 ~~~~ {.js name="code"}
 Event.observe(window, 'load', function() {    Event.observe( $('dostuff'), 'click', function() {        $$('input[type=checkbox]').each( function(elem) {            alert(elem.id);        });    });});
 ~~~~
 
-</p>
+
 
 The example above shows a simple example of the **[$$][]** utility
 method which takes a CSS rule as an argument and returns a list of
@@ -117,7 +117,7 @@ Here are a few more simple examples of $$:
 -   **$$('table\#stuff td')** returns a list of all td elements that are
     inside the table element that has an id of *stuff*
 
-</p>
+
 
 So those are few simple examples of using Prototype to retrieve DOM
 elements. I'll come back and cover some other Prototype fun in a later

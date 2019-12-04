@@ -13,7 +13,7 @@ my eating habits. If I break any of the rules, I have to give him money.
 
 ## The Contract
 
-</p>
+
 
 Time period: The contract runs from 11/5 - 11/30. Depending on how it
 goes, I may ask for a renewal.
@@ -24,7 +24,7 @@ day.
 
 ## The Rules
 
-</p>
+
 
 -   No eating candy of any kind ever.
 -   No eating sweets or dessert (see exceptions below).
@@ -36,11 +36,11 @@ day.
 -   No eating pizza unless Jane made it.
 -   No eating between 8pm and 5am.
 
-</p>
+
 
 ## The Exceptions
 
-</p>
+
 
 -   One cheat day per week. This means I can eat late and have bad food.
     But I'm still not allowed to eat any kind of candy.
@@ -48,5 +48,5 @@ day.
     explicit exception because her birthday is on Wed and I'm planning
     to have my cheat day on Fri.
 
-</p>
+
 

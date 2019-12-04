@@ -35,14 +35,14 @@ things I look for (and that I try to do myself, when asking questions).
 
 #### \#1 That the person asking the question is putting in some effort.
 
-</p>
+
 That means asking a specific question that can actually be answered.
 That means no questions like "How do I write a chatroom in C\#?".
 
 #### \#2 Some small indication that the person asking the question
 **appreciates** that they are getting help.
 
-</p>
+
 In the case of StackOverflow, that means voting up answers you like and
 [accepting][] your favorite answer.
 

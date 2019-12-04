@@ -93,7 +93,7 @@ Here are a few of mine
 -   Let things go. Most stuff isn't worth making an issue of, so just
     let it go.
 
-</p>
+
 
 And, with that, I'll leave you with the 5 tenents of marriage, as
 related to me by one of my two favorite priests on my wedding day.

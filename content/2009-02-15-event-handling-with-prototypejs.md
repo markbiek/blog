@@ -18,21 +18,21 @@ function call in every time you add a form element. It can also cause
 trouble if you have to change the call for the event because you have to
 go and change it everywhere.
 
-<p>
+
 ~~~~ {.html name="code"}
 <head>                function checkboxClick(elem) {                  alert(elem.value);              }  </head><body></body>
 ~~~~
 
-</p>
+
 
 Now here's the Prototype way
 
-<p>
+
 ~~~~ {.html name="code"}
 <head>      $$('input[type="checkbox"]').each( function(elem) {      Event.observe(elem, 'click', function(event) {        alert(this.value);      });    });  </head><body></body>
 ~~~~
 
-</p>
+
 
 The functionality here is exactly the same as the first example but
 we've taken the important step of **removing the Javascript code from
@@ -45,12 +45,12 @@ links popup in new windows while other links open in the same window.
 In this example, we're going to set it up so that every link with a
 class of *offsite* will popup in a new window.
 
-<p>
+
 ~~~~ {.html name="code"}
 <head>            $$('a.offsite').each( function(elem) {            Event.observe(elem, 'click', function(event) {                window.open(this.href, 'offsitewindow');                Event.stop(event);            });        });    </head><body>    Onsite Link    Offsite Link 1    Offsite Link 2    Offsite Link 3</body>
 ~~~~
 
-</p>
+
 
 We use the **$$** to get all **a** tags with a class of *offsite*. Then
 we define a **click** event handler for each link which pops up a new
@@ -58,12 +58,12 @@ window.
 
 There's one new thing here to be aware of:
 
-<p>
+
 ~~~~ {.html name="code"}
   Event.stop(event);
 ~~~~
 
-</p>
+
 
 This stops the default action of the event. In this case, without it,
 clicking on the link would popup in a new window **and** in the current

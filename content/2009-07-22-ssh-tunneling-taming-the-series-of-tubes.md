@@ -27,7 +27,7 @@ Here's the basic idea of how it works:
     connection is *starting from*).
 -   Define a remote port and IP address for the to local port map to.
 
-</p>
+
 
 For example:
 
@@ -53,23 +53,23 @@ So how do you actually set up the tunnel in your SSH client?
 It's very easy if you're using the command-line SSH client. Here's the
 basic command syntax:
 
-<p>
-> </p>
+
+> 
 > ssh -L LOCAL\_PORT:REMOTE\_IP:REMOTE\_PORT
 >
-> <p>
+> 
 
-</p>
+
 
 So, in our example above, the command would look like:
 
-<p>
-> </p>
+
+> 
 > ssh -L 5900:localhost:5900 remote.foo.com
 >
-> <p>
+> 
 
-</p>
+
 
 ![image][]
 
@@ -95,13 +95,13 @@ of 10.0.0.4 and it's running a web server on port 80.
 
 We can set up the following SSH tunnel to get access to the web server.
 
-<p>
-> </p>
+
+> 
 > ssh -L 8080:10.0.0.4:80 remote.foo.com
 >
-> <p>
+> 
 
-</p>
+
 
 Once you're connected to remote.foo.com, start up your browser and surf
 to [http://localhost:8080][] and that traffic will get tunneled through
@@ -113,14 +113,14 @@ However the traffic **from** remote.foo.com to 10.0.0.4 is *not* secure.
 
 And, of course, you can stack up as many tunnels as you want.
 
-<p>
-> </p>
+
+> 
 > ssh -L 5900:localhost:5900 -L 8080:10.0.0.4:80 -L 5901:10.0.0.4:5900
 > remote.foo.com
 >
-> <p>
+> 
 
-</p>
+
 
 The above creates tunnels to VNC on remote.foo.com, port 80 on 10.0.0.4,
 and VNC on 10.0.0.4.

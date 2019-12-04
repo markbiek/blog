@@ -12,7 +12,7 @@ To start, we need a canvas element:
 
     <canvas id="canvas" width="640" height="480">
 
-    <p>Your browser doesn't support canvas.</p>
+    Your browser doesn't support canvas.</p>
 
     </canvas>
 

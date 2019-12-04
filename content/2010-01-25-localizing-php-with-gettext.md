@@ -20,7 +20,7 @@ In theory, the steps are pretty simple.
 3.  Setup which language your site is using at any given time.
 4.  PHP handles the rest!
 
-</p>
+
 
 In practice, it's a little more confusing than that.
 
@@ -35,7 +35,7 @@ There are two parts to the translation files:
     "compiled" version of the PO file. This is the file that actually
     gets read by PHP to figure out which string to display.
 
-</p>
+
 
 It's possible to create the PO and MO files using the [xgettext][] and
 [msgfmt][] command-line tools.
@@ -55,23 +55,23 @@ for the languages you're going to be using.
 I had to manually install the language packs for German, Spanish, and
 Chinese for this example:
 
-<p>
+
 ~~~~ {name="code"}
 sudo apt-get install language-pack-desudo apt-get install language-pack-essudo apt-get install language-pack-zh
 ~~~~
 
-</p>
+
 
 Then let's create the following directory layout. I've been putting the
 **locale** folder in the same path as my PHP project but it technically
 doesn't matter.
 
-<p>
+
 ~~~~ {name="code"}
 locale  |   de_DE     |      LC_MESSAGES  |   es_US     |     LC_MESSAGES  |   zh_CN     |     LC_MESSAGES
 ~~~~
 
-</p>
+
 
 Now fire up POEdit and create a new catalog.
 
@@ -119,12 +119,12 @@ not, we default to English. Then we specify the path to the locale
 directory and set up the translation "domain" ($domain = 'messages';
 tells PHP to look for MO files named **messages.po**).
 
-<p>
+
 ~~~~ {.php name="code"}
 //Make sure we specify a charset of utf-8 or lots of foreign characters (Chinese in particular) won't show up properlyheader('Content-type: text/html; charset=utf-8');$locale = ($_GET['locale']) ? $_GET['locale'] : 'en_US';$localePath = DOCROOT . '/locale';$domain = 'messages';//Set the language to whichever locale we're usingputenv("LC_ALL=$locale.utf8");setlocale(LC_ALL, "$locale.utf8");//Specify the location and charset of the translation tablesbindtextdomain($domain, $localePath) ;bind_textdomain_codeset($domain, 'utf8');//Select the translation domaintextdomain($domain);echo _("Page Title");
 ~~~~
 
-</p>
+
 
 As long as "Page Title" exists in the translation table, the translated
 string should be output instead of "Page Title".
@@ -151,7 +151,7 @@ mentioned previously:
 -   Ubuntu also needed to have the locale names match the names in
     **/etc/locale.aliases**
 
-</p>
+
 
   [Gettext]: http://php.net/manual/en/book.gettext.php
   [xgettext]: http://www.gnu.org/software/hello/manual/gettext/xgettext-Invocation.html

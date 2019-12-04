@@ -17,12 +17,12 @@ simple cases.
 Just put this somewhere where it gets called when the page loads BEFORE
 you do any console.log() calls:
 
-<p>
+
 ~~~~ {.javascript name="code"}
   if(typeof console == "undefined") {        console = new Object();        console.log = function(msg) {            alert(msg);        }    }
 ~~~~
 
-</p>
+
 
 Now console.log() will still go the Firebug console in FF but will pop
 up an alert in IE. You could just easily tweak it to output to a div (or

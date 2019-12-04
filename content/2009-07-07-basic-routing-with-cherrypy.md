@@ -12,12 +12,12 @@ basic details on page handling..
 The first thing we're going to do is define a class for handling the
 root of our site.
 
-<p>
+
 ~~~~ {.python name="code"}
 class Root:    def index(self):        return "This is the root"    index.exposed = Trueif __name__ == "__main__":    root = Root()    cherrypy.tree.mount(root, '/')    cherrypy.engine.start()    cherrypy.engine.block()
 ~~~~
 
-</p>
+
 
 There's a lot going on in the above so let's break it down starting with
 the code that's actually running the site.
@@ -34,12 +34,12 @@ the class.
 
 Now let's add another url route.
 
-<p>
+
 ~~~~ {.python name="code"}
 if __name__ == "__main__":    root = Root()    root.names = NamesPage()    cherrypy.tree.mount(root, '/')    cherrypy.engine.start()    cherrypy.engine.block()
 ~~~~
 
-</p>
+
 
 See the line starting with **root.names =**? That's going to set up a
 handler for the url [http://localhost:8080/names][].
@@ -47,22 +47,22 @@ handler for the url [http://localhost:8080/names][].
 Let's look at the definition of the NamesPage() class. The simplest
 would be something just like the Root() class.
 
-<p>
+
 ~~~~ {.python name="code"}
 class NamesPage:    def index(self):        return "This is the root"    index.exposed = True
 ~~~~
 
-</p>
+
 
 But what if we also wanted to handle the url
 [http://localhost:8080/names/help][]?
 
-<p>
+
 ~~~~ {.python name="code"}
 class NamesPage:    def index(self):        return "This is the names index"    index.exposed = True    def help(self):        return "This is the help page"    help.exposed = True
 ~~~~
 
-</p>
+
 
 You can see how the first part of the request URI maps to the index
 method of the page handler class. The next part of the request URI maps
@@ -76,12 +76,12 @@ As the NamesPage() class stands now, we'll end up with a 404 exception.
 But, by using the **default()** method in the NamesPage() class, we can
 handle it in a very cool way.
 
-<p>
+
 ~~~~ {.python name="code"}
 class NamesPage:    def default(self, name=None):       return "Hello " + name    default.exposed = True    def help(self):        return "This is the help page"    help.exposed = True
 ~~~~
 
-</p>
+
 
 With this definition of NamesPage(), everything that comes after
 "/names/" (except for help/) gets passed as an argument to the default()

@@ -19,12 +19,12 @@ file was updated. Pretty handy, huh?
 The problem is that date/time stamp was in a format I'd never seen
 before:
 
-<p>
+
 ~~~~ {.python name="code"}
 2009-01-26T01:47:26.036Z
 ~~~~
 
-</p>
+
 
 What?
 

@@ -10,7 +10,7 @@ time to actually set it up until recently.
 
 #### Why not Apache?
 
-</p>
+
 I'm still a big fan of Apache. It comes standard with pretty much every
 Linux distro you'd care to run and it's dead simple to get up and
 running with. I have no immediate plans to stop using Apache for
@@ -18,11 +18,11 @@ Subversion & PHP.
 
 #### So, why Lighttpd?
 
-</p>
+
 
 Here's the official party line.
 
-<p>
+
 > Security, speed, compliance, and flexibility -- all of these describe
 > lighttpd (pron. lighty) which is rapidly redefining efficiency of a
 > webserver; as it is designed and optimized for high performance
@@ -32,7 +32,7 @@ Here's the official party line.
 > and many more) lighttpd is the perfect solution for every server that
 > is suffering load problems.
 
-</p>
+
 
 My main reason boils down to Python. I've had nothing but horrible luck
 with Python and Apache (at least on CentOS/RHEL).
@@ -58,79 +58,79 @@ from source (which is what I ended up doing).
 
 **Unpack the archive**
 
-<p>
+
 ~~~~ {.bash name="code"}
 tar xzvf lighttpd-1.4.22.tar.gz
 ~~~~
 
-</p>
+
 
 *Note: Most of the next steps need to be run as root.*
 
 **Compile and Install**
 
-<p>
+
 ~~~~ {.bash name="code"}
 cd lighttpd-1.4.22./configuremakemake install
 ~~~~
 
-</p>
+
 
 **Post-Install**
 
 There's a sample init script in lighttpd-1.4.22/docs/rc.lighttpd.redhat.
 Go ahead and put it in **/etc/init.d** and set it to run on boot.
 
-<p>
+
 ~~~~ {.bash name="code"}
 cp lighttpd-1.4.22/docs/rc.lighttpd.redhat /etc/init.d/lighttpdchkconfig lighttpd on
 ~~~~
 
-</p>
+
 
 For some reason, the install put the lighttpd binary in
 **/usr/local/sbin** while the init script expected the binary to be in
 **/usr/sbin**. I fixed it by symlinking but you could just as easily
 modify the init script.
 
-<p>
+
 ~~~~ {.bash name="code"}
 ln -s /usr/local/sbin/lighttpd /usr/sbin/lighttpd
 ~~~~
 
-</p>
+
 
 **Configure**
 
 The next step is to create a config file and log file.
 
-<p>
+
 ~~~~ {.bash name="code"}
 mkdir /etc/lighttpdtouch /etc/lighttpd/lighttpd.confmkdir /var/log/lighttpdtouch /var/log/lighttpd/error.log
 ~~~~
 
-</p>
+
 
 Put the following into the lighttpd.conf file
 
-<p>
+
 ~~~~ {.conf name="code"}
 server.document-root = "/var/www/html/lighttpd"server.port = 80mimetype.assign = (  ".html" => "text/html",  ".txt" => "text/plain",  ".jpg" => "image/jpeg",  ".png" => "image/png")server.errorlog         = "/var/log/lighttpd/error.log"index-file.names        = ( "index.php", "index.html",                            "index.htm", "default.htm",                            "index.py" )
 ~~~~
 
-</p>
+
 
 **Fire it up**
 
 You may need to change the port if you're already running a webserver on
 port 80 but that should be enough to run with otherwise.
 
-<p>
+
 ~~~~ {.bash name="code"}
 /etc/init.d/lighttpd start
 ~~~~
 
-</p>
+
 
 Stay tuned for the next installation of this series where I attempt to
 get FastCGI working with Lighty and then move on to web.py.

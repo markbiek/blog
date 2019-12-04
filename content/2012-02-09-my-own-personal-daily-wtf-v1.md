@@ -20,10 +20,10 @@ hundred people using an off-the-shelf COM object for email tasks.
 
 The pseudo-code of the script went something like this:
 
-<p>
+
     dim emailListdim emailSender 'The 3rd-party componentemailSender.StartSession()for each person in emailList  emailSender.From = emailList.email  emailSender.Subject = "Whatever"  emailSender.Body = "Foo"  emailSender.SendnextemailSender.EndSession()
 
-</p>
+
 Pretty straightforward, right?
 
 What I didn’t realize was that, during a single session, setting the

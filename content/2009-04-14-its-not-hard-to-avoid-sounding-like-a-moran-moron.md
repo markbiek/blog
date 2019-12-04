@@ -27,23 +27,23 @@ This is really fucking easy so pay attention.
 
 ### Your vs. You're
 
-</p>
+
 
 -   **Your** means *your*. As in, it belongs to YOU.
 -   **You're** means *you are*. As in, it's describing something ABOUT
     you.
 
-</p>
+
 
 ### There vs. They're vs. Their
 
-</p>
+
 
 -   **There** is a place. Like, "the dictionary is over *there*".
 -   **They're** means *they are*.
 -   **Their** means that it belongs to THEM.
 
-</p>
+
 
 For information on the subject of *apostrophication*, I don't think
 anyone's done it better than [Bob the Angry Flower][].
@@ -54,7 +54,7 @@ And last, but certainly not least:
 
 ## Proofread your stuff
 
-</p>
+
 
 Here's the process I try to go through when I'm writing something for
 public consumption.
@@ -74,7 +74,7 @@ public consumption.
     important, let someone else look it over too.
 9.  Publish it!
 
-</p>
+
 
 Even with all that, I still find mistakes that I missed and have to go
 back and fix. Absolute perfection is tough. You're doing OK as long as

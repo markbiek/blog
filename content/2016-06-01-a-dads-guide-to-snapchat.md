@@ -15,7 +15,7 @@ All you know is that they can use it to send and receive nude pictures and it's 
 
 Yes, your teenager _could_ use Snapcat to send and recieve all manner of inappropriate pictures. Even worse, you won't know they're doing it because those messages will disappear before you sneak onto their phone to check it!
 
-<iframe src="//giphy.com/embed/z94iVkZBL7b68" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/episode-wire-ck-z94iVkZBL7b68">via GIPHY</a></p>
+<iframe src="//giphy.com/embed/z94iVkZBL7b68" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><a href="https://giphy.com/gifs/episode-wire-ck-z94iVkZBL7b68">via GIPHY</a></p>
 
 Guess what? That's true about every single other social media platform and piece of technology they use. This is not an issue with Snapchat. Your kids can do stupid things and delete the evidence so you never see it!
 

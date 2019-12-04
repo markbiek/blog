@@ -10,7 +10,7 @@ number of useful [PCRE functions][] in PHP.
 
 ## [preg\_match][]
 
-</p>
+
 int **preg\_match** ( string *$pattern* , string *$subject* [, array
 *&$matches* [, int *$flags* [, int *$offset* ]]] )
 
@@ -24,33 +24,33 @@ You can get back any backreferences by passing an empty array as the
 Here's a simple example that we use to parse a string like 'variable =
 value' into pieces:
 
-<p>
+
 ~~~~ {.php name="code"}
 $regex = '/^\s*(.*?)\s*=\s*(.*?)\s*$/';$subject = 'variable = value';$matches = array();if( preg_match($regex, $subject, $matches) ) {    echo '<pre>' . print_r($matches, true) . '</pre>';}
 ~~~~
 
-</p>
+
 which outputs this:
 
-<p>
+
     Array(    [0] => variable = value    [1] => variable    [2] => value)
 
-</p>
+
 
 Another handy trick is to use extended regular expressions
 (*/pattern/x*) which lets you space the pattern across multiple lines
 and even include comments:
 
-<p>
+
 ~~~~ {.php name="code"}
 $regex = '/^          \s*(.*?)\s*  #Match group 1 contains the value on the left side of the =, excluding any whitespace          =          \s*(.*?)\s*  #Match group 2 contains the value on the right side.          $/x';
 ~~~~
 
-</p>
+
 
 ## [preg\_replace][]
 
-</p>
+
 mixed **preg\_replace** ( mixed *$pattern* , mixed *$replacement* ,
 mixed *$subject* [, int *$limit= -1* [, int *&$count* ]] )
 
@@ -64,12 +64,12 @@ can use preg\_replace to reverse the values on either side of the =. If
 we start with 'variable = value', we want to end up with 'value =
 variable'.
 
-<p>
+
 ~~~~ {.php name="code"}
 $regex = '/^\s*(.*?)\s*=\s*(.*?)\s*$/';$subject = 'variable = value';echo preg_replace($regex, '$2 = $1', $subject);
 ~~~~
 
-</p>
+
 
 Our regular expression creates two [backreferences][], one for each
 value on either side of the = side. We can refer to these by number ($1
@@ -78,7 +78,7 @@ them.
 
 ## [preg\_split][]
 
-</p>
+
 array **preg\_split** ( string *$pattern* , string *$subject* [, int
 *$limit= -1* [, int *$flags= 0* ]] )
 
@@ -88,18 +88,18 @@ actually need regular expressions to split your string.
 Here's an example that splits a sentence into words using whitespace,
 commas, or periods as the delimiter:
 
-<p>
+
 ~~~~ {.php name="code"}
 $subject = 'The quick, brown, fox.  jumped over, the lazy dog.';$data = preg_split( '/[\s,.]+/', $subject);echo '<pre>'' . print_r($data, true) . '</pre>';
 ~~~~
 
-</p>
+
 which outputs this
 
-<p>
+
     Array(    [0] => The    [1] => quick    [2] => brown    [3] => fox    [4] => jumped    [5] => over    [6] => the    [7] => lazy    [8] => dog    [9] => )
 
-</p>
+
 
 If you're looking for tutorials and documentation on lots of different
 flavors of regular expressions, I highly recommend

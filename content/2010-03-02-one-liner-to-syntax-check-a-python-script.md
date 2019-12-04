@@ -10,21 +10,21 @@ check of a file and there wasn't an equivalent in Python.
 
 And then I came across this gem of a one-liner:
 
-<p>
+
 ~~~~ {.python name="code"}
 python -c "compile(open('myapp.py').read(), 'myapp.py', 'exec')"
 ~~~~
 
-</p>
+
 
 Just change *myapp.py* to the name of your script and off you go.
 
 Here's a little Bash script that make it easier to use:
 
-<p>
+
 ~~~~ {.bash name="code"}
 #!/bin/bashif [ -f $1 ]then    python -c "compile(open('$1').read(), '$1', 'exec')"else    echo "The file $1 was not found."    exit 1fiexit 0
 ~~~~
 
-</p>
+
 

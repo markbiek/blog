@@ -14,21 +14,21 @@ A simple example of the finished product looks like this.
 
 #### Advantages
 
-</p>
+
 
 -   Works across all modern browsers (including IE6).
 -   Link text is nicely centered.
 -   The link fills up the entire button so you have a big clickable area
     and you can use **a:hover** for stying.
-    </p>
-    <p>
+    
+    
 -   Uses very simple HTML and CSS and it's easy to style.
 
-</p>
+
 
 #### Disadvantages
 
-</p>
+
 
 -   It uses tables, which is handy because a lot of your
     sizing/stretching is handled automatically. However it makes it
@@ -36,16 +36,16 @@ A simple example of the finished product looks like this.
     better using a nested **<ul\>**.
 -   The markup doesn't lend itself well to rounded corners.
 
-</p>
+
 
 Here's the HTML. Nothing shocking there.
 
-<p>
+
 ~~~~ {.xhtml name="code"}
            <table cellpadding="0" cellspacing="0" border="0" class="tabs">                <tr>                    <td class="tab Selected"><a href="#">Home</a></td>                    <td class="tab"><a href="#">Store</a></td>                    <td class="tab"><a href="#">About</a></td>                    <td class="tab"><a href="#">Contact</a></td>                    <td class="tab"><a href="#">FAQ</a></td>                </tr>            </table>
 ~~~~
 
-</p>
+
 
 Now for the CSS
 
@@ -54,21 +54,21 @@ The first thing to do is give the **<table\>** a width and each
 **margin-left** & **margin-right** and defining a class for when a tab
 is selected.
 
-<p>
+
 ~~~~ {.css name="code"}
             .tabs {                width:  500px;                margin-left:  auto;                margin-right:  auto;            }            .tabs .tab {                height:  30px;                background:  #FFB300;                text-align:  center;            }             .tabs .tab.Selected {                background:  #FFD573;            }
 ~~~~
 
-</p>
+
 
 Now for the fun part.
 
-<p>
+
 ~~~~ {.css name="code"}
             .tabs .tab a {                display:  block;                font: normal normal bold 15px/30px Arial, sans-serif;                 color:  #000000;                text-decoration:  none;                text-transform:  uppercase;            }             .tabs .tab a:hover {                background:  #FFD573;            }
 ~~~~
 
-</p>
+
 
 There are a couple of interesting things happening here.
 

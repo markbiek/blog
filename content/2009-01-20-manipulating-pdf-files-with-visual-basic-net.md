@@ -29,16 +29,16 @@ Here's the basic flow of the program:
 5.  Delete the blank page from the blank file.
 6.  Save the blank file under a new name.
 
-</p>
+
 
 The main object is the **AcroPDDoc** object.
 
-<p>
+
 ~~~~ {.vb.net name="code"}
         Dim origDoc As New Acrobat.AcroPDDoc        Dim blankDoc As New Acrobat.AcroPDDoc        Dim i As Integer, numPages As Integer        Dim outFile As String, inFile as String        inFile = "infile.pdf"        If origDoc.Open(inFile) Then            numPages = origDoc.GetNumPages()            For i = 0 To numPages - 1                outFile = "output.pdf"                blankDoc.Open(Application.StartupPath() & "\blank.pdf")                blankDoc.InsertPages(-1, origDoc, i, 1, False)                blankDoc.DeletePages(blankDoc.GetNumPages() - 1, blankDoc.GetNumPages() - 1)                blankDoc.Save(Acrobat.PDSaveFlags.PDSaveFull, outFile)                blankDoc.Close()            Next            origDoc.Close()        Else            MsgBox("Could not open " & inFile, MsgBoxStyle.Critical)        End If
 ~~~~
 
-</p>
+
 
 The type library is pretty easy to understand. Here's a very brief
 summary of the methods I ended up using. There's a lot of functionality
@@ -53,5 +53,5 @@ PDF files.
     from a document.
 -   **Save( SaveOptions, OutputFile)**. Saves a file.
 
-</p>
+
 

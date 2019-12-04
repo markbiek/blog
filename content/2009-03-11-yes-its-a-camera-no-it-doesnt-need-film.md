@@ -21,7 +21,7 @@ The specs on this bad boy are truly breathtaking
 -   Not 254, not 255, but 256 grays, allowing for rich black & white
     images worthy of Ansel Adams.
 
-</p>
+
 
 Combine the power of the above with the **Aldus Digital Darkoom** suite
 and you have the potential to create some stunning digital art.

@@ -17,7 +17,7 @@ My feelings are n-fold:
 3.  It was an interesting intellectual exercise and I got to learn
     something new.
 
-</p>
+
 
 Sounds like a pretty good deal, right?
 

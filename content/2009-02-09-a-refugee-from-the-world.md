@@ -71,18 +71,18 @@ I went through a number of handles in those days
 -   Jane
 -   A Butterfly's Dream (ABD)
 -   Antelope Love Fan
-    </p>
-    <p>
+    
+    
 
-</p>
+
 
 I've been using the last one ever since.
 
 And now I'll leave you with a piece of writing that probably had more
 affect on me than anything else growing up.
 
-<p>
-> </p>
+
+> 
 > File: archives/7/p7\_0x03\_Hacker's Manifesto\_by\_The Mentor.txt
 >
 > ==Phrack Inc.==
@@ -218,10 +218,10 @@ affect on me than anything else growing up.
 >
 > +++The Mentor+++
 >
-> <p>
+> 
 > \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-</p>
+
 
   [Sony Word Processor]: http://farm4.static.flickr.com/3379/3258505002_b9bef2ddcd_o.gif
   [BBS]: http://en.wikipedia.org/wiki/Bulletin_board_system

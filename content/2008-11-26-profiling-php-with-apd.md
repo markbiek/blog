@@ -9,7 +9,7 @@ A while back, I asked the following question on [StackOverflow][]:
 
 ### [What's the simplest way to profile a PHP script][]
 
-</p>
+
 There were several promising possibilities but the one I found easiest
 to get rolling with was the [PCL APD extension][].
 
@@ -18,10 +18,10 @@ Installing it was as simple as **pecl install apd**.
 Once it's installed, make sure you set the **apd.dumpdir** property in
 your **/etc/php.d/apd.ini** file
 
-<p>
+
     zend_extension=/usr/lib/php/modules/apd.soapd.dumpdir = /tmp/traceapd.statement_tracing = 0
 
-</p>
+
 Then you just add a call to **apd\_set\_pprof\_trace();** at the top of
 your code.
 
@@ -33,10 +33,10 @@ option which sorts by real time spent in subroutines.
 
 The output looks something like this:
 
-<p>
+
     Total Elapsed Time = 0.08Total System Time  = 0.01Total User Time    = 0.05         Real         User        System             secs/    cumm%Time (excl/cumm)  (excl/cumm)  (excl/cumm) Calls    call    s/call  Memory Usage Name--------------------------------------------------------------------------------------99.9 0.00 0.08  0.00 0.05  0.00 0.01     1  0.0002   0.0824            0 main49.3 0.00 0.04  0.00 0.03  0.00 0.01     7  0.0003   0.0058            0 require_once27.6 0.00 0.02  0.00 0.01  0.00 0.00     1  0.0001   0.0227            0 Handler->postLists27.0 0.00 0.02  0.00 0.01  0.00 0.00     2  0.0002   0.0111            0 getPostTitles17.1 0.00 0.01  0.00 0.01  0.00 0.00     1  0.0001   0.0141            0 Handler->defaultRequest16.0 0.01 0.01  0.01 0.01  0.00 0.00     1  0.0132   0.0132            0 apd_set_pprof_trace14.9 0.01 0.01  0.00 0.00  0.00 0.00     5  0.0025   0.0025            0 PDO->__construct14.5 0.00 0.01  0.00 0.01  0.00 0.00     2  0.0004   0.0060            0 Smarty->fetch12.9 0.00 0.01  0.00 0.00  0.00 0.00     1  0.0001   0.0106            0 getPostContent12.2 0.01 0.01  0.00 0.00  0.00 0.00     4  0.0025   0.0025            0 PDO->query11.3 0.01 0.01  0.01 0.01  0.00 0.00     2  0.0046   0.0046            0 defined9.9 0.00 0.01  0.00 0.01  0.00 0.00     1  0.0001   0.0081            0 Handler->showPage9.5 0.00 0.01  0.00 0.01  0.00 0.00     1  0.0001   0.0078            0 Smarty->display8.3 0.00 0.01  0.00 0.00  0.00 0.00     2  0.0002   0.0034            0 getRecentPostName7.8 0.00 0.01  0.00 0.01  0.00 0.00     2  0.0000   0.0032            0 Smarty->_fetch_compile6.8 0.01 0.01  0.00 0.00  0.00 0.00    27  0.0002   0.0002            0 define5.5 0.00 0.00  0.00 0.00  0.00 0.00     7  0.0007   0.0007            0 strtotime4.9 0.00 0.00  0.00 0.00  0.00 0.00    13  0.0003   0.0003            0 is_array4.8 0.00 0.00  0.00 0.00  0.00 0.00     1  0.0001   0.0040            0 getPostContentArray4.6 0.00 0.00  0.00 0.00  0.00 0.00     2  0.0008   0.0019            0 include
 
-</p>
+
 You get a nice list of all functions that get called, how many times
 each function is called, and how long each call took.
 

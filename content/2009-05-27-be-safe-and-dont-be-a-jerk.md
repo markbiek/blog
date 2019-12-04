@@ -7,7 +7,7 @@ Slug: be-safe-and-dont-be-a-jerk
 
 #### Mark's (incomplete) Guide to Riding in Traffic
 
-</p>
+
 
 There is a conversation that I have over and over again in various
 forms. It goes something like this:
@@ -39,17 +39,17 @@ terrified of the possibility of riding a bicycle in traffic.
 
 Guess how many fatal bicycle crashes there were in 2007?
 
-<p>
+
 > ### \~700^\\ [1][]^
 
-</p>
+
 
 Let's compare that to the
 
-<p>
+
 > ### *\~37,000*
 
-</p>
+
 fatal motor vehicle crashes there were in 2007.
 
 The other thing to keep in mind is that 700 number includes all of the
@@ -60,7 +60,7 @@ learn to ride in traffic without constant fear of death or injury.
 
 ### Gear
 
-</p>
+
 
 -   **Helmet**. This is the \#1
 -   (in case you missed it) **HELMET**. In many cases, a bicycle
@@ -73,10 +73,10 @@ learn to ride in traffic without constant fear of death or injury.
 -   **Rear-view mirror**. While not required, one of these can be
     helpful when changing lanes and keeping an eye on traffic behind
     you. There are [glasses mounted][] and [helmet mounted][] varieties.
-    </p>
-    <p>
+    
+    
 
-</p>
+
 
 This next area focuses on **how** you ride. Obviously how you ride is
 important for safety reasons. But it's also important because, when
@@ -87,7 +87,7 @@ cyclist in the future.
 
 ### Follow the Rules of the Road
 
-</p>
+
 
 -   DON'T ride on the sidealk.
 -   DON'T ride on the wrong side of the road.
@@ -97,7 +97,7 @@ cyclist in the future.
 -   DO obey lane designations. That means turn left from the left lane,
     respect right-turn and left-turn only lanes, etc.
 
-</p>
+
 
 ![Left-turn signal][]![Right-turn signal][]
 
@@ -111,7 +111,7 @@ road.
 
 ### Ride in the lane, not on the shoulder
 
-</p>
+
 ![Ride in the lane to the left of the shoulder][]
 
 I usually ride 6" - 12" **into the lane** rather than riding on the
@@ -123,7 +123,7 @@ reasonable about of room when passing.
 
 ### Watch your line
 
-</p>
+
 I see this behavior a lot, especially in residential neighborhoods. A
 cyclist is riding up a street with lots of parked cars. Everytime the
 cyclist gets to a large gap between the cars, they move over closer to
@@ -149,7 +149,7 @@ an extra lane-change.
 
 ### Don't be a jerk
 
-</p>
+
 Here's the scenario. You're riding down the road and someone passes you,
 way too close, honking and yelling. What's your first instinct? Shout
 something back? Flip them off? I know that's my overwhelming urge but
@@ -171,7 +171,7 @@ Do be safe. And don't be a jerk.
 
 * * * * *
 
-</p>
+
 <small>
 
 <a name="footnote1">^1^ [F.A.R.S Encyclopedia][]</a>

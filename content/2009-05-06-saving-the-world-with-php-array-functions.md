@@ -14,44 +14,44 @@ the road.
 
 ### [array\_map][]
 
-</p>
+
 This applies a callback function to every element of an array and
 returns the resulting array.
 
-<p>
+
 > array **array\_map** ( callback $callback , array $arr1 [, array $...
 > ] )
 
-</p>
+
 
 For example: Applying the [trim][] function to every element of an
 array.
 
-<p>
+
 ~~~~ {.php name="code"}
 $a = array(' a ', '   b', '   c   ');$a = array_map('trim', $a);print_r($a);
 ~~~~
 
-</p>
+
 
 ### [array\_flip][]
 
-</p>
+
 This exchanges all keys with their associated values.
 
-<p>
+
 > array **array\_flip** ( array $trans )
 
-</p>
 
-<p>
+
+
 ~~~~ {.php name="code"}
 $a = array( 'foo' => 1, 'bar' => 2, 'baz' => 3);$b = array_flip($a);print_r($b);
 ~~~~
 
-</p>
-<p>
-> </p>
+
+
+> 
 >
 > Array
 >
@@ -65,13 +65,13 @@ $a = array( 'foo' => 1, 'bar' => 2, 'baz' => 3);$b = array_flip($a);print_r($b);
 >
 > )
 >
-> <p>
+> 
 
-</p>
+
 
 ### [usort][]
 
-</p>
+
 This sorts an array by value but uses a custom function for the
 comparison which is handy if you have an array of objects and you want
 to sort by some property within those objects. According to the PHP
@@ -79,54 +79,54 @@ docs, "The comparison function must return an integer less than, equal
 to, or greater than zero if the first argument is considered to be
 respectively less than, equal to, or greater than the second."
 
-<p>
+
 > bool **usort** ( array &$array , callback $cmp\_function )
 
-</p>
+
 (To do the same thing by keys instead of values, use [uksort][])
 
-<p>
+
 ~~~~ {.php name="code"}
 function cmp_func($a, $b) {    if( $a->val < $b->val ) {        return -1;    }elseif( $a->val == $b->val ) {        return 0;    }elseif( $a->val > $b->val ) {        return 1;    }}class Foo {    public $val;    public function __construct($val) {        $this->val = $val;    }}$a = array();$a[] = new Foo(3);$a[] = new Foo(2);$a[] = new Foo(1);echo '' . print_r($a, true) . '
 ~~~~
 
 ';
-</p>
+
 
 usort($a, 'cmp\_func');
 
-<p>
+
 echo '
     ' . print_r($a, true) . '
 
 ';
-</p>
-<p>
+
+
 </pre>
-</p>
+
 
 ### [array\_slice][]
 
-</p>
+
 Extracts a section of an array.
 
-<p>
+
 > array **array\_slice** ( array $array , int $offset [, int $length [,
 > bool $preserve\_keys= false ]] )
 
-</p>
-<p>
+
+
 ~~~~ {.php name="code"}
 $a = array( 'a', 'b', 'c', 'd');$b = array_slice($a, 2);echo '' . print_r($b,true) . '
 ~~~~
 
 ';
-</p>
-<p>
+
+
 </pre>
-</p>
-<p>
-> </p>
+
+
+> 
 >
 > Array
 >
@@ -138,48 +138,48 @@ $a = array( 'a', 'b', 'c', 'd');$b = array_slice($a, 2);echo '' . print_r($b,tru
 >
 > )
 >
-> <p>
+> 
 
-</p>
+
 
 ### [array\_sum][]
 
-</p>
+
 This returns the sum of the values in an array.
 
-<p>
+
 > number **array\_sum** ( array $array )
 
-</p>
-<p>
+
+
 ~~~~ {.php name="code"}
 $a = array(1,2,3,4);echo array_sum($a);
 ~~~~
 
-</p>
+
 
 ### [list][]
 
-</p>
+
 Assign values from an array to individual variables.
 
-<p>
+
 > void **list** ( mixed $varname [, mixed $... ] )
 
-</p>
-<p>
+
+
 ~~~~ {.php name="code"}
 $a = array( 'a', 'b', 'c');list($val1, $val2, $val3) = $a;echo "$val1, $val2, $val3";
 ~~~~
 
-</p>
-<p>
-> </p>
+
+
+> 
 > a, b, c
 >
-> <p>
+> 
 
-</p>
+
 
   [array functions]: http://us2.php.net/manual/en/book.array.php
   [array\_map]: http://is.php.net/manual/en/function.array-map.php

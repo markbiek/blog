@@ -18,7 +18,7 @@ The main question you have to ask yourself is
 ### If my computer completely failed right this second, what would I
 lose?
 
-</p>
+
 
 You have some shopping to do if the answer to that question scares you.
 
@@ -33,7 +33,7 @@ worry about
 ### What happens if my house burns down and I lose my computer *and* my
 backup disk?
 
-</p>
+
 
 Some people might be comfortable ignoring that level of paranoia. If you
 took the first step and are comfortable stopping there, **go ahead and
@@ -49,7 +49,7 @@ Here's my setup:
     serves as a backup to a number of files from the Linux fileserver
     (like the My Documents folders)
 
-</p>
+
 
 All of the backups happen automatically via cronjobs twice a day. I have
 a few very simple Bash scripts that use rsync to do incremental backups.

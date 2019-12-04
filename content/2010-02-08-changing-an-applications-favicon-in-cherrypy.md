@@ -15,18 +15,18 @@ There are two different ways of supplying config information:
     file handle).
 2.  Config information from a Python dictionary in your code.
 
-</p>
+
 
 I'm going to concentrate on the second method for now.
 
 Here's my config dictionary.
 
-<p>
+
 ~~~~ {.python name="code"}
 config = {    '/': {        'log.error_file': os.path.join(os.path.dirname(__file__), 'site.log'),        'environment': 'production',    },    '/favicon.ico': {        'tools.staticfile.on': True,        'tools.staticfile.filename': '/path/to/favicon.ico',    }}
 ~~~~
 
-</p>
+
 
 Notice that the dictionary contains two sub-dictionaries, one for
 **'/'** and one for **'/favicon.ico'**.
@@ -47,12 +47,12 @@ engine when called from apache.
 To use this new config setup, we're going to change that start() method
 slightly to this:
 
-<p>
+
 ~~~~ {.python name="code"}
 def start():    cherrypy.tree.mount(root, '/', config=config)    cherrypy.engine.start()
 ~~~~
 
-</p>
+
 
 Previously, we passed the '/' config parameters to
 **cherrypy.config.update()**.
@@ -66,12 +66,12 @@ Another addition to this approach is to configure an area for serving
 static content (CSS, javascript, images, etc). That can easily be done
 by adding the following item to the config dictionary:
 
-<p>
+
 ~~~~ {.python name="code"}
 '/static': {        'tools.staticdir.on': True,        'tools.staticdir.dir': os.path.join(os.path.dirname(__file__), 'static')    },
 ~~~~
 
-</p>
+
 
 This adds the path **/static** (looking for the directory *static* in
 the same directory as the app) and sets it as a static dir. Now anything
@@ -81,11 +81,11 @@ directory.
 For example, this will now link to the static file global.css rather
 than looking for a CherryPy route.
 
-<p>
+
 ~~~~ {.html name="code"}
 <link rel="stylesheet" type="text/css" href="/static/css/global.css" media="screen"><link>
 ~~~~
 
-</p>
+
 
   [configuring CherryPy to run with Apache]: http://mark.biek.org/blog/2010/01/running-a-cherrypy-app-with-apache-and-mod_python/

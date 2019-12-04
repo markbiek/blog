@@ -39,7 +39,7 @@ It's supposed to go like this:
     Facebook account.
 5.  If you have, then you get automatically logged into Facebook.
 
-</p>
+
 
 To be fair, it does work ***some of the time***. In my case, it seems to
 be about every third time. The rest of time, I just end up at the

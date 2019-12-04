@@ -81,7 +81,7 @@ The app itself was pretty simple:
     was called **URiNES()**. You’re never too old for potty jokes,
     right?
 
-</p>
+
 My first Macintosh application! I was very product of my 3l33t h4x0r
 skillz and, of course, wanted to show off.
 

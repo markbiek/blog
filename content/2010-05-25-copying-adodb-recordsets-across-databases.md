@@ -26,15 +26,15 @@ new destination has the same structure).
 
 #### Dumping a Recordset to XML
 
-</p>
+
 This is dead simple
 
-<p>
+
 ~~~~ {.vb name="code"}
     dim objXML: Set objXML = Server.CreateObject("MSXML2.DOMDocument")    dim res, sql    sql = "SELECT * FROM mytable"    set res = ExecuteReader(sql) 'This function opens a connection and returns an ADODB.Recordset    With res                           Call .Save(objXML, 1)       Call .Close()    End With                                                                                Set res = nothing    response.contenttype = "text/xml"    response.write objXMl.xml
 ~~~~
 
-</p>
+
 
 First we create a **MSXML2.DOMDocument** object. Then We do a normal
 database query to get a Recordset. Last, we pass the XML object to the
@@ -62,17 +62,17 @@ We'll do that with the following steps:
 4.  Add each row of data to the destination Recordset. Note that we need
     to do an [IDENTITY INSERT][] to make sure the ids stay consistent.
 
-</p>
+
 
 This is, obviously, going to be slow for large datasets. In that case, I
 think the best way to sync things up is to get a database dump/backup
 from production and restore it on dev.
 
-<p>
+
 ~~~~ {.vb name="code"}
 outConn.open testConnStr'This is an empty recordset that points to the destination database and tableoutRes.activeconnection = outConnoutRes.cursortype = adOpenDynamicoutRes.locktype = adLockOptimisticoutRes.source = "mytable"outRes.open'This is the source XML fileres.open server.mappath("output.xml")if res.fields.count <> outRes.fields.count then    response.write "Skipping updates because the number of fields didn't match."else    for i=0 to outRes.fields.count-1        if outRes.fields(i).name <> res.fields(i).name then            response.write "Field mismatch:  Expecting [" & outRes.fields(i).name & "] but found [" & res.fields(i).name & "]"        end if    next    while not res.eof        outConn.execute "SET IDENTITY_INSERT dbo.mytable ON"        outRes.addnew        for i=0 to outRes.fields.count-1            sfield = outRes.fields(i).name            sval = res(sfield)            outRes(sfield).value = sval        next        If outConn.Errors.Count > 0 Then            For Each Err In outConn.Errors                Response.Write("Error " & Err.SQLState & ": " & _                    Err.Description & " | " & Err.NativeError & "")            Next            outConn.Errors.Clear            outRes.CancelUpdate        End If        outRes.movefirst        res.movenext        numRows = numRows + 1        outRes.update        outConn.execute "SET IDENTITY_INSERT dbo.mytable OFF"    wendend ifres.close
 ~~~~
 
-</p>
+
 
   [IDENTITY INSERT]: http://msdn.microsoft.com/en-us/library/aa259221(v=SQL.80).aspx

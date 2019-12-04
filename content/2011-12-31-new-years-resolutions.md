@@ -18,11 +18,11 @@ me stay honest:
 -   Do something cool with my Freeduino
 -   Get a app published to the Android Market.
 
-</p>
+
 
 <div>
 So here's to being the people we always wanted to be next year and
 here's to not beating ourselves up too much if we can't pull it off.
 </div>
-</p>
+
 

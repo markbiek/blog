@@ -49,7 +49,7 @@ Let's break that down:
     (**f\>**).
 2.  We move one character to the right (**l**)
 
-</p>
+
 
 Then we can quickly delete "This is a big bunch of text." by combining
 **d** with **t** to delete everything up to BEFORE the next occurrence

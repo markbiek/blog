@@ -16,15 +16,15 @@ files for values **not** found in the name/value pair file.
 So the name/value file might look something like this
 
 <table border="0" cellspacing="0" cellpadding="0" style="padding-left:  40px">
-</p>
-<p>
+
+
 <tr>
 <td colspan="3">
 \#Variable
 </td>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 Foo
@@ -36,8 +36,8 @@ Foo
 9000
 </td>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 Bar
@@ -49,8 +49,8 @@ Bar
 12345
 </td>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 Baz
@@ -62,60 +62,60 @@ Baz
 8888
 </td>
 </tr>
-</p>
-<p>
+
+
 </table>
-</p>
+
 
 And one of the tab-delimited files might look like this
 
 <table border="0" cellspacing="0" cellpadding="0" style="padding-left:  40px">
-</p>
-<p>
+
+
 <tr>
 <th>
 Variable
 </th>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 9000
 </td>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 9000
 </td>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 8888
 </td>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 12345
 </td>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 55555
 </td>
 </tr>
-</p>
-<p>
+
+
 </table>
-</p>
+
 
 So, in this very contrived case, the validation script would want to
 print out that we found a value of 55555 for *Variable* that didn't
@@ -146,7 +146,7 @@ had to do and the machine I had to run it on. Here's what it was doing
 -   Split each line into an array of values
 -   Check each value against the dictionary from the first step
 
-</p>
+
 
 I eeked out a small speed gain by removing some unneeded regular
 expressions and trying to read as much of the tab file as possible all

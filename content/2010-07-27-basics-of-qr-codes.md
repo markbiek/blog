@@ -19,12 +19,12 @@ of the easiest was to generate one is through the [Google Charts API][].
 The QR code at the top of this post is generated using just that, via
 the following URL:
 
-<p>
+
 ~~~~ {.html name="code"}
 http://chart.apis.google.com/chart?chs=100x100&cht=qr&chl=http://mark.biek.org/blog&chld=L|1&choe=UTF-8
 ~~~~
 
-</p>
+
 
 You can see that the information being encoded is simply a link to this
 blog (http://mark.biek.org/blog).
@@ -50,7 +50,7 @@ For example, here’s the breakdown for Version 4:
 -   EC level **H** *(allows 30% data loss)* holds **82 digits** or **50
     Alphanumeric** characters.
 
-</p>
+
 
 It's worth mentioning that the Google Charts API will pick the version
 for you, based on the amount of data you're encoding so all you have to

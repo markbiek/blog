@@ -17,7 +17,7 @@ What does it take?
 -   Organization. You need to know what changes need to be made and
     who's going to make them.
 
-</p>
+
 
 ![image][]
 
@@ -36,7 +36,7 @@ Here's how we handled it.
     code we were working in to avoid overlap. I found IM to be just as
     fast as communicating verbally and less disruptive.
 
-</p>
+
 
   [go dark]: http://www.codinghorror.com/blog/archives/001134.html
   [image]: http://farm4.static.flickr.com/3072/2492848634_555a90b120.jpg

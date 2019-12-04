@@ -15,12 +15,12 @@ the same to the caller.
 
 Here's a simple example from the documentation
 
-<p>
+
 ~~~~ {.javascript name="code"}
 (function() {    // log all calls to setArray    var proxied = jQuery.fn.setArray;    jQuery.fn.setArray = function() {      console.log(this, arguments);      return proxied.apply(this, arguments);    };})();
 ~~~~
 
-</p>
+
 
 In this example, the jQuery **setArray** function is proxied. By
 wrapping setArray, the arguments passed to setArray are logged, and then
@@ -28,12 +28,12 @@ setArray is called normally.
 
 Here's a quick (albeit not terribly useful) example that I came up with:
 
-<p>
+
 ~~~~ {.javascript name="code"}
 (function() {    var proxied = window.alert;     window.alert = function() {         if(typeof console == 'undefined') {             if(typeof proxied.apply == 'function') {                 return proxied.apply(this, arguments);             }else {                 return proxied(arguments[0]);             }         }else {             console.log(arguments[0]);         }     };}) ();
 ~~~~
 
-</p>
+
 
 In the above case, we're wrapping the **alert**. We check to see if any
 sort of console object is available. If a console is defined, we output

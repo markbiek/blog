@@ -7,7 +7,7 @@ Slug: raid-basics
 
 ## What is RAID?
 
-</p>
+
 
 RAID stands for Redundant Array of Inexpensive Disks. Meaning that you
 can combine disks in different ways to create a large pool of space
@@ -33,23 +33,23 @@ different sizes but you're limited by the size of the smallest disk.
 
 #### Good
 
-</p>
+
 
 -   Fast read/write speeds
 
-</p>
+
 
 #### Bad
 
-</p>
+
 
 -   Lose one disk and you lose **everything**
 
-</p>
+
 
 * * * * *
 
-</p>
+
 ![image][1]
 
 RAID 1 mirrors the contents of one disk onto another disk. Two 100gb
@@ -57,7 +57,7 @@ disks would give you 100gb of usable space.
 
 #### Good
 
-</p>
+
 
 -   Easy to set up. Most controller cards support it and it's pretty
     fast as software RAID.
@@ -65,20 +65,20 @@ disks would give you 100gb of usable space.
     multiple drive failures (depending on the total number of disks and
     the controller).
 
-</p>
+
 
 #### Bad
 
-</p>
+
 
 -   While read speeds are normal, writes are twice as slow
 -   Not a very efficient use of available disk space.
 
-</p>
+
 
 * * * * *
 
-</p>
+
 ![image][2]
 
 RAID 5 spreads parity data across all disks giving you more available
@@ -87,55 +87,55 @@ and cost-effective option.
 
 #### Good
 
-</p>
+
 
 -   Makes good use of disk space. That means four 100gb drives would
     providing 300gb of usable space under RAID 5 while only providing
     200gb of usable space under RAID 1.
 -   Very fast reads, medium-speed writes
 
-</p>
+
 
 #### Bad
 
-</p>
+
 
 -   Requires a minimum of 3 drives.
 -   Rebuilding a failed array is much slower than RAID 1
 -   Controller cards are more expensive
 
-</p>
+
 
 * * * * *
 
-</p>
+
 
 ## RAID 10 - Mirroring & Striping
 
-</p>
+
 RAID 10 is a great option if cost and hardware are not an issue and is
 achieved by taking two RAID 1 arrays and combining them into a RAID 0
 array. Four 100gb drives would yield 200gb of usable space.
 
 #### Good
 
-</p>
+
 
 -   Fault tolerance of RAID 1
 -   Read/Write performance of RAID 0
 
-</p>
+
 
 #### Bad
 
-</p>
+
 
 -   Expensive to implement. Controller cards are generally pretty
     expensive and also requires a minimum of four disks.
 -   Doesn't scale very well due to the sheer amount of hardware
     required.
 
-</p>
+
 
 <small>Thanks to Wikipedia for the images. Don't worry, I'm not leeching
 them.</small>

@@ -7,22 +7,22 @@ Slug: html-emails-for-fun-and-profit
 
 Someone asked this question on [StackOverflow][] the other day:
 
-<p>
-> </p>
+
+> 
 >
 > <div class="post-text">
-> </p>
+> 
 >
 > A designer coded an html template using CSS best practices. I want to
 > use this template as an email newsletter template, but I've heard
 > people say hotmail, yahoo and gmail offer limited support for CSS.
 >
-> <p>
+> 
 > Am I supposed to re-code these templates using table layouts and font
 > tags?
 > </div>
 
-</p>
+
 
 It just so happens that I've been getting to do some HTML emails at work
 and, unfortunately, the short answer to his question is **Yes**. You
@@ -44,7 +44,7 @@ email clients by using the most basic and dumbed down HTML possible.
 -   -   This helps the email retain its proper layout when images are
         blocked.
 
-</p>
+
 I try to test on a minimum of the following:
 
 -   Outlook 2003
@@ -55,7 +55,7 @@ I try to test on a minimum of the following:
 -   Hotmail
 -   Yahoo Mail
 
-</p>
+
 
 You're usually in pretty good shape if you get something that shows up
 properly on all of those.

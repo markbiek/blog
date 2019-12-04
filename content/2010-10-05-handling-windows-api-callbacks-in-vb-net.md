@@ -33,69 +33,69 @@ using a function Delegate.
 
 ### Define the delegate
 
-</p>
+
 The callback function we’re implementing is [capStatusCallback()][] so
 our delegate will look like this:
 
-<p>
+
 ~~~~ {.vb name="code"}
 Public Delegate Sub capStatusCallback(ByVal hwnd As Integer, ByVal nID As Integer, ByVal lpsz As String)
 ~~~~
 
-</p>
+
 
 ### Define the function to pass the appropriate message
 
-</p>
+
 Most Windows API windowing functions involve sending various messages to
 window handles. This is true even for the video capture functions.
 
 You’ve probably seen code like this for defining the [SendMessage][]
 function
 
-<p>
+
 ~~~~ {.vb name="code"}
 Public Declare Function SendMessage Lib "user32" Alias "SendMessageA" _       (ByVal hwnd As Integer, ByVal Msg As Integer, _        ByVal wParam As Integer, _        ByVal lParam As Object) As Integer
 ~~~~
 
-</p>
+
 
 In this case, our function will look exactly like the above except the
 last parameter will be the capStatusCallback delegate type instead of an
 Object.
 
-<p>
+
 ~~~~ {.vb name="code"}
 Public Declare Function SendStatusCallbackMessage Lib "user32" Alias "SendMessageA" _       (ByVal hwnd As Integer, ByVal Msg As Integer, _        ByVal wParam As Integer, _        ByVal lParam As capStatusCallback) As Integer
 ~~~~
 
-</p>
+
 
 ### Define the callback function to be called
 
-</p>
+
 This is a regular VB function that has the same signature as the
 delegate we defined above.
 
-<p>
+
 ~~~~ {.vb name="code"}
 Public Sub HandleStatusCallBack(ByVal hwnd As Integer, ByVal nID As Integer, ByVal lpsz As String)        debug.print(lpsz)End Sub
 ~~~~
 
-</p>
+
 
 ### Register the callback
 
-</p>
+
 The final step is to send the message that actually registers the
 callback with the window.
 
-<p>
+
 ~~~~ {.vb name="code"}
 SendStatusCallbackMessage(hWnd, WM_CAP_SET_CALLBACK_STATUS, 0, AddressOf HandleStatusCallBack)
 ~~~~
 
-</p>
+
 
 We’re send the appropriate message (WM\_CAP\_SET\_CALLBACK\_STATUS) to
 the window along with the address of the function to be called.

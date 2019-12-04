@@ -23,12 +23,12 @@ In reality, TortoiseSVN isn't actually doing a revert all. It's doing an
 So if the file **index.php** is at revision 500 and you want to revert
 the changes from revision 499, you do this:
 
-<p>
+
 ~~~~ {name="code"}
   svn merge -r 500:499 index.php
 ~~~~
 
-</p>
+
 
 That reverse-merges the changes from 499 and modifies the file in your
 working copy. Keep in mind, you still have to do an [svn commit][].

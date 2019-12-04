@@ -37,24 +37,24 @@ image attachments.
 In this example, we're getting a single, random post from the "Pictures"
 category (category ID 9).
 
-<p>
+
 ~~~~ {.php name="code"}
                      $picPosts = get_posts('numberposts=1&orderby=rand&category=9');                     $picPost = $picPosts[0];
 ~~~~
 
-</p>
+
 
 This gives us a post object ($picPost) which we can use to get at the
 image attachments. The following code will get a single, random image
 attachment (remember, that attachment is still just a post!) that has
 $picPost as its parent.
 
-<p>
+
 ~~~~ {.php name="code"}
                     $args = array(                                'post_type'=> 'attachment',                                'numberposts'=> 1,                                'post_status'=> null,                                'post_parent'=> $picPost->ID,                                'orderby'=> 'rand'                                );                    $attachments = get_posts($args);                    $attachment = $attachments[0];
 ~~~~
 
-</p>
+
 
 Once $attachment is set, we have an object that will give us the image
 caption (stored in **$attachment-\>post\_excerpt**) or the image

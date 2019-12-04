@@ -23,7 +23,7 @@ really tried.)
 -   Combine any of the operators together:
     http://search.twitter.com/search.atom?q=movie+%3A%29
 
-</p>
+
 The above examples return the results as an [Atom][] feed. Like the
 other API calls, changing **.atom** to **.json** or **.rss** will you
 give you results back in JSON or RSS.
@@ -36,7 +36,7 @@ the more useful ones.
     100.
 -   **page**: the page number (starting at 1) to return
 
-</p>
+
 
 And that's pretty much enough to get rolling with the Twitter Search
 API.
@@ -57,12 +57,12 @@ function repeatedly on an interval.
 Here's an example that will pop up a prompt every 5 seconds until OK is
 clicked:
 
-<p>
+
 ~~~~ {.javascript name="code"}
 new PeriodicalExecuter(function(pe) {  if (confirm('Ready to stop?'))    pe.stop();}, 5);
 ~~~~
 
-</p>
+
 
 Our little example tonight is going to be a web page that queries the
 Twitter Search API on a timer. Each request will fetch a single search
@@ -72,12 +72,12 @@ Here's the Javascript. It does an Ajax request inside the
 PeriodicalExecuter to a small PHP service that handles querying the
 Search API.
 
-<p>
+
 ~~~~ {.javascript name="code"}
 Event.observe(window, 'load', function() {    new PeriodicalExecuter( function(pe) {        if($('pestatus').value == 'stop'){            pe.stop();            return;        }        new Ajax.Request('lib/services/get-search-result.php', {            method:  'get',            parameters:  {},            onSuccess:  function(response, jsonHeader) {                try {                    if(jsonHeader['status'] == 'Success') {                        alert(response.responseText);                    }else {                        alert(jsonHeader['status']);                        pe.stop();                    }                }catch(e) {                    alert('Could not get next search result because an error ocurred. (' + e.message + ')');                    pe.stop();                }            },            onFailure:  function() {                alert('Could not get next search result because an error ocurred.');                pe.stop();            }        });    }, 5);});
 ~~~~
 
-</p>
+
 
 And here's the code for the PHP service, **get-search-result.php**. Even
 though searches aren't rate-limited, I decided to put some limits on my
@@ -98,15 +98,15 @@ Here's how it works:
 -   Then we increment the page number and do another call to the Search
     API for the next 15 results.
 
-</p>
+
 The process repeats for as long there are results to be retrieved.
 
-<p>
+
 ~~~~ {.php name="code"}
 $jsonHeader = array();try {    if(count($_SESSION['searchResults']) <= 0) {        unset($_SESSION['searchResults']);        $_SESSION['searchPageNum']++;    }    $searchTerm = 'antelope';    if(!isset($_SESSION['searchPageNum'])) {        $_SESSION['searchPageNum'] = 1;    }    $pageNum = $_SESSION['searchPageNum'];    if(!isset($_SESSION['searchResults'])) {        $req = new TSearch($searchTerm, $TWITTER_USER, $TWITTER_PASS, $pageNum);        $_SESSION['searchResults'] = $req->data->results;    }    $results = $_SESSION['searchResults'];    $cur = array_pop($results);    $_SESSION['searchResults'] = $results;    $jsonHeader['status'] = 'Success';}catch(Exception $e) {    $jsonHeader['status'] = $e->getMessage();}if(is_array($jsonHeader) and sizeof($jsonHeader) > 0)  {      header('X-JSON: (' . json_encode($jsonHeader) . ')');  }  echo $cur->text;
 ~~~~
 
-</p>
+
 
   [Search API]: http://apiwiki.twitter.com/Search+API+Documentation#Search
   [Atom]: http://en.wikipedia.org/wiki/Atom_(standard)

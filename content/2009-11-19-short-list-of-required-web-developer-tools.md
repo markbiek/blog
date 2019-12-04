@@ -11,44 +11,44 @@ worth talking about.
 
 * * * * *
 
-</p>
+
 
 #### [Firebug][]
 
-</p>
+
 The number one is obviously Firebug. Doing web development without is
 like developing with a rock on an etch-a-sketch.
 
 Some favorite features
 
 -   Easily [print messages][] to the Firebug [console][].
-    </p>
-    <p>
+    
+    
 -   View (and even modify) HTML and CSS in a nice structured way.
 -   View network activity and page speed using the **Net** panel. You
     can get more page speed information using [YSlow][] or
     [PageSpeed][].
 
-</p>
+
 
 * * * * *
 
-</p>
+
 
 #### [FirePHP][]
 
-</p>
+
 FirePHP is a plugin for Firebug that lets you log messages to the
 Firebug console using server-side PHP calls. Fantastic for simple
 debugging. SixRevisions has an [excellent guide][] on setting it up.
 
 * * * * *
 
-</p>
+
 
 #### [Web Developer tools][]
 
-</p>
+
 This is another must-have with too many features to list. Some of my
 favorites are:
 
@@ -57,36 +57,36 @@ favorites are:
 -   Automatically populate HTML form fields.
 -   Lots of information about how elements are rendering on the page.
 
-</p>
+
 
 * * * * *
 
-</p>
+
 
 #### [Html Validator][]
 
-</p>
+
 A handy Firefox add-on that automatically validates the HTML of a page.
 It also improves Firefox's "View Source" interface.
 
 * * * * *
 
-</p>
+
 
 #### [Screen Calipers][]
 
-</p>
+
 Nice, stand-alone desktop app for measuring pixel distance.
 
 ![image][]
 
 * * * * *
 
-</p>
+
 
 #### [ColorPic][]
 
-</p>
+
 Great desktop app from [Iconico][] for picking colors from the screen.
 Also handy as a general purpose screen-zoom tool.
 
@@ -94,7 +94,7 @@ Also handy as a general purpose screen-zoom tool.
 
 * * * * *
 
-</p>
+
 
 I'm sure people out there have their own favorite tools and I'd love to
 hear about them.

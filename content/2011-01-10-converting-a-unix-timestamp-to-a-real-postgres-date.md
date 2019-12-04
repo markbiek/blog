@@ -9,22 +9,22 @@ Let’s say you have a Postgres database with a table that looks like
 this:
 
 <table cellspacing="0" cellpadding="0" border="0">
-</p>
-<p>
+
+
 <tr>
-</p>
-<p>
+
+
 <th>
 thing\_id
 </th>
 <th>
 unix\_date
 </th>
-</p>
-<p>
+
+
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 1
@@ -33,8 +33,8 @@ unix\_date
 1253764800
 </td>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 2
@@ -43,8 +43,8 @@ unix\_date
 1253804507
 </td>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 3
@@ -53,8 +53,8 @@ unix\_date
 1253764810
 </td>
 </tr>
-</p>
-<p>
+
+
 <tr>
 <td>
 4
@@ -63,10 +63,10 @@ unix\_date
 1253764801
 </td>
 </tr>
-</p>
-<p>
+
+
 </table>
-</p>
+
 
 See how **unix\_date** field is a [Unix timestamp][]?
 
@@ -75,12 +75,12 @@ type][]?
 
 Turns out it’s pretty easy with the following SQL:
 
-<p>
+
 ~~~~ {.sql name="code"}
 SELECT*, TIMESTAMP 'epoch' + unix_date * INTERVAL '1 second' as real_dateFROM mytable
 ~~~~
 
-</p>
+
 
   [Unix timestamp]: http://en.wikipedia.org/wiki/Unix_time
   [Postgres date type]: http://www.postgresql.org/docs/8.1/static/datatype-datetime.html

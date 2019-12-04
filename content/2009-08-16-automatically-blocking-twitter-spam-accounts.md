@@ -28,10 +28,10 @@ check the ratio of followers to friends.
 
 I found
 
-<p>
+
 > if (**Follower** / **Friends**) \* 100 < 5
 
-</p>
+
 to be a nice threshold.
 
 Now that we've identified the bogus accounts, we can use the API call to
@@ -45,12 +45,12 @@ parsing Python script command-line arguments using [optparse][].
 
 Using optparse makes handling command-line arguments dead simple.
 
-<p>
+
 ~~~~ {.python name="code"}
     parser = OptionParser()    parser.add_option("-d", "--dry-run", action="store_true", dest="dryrun", help="Displays accounts that would be blocked.")    (options, args) = parser.parse_args()    if options.dryrun:      print "--dry-run or -d was found on the command-line."    else:      print "No --dry-run or -d found."
 ~~~~
 
-</p>
+
 
 The other nice thing is that optparse automatically handles **--help**
 (or -h) and prints out a nice help message based on the help text passed
@@ -60,12 +60,12 @@ Here's the complete script which I hope you find useful. I'm releasing
 it using under the [WTFPL][] license. No warranties, blah blah, not my
 fault if it breaks you computer, squishes your kitten, etc.
 
-<p>
+
 ~~~~ {.python name="code"}
 #!/usr/bin/pythonimport urllibimport urllib2import base64import jsonimport sysfrom optparse import OptionParser#################################################################################username = ''password = ''verbose = Falsedef twitterRequest(url, username, password, values=None):    b64str = base64.encodestring( '%s:%s' % (username, password))[:-1]    header = {'Authorization': "Basic %s" % b64str}    if not values is None:        values = urllib.urlencode(values)    req = urllib2.Request( url, values, header)    res = urllib2.urlopen(req)    return json.loads(res.read())def blockExists(username, password):    try:        twitterRequest('http://twitter.com/blocks/exists/%(id)s.json' % {'id': follower['id']}, username, password)        return True    except urllib2.HTTPError, e:        return Falsedef blockUser(id, username, password):    if not blockExists(username, password):        twitterRequest('http://twitter.com/blocks/create/%(id)s.json' % {'id': follower['id']}, username, password, values={'id': id})def vMsg(msg):    if verbose:        print msg#################################################################################if __name__ == "__main__":    cliError = False    doBlock = False    parser = OptionParser()    parser.add_option("-d", "--dry-run", action="store_true", dest="dryrun", help="Displays accounts that would be blocked.")    parser.add_option("-b", "--block", action="store_true", dest="block", help="Blocks accounts that fall under the specified threshold")    parser.add_option("-v", "--verbose", action="store_true", dest="verbose", help="Print detailed status messages")    parser.add_option("-t", "--threshold", dest="threshold", help="The threshold accounts must fall under before they're blocked (default is 5)")    parser.add_option("-u", "--username", dest="username", help="Twitter username")    parser.add_option("-p", "--password", dest="password", help="Twitter password")    (options, args) = parser.parse_args()    #Handle command-line argument log to make sure this is a valid call    if options.threshold is None:        threshold = 5    else:        threshold = int(options.threshold)    if (options.dryrun is None and options.block is None) or (not options.dryrun is None and not options.block is None):        print "You must select either --dry-run or --block."        cliError = True    if options.username is None:        print "Username required."        cliError = True    if options.password is None:        print "Password required."        cliError = True    if cliError:        print ""        parser.print_help()        sys.exit(1)    username = options.username    password = options.password    verbose = options.verbose    doBlock = options.block    followers = twitterRequest('http://twitter.com/statuses/followers.json', username, password)    spamCount = 0        #All of the command-line stuff was OK so continue with the scanning & blocking    for follower in followers:        followers = float(follower['followers_count'])        friends = float(follower['friends_count'])        ratio = (followers / friends) * 100        if ratio < threshold:            spamCount = spamCount + 1            if doBlock:                prefix = "Blocking Account:\t"                blockUser(follower['id'], username, password)            else:                prefix = "Possible Spam Account:\t"            print prefix + str(follower['id']) + "\t\t" + follower['screen_name'] + "\t\t" + str(followers) + "\t\t" + str(friends) + "\t\t" + str(ratio)    if spamCount <= 0:        vMsg("No followers were flagged as potential spam accounts.")    sys.exit(0)
 ~~~~
 
-</p>
+
 
   [many]: http://twitter.com/hardrockhi67635
   [spam]: http://twitter.com/RedBullGurha5

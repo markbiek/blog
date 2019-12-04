@@ -23,12 +23,12 @@ examples. The functions below ( start(), serverless(), and server() )
 allow the script to operate either inside Apache or using the built-in
 webserver.
 
-<p>
+
 ~~~~ {.python name="code"}
 import osimport cherrypyclass Root(object):    def index(self):        return "Hello World!"    index.exposed = Trueroot = Root()def start():    cherrypy.config.update({        'log.error_file': os.path.join(os.path.dirname(__file__), 'site.log'),        'environment': 'production',        })    cherrypy.tree.mount(root)    cherrypy.engine.start()def serverless():    cherrypy.server.unsubscribe()    start()def server():    cherrpy.config.update({'log.screen': True})    start()if __name__ == "__main__":    serve()
 ~~~~
 
-</p>
+
 
 **Configuring Apache**
 
@@ -50,12 +50,12 @@ I've also left PythonDebug on which helps for debugging by printing more
 complete error information to the screen and logs. You'd want to turn
 that off in production.
 
-<p>
+
 ~~~~ {.apache name="code"}
 <VirtualHost *:80>        ServerName myapp.net        DocumentRoot "/data/websites/myapp.net/htdocs"        Customlog "/data/websites/myapp.net/logs/access.log" combined        ErrorLog "/data/websites/myapp.net/logs/errors.log"        <Directory /data/websites/myapp.net/htdocs>                AllowOverride All                PythonPath "sys.path+['/data/websites/myapp.net/htdocs']"                SetHandler python-program                PythonHandler cherrypy._cpmodpy::handler                PythonOption cherrypy.setup myapp::serverless                PythonDebug On        </Directory></VirtualHost>
 ~~~~
 
-</p>
+
 
   [CherryPy]: http://www.cherrypy.org/
   [basic usage example]: http://cherrypy.org/wiki/ModPython

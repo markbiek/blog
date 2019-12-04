@@ -8,29 +8,29 @@ Slug: must-have-chrome-extensions
 Here's a short list of the Chrome extensions that I use all day, every
 day.
 
-</p>
+
 
 [MeasureIt!][]
 
-</p>
+
 
 [Web Developer][]
 
-</p>
+
 
 [HTML Validator][]
 
-</p>
+
 
 [Google Analytics Debugger][]
 
-</p>
+
 
 And let's also not forget the [Chrome Developer Tools][] that are built
 into Chrome. Once you turn on XMLHttpRequest logging, it can do
 everything Firebug does.
 
-</p>
+
 
   [MeasureIt!]: https://chrome.google.com/webstore/detail/aonjhmdcgbgikgjapjckfkefpphjpgma
   [Web Developer]: https://chrome.google.com/webstore/detail/bfbameneiokkgbdmiekhjnmfkcnldhhm
