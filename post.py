@@ -16,7 +16,7 @@ if __name__ == "__main__":
     raw_title = raw_input("Title: ")
     slug = re.sub(r'[^ 0-9a-z]', '', raw_title.lower())
     slug = slug.replace(' ', '-').replace('--', '-')
-    fname = safe_date + "-" + slug + ".md"
+    fname = "./drafts/" + safe_date + "-" + slug + ".md"
 
     if os.path.exists(fname):
         print "ERROR: The draft file " + fname + " already exists."
