@@ -9,7 +9,7 @@ There is an artist and puzzle-maker named [Abraham Piper](https://www.abrahampip
 
 He covers lots of fun stuff like words, religion, philosopy, the meaningless of life (and why it's OK).
 
-But my absolute favorite video (which I'll link if I can find it) is about learning and "stupid questions."
+But my [absolute favorite video](https://www.tiktok.com/@abrahampiper/video/6918391576058154246) is about learning and "stupid questions."
 
 My apologies to Abraham if I don't get this exactly right, but here's what I took away from it.
 
