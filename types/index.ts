@@ -1,4 +1,4 @@
-export interface Post {
+export interface PostType {
 	title: string;
 	date: string;
 	author: 'mark';
@@ -9,4 +9,4 @@ export interface Post {
 	url: string;
 }
 
-export type PostTitle = Pick<Post, 'title' | 'date' | 'url'>;
+export type PostTitleType = Pick<PostType, 'title' | 'date' | 'url'>;

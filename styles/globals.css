@@ -1,16 +1,106 @@
+@import url(./reset.css);
+
+:root {
+	--black: #16161d;
+	--white: #fffffe;
+	--gray: #dedede;
+	--tertiary: #d9376e;
+	--highlight: #ff8e3c;
+	--bg: #eff0f3;
+	--headline: #0d0d0d;
+	--copy: #2a2a2a;
+	--button: #ff8e3c;
+	--button-text: #0d0d0d;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: 'Merriweather', serif;
+}
+
+a,
+p,
+li,
+span {
+	font-size: 18px;
+}
+
+pre {
+	background-color: var(--gray);
+	padding: 12px;
+	overflow: scroll;
+	filter: brightness(110%);
+	font-family: 'Fira Code', monospace;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: var(--black);
+	text-decoration: none;
+	border-bottom: 1px solid var(--highlight);
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+	border-bottom: none;
+}
+
+a:focus {
+	border-color: var(--tertiary);
+}
+
+h1,
+h1 a {
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 42px;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Merriweather', serif;
+	font-size: 1.125em;
+	margin: 1em 0;
+}
+
+h2,
+h2 a {
+	font-family: 'Trirong', serif;
+	font-size: 26px;
+}
+
+h3,
+h3 a {
+	font-family: 'Trirong', serif;
+	font-size: 1.25em;
+}
+
+main {
+	width: 90%;
+	margin: 1em auto;
+}
+
+@media only screen and (min-width: 768px) {
+	main {
+		width: 65%;
+	}
+}
+
+.post-date {
+	font-size: 16px;
+}
+
+.post-titles {
+	border-top: 1px dashed var(--black);
+	padding-top: 1.5em;
+	margin-top: 2em;
+	list-style-type: none;
+}
+
+.post-titles li {
+	padding-bottom: 0.75em;
+}
+
+.post-titles li a {
+	font-size: 0.9em;
 }

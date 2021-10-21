@@ -3,7 +3,7 @@ import { join } from 'path';
 
 import markdownToHtml from './markdownToHtml';
 
-import { Post, PostTitle } from '../types';
+import { PostType, PostTitleType } from '../types';
 
 interface PostDetails {
 	meta: string[];
@@ -19,7 +19,7 @@ function hostFiles(): string[] {
 	return files;
 }
 
-function emptyPost(): Post {
+function emptyPost(): PostType {
 	return {
 		title: '',
 		date: '',
@@ -28,6 +28,7 @@ function emptyPost(): Post {
 		tags: '',
 		slug: '',
 		html: '',
+		url: '',
 	};
 }
 
@@ -77,23 +78,25 @@ function getPostMeta(metaStrings: string[]) {
 	return ret;
 }
 
-function setPostMeta(post: Post, metaStrings: string[]): void {
+function setPostMeta(post: PostType, metaStrings: string[]): void {
 	const meta = getPostMeta(metaStrings);
 	const html = post.html;
 
 	Object.assign(post, meta);
 	post.html = html;
+
+	const fields = post.date.match(/(\d{4})-(\d{2})/);
+	post.url = fields ? `${fields[1]}/${fields[2]}/${post.slug}` : '';
 }
 
-async function postFromFile(postFile: string) {
+async function postFromFile(postFile: string, convertNewlines = false) {
 	const { meta, postContent } = postDetails(postFile);
 	const post = emptyPost();
 
 	post.html = await markdownToHtml(postContent);
-	post.html = post.html.replace(/\n/g, '<br />');
-
-	const fields = post.date.match(/(\d{4})-(\d{2})/);
-	post.url = fields ? `${fields[1]}/${fields[2]}/${post.slug}` : '';
+	if (convertNewlines) {
+		post.html = post.html.replace(/\n/g, '<br />');
+	}
 
 	setPostMeta(post, meta);
 
@@ -101,7 +104,7 @@ async function postFromFile(postFile: string) {
 }
 
 export async function getPostTitles() {
-	const titles: PostTitle[] = [];
+	const titles: PostTitleType[] = [];
 	const files = hostFiles();
 
 	for (const file of files) {
