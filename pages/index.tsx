@@ -1,27 +1,14 @@
 import styles from '../styles/Home.module.css';
 
 import { getMostRecentPost, getPostTitles } from '../lib/api';
-import PostTitles from '../components/PostTitles';
-import Post from '../components/Post';
-import Header from '../components/Header';
+import PostView from '../views/PostView';
 
-import { PostType, PostTitleType } from '../types';
+import { PostType, PostTitleType, PostViewProps } from '../types';
 
-interface HomeProps {
-	post: PostType;
-	titles: PostTitleType[];
-}
-
-export default function Home({ post, titles }: HomeProps) {
+export default function Home({ post, titles }: PostViewProps) {
 	return (
 		<>
-			<main>
-				<Header />
-				<section>
-					<Post post={post} />
-				</section>
-				<PostTitles titles={titles} />
-			</main>
+			<PostView post={post} titles={titles} />
 		</>
 	);
 }

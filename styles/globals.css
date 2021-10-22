@@ -23,6 +23,12 @@ p,
 li,
 span {
 	font-size: 18px;
+	line-height: 1.5;
+}
+
+p,
+li {
+	padding: 7px 0;
 }
 
 pre {

@@ -10,3 +10,8 @@ export interface PostType {
 }
 
 export type PostTitleType = Pick<PostType, 'title' | 'date' | 'url'>;
+
+export interface PostViewProps {
+	post: PostType;
+	titles: PostTitleType[];
+}

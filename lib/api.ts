@@ -103,6 +103,20 @@ async function postFromFile(postFile: string, convertNewlines = false) {
 	return post;
 }
 
+export async function getPostBySlug(slug: string) {
+	const files = hostFiles();
+
+	for (const file of files) {
+		const post = await postFromFile(file);
+
+		if (post.slug == slug) {
+			return post;
+		}
+	}
+
+	return null;
+}
+
 export async function getPostTitles() {
 	const titles: PostTitleType[] = [];
 	const files = hostFiles();
