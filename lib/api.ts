@@ -12,9 +12,14 @@ interface PostDetails {
 
 const postsDir = join(process.cwd(), '_posts');
 
-function hostFiles(): string[] {
+function postFiles(direction: 'asc' | 'desc'): string[] {
 	const files: string[] = fs.readdirSync(postsDir);
-	files.sort();
+
+	if (direction === 'desc') {
+		files.reverse();
+	} else {
+		files.sort();
+	}
 
 	return files;
 }
@@ -104,7 +109,7 @@ async function postFromFile(postFile: string, convertNewlines = false) {
 }
 
 export async function getPostBySlug(slug: string) {
-	const files = hostFiles();
+	const files = postFiles('asc');
 
 	for (const file of files) {
 		const post = await postFromFile(file);
@@ -119,7 +124,7 @@ export async function getPostBySlug(slug: string) {
 
 export async function getPostTitles() {
 	const titles: PostTitleType[] = [];
-	const files = hostFiles();
+	const files = postFiles('desc');
 
 	for (const file of files) {
 		const post = await postFromFile(file);
@@ -131,8 +136,21 @@ export async function getPostTitles() {
 	return titles;
 }
 
+export async function getPosts() {
+	const posts: PostType[] = [];
+	const files = postFiles('asc');
+
+	for (const file of files) {
+		const post = await postFromFile(file);
+
+		posts.push(post);
+	}
+
+	return posts;
+}
+
 export async function getMostRecentPost() {
-	const files = hostFiles();
+	const files = postFiles();
 	const postFile = files[files.length - 1];
 	const post = await postFromFile(postFile);
 

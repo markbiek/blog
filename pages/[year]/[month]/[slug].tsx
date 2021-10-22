@@ -1,6 +1,6 @@
 import styles from '../styles/Post.module.css';
 
-import { getPostBySlug, getPostTitles } from '../../../lib/api';
+import { getPostBySlug, getPostTitles, getPosts } from '../../../lib/api';
 import PostView from '../../../views/PostView';
 
 import { PostType, PostTitleType, PostViewProps } from '../../../types';
@@ -34,8 +34,21 @@ export async function getStaticProps({ params }: StaticProps) {
 }
 
 export async function getStaticPaths() {
+	const posts: PostType[] = await getPosts();
+
 	return {
-		paths: [],
+		paths: posts.map((post) => {
+			const { slug } = post;
+			const fields = post.date.match(/(\d{4})-(\d{2})/);
+
+			return {
+				params: {
+					year: fields ? fields[1] : '',
+					month: fields ? fields[2] : '',
+					slug,
+				},
+			};
+		}),
 		fallback: 'blocking',
 	};
 }
