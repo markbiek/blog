@@ -36,19 +36,24 @@ export async function getStaticProps({ params }: StaticProps) {
 export async function getStaticPaths() {
 	const posts: PostType[] = await getPosts();
 
-	return {
+	const ret = {
 		paths: posts.map((post) => {
 			const { slug } = post;
-			const fields = post.date.match(/(\d{4})-(\d{2})/);
+			const fields = post.date.match(/(\d{4})-(\d{1,2})/);
+
+			const year = fields ? fields[1] : '';
+			const month = fields ? fields[2] : '';
 
 			return {
 				params: {
-					year: fields ? fields[1] : '',
-					month: fields ? fields[2] : '',
+					year,
+					month,
 					slug,
 				},
 			};
 		}),
 		fallback: 'blocking',
 	};
+
+	return ret;
 }
