@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import * as dayjs from 'dayjs';
+import dayjs from 'dayjs';
 
 import { PostType } from '../types';
 
