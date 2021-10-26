@@ -1,8 +1,8 @@
 Title: Never complain about having enough time
-Date: 2015-6-6
+Date: 2015-06-06
 Author: mark
 Category: Personal
-Tags: 
+Tags:
 Slug: never-complain-about-having-enough-time
 
 https://flic.kr/p/ugZeY
@@ -24,4 +24,3 @@ But you dont get to complain about not doing xyz any more.
 You either decide how committed you are to xyz and do it.
 
 Or you let it go.
-

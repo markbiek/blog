@@ -1,8 +1,8 @@
 Title: Naked body surfing in Ecuador
-Date: 2015-6-8
+Date: 2015-06-08
 Author: mark
 Category: Personal
-Tags: 
+Tags:
 Slug: naked-body-surfing-in-ecuador
 
 I was living in Ecuador for the semester when 1997 spring break rolled around.
@@ -34,4 +34,3 @@ The waves were at least 6ft and there is nothing like being blind and naked and 
 We were happy but knackered and decided to head back. Unfortunately, in the dark, we didnt realize how far wed drifted and it took some time to find out stuff and the hotel. We were close to the pile of driftwood when we came across a family with two kids out for a night stroll on the beach. I like to imagine they tell people the story of the two naked gringos who ran cackling past them.
 
 Eventually, we found our way back, showered and fell into bed, completely exhausted.
-

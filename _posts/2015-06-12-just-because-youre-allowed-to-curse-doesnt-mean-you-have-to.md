@@ -1,8 +1,8 @@
 Title: Just because you're allowed to curse doesn't mean you have to
-Date: 2015-6-10
+Date: 2015-06-10
 Author: mark
 Category: Personal
-Tags: 
+Tags:
 Slug: just-because-youre-allowed-to-curse-doesnt-mean-you-have-to
 
 Were entering an amazing time in terms of Television and entertainment.
@@ -22,4 +22,3 @@ I went to writing camp when I was 13 and discovered that we could swear in our p
 And thats how I feel about of lot the vulgarity and violence in some of these new streaming shows.
 
 Its just there because they can get away with it.
-

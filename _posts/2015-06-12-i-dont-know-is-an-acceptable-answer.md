@@ -1,8 +1,8 @@
 Title: "I don't know" is an acceptable answer
-Date: 2015-6-9
+Date: 2015-06-09
 Author: mark
 Category: Personal
-Tags: 
+Tags:
 Slug: i-dont-know-is-an-acceptable-answer
 
 https://flic.kr/p/bpZtvb
@@ -16,4 +16,3 @@ That mentality makes no sense to me.
 If you know everything, then you dont have anything else to learn and then youre done. Whats the point?
 
 Just say I dont know what that is!, be excited to learn something new, and lets go!
-
