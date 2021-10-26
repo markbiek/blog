@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import * as dayjs from 'dayjs';
+import dayjs from 'dayjs';
 
 import { PostTitleType } from '../types';
 
@@ -15,11 +15,13 @@ export default function PostTitles({ titles }: PostTitlesProps) {
 					{titles.map((item: PostTitleType, idx: number) => {
 						const { title, date, url } = item;
 
+						const fmtDate = dayjs(date).format('YYYY MMM-DD');
+
 						return (
 							<li key={`title_${idx}`}>
 								<Link href={url}>
 									<a>
-										{dayjs(date).format('YYYY MMM-DD')} &ndash; {title}
+										{fmtDate} &ndash; {title}
 									</a>
 								</Link>
 							</li>

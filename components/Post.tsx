@@ -9,6 +9,8 @@ interface PostProps {
 export default function Post({ post }: PostProps) {
 	const { title, date, url, html } = post;
 
+	const fmtDate = dayjs(date).format('YYYY-MM');
+
 	return (
 		<>
 			<h2>
@@ -17,7 +19,7 @@ export default function Post({ post }: PostProps) {
 				</Link>
 			</h2>
 			<h4>
-				<span className='post-date'>{dayjs(date).format('YYYY-MM')}</span>
+				<span className='post-date'>{fmtDate}</span>
 			</h4>
 			<article
 				dangerouslySetInnerHTML={{
