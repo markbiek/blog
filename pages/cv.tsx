@@ -186,7 +186,11 @@ export default function CV() {
 					<li>
 						Wrote an AngularJS application for calculating Procalcitonin changes
 						(
-						<a href='https://www.brahms-pct-calculator.com/' target='_blank'>
+						<a
+							href='https://www.brahms-pct-calculator.com/'
+							target='_blank'
+							rel='noreferrer'
+						>
 							https://www.brahms-pct-calculator.com/
 						</a>
 						). Involved close work with the FDA and a rapidly changing set of
