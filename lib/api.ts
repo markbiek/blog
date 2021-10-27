@@ -151,8 +151,7 @@ export async function getPosts() {
 
 export async function getMostRecentPost() {
 	const files = postFiles('desc');
-	const postFile = files[files.length - 1];
-	const post = await postFromFile(postFile);
+	const post = await postFromFile(files[0]);
 
 	return post;
 }
