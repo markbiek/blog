@@ -138,7 +138,7 @@ export async function getPostTitles() {
 
 export async function getPosts() {
 	const posts: PostType[] = [];
-	const files = postFiles('asc');
+	const files = postFiles('desc');
 
 	for (const file of files) {
 		const post = await postFromFile(file);
