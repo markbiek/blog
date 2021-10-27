@@ -95,6 +95,16 @@ main {
 	}
 }
 
+.small {
+	padding-left: 0.5rem;
+}
+
+.small,
+.small a {
+	font-size: 0.65rem;
+	font-style: italic;
+}
+
 .post-date {
 	font-size: 16px;
 }
