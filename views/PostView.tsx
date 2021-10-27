@@ -1,4 +1,4 @@
-import styles from '../styles/Post.module.css';
+import styles from '../styles/PostView.module.css';
 
 import { getPostBySlug, getPostTitles } from '../lib/api';
 import PostTitles from '../components/PostTitles';
