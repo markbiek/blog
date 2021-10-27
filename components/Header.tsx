@@ -4,42 +4,29 @@ import styles from '../styles/Header.module.css';
 
 export default function Header() {
 	return (
-		<>
-			<div className={styles.header}>
-				<nav className={styles.nav}>
-					<ul>
-						<li>
-							<Link href='https://mark.biek.org/cv'>
-								<a>Hire Me</a>
-							</Link>
-						</li>
-						<li>
-							<Link href='https://mark.biek.org/projects'>
-								<a>Projects</a>
-							</Link>
-						</li>
-						<li>
-							<Link href='https://github.com/markbiek'>
-								<a>Code</a>
-							</Link>
-						</li>
-					</ul>
-				</nav>
-				<p>
-					My name is
+		<nav className={styles.nav}>
+			<ul>
+				<li>
 					<Link href='/'>
-						<a>Mark Biek</a>
+						<a>Home</a>
 					</Link>
-					and I am a software developer, currently in Louisville, KY. I like to
-					work with smart, kind people making beautiful and interesting things.
-				</p>
-				<p className={styles.small}>
-					I also blog for
-					<Link href='https://viastudio.com/author/mark/'>
-						<a>VIA Studio!</a>
+				</li>
+				<li>
+					<Link href='/about'>
+						<a>About</a>
 					</Link>
-				</p>
-			</div>
-		</>
+				</li>
+				<li>
+					<Link href='/cv'>
+						<a>Hire me</a>
+					</Link>
+				</li>
+				<li>
+					<Link href='/blog'>
+						<a>Blog</a>
+					</Link>
+				</li>
+			</ul>
+		</nav>
 	);
 }

@@ -68,7 +68,7 @@ h5,
 h6 {
 	font-family: 'Merriweather', serif;
 	font-size: 1.125em;
-	margin: 1em 0;
+	margin: 1em 0 0.25em 0;
 	color: var(--headline);
 }
 
@@ -93,6 +93,16 @@ main {
 	main {
 		width: 65%;
 	}
+}
+
+.small {
+	padding-left: 0.5rem;
+}
+
+.small,
+.small a {
+	font-size: 0.65rem;
+	font-style: italic;
 }
 
 .post-date {
