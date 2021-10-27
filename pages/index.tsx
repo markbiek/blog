@@ -49,8 +49,8 @@ export default function Home() {
 				</article>
 				<article>
 					<h3>
-						<Link href='/blog'>
-							<a>Blog</a>
+						<Link href='/projects'>
+							<a>Projects</a>
 						</Link>
 					</h3>
 					<p>Sometimes I write things</p>
