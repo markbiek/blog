@@ -1,7 +1,6 @@
-import styles from '../styles/Post.module.css';
-
 import { getPostBySlug, getPostTitles, getPosts } from '../../../lib/api';
 import PostView from '../../../views/PostView';
+import Layout from '../../../views/Layout';
 
 import { PostType, PostTitleType, PostViewProps } from '../../../types';
 
@@ -17,9 +16,9 @@ interface StaticProps {
 
 export default function ViewPost({ post, titles }: PostViewProps) {
 	return (
-		<>
+		<Layout>
 			<PostView post={post} titles={titles} />
-		</>
+		</Layout>
 	);
 }
 

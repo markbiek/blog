@@ -1,12 +1,10 @@
 import Link from 'next/link';
 
-import Header from '../components/Header';
+import Layout from '../views/Layout';
 
 export default function Contact() {
 	return (
-		<main>
-			<Header />
-
+		<Layout>
 			<article>
 				<h1>Contact Me</h1>
 
@@ -31,6 +29,6 @@ export default function Contact() {
 					</li>
 				</ul>
 			</article>
-		</main>
+		</Layout>
 	);
 }

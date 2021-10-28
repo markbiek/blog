@@ -1,11 +1,8 @@
-import Link from 'next/link';
-
-import Header from '../components/Header';
+import Layout from '../views/Layout';
 
 export default function Projects() {
 	return (
-		<main>
-			<Header />
+		<Layout>
 			<h1>Side-Projects</h1>
 
 			<aside>
@@ -108,6 +105,6 @@ export default function Projects() {
 					potentially be of use to others.
 				</p>
 			</article>
-		</main>
+		</Layout>
 	);
 }

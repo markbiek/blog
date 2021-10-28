@@ -1,12 +1,10 @@
 import Link from 'next/link';
 
-import Header from '../components/Header';
+import Layout from '../views/Layout';
 
 export default function About() {
 	return (
-		<main>
-			<Header />
-
+		<Layout>
 			<article>
 				<h1>About Me</h1>
 				<p>😄 Pronouns: he/him</p>
@@ -74,6 +72,6 @@ export default function About() {
 					.
 				</p>
 			</article>
-		</main>
+		</Layout>
 	);
 }

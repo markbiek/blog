@@ -1,11 +1,10 @@
-import Header from '../components/Header';
+import Layout from '../views/Layout';
 
 import styles from '../styles/CV.module.css';
 
 export default function CV() {
 	return (
-		<main>
-			<Header />
+		<Layout>
 			<h1>Résumé</h1>
 
 			<article>
@@ -398,6 +397,6 @@ export default function CV() {
 				</p>
 				<h5>(Additional work history & references available upon request)</h5>
 			</article>
-		</main>
+		</Layout>
 	);
 }

@@ -1,15 +1,13 @@
 import Image from 'next/image';
 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Layout from '../views/Layout';
 
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
 	return (
-		<main className={styles.main}>
+		<Layout>
 			<section className={styles.whoami}>
-				<Header />
 				<article className={styles.hero}>
 					<Image
 						src='https://static.biek.org/blog/img/Mark-and-Junior.jpg'
@@ -29,7 +27,6 @@ export default function Home() {
 					</h2>
 				</article>
 			</section>
-			<Footer />
-		</main>
+		</Layout>
 	);
 }
