@@ -2,14 +2,14 @@ Title: Thoughts on wasting time
 Date: 2014-10-12 20:55
 Author: mark
 Category: Geek
-Tags: 
+Tags:
 Slug: thoughts-on-wastes-of-time
 
 Sometimes a person will do something and there's no denying it's an incredible feat but people are left wondering why bother?
 
 Like Satoshi Araki's incredibly detailed urban dioramas
 
-<a href="http://boingboing.net/2014/10/06/satoshi-arakis-exquisite-urb.html" target="_blank"><img src="http://i.imgur.com/vZP4s7e.jpg" /></a>
+<a href="http://boingboing.net/2014/10/06/satoshi-arakis-exquisite-urb.html" target="_blank" rel="noreferrer"><img src="http://i.imgur.com/vZP4s7e.jpg" /></a>
 
 Or setting a world record solving a Rubix Cube
 

@@ -1,8 +1,7 @@
 import Image from 'next/image';
 
-import Link from 'next/link';
-
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 import styles from '../styles/Home.module.css';
 
@@ -30,32 +29,7 @@ export default function Home() {
 					</h2>
 				</article>
 			</section>
-			<section className={styles.links}>
-				<article>
-					<h3>
-						<Link href='/about'>
-							<a>About</a>
-						</Link>
-					</h3>
-					<p>More about me</p>
-				</article>
-				<article>
-					<h3>
-						<Link href='/contact'>
-							<a>Contact</a>
-						</Link>
-					</h3>
-					<p>Where to find me</p>
-				</article>
-				<article>
-					<h3>
-						<Link href='/projects'>
-							<a>Projects</a>
-						</Link>
-					</h3>
-					<p>Sometimes I write things</p>
-				</article>
-			</section>
+			<Footer />
 		</main>
 	);
 }
