@@ -1,1 +1,1 @@
-https://mark.biek.org/blog using NextJS
+https://mark.biek.org/ using NextJS
