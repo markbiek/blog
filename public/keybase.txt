@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/antelopelovefan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mark.biek.org
+  * I am antelopelovefan (https://keybase.io/antelopelovefan) on keybase.
+  * I have a public key ASDQKxC8aMHrnnZSCU0bqJbi7obryJBO9Mx2MV5sARrMswo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101139bb9020d2e57300a7b80b0ba687e1c5f1bcc8a43cae1eb9e47ca0a4b5460b90a",
+      "host": "keybase.io",
+      "kid": "0120d02b10bc68c1eb9e7652094d1ba896e2ee86ebc8904ef4cc76315e6c011accb30a",
+      "uid": "3054295575f6eec63654a80a198f1900",
+      "username": "antelopelovefan"
+    },
+    "merkle_root": {
+      "ctime": 1635515340,
+      "hash": "a498801be945613bad1ce4950d242770834b4f1d7029a1217216e3c7cb8012dbe799b0010b6b71da8761fadc753e2bcc84222c9c9ec6bf9a67114fa4b2fe8ae3",
+      "hash_meta": "921376b32fa0b4d7bde6f4028a5581607156bdd2a50d6c36fb85b484acb489bd",
+      "seqno": 21091341
+    },
+    "service": {
+      "entropy": "3cCGLsWlTPLgMt6i/9OcO3s2",
+      "hostname": "mark.biek.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.8.0"
+  },
+  "ctime": 1635515349,
+  "expire_in": 504576000,
+  "prev": "d2802fd1d60d7d6c855df826462607d6338d6e6058a201edabc487e5141c028a",
+  "seqno": 42,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0CsQvGjB6552UglNG6iW4u6G68iQTvTMdjFebAEazLMKp3BheWxvYWTESpcCKsQg0oAv0dYNfWyFXfgmRiYH1jONbmBYogHtq8SH5RQcAorEIEd5xyYZ8QmeJucF2mRFI84tGFNBGBSWK1E/l5B/2gzZAgHCo3NpZ8RA9+MHiCRTarfJEgzeqc4wnmBs5z6Pvw9llHNvIYdDxFoqWjU0mT6rr+5vxmGpBvxBQKSck/RiGZEeGdS1rBHQDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAGZpzbIpGgalusdg6XgAdRysKfaxAWygu2gTNWGgwCVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/antelopelovefan
+
+==================================================================
