@@ -5,6 +5,12 @@
 	grid-area: nav;
 }
 
+@media only screen and (max-width: 768px) {
+	.nav {
+		margin-bottom: -3rem;
+	}
+}
+
 .nav ul {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
