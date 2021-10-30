@@ -66,7 +66,7 @@ export default function About() {
 				</p>
 				<p>
 					The long version is told in{' '}
-					<Link href='/blog/2009/02/a-refugee-from-the-world/'>
+					<Link href='/2009/02/a-refugee-from-the-world/'>
 						<a>"A refugee from the world"</a>
 					</Link>
 					.
