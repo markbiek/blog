@@ -8,11 +8,9 @@ import styles from '../styles/Header.module.css';
 export default function Header() {
 	const router = useRouter();
 
-	console.log({ router });
-
 	return (
 		<>
-			{router.route != '/' && <Logo />}
+			<Logo />
 			<nav className={styles.nav}>
 				<ul>
 					<li>
