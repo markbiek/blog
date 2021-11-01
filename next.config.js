@@ -13,8 +13,8 @@ module.exports = {
 				permanent: true,
 			},
 			{
-				source: '/blog/:slug',
-				destination: '/:slug',
+				source: '/blog/:year/:month/:slug',
+				destination: '/:year/:month/:slug',
 				permanent: true,
 			},
 		];
