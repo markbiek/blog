@@ -12,6 +12,11 @@ module.exports = {
 				destination: '/contact',
 				permanent: true,
 			},
+			{
+				source: '/blog/:slug',
+				destination: '/:slug',
+				permanent: true,
+			},
 		];
 	},
 };
