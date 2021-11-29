@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://mark.biek.org/blog</id>
+    <title>Mark Biek - Blog</title>
+    <updated>2021-11-29T19:57:07.023Z</updated>
+    <generator>Feed for Mark Biek's Blog</generator>
+    <author>
+        <name>Mark Biek</name>
+        <email>info@biek.org</email>
+        <uri>https://mark.biek.org/</uri>
+    </author>
+    <link rel="alternate" href="https://mark.biek.org/blog"/>
+    <link rel="self" href="https://mark.biek.org/blog/rss/atom.xml"/>
+    <logo>https://static.biek.org/blog/img/mark-in-code.png</logo>
+    <icon>https://mark.biek.org/blog/unicorn.svg</icon>
+    <rights>All rights reserved 2021, Mark Biek</rights>
+    <entry>
+        <title type="html"><![CDATA[Using jq to filter JSON by regex]]></title>
+        <id>2021/11/using-jq-to-filter-json-by-regex</id>
+        <link href="2021/11/using-jq-to-filter-json-by-regex"/>
+        <updated>2021-11-17T16:04:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>If you're not already familiar with using <a href="https://stedolan.github.io/jq/">jq</a> to manipulate JSON on the command-line, go download it immediately. While it can be a little tricky to learn at first, it'll make your life so much easier.</p>
+<p>For example, I recently learned how to filter a JSON result set using a regex to match the value of a particular object property.</p>
+<p>Let's say I have a JSON payload that looks like this:</p>
+<pre><code>{
+	"total": 4,
+	"domains": [
+		{
+			"id": 100,
+			"account": 999,
+			"name": "alice.com",
+			"created": "2021-01-01 00:00:00"
+		},
+		{
+			"id": 101,
+			"account": 999,
+			"name": "bob.com",
+			"created": "2021-01-01 00:00:00"
+		},
+		{
+			"id": 102,
+			"account": 999,
+			"name": "charlie.com",
+			"created": "2021-01-01 00:00:00"
+		},
+		{
+			"id": 103,
+			"account": 999,
+			"name": "eve.com",
+			"created": "2021-01-01 00:00:00"
+		}
+	]
+}
+</code></pre>
+<p>It's super easy to get all of the domain objects using the jq filter <code>.domains[]</code> and it's also trivial to get at only specific fields of each domain object (eg <code>.domains[] | {id,name}</code>).</p>
+<p>Now let's say we want to only get the domain object where the name is "charlie.com".</p>
+<p>That's where the <a href="https://stedolan.github.io/jq/manual/#select(boolean_expression)">select()</a> and <a href="https://stedolan.github.io/jq/manual/#test(val),test(regex;flags)">test()</a> functions come in.</p>
+<p>We can use the following filter to accomplish 👆️:</p>
+<p><code>.domains[] | {id,name} | select(.name | test("charlie"))</code></p>
+<p><code>select</code> takes a boolean expression and, if that expression is true, returns that particular item. Everything else is filtered out.</p>
+<p>The <code>test</code> function takes a regex (or simple string to match). In our particular case, <code>test</code> is checking against the <code>name</code> property of each object.</p>
+<p>Now let's saw only want the <code>id</code> <em>value</em> of the object that matches our test.</p>
+<p>We simply change our filter to the below:</p>
+<p><code>.domains[] | {id,name} | select(.name | test("charlie")) | .id</code></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>If you're not already familiar with using <a href="https://stedolan.github.io/jq/">jq</a> to manipulate JSON on the command-line, go download it immediately. While it can be a little tricky to learn at first, it'll make your life so much easier.</p>
+<p>For example, I recently learned how to filter a JSON result set using a regex to match the value of a particular object property.</p>
+<p>Let's say I have a JSON payload that looks like this:</p>
+<pre><code>{
+	"total": 4,
+	"domains": [
+		{
+			"id": 100,
+			"account": 999,
+			"name": "alice.com",
+			"created": "2021-01-01 00:00:00"
+		},
+		{
+			"id": 101,
+			"account": 999,
+			"name": "bob.com",
+			"created": "2021-01-01 00:00:00"
+		},
+		{
+			"id": 102,
+			"account": 999,
+			"name": "charlie.com",
+			"created": "2021-01-01 00:00:00"
+		},
+		{
+			"id": 103,
+			"account": 999,
+			"name": "eve.com",
+			"created": "2021-01-01 00:00:00"
+		}
+	]
+}
+</code></pre>
+<p>It's super easy to get all of the domain objects using the jq filter <code>.domains[]</code> and it's also trivial to get at only specific fields of each domain object (eg <code>.domains[] | {id,name}</code>).</p>
+<p>Now let's say we want to only get the domain object where the name is "charlie.com".</p>
+<p>That's where the <a href="https://stedolan.github.io/jq/manual/#select(boolean_expression)">select()</a> and <a href="https://stedolan.github.io/jq/manual/#test(val),test(regex;flags)">test()</a> functions come in.</p>
+<p>We can use the following filter to accomplish 👆️:</p>
+<p><code>.domains[] | {id,name} | select(.name | test("charlie"))</code></p>
+<p><code>select</code> takes a boolean expression and, if that expression is true, returns that particular item. Everything else is filtered out.</p>
+<p>The <code>test</code> function takes a regex (or simple string to match). In our particular case, <code>test</code> is checking against the <code>name</code> property of each object.</p>
+<p>Now let's saw only want the <code>id</code> <em>value</em> of the object that matches our test.</p>
+<p>We simply change our filter to the below:</p>
+<p><code>.domains[] | {id,name} | select(.name | test("charlie")) | .id</code></p>
+]]></content>
+        <author>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </author>
+        <contributor>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making a Typescript property dependent on the value of another property]]></title>
+        <id>2021/09/making-a-typescript-property-dependent-on-the-value-of-another-property</id>
+        <link href="2021/09/making-a-typescript-property-dependent-on-the-value-of-another-property"/>
+        <updated>2021-09-30T00:42:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>I recently ran into a situation where I wanted Typescript to require a certain property, only if the <em>value</em> of a different property was a specific value.</p>
+<p>With some help from a <a href="https://github.com/acrobertson">coworker</a> and some additional reading, I found a solution that uses a combination of <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types">Union</a> and <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types">Intersection</a> types.</p>
+<p>Let's say I have a couple of contrived objects like this</p>
+<pre><code>let a = {
+	title: 'A title';
+	type: 'value';
+	value: 'This is a value';
+};
+
+let b = {
+	title: 'Another title';
+	type: 'nothing';
+};
+</code></pre>
+<p>What I want is for the property <code>value</code> to only be required when <code>type == 'value'</code>.</p>
+<p>To start, I declare a base type which contains the properties I always want to have:</p>
+<pre><code>type Base = {
+	title: string;
+	type: 'value' | 'nothing';
+}
+</code></pre>
+<p>Then I can declare intersection types for each possible value of the <code>type</code> property:</p>
+<pre><code>type ValueType = Base &#x26; {
+	type: 'value';
+	value: string;
+};
+
+type NothingType = Base &#x26; {
+	type: 'nothing';
+	value: never;
+}
+</code></pre>
+<p>For <code>ValueType</code>, we inherit all of the type properties of the <code>Base</code> type but require a string <code>value</code> property when <code>type == 'value'</code>;</p>
+<p>For <code>NothingType</code>, we also inherit everything from <code>Base</code> but specify that the <code>value</code> property should never exist.</p>
+<p>Then we create a union type that we'll use on the actual objects we declare:</p>
+<pre><code>type MyType = ValueType | NothingType;
+</code></pre>
+<p>Here are examples of objects that pass all of our type checks:</p>
+<pre><code>let good1: MyType = {
+	title: 'This is a good object',
+	type: 'value',
+	value: 'a value'
+};
+
+let good2: MyType = {
+	title: 'This is a good object',
+	type: 'nothing',
+};
+</code></pre>
+<p>And here are some objects that throw type errors:</p>
+<pre><code>let bad1: MyType = {
+	title: 'This is a good object',
+	type: 'value',
+	// Here, we're missing the `value` property
+};
+
+let bad2: MyType = {
+	title: 'This is a good object',
+	type: 'nothing',
+	value: 'another value'
+	// Here, we shouldn't have a `value` property at all
+};
+</code></pre>
+<p><a href="https://www.typescriptlang.org/play?#code/C4TwDgpgBAQghgZ2gXigbwFAEhgEtgA2EAXFAsAE64B2A5gNzaiSkDkAbnAQK4StQAfKK2oB7YAAsatVowC+GDM2gA1LrwAq4FLETQAZOiba2nHn0ZYzvUuSp15jJdqgA5cVLpbIUVPCRQhpg4JsJiktKy2NYkUNQQ7BAU8orKUACyIN46aubZgm4e0tlORMBQtKKiACakmfmowXiEsawaUghQuJ1wFVXVUKIARgBWEADGwKwANMYswjEz0eqtvYsYcqUQ5UNw1QCMdVkujUz4RGzt3V09fTWDoxNTsyHzHCtLm4plULvVAExHBpGHDnVpXTrXXqVe7DMaTJavVrhTwyF4xNhwFFJKDrTZAA">Typescript playground example</a></p>
+<h2>Update</h2>
+<p>The aforementioned <a href="https://github.com/acrobertson">coworker</a> also showed me a nice way to do the same as the above using Interfaces which gives you slightly nicer error messages.</p>
+<p><a href="https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgEJwM4oN4CgCQYwYANhAFzIZhSgDmA3AWAJ4AOFyA5AG5wkBXCF2QAfbiAD2YABb0uTAL65coSLEQoAavyEAVdiggAPSCAAmGNJhzNDlXruFN8fQZ2q0QjXMtXhoeCRkADlpOW8DDmQTM0trLGQ8QntuNyEFAnTOEAgeaCUVVmiAWRYolABeZB13CrFQ8PoKplwyMGQ6SUlzSjL66uSiUk4uPTkrYCs4Tu7zZEkAIwArCAQwLgAaOw4HbK2spwcZ-d9WtogOxbhzAEY+8sNkQeZiMgdxqeQvma6ehZWaw22xSuzSTgOila7WQ13MACYHgMkq8Rh8Jt9prN-ktVusDqDRlJZPIQdljsSZNBkKcoUA">Typescript playground example</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<p>I recently ran into a situation where I wanted Typescript to require a certain property, only if the <em>value</em> of a different property was a specific value.</p>
+<p>With some help from a <a href="https://github.com/acrobertson">coworker</a> and some additional reading, I found a solution that uses a combination of <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types">Union</a> and <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types">Intersection</a> types.</p>
+<p>Let's say I have a couple of contrived objects like this</p>
+<pre><code>let a = {
+	title: 'A title';
+	type: 'value';
+	value: 'This is a value';
+};
+
+let b = {
+	title: 'Another title';
+	type: 'nothing';
+};
+</code></pre>
+<p>What I want is for the property <code>value</code> to only be required when <code>type == 'value'</code>.</p>
+<p>To start, I declare a base type which contains the properties I always want to have:</p>
+<pre><code>type Base = {
+	title: string;
+	type: 'value' | 'nothing';
+}
+</code></pre>
+<p>Then I can declare intersection types for each possible value of the <code>type</code> property:</p>
+<pre><code>type ValueType = Base &#x26; {
+	type: 'value';
+	value: string;
+};
+
+type NothingType = Base &#x26; {
+	type: 'nothing';
+	value: never;
+}
+</code></pre>
+<p>For <code>ValueType</code>, we inherit all of the type properties of the <code>Base</code> type but require a string <code>value</code> property when <code>type == 'value'</code>;</p>
+<p>For <code>NothingType</code>, we also inherit everything from <code>Base</code> but specify that the <code>value</code> property should never exist.</p>
+<p>Then we create a union type that we'll use on the actual objects we declare:</p>
+<pre><code>type MyType = ValueType | NothingType;
+</code></pre>
+<p>Here are examples of objects that pass all of our type checks:</p>
+<pre><code>let good1: MyType = {
+	title: 'This is a good object',
+	type: 'value',
+	value: 'a value'
+};
+
+let good2: MyType = {
+	title: 'This is a good object',
+	type: 'nothing',
+};
+</code></pre>
+<p>And here are some objects that throw type errors:</p>
+<pre><code>let bad1: MyType = {
+	title: 'This is a good object',
+	type: 'value',
+	// Here, we're missing the `value` property
+};
+
+let bad2: MyType = {
+	title: 'This is a good object',
+	type: 'nothing',
+	value: 'another value'
+	// Here, we shouldn't have a `value` property at all
+};
+</code></pre>
+<p><a href="https://www.typescriptlang.org/play?#code/C4TwDgpgBAQghgZ2gXigbwFAEhgEtgA2EAXFAsAE64B2A5gNzaiSkDkAbnAQK4StQAfKK2oB7YAAsatVowC+GDM2gA1LrwAq4FLETQAZOiba2nHn0ZYzvUuSp15jJdqgA5cVLpbIUVPCRQhpg4JsJiktKy2NYkUNQQ7BAU8orKUACyIN46aubZgm4e0tlORMBQtKKiACakmfmowXiEsawaUghQuJ1wFVXVUKIARgBWEADGwKwANMYswjEz0eqtvYsYcqUQ5UNw1QCMdVkujUz4RGzt3V09fTWDoxNTsyHzHCtLm4plULvVAExHBpGHDnVpXTrXXqVe7DMaTJavVrhTwyF4xNhwFFJKDrTZAA">Typescript playground example</a></p>
+<h2>Update</h2>
+<p>The aforementioned <a href="https://github.com/acrobertson">coworker</a> also showed me a nice way to do the same as the above using Interfaces which gives you slightly nicer error messages.</p>
+<p><a href="https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgEJwM4oN4CgCQYwYANhAFzIZhSgDmA3AWAJ4AOFyA5AG5wkBXCF2QAfbiAD2YABb0uTAL65coSLEQoAavyEAVdiggAPSCAAmGNJhzNDlXruFN8fQZ2q0QjXMtXhoeCRkADlpOW8DDmQTM0trLGQ8QntuNyEFAnTOEAgeaCUVVmiAWRYolABeZB13CrFQ8PoKplwyMGQ6SUlzSjL66uSiUk4uPTkrYCs4Tu7zZEkAIwArCAQwLgAaOw4HbK2spwcZ-d9WtogOxbhzAEY+8sNkQeZiMgdxqeQvma6ehZWaw22xSuzSTgOila7WQ13MACYHgMkq8Rh8Jt9prN-ktVusDqDRlJZPIQdljsSZNBkKcoUA">Typescript playground example</a></p>
+]]></content>
+        <author>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </author>
+        <contributor>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recreating Laravel Accessor attributes]]></title>
+        <id>2021/04/recreating-laravel-accessor-attributes</id>
+        <link href="2021/04/recreating-laravel-accessor-attributes"/>
+        <updated>2021-04-08T18:15:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><a href="https://laravel.com">Laravel</a> models have a great feature called <a href="https://laravel.com/docs/8.x/eloquent-mutators#defining-an-accessor">Accessors</a>.</p>
+<p>The basic idea is that you define a class method like this</p>
+<pre><code>public function getFullNameAttribute() {
+	return "{$this->first_name} {$this->last_name}";
+}
+</code></pre>
+<p>Then doing something like <code>$myClass->full_name</code> actually executes the <code>getFullNameAttribute</code> function.</p>
+<p>Obviously Laravel's model class is much more full-featured and can do a lot more.</p>
+<p>That said, it's pretty easy to mimic Laravel's Accessor functionality.</p>
+<p>The first piece is a simple <code>Str</code> class which turns <a href="https://en.wikipedia.org/wiki/Snake_case">snake-case</a> names into <a href="https://en.wikipedia.org/wiki/Camel_case">camel-case</a> names. In a real Laravel application, you're better off using the <a href="https://laravel.com/docs/8.x/helpers">Laravel Helpers</a>.</p>
+<p>Then we're going to implement a simple <code>Model</code> class</p>
+<p>Now we can create a simple <code>Person</code> class which extends our <code>Model</code></p>
+<p>In this case, we have two public properties for first &#x26; last name and then we've defined a <code>full_name</code> accessor.</p>
+<p>To tie it all together, we can use our new class like this</p>
+<p>The above script will output</p>
+<pre><code>First name: Mark
+Last name: Biek
+Full name: Mark Biek
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://laravel.com">Laravel</a> models have a great feature called <a href="https://laravel.com/docs/8.x/eloquent-mutators#defining-an-accessor">Accessors</a>.</p>
+<p>The basic idea is that you define a class method like this</p>
+<pre><code>public function getFullNameAttribute() {
+	return "{$this->first_name} {$this->last_name}";
+}
+</code></pre>
+<p>Then doing something like <code>$myClass->full_name</code> actually executes the <code>getFullNameAttribute</code> function.</p>
+<p>Obviously Laravel's model class is much more full-featured and can do a lot more.</p>
+<p>That said, it's pretty easy to mimic Laravel's Accessor functionality.</p>
+<p>The first piece is a simple <code>Str</code> class which turns <a href="https://en.wikipedia.org/wiki/Snake_case">snake-case</a> names into <a href="https://en.wikipedia.org/wiki/Camel_case">camel-case</a> names. In a real Laravel application, you're better off using the <a href="https://laravel.com/docs/8.x/helpers">Laravel Helpers</a>.</p>
+<p>Then we're going to implement a simple <code>Model</code> class</p>
+<p>Now we can create a simple <code>Person</code> class which extends our <code>Model</code></p>
+<p>In this case, we have two public properties for first &#x26; last name and then we've defined a <code>full_name</code> accessor.</p>
+<p>To tie it all together, we can use our new class like this</p>
+<p>The above script will output</p>
+<pre><code>First name: Mark
+Last name: Biek
+Full name: Mark Biek
+</code></pre>
+]]></content>
+        <author>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </author>
+        <contributor>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Plugin Unit Testing in WordPress]]></title>
+        <id>2021/03/plugin-unit-testing-in-wordpress</id>
+        <link href="2021/03/plugin-unit-testing-in-wordpress"/>
+        <updated>2021-03-12T01:13:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>I'll admit that I have been pretty hit-and-miss with testing on projects over the course of my career. That said, I've been trying to be a little more consistent about it.</p>
+<p>For Laravel projects, it's real easy since <a href="https://phpunit.de/">PHPUnit</a> integration is built into Laravel <a href="https://laravel.com/docs/8.x/testing">right out of the box</a>.</p>
+<p>I also do a fair amount of WordPress and being able to unit test plugins and other functionality would be very handy.</p>
+<p>While the setup is a little confusing at first, WordPress also comes with great tools for testing.</p>
+<p>The official <a href="https://make.wordpress.org/cli/handbook/misc/plugin-unit-tests/">WordPress testing documentation</a> is good and the <a href="https://developer.wordpress.org/cli/commands/scaffold/plugin-tests/">wp cli</a> can be used to build out most of the test scaffolding for you.</p>
+<p>I also found these resources to be helpful</p>
+<ul>
+<li><a href="https://neliosoftware.com/blog/introduction-to-unit-testing-in-wordpress-phpunit/">Introduction to Unit Testing in WordPress</a></li>
+<li><a href="https://wpmudev.com/blog/unit-testing-wordpress-plugins-phpunit/">Unit Testing WordPress Plugins with PHPUnit</a></li>
+<li><a href="https://www.kirstencassidy.com/testing-wordpress-plugins-wp-cli-phpunit/">Testing WordPress Plugins with WP-CLI and PHPUnit</a></li>
+</ul>
+<p>But there's one thing I don't like about how WordPress handles testing.</p>
+<p>They operate under the assumption that there will be a separate test database that gets completely wiped and reset each time the tests are run. While I understand the point behind, that approach doesn't work for a lot of my use-cases.</p>
+<p>There are several projects with very large databases and it's easier and makes more sense for me to run the unit tests against my local development copy.</p>
+<p>To that end, I've started a Github project: <a href="https://github.com/markbiek/wordpress-dev">https://github.com/markbiek/wordpress-dev</a> which is a clone of <a href="http://develop.svn.wordpress.org/trunk/">http://develop.svn.wordpress.org/trunk/</a>.</p>
+<p>The only difference is, my version doesn't delete any data when the tests are run. We've just removed the contents of the <code>_delete_all_data</code> and <code>_delete_all_posts</code> functions in <a href="http://develop.svn.wordpress.org/trunk/tests/phpunit/includes/functions.php">functions.php</a>.</p>
+<p>If you can, I'd recommend sticking with the official WordPress way of testing. But hopefully this will be useful to some other people.</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>I'll admit that I have been pretty hit-and-miss with testing on projects over the course of my career. That said, I've been trying to be a little more consistent about it.</p>
+<p>For Laravel projects, it's real easy since <a href="https://phpunit.de/">PHPUnit</a> integration is built into Laravel <a href="https://laravel.com/docs/8.x/testing">right out of the box</a>.</p>
+<p>I also do a fair amount of WordPress and being able to unit test plugins and other functionality would be very handy.</p>
+<p>While the setup is a little confusing at first, WordPress also comes with great tools for testing.</p>
+<p>The official <a href="https://make.wordpress.org/cli/handbook/misc/plugin-unit-tests/">WordPress testing documentation</a> is good and the <a href="https://developer.wordpress.org/cli/commands/scaffold/plugin-tests/">wp cli</a> can be used to build out most of the test scaffolding for you.</p>
+<p>I also found these resources to be helpful</p>
+<ul>
+<li><a href="https://neliosoftware.com/blog/introduction-to-unit-testing-in-wordpress-phpunit/">Introduction to Unit Testing in WordPress</a></li>
+<li><a href="https://wpmudev.com/blog/unit-testing-wordpress-plugins-phpunit/">Unit Testing WordPress Plugins with PHPUnit</a></li>
+<li><a href="https://www.kirstencassidy.com/testing-wordpress-plugins-wp-cli-phpunit/">Testing WordPress Plugins with WP-CLI and PHPUnit</a></li>
+</ul>
+<p>But there's one thing I don't like about how WordPress handles testing.</p>
+<p>They operate under the assumption that there will be a separate test database that gets completely wiped and reset each time the tests are run. While I understand the point behind, that approach doesn't work for a lot of my use-cases.</p>
+<p>There are several projects with very large databases and it's easier and makes more sense for me to run the unit tests against my local development copy.</p>
+<p>To that end, I've started a Github project: <a href="https://github.com/markbiek/wordpress-dev">https://github.com/markbiek/wordpress-dev</a> which is a clone of <a href="http://develop.svn.wordpress.org/trunk/">http://develop.svn.wordpress.org/trunk/</a>.</p>
+<p>The only difference is, my version doesn't delete any data when the tests are run. We've just removed the contents of the <code>_delete_all_data</code> and <code>_delete_all_posts</code> functions in <a href="http://develop.svn.wordpress.org/trunk/tests/phpunit/includes/functions.php">functions.php</a>.</p>
+<p>If you can, I'd recommend sticking with the official WordPress way of testing. But hopefully this will be useful to some other people.</p>
+]]></content>
+        <author>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </author>
+        <contributor>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On learning and stupid questions]]></title>
+        <id>2021/02/on-learning-and-stupid-questions</id>
+        <link href="2021/02/on-learning-and-stupid-questions"/>
+        <updated>2021-02-13T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>There is an artist and puzzle-maker named <a href="https://www.abrahampiper.com/">Abraham Piper</a> who I discovered because of his <a href="https://www.tiktok.com/@abrahampiper">Tik Toks</a>.</p>
+<p>He covers lots of fun stuff like words, religion, philosopy, the meaningless of life (and why it's OK).</p>
+<p>But my <a href="https://www.tiktok.com/@abrahampiper/video/6918391576058154246">absolute favorite video</a> is about learning and "stupid questions."</p>
+<p>My apologies to Abraham if I don't get this exactly right, but here's what I took away from it.</p>
+<p>Think about every single thing that you currently know.</p>
+<p>At some point in your life, you didn't know each one of those things. And, for each one of those things, there is a precise moment when you learned each one.</p>
+<p>So don't be ashamed of not knowing something. Be proud of yourself for taking the steps to learn it!</p>
+<p>And don't look down on someone for not knowing something and trying to learn it. Just because you knew whatever it was before them doesn't make you better or smarter</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>There is an artist and puzzle-maker named <a href="https://www.abrahampiper.com/">Abraham Piper</a> who I discovered because of his <a href="https://www.tiktok.com/@abrahampiper">Tik Toks</a>.</p>
+<p>He covers lots of fun stuff like words, religion, philosopy, the meaningless of life (and why it's OK).</p>
+<p>But my <a href="https://www.tiktok.com/@abrahampiper/video/6918391576058154246">absolute favorite video</a> is about learning and "stupid questions."</p>
+<p>My apologies to Abraham if I don't get this exactly right, but here's what I took away from it.</p>
+<p>Think about every single thing that you currently know.</p>
+<p>At some point in your life, you didn't know each one of those things. And, for each one of those things, there is a precise moment when you learned each one.</p>
+<p>So don't be ashamed of not knowing something. Be proud of yourself for taking the steps to learn it!</p>
+<p>And don't look down on someone for not knowing something and trying to learn it. Just because you knew whatever it was before them doesn't make you better or smarter</p>
+]]></content>
+        <author>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </author>
+        <contributor>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning about TypeScript interfaces]]></title>
+        <id>2020/10/learning-about-typescript-interfaces</id>
+        <link href="2020/10/learning-about-typescript-interfaces"/>
+        <updated>2020-10-23T00:49:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>We did our first major <a href="https://via.studio">work project</a> using TypeScript and it's been pretty great. So great, I've decided to use it on my latest side-project as an additional learning opportunity.</p>
+<p>One thing that confused me a bit at first was the difference between <a href="https://www.typescriptlang.org/docs/handbook/interfaces.html">Interfaces</a> and simple types.</p>
+<p>For example, let's say I have a simple type like this</p>
+<pre><code>type Record = {
+	name: string;
+	value: string;
+	num: number;
+};
+</code></pre>
+<p>That's pretty straightfoward. I can declare a variable like this</p>
+<pre><code>const record: Record = {
+	name: 'foo',
+	value: 'bar',
+	num: 100
+};
+</code></pre>
+<p>and I'll get helpful errors if I set an invalid property or value.</p>
+<p>The problem now is that I can't reference any properties of <code>record</code> by index!</p>
+<pre><code>for (const k in record) {
+	if (record.hasOwnProperty(k)) {
+		console.log(record[k]);
+	}
+}
+</code></pre>
+<p>The above will give me a TS error like <code>No index signature with a parameter of type 'string' was found on type Record</code>.</p>
+<p>This is where Interfaces come in handy. With an Interface, I can explicitly type how an object can be indexed.</p>
+<pre><code>interface IRecord {
+	[index: string]: number | string;
+}
+</code></pre>
+<p>This simple interface says that I can index my object using a string (and nothing else! indexing by numeric index will throw an error). It also says possible return values can be numbers or strings (since those are the possible types of my current properties).</p>
+<p>It's a good start, but I still don't have anything preventing me from assigning random properties or properties of invalid types on my object.</p>
+<p>Luckily, Interfaces let you specify properties just like the simple <code>type</code> I defined in the beginning.</p>
+<pre><code>interface IRecord {
+	[index: string]: number | string;
+
+	name: string;
+	value: string;
+	num: number;
+}
+</code></pre>
+<p>Now I can define my record object as <code>const record: IRecord</code>, my object properties are typed, <em>and</em> I can index the object by string.</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>We did our first major <a href="https://via.studio">work project</a> using TypeScript and it's been pretty great. So great, I've decided to use it on my latest side-project as an additional learning opportunity.</p>
+<p>One thing that confused me a bit at first was the difference between <a href="https://www.typescriptlang.org/docs/handbook/interfaces.html">Interfaces</a> and simple types.</p>
+<p>For example, let's say I have a simple type like this</p>
+<pre><code>type Record = {
+	name: string;
+	value: string;
+	num: number;
+};
+</code></pre>
+<p>That's pretty straightfoward. I can declare a variable like this</p>
+<pre><code>const record: Record = {
+	name: 'foo',
+	value: 'bar',
+	num: 100
+};
+</code></pre>
+<p>and I'll get helpful errors if I set an invalid property or value.</p>
+<p>The problem now is that I can't reference any properties of <code>record</code> by index!</p>
+<pre><code>for (const k in record) {
+	if (record.hasOwnProperty(k)) {
+		console.log(record[k]);
+	}
+}
+</code></pre>
+<p>The above will give me a TS error like <code>No index signature with a parameter of type 'string' was found on type Record</code>.</p>
+<p>This is where Interfaces come in handy. With an Interface, I can explicitly type how an object can be indexed.</p>
+<pre><code>interface IRecord {
+	[index: string]: number | string;
+}
+</code></pre>
+<p>This simple interface says that I can index my object using a string (and nothing else! indexing by numeric index will throw an error). It also says possible return values can be numbers or strings (since those are the possible types of my current properties).</p>
+<p>It's a good start, but I still don't have anything preventing me from assigning random properties or properties of invalid types on my object.</p>
+<p>Luckily, Interfaces let you specify properties just like the simple <code>type</code> I defined in the beginning.</p>
+<pre><code>interface IRecord {
+	[index: string]: number | string;
+
+	name: string;
+	value: string;
+	num: number;
+}
+</code></pre>
+<p>Now I can define my record object as <code>const record: IRecord</code>, my object properties are typed, <em>and</em> I can index the object by string.</p>
+]]></content>
+        <author>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </author>
+        <contributor>
+            <name>Mark Biek</name>
+            <email>info@biek.org</email>
+            <uri>https://mark.biek.org/</uri>
+        </contributor>
+    </entry>
+</feed>

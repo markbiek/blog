@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.css';
 
 import { getMostRecentPost, getPostTitles } from '../lib/api';
+import generateFeed from '../lib/feed';
 import PostView from '../views/PostView';
 
 import { PostType, PostTitleType, PostViewProps } from '../types';
@@ -16,6 +17,7 @@ export default function Blog({ post, titles }: PostViewProps) {
 }
 
 export async function getStaticProps() {
+	await generateFeed();
 	const post: PostType = await getMostRecentPost();
 	const titles: PostTitleType[] = await getPostTitles();
 
