@@ -8,6 +8,18 @@ export default function CV() {
 			<h1>Résumé</h1>
 
 			<article>
+				<p>
+					Mark Biek
+					<br />
+					<a href='mailto:info@biek.org'>info@biek.org</a>
+					<br />
+					+1 502-509-9545
+					<br />
+					<a href='https://mark.biek.org'>mark.biek.org</a>
+				</p>
+			</article>
+
+			<article>
 				<h2>Technologies</h2>
 
 				<ul className={styles.technologies}>
