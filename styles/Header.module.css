@@ -51,3 +51,10 @@
 .logo img {
 	border-radius: 50%;
 }
+
+@media print {
+	.nav,
+	.logo {
+		display: none;
+	}
+}
