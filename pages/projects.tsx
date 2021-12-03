@@ -36,7 +36,7 @@ export default function Projects() {
 					<a href='https://github.com/markbiek/wpe-helper'>Github project</a>
 				</p>
 				<p>
-					This is a collection of Laravel artisan console commands for
+					This is a console tool (written in PHP with Laravel Zero) for
 					interacting with WPEngine sites.
 				</p>
 			</article>
