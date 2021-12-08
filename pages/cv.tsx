@@ -407,7 +407,6 @@ export default function CV() {
 					<span className={styles.tag}>vb6</span>
 					<span className={styles.tag}>php</span>
 				</p>
-				<h5>(Additional work history & references available upon request)</h5>
 			</article>
 		</Layout>
 	);
