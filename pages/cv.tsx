@@ -24,18 +24,15 @@ export default function CV() {
 
 				<ul className={styles.technologies}>
 					<li>PHP (vanilla, Laravel, Wordpress)</li>
-					<li>JavaScript (vanilla, es6, typescript, jQuery)</li>
-					<li>ReactJS, React hooks, NextJS, react-native</li>
-					<li>NodeJS</li>
-					<li>Webpack/Mix/Vitae</li>
-					<li>SCSS</li>
-					<li>HTML/CSS</li>
-					<li>SQL, GraphQL</li>
-					<li>AWS</li>
-					<li>Stripe/Authorize.Net/FirstData/Payeezy</li>
-					<li>Shopify, BigCommerce, Swell, WooCommerce</li>
-					<li>Vagrant</li>
-					<li>Docker</li>
+					<li>JavaScript (vanilla, es6, typescript, jQuery), NodeJS</li>
+					<li>ReactJS, Hooks API, Context API, NextJS, react-native</li>
+					<li>Webpack, Mix, Vitae, Parcel</li>
+					<li>HTML, CSS, SCSS, LESS</li>
+					<li>SQL, Sanity, GraphQL, NoSQL</li>
+					<li>AWS, Vercel</li>
+					<li>WooCommerce, Shopify, BigCommerce, Swell</li>
+					<li>Stripe, Authorize.Net, FirstData, Payeezy</li>
+					<li>Vagrant, Docker</li>
 					<li>Python</li>
 					<li>C#/.NET</li>
 				</ul>
@@ -63,6 +60,7 @@ export default function CV() {
 					<span className={styles.tag}>react</span>
 					<span className={styles.tag}>react-native</span>
 					<span className={styles.tag}>nextjs</span>
+					<span className={styles.tag}>vercel</span>
 					<span className={styles.tag}>html/css</span>
 					<span className={styles.tag}>less/scss</span>
 					<span className={styles.tag}>webpack</span>
@@ -73,7 +71,7 @@ export default function CV() {
 				</p>
 				<ul className={styles.did}>
 					<li>
-						Build custom websites using Laravel, WordPress, and ReactJS.{' '}
+						Build custom websites using Laravel, WordPress, ReactJS and NextJS.{' '}
 						<ul className={styles.subdid}>
 							<li>Recent examples:</li>
 							<li>
@@ -92,7 +90,11 @@ export default function CV() {
 							</li>
 							<li>
 								Integration from WordPress to Salesforce for the{' '}
-								<a href='staveandthief.com/'>Stave & Thief Society</a>.
+								<a href='https://staveandthief.com/'>Stave & Thief Society</a>.
+							</li>
+							<li>
+								Backend development and Sanity CMS integration for the
+								redesigned <a href='https://via.studio'>via.studio</a>.
 							</li>
 							<li>
 								Developed the Kentucky Performing Arts Center ticketing ReactJS

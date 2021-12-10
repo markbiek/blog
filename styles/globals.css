@@ -95,6 +95,12 @@ main {
 	}
 }
 
+@media print {
+	.pagebreak {
+		page-break-before: always;
+	}
+}
+
 .small {
 	padding-left: 0.5rem;
 }
