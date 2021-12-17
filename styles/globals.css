@@ -84,6 +84,25 @@ h3 a {
 	font-size: 1.25em;
 }
 
+dl {
+	width: 100%;
+}
+
+dl dt {
+	display: block;
+	font-family: 'Merriweather', serif;
+	font-size: 1.3em;
+	margin: 24px 0 14px 0;
+	padding-bottom: 6px;
+	border-bottom: 1px solid var(--black);
+}
+
+@media only screen and (min-width: 768px) {
+	dl {
+		width: 75%;
+	}
+}
+
 main {
 	width: 90%;
 	margin: 1em auto;
