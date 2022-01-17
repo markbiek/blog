@@ -67,7 +67,6 @@ export default function CV() {
 					<span className={styles.tag}>nodejs</span>
 					<span className={styles.tag}>aws</span>
 					<span className={styles.tag}>payment-processing</span>
-					<span className={styles.tag}>python</span>
 				</p>
 				<ul className={styles.did}>
 					<li>
