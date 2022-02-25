@@ -41,13 +41,35 @@ export default function CV() {
 			<article>
 				<h2>Places I've worked</h2>
 				<h4 className={styles.job_title}>
+					Senior Backend Engineer &mdash;
+					<span className={styles.where}>
+						<a href='https://automattic.com' className='company-link'>
+							Automattic{' '}
+						</a>
+					</span>{' '}
+					<span className={styles.when}>(Feb 2022 - Present)</span>
+				</h4>
+				<p>
+					<span className={styles.tag}>php</span>
+					<span className={styles.tag}>wordpress, wordpress.com</span>
+					<span className={styles.tag}>wp-calypso</span>
+					<span className={styles.tag}>javascript</span>
+					<span className={styles.tag}>es6</span>
+					<span className={styles.tag}>react</span>
+					<span className={styles.tag}>html/css</span>
+					<span className={styles.tag}>less/scss</span>
+					<span className={styles.tag}>webpack</span>
+					<span className={styles.tag}>nodejs</span>
+					<span className={styles.tag}>payment-processing</span>
+				</p>
+				<h4 className={styles.job_title}>
 					Senior Backend Developer &mdash;
 					<span className={styles.where}>
 						<a href='https://viastudio.com' className='company-link'>
 							VIA Studio{' '}
 						</a>
 					</span>{' '}
-					<span className={styles.when}>(Dec 2015 - Present)</span>
+					<span className={styles.when}>(Dec 2015 - Feb 2022)</span>
 				</h4>
 				<p>
 					<span className={styles.tag}>php</span>
