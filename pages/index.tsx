@@ -37,10 +37,8 @@ export default function Home({ page }: HomeProps) {
 	);
 }
 
-export async function getStaticProps({ preview = false }) {
+export async function getStaticProps() {
 	const page = await getPage("/");
-
-	console.log(page);
 
 	return {
 		props: {

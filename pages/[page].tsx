@@ -28,7 +28,6 @@ export default function ViewPage({ page }: ViewPageProps) {
 }
 
 export async function getStaticProps(context: any) {
-	console.log(context);
 	const page = await getPage(`/${context.params.page}`);
 
 	return {
