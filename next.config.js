@@ -4,7 +4,7 @@ module.exports = {
 	swcMinify: true,
 	reactStrictMode: true,
 	images: {
-		domains: ['static.biek.org', 'mark.biek.dev'],
+		domains: ['static.biek.org', 'mark.biek.dev', 'i0.wp.com'],
 	},
 	async redirects() {
 		return [
@@ -14,8 +14,8 @@ module.exports = {
 				permanent: true,
 			},
 			{
-				source: '/blog/:year/:month/:slug',
-				destination: '/:year/:month/:slug',
+				source: '/:year/:month/:slug',
+				destination: '/blog/:year/:month/:slug',
 				permanent: true,
 			},
 		];

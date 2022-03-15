@@ -1,8 +1,8 @@
-import { getPostBySlug, getPostTitles, getPosts } from '../../../lib/api';
-import PostView from '../../../views/PostView';
-import Layout from '../../../views/Layout';
+import { getPostBySlug, getPostTitles, getPosts } from "../../../../lib/api";
+import PostView from "../../../../views/PostView";
+import Layout from "../../../../views/Layout";
 
-import { PostType, PostTitleType, PostViewProps } from '../../../types';
+import { PostType, PostTitleType, PostViewProps } from "../../../../types";
 
 interface Params {
 	year: number;
@@ -40,8 +40,8 @@ export async function getStaticPaths() {
 			const { slug } = post;
 			const fields = post.date.match(/(\d{4})-(\d{1,2})/);
 
-			const year = fields ? fields[1] : '';
-			const month = fields ? fields[2] : '';
+			const year = fields ? fields[1] : "";
+			const month = fields ? fields[2] : "";
 
 			return {
 				params: {
@@ -51,7 +51,7 @@ export async function getStaticPaths() {
 				},
 			};
 		}),
-		fallback: 'blocking',
+		fallback: "blocking",
 	};
 
 	return ret;

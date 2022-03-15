@@ -13,6 +13,7 @@ export default function ViewPage() {
 	);
 }
 
+/*
 export async function getStaticProps({ preview = false }) {
 	const page = await getPage("/");
 
@@ -24,3 +25,4 @@ export async function getStaticProps({ preview = false }) {
 		},
 	};
 }
+*/
