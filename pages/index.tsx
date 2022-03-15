@@ -3,30 +3,12 @@ import Image from "next/image";
 import { getPage } from "../lib/api";
 
 import Layout from "../views/Layout";
+import { Page } from "../types";
 
 import styles from "../styles/Home.module.css";
 
-interface FeaturedImageNode {
-	sourceUrl: string;
-	srcSet: string;
-	altText: string;
-}
-
-interface FeaturedImage {
-	node: FeaturedImageNode;
-}
-
-interface Page {
-	id: string;
-	date: string;
-	title: string;
-	isFrontPage: boolean;
-	content: string;
-	featuredImage: FeaturedImage;
-}
-
 interface HomeProps {
-	page?: FeaturedImage;
+	page?: Page;
 }
 
 export default function Home({ page }: HomeProps) {
