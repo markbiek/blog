@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import { getPage } from "../lib/api";
 
+import Article from "../components/Article";
 import Layout from "../views/Layout";
 import { Page } from "../types";
 
@@ -18,15 +19,11 @@ export default function Home({ page }: HomeProps) {
 	}
 
 	const {
-		date,
-		title,
 		content,
 		featuredImage: {
 			node: { sourceUrl, altText },
 		},
 	} = page;
-
-	const articleMarkup = { __html: content };
 
 	return (
 		<Layout>
@@ -34,10 +31,7 @@ export default function Home({ page }: HomeProps) {
 				<article className={styles.hero}>
 					<Image src={sourceUrl} alt={altText} width={400} height={400} />
 				</article>
-				<article
-					className={styles.article}
-					dangerouslySetInnerHTML={articleMarkup}
-				/>
+				<Article className={styles.article} content={content} />
 			</section>
 		</Layout>
 	);
