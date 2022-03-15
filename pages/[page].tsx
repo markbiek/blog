@@ -6,6 +6,8 @@ import { getPage } from "../lib/api";
 import Layout from "../views/Layout";
 import { Page } from "../types";
 
+import styles from "../styles/Home.module.css";
+
 interface ViewPageProps {
 	page?: Page;
 }
@@ -15,10 +17,33 @@ export default function ViewPage({ page }: ViewPageProps) {
 		// TODO - 404
 		return null;
 	}
+	console.log(page);
 
-	const { title, content } = page;
+	const { title, content, isFrontPage } = page;
 
 	const articleMarkup = { __html: content };
+
+	if (isFrontPage) {
+		const {
+			featuredImage: {
+				node: { sourceUrl, altText },
+			},
+		} = page;
+
+		return (
+			<Layout>
+				<section className={styles.whoami}>
+					<article className={styles.hero}>
+						<Image src={sourceUrl} alt={altText} width={400} height={400} />
+					</article>
+					<article
+						className={styles.article}
+						dangerouslySetInnerHTML={articleMarkup}
+					/>
+				</section>
+			</Layout>
+		);
+	}
 
 	return (
 		<Layout>
@@ -29,6 +54,7 @@ export default function ViewPage({ page }: ViewPageProps) {
 }
 
 export async function getStaticProps(context: any) {
+	console.log(context);
 	const page = await getPage(`/${context.params.page}`);
 
 	return {
