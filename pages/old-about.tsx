@@ -194,6 +194,40 @@ export default function About() {
 						/>
 					</div>
 				</div>
+<<<<<<< HEAD
+||||||| parent of f7535fb (fixup! WIP: other pages)
+				<h3 id='alf'>
+					What's with{' '}
+					<a href='https://twitter.com/antelopelovefan'>"antelopelovefan"</a>?
+				</h3>
+				<p>
+					The short version is that it dates back to my BBS days in the early
+					90's.
+				</p>
+				<p>
+					The long version is told in{' '}
+					<Link href='/2009/02/a-refugee-from-the-world/'>
+						<a>"A refugee from the world"</a>
+					</Link>
+					.
+				</p>
+=======
+				<h3 id="alf">
+					What's with{" "}
+					<a href="https://twitter.com/antelopelovefan">"antelopelovefan"</a>?
+				</h3>
+				<p>
+					The short version is that it dates back to my BBS days in the early
+					90's.
+				</p>
+				<p>
+					The long version is told in{" "}
+					<Link href="/2009/02/a-refugee-from-the-world/">
+						<a>"A refugee from the world"</a>
+					</Link>
+					.
+				</p>
+>>>>>>> f7535fb (fixup! WIP: other pages)
 			</article>
 		</Layout>
 	);

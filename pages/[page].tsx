@@ -16,26 +16,20 @@ export default function ViewPage({ page }: ViewPageProps) {
 		return null;
 	}
 
-	const {
-		date,
-		title,
-		content,
-		featuredImage: {
-			node: { sourceUrl, altText },
-		},
-	} = page;
+	const { title, content } = page;
+
+	const articleMarkup = { __html: content };
 
 	return (
 		<Layout>
-			<article></article>
+			<h1>{title}</h1>
+			<article dangerouslySetInnerHTML={articleMarkup} />
 		</Layout>
 	);
 }
 
 export async function getStaticProps(context: any) {
 	const page = await getPage(`/${context.params.page}`);
-
-	console.log(page);
 
 	return {
 		props: {

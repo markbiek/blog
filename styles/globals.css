@@ -15,7 +15,7 @@
 
 html,
 body {
-	font-family: 'Merriweather', serif;
+	font-family: "Merriweather", serif;
 	color: var(--copy);
 }
 
@@ -37,7 +37,7 @@ pre {
 	padding: 12px;
 	overflow: scroll;
 	filter: brightness(110%);
-	font-family: 'Fira Code', monospace;
+	font-family: "Fira Code", monospace;
 }
 
 a {
@@ -56,7 +56,7 @@ a:focus {
 
 h1,
 h1 a {
-	font-family: 'PT Sans Caption', sans-serif;
+	font-family: "PT Sans Caption", sans-serif;
 	font-size: 42px;
 	color: var(--headline);
 }
@@ -66,7 +66,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Merriweather', serif;
+	font-family: "Merriweather", serif;
 	font-size: 1.125em;
 	margin: 1em 0 0.25em 0;
 	color: var(--headline);
@@ -74,13 +74,13 @@ h6 {
 
 h2,
 h2 a {
-	font-family: 'Trirong', serif;
+	font-family: "Trirong", serif;
 	font-size: 26px;
 }
 
 h3,
 h3 a {
-	font-family: 'Trirong', serif;
+	font-family: "Trirong", serif;
 	font-size: 1.25em;
 }
 
@@ -90,7 +90,7 @@ dl {
 
 dl dt {
 	display: block;
-	font-family: 'Merriweather', serif;
+	font-family: "Merriweather", serif;
 	font-size: 1.3em;
 	margin: 24px 0 14px 0;
 	padding-bottom: 6px;
@@ -149,17 +149,17 @@ main {
 	font-size: 0.9em;
 }
 
+.wp-block-gallery,
 .image-grid {
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
+	flex-wrap: wrap;
 	width: 100%;
 	margin-bottom: 12px;
 }
 
+.wp-block-image,
 .image-grid-item {
-	margin: 0 12px 0 0;
-}
-
-.image-grid-item img {
+	margin: 0 12px 12px 0;
 }
