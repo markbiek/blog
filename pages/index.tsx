@@ -1,32 +1,74 @@
-import Image from 'next/image';
+import Image from "next/image";
 
-import Layout from '../views/Layout';
+import { getPage } from "../lib/api";
 
-import styles from '../styles/Home.module.css';
+import Layout from "../views/Layout";
 
-export default function Home() {
+import styles from "../styles/Home.module.css";
+
+interface FeaturedImageNode {
+	sourceUrl: string;
+	srcSet: string;
+	altText: string;
+}
+
+interface FeaturedImage {
+	node: FeaturedImageNode;
+}
+
+interface Page {
+	id: string;
+	date: string;
+	title: string;
+	isFrontPage: boolean;
+	content: string;
+	featuredImage: FeaturedImage;
+}
+
+interface HomeProps {
+	page?: FeaturedImage;
+}
+
+export default function Home({ page }: HomeProps) {
+	if (!page) {
+		// TODO - 404
+		return null;
+	}
+
+	const {
+		date,
+		title,
+		content,
+		featuredImage: {
+			node: { sourceUrl, altText },
+		},
+	} = page;
+
+	const articleMarkup = { __html: content };
+
 	return (
 		<Layout>
 			<section className={styles.whoami}>
 				<article className={styles.hero}>
-					<Image
-						src='https://static.biek.org/blog/img/Mark-and-Junior.jpg'
-						alt='Mark sitting with his dog Junior'
-						width={400}
-						height={400}
-					/>
+					<Image src={sourceUrl} alt={altText} width={400} height={400} />
 				</article>
-				<article className={styles.article}>
-					<h1>
-						My name is Mark Biek and I am a software developer, currently in
-						Louisville, KY.
-					</h1>
-					<h2>
-						I like to work with smart, kind people making beautiful and
-						interesting things.
-					</h2>
-				</article>
+				<article
+					className={styles.article}
+					dangerouslySetInnerHTML={articleMarkup}
+				/>
 			</section>
 		</Layout>
 	);
+}
+
+export async function getStaticProps({ preview = false }) {
+	const page = await getPage("/");
+
+	console.log(page);
+
+	return {
+		props: {
+			page: page?.pageBy,
+		},
+	};
 }

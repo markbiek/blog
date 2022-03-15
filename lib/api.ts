@@ -12,6 +12,50 @@ interface PostDetails {
 
 const postsDir = join(process.cwd(), '_posts');
 
+const API_URL = process.env.WORDPRESS_API_URL as string;
+
+async function fetchAPI(query: string) {
+  const headers = { 'Content-Type': 'application/json' }
+
+  const res = await fetch(API_URL, {
+    method: 'POST',
+    headers,
+    body: JSON.stringify({
+      query,
+    }),
+  })
+
+  const json = await res.json()
+  if (json.errors) {
+    console.error(json.errors)
+    throw new Error('Failed to fetch API')
+  }
+  return json.data
+}
+
+export async function getPage(uri: string) {
+	const data = await fetchAPI(`
+		query GetPage {
+			pageBy(uri: "${uri}") {
+				id
+				date
+				title
+				isFrontPage
+				content
+				featuredImage {
+				node {
+					sourceUrl
+					srcSet
+					altText
+				}
+				}
+			}
+		}
+	`);
+
+	return data;
+}
+
 function postFiles(direction: 'asc' | 'desc'): string[] {
 	const files: string[] = fs.readdirSync(postsDir);
 

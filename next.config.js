@@ -4,7 +4,7 @@ module.exports = {
 	swcMinify: true,
 	reactStrictMode: true,
 	images: {
-		domains: ['static.biek.org'],
+		domains: ['static.biek.org', 'mark.biek.dev'],
 	},
 	async redirects() {
 		return [
