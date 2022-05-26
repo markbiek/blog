@@ -1,6 +1,4 @@
-import Link from 'next/link';
-
-import Layout from '../views/Layout';
+import Layout from "../views/Layout";
 
 export default function Contact() {
 	return (
@@ -10,22 +8,10 @@ export default function Contact() {
 
 				<ul>
 					<li>
-						<a href='mailto:info@biek.org'>info@biek.org</a>
+						<a href="mailto:info@biek.org">info@biek.org</a>
 					</li>
 					<li>
-						<a href='https://github.com/markbiek'>Github</a>
-					</li>
-					<li>
-						<a href='https://twitter.com/antelopelovefan'>@antelopelovefan</a>
-						<br />
-						<span className='small'>
-							<Link href='/about#alf'>
-								<a>(what's antelopelovefan?)</a>
-							</Link>
-						</span>
-					</li>
-					<li>
-						<a href='https://twitter.com/explodingvim'>@explodingvim</a>
+						<a href="https://github.com/markbiek">Github</a>
 					</li>
 				</ul>
 			</article>
