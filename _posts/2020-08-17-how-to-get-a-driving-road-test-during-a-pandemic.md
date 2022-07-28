@@ -44,8 +44,8 @@ On the third manual test, I got a hit for availability on Sep 15, 2020!
 
 [^1]: A little background for anyone outside of the US (or Kentucky).
 
-	Here in Jefferson County Kentucky, you take a written test to get your driver's permit at age 16. With the permit, you can drive as long as there's a licensed adult over 21 in the car with you.
+Here in Jefferson County Kentucky, you take a written test to get your driver's permit at age 16. With the permit, you can drive as long as there's a licensed adult over 21 in the car with you.
 	
-	After 6 months of driving with your permit and logging 60h of driving time, you're eligible to take the road test where you have to drive a car with a DMV (Department of Motor Vehicles) employee with you and complete certain tasks (parallel parking, etc). Once you've passed the road test, you get your provisional driver's license which lets you drive without an adult (with some restrictions)
+After 6 months of driving with your permit and logging 60h of driving time, you're eligible to take the road test where you have to drive a car with a DMV (Department of Motor Vehicles) employee with you and complete certain tasks (parallel parking, etc). Once you've passed the road test, you get your provisional driver's license which lets you drive without an adult (with some restrictions)
 
 [^2]: Yeah, I know PHP isn't cool. Most of the stuff you hate about it hasn't been an issue since PHP 5 and PHP 7.4 (especially using something like Laravel) is downright tasty. Whatever. You do you.
