@@ -36,7 +36,7 @@ Here are 3 libraries that made this little script a breeze:
 
 And here's the code which took less than 20m to cobble together.
 
-<script src="https://gist.github.com/markbiek/02737438c2a8ba56855e07ba53640cf8.js"></script>
+https://gist.github.com/markbiek/02737438c2a8ba56855e07ba53640cf8.js"
 
 The fun part is, I never even had to run it as a cronjob.
 
