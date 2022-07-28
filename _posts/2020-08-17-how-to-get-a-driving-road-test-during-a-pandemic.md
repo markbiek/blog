@@ -34,9 +34,9 @@ Here are 3 libraries that made this little script a breeze:
 * [Symfony CssSelector](https://symfony.com/doc/current/components/css_selector.html) for doing media queries on our parsed HTML
 * [Twilio](https://www.twilio.com/docs/libraries/php) for sending text messages
 
-And here's the code which took less than 20m to cobble together.
+And here's the code which took less than 20m to cobble together:
 
-https://gist.github.com/markbiek/02737438c2a8ba56855e07ba53640cf8.js"
+[https://gist.github.com/markbiek/02737438c2a8ba56855e07ba53640cf8](https://gist.github.com/markbiek/02737438c2a8ba56855e07ba53640cf8)
 
 The fun part is, I never even had to run it as a cronjob.
 
