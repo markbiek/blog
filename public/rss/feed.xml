@@ -2,21 +2,237 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Mark Biek - Blog</title>
-        <link>https://mark.biek.org/blog</link>
+        <link>https://mark.biek.org/</link>
         <description></description>
-        <lastBuildDate>Mon, 29 Nov 2021 19:57:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Jul 2022 16:39:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Mark Biek's Blog</generator>
         <image>
             <title>Mark Biek - Blog</title>
             <url>https://static.biek.org/blog/img/mark-in-code.png</url>
-            <link>https://mark.biek.org/blog</link>
+            <link>https://mark.biek.org/</link>
         </image>
-        <copyright>All rights reserved 2021, Mark Biek</copyright>
+        <copyright>All rights reserved 2022, Mark Biek</copyright>
+        <item>
+            <title><![CDATA[Advice from a software-development old head]]></title>
+            <link>https://mark.biek.org//2022/07/advice-from-an-old-head</link>
+            <guid>https://mark.biek.org//2022/07/advice-from-an-old-head</guid>
+            <pubDate>Thu, 14 Jul 2022 15:06:00 GMT</pubDate>
+            <description><![CDATA[<p>After 25 years working as a software developer, I've been thinking a lot about the things that have been the most important over the course of my career. The interesting pattern I've noticed is that most of these things aren't unique to software development at all. You could easily apply them to just about anything.</p>
+<h1>Curiosity is your friend</h1>
+<ul>
+<li>Always wonder about things.</li>
+<li>Wonder how things work.</li>
+<li>Wonder <em>why</em> they work the way they do.</li>
+<li>Explore! Try to see things that other people aren't seeing.</li>
+</ul>
+<h1>Never stop learning</h1>
+<ul>
+<li>Fall in love with learning new things.</li>
+<li>Fall in love with learning more about things you already know.</li>
+<li>Get good at the process of learning so you can learn more things faster!</li>
+</ul>
+<h1>Communication is key</h1>
+<ul>
+<li>We don't do work in a vacuum. Being able to communicate your ideas to others is paramount.</li>
+<li>Learn to writing clearly and simply.
+<ul>
+<li>The <a href="https://fieldguide.automattic.com/the-automattic-style-guide/">Automattic Style Guide</a> is a good compilation of resources.</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>"Programs are meant to be read by humans and only incidentally for computers to execute." - Donald Knuth</p>
+</blockquote>
+</li>
+</ul>
+<h1>Master your tools</h1>
+<ul>
+<li>Learn the ins and outs and full capabilities of your tools. Nothing makes work faster than efficient tool use.
+<ul>
+<li><a href="https://code.visualstudio.com/docs">Visual Studio Code docs</a></li>
+<li><a href="https://vimhelp.org/">Vim help</a></li>
+</ul>
+</li>
+<li>Collect keyboard shortcuts for all the programs you use. Make it a game where you lose points when you touch the mouse. Write the shortcuts on post-its stuck to your monitor to help you remember.
+<ul>
+<li><a href="https://www.alfredapp.com/">AlfredApp</a></li>
+<li><a href="https://support.apple.com/en-us/HT201236">OSX shortcuts</a></li>
+</ul>
+</li>
+<li>Get good at the command-line. At a minimum, get comfortable manipulating files and strings from the cli.
+<ul>
+<li><a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">Beginner's guide to the cli</a></li>
+</ul>
+</li>
+</ul>
+<h1>Get good at searching</h1>
+<p>There's to much stuff to remember so you're going to spend a lot of time trying to find what you need.</p>
+<h2>Searching for information</h2>
+<p>Get good at searching the Internet.</p>
+<ul>
+<li>You need to be able to track down the source of error messages.</li>
+<li>There will be things you don't know how to do and other people have already done them. Learn how to find those details!</li>
+</ul>
+<h2>Searching Code</h2>
+<p>How do you know where the code you need to change lives? You have to search for it!</p>
+<ul>
+<li>Your editor probably has all kinds of fancy search tools. Learn how to use them.</li>
+<li>Learn cli search tools (<code>grep</code>, <code>ack</code>, <code>ripgrep</code>, etc). There are lots of them.
+<ul>
+<li><a href="https://beyondgrep.com/">ack</a></li>
+</ul>
+</li>
+<li>Learn enough regex to make your searches more efficient.
+<ul>
+<li><a href="https://regextutorial.org/">Regex tutorial</a></li>
+</ul>
+</li>
+<li>Learn how to trace your way through code. Maybe you need to change the functionality of a button and you don't know where the code is. Start by finding where the button markup is, then trace your way back up through the code.</li>
+</ul>
+]]></description>
+            <content:encoded><![CDATA[<p>After 25 years working as a software developer, I've been thinking a lot about the things that have been the most important over the course of my career. The interesting pattern I've noticed is that most of these things aren't unique to software development at all. You could easily apply them to just about anything.</p>
+<h1>Curiosity is your friend</h1>
+<ul>
+<li>Always wonder about things.</li>
+<li>Wonder how things work.</li>
+<li>Wonder <em>why</em> they work the way they do.</li>
+<li>Explore! Try to see things that other people aren't seeing.</li>
+</ul>
+<h1>Never stop learning</h1>
+<ul>
+<li>Fall in love with learning new things.</li>
+<li>Fall in love with learning more about things you already know.</li>
+<li>Get good at the process of learning so you can learn more things faster!</li>
+</ul>
+<h1>Communication is key</h1>
+<ul>
+<li>We don't do work in a vacuum. Being able to communicate your ideas to others is paramount.</li>
+<li>Learn to writing clearly and simply.
+<ul>
+<li>The <a href="https://fieldguide.automattic.com/the-automattic-style-guide/">Automattic Style Guide</a> is a good compilation of resources.</li>
+</ul>
+</li>
+<li>
+<blockquote>
+<p>"Programs are meant to be read by humans and only incidentally for computers to execute." - Donald Knuth</p>
+</blockquote>
+</li>
+</ul>
+<h1>Master your tools</h1>
+<ul>
+<li>Learn the ins and outs and full capabilities of your tools. Nothing makes work faster than efficient tool use.
+<ul>
+<li><a href="https://code.visualstudio.com/docs">Visual Studio Code docs</a></li>
+<li><a href="https://vimhelp.org/">Vim help</a></li>
+</ul>
+</li>
+<li>Collect keyboard shortcuts for all the programs you use. Make it a game where you lose points when you touch the mouse. Write the shortcuts on post-its stuck to your monitor to help you remember.
+<ul>
+<li><a href="https://www.alfredapp.com/">AlfredApp</a></li>
+<li><a href="https://support.apple.com/en-us/HT201236">OSX shortcuts</a></li>
+</ul>
+</li>
+<li>Get good at the command-line. At a minimum, get comfortable manipulating files and strings from the cli.
+<ul>
+<li><a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">Beginner's guide to the cli</a></li>
+</ul>
+</li>
+</ul>
+<h1>Get good at searching</h1>
+<p>There's to much stuff to remember so you're going to spend a lot of time trying to find what you need.</p>
+<h2>Searching for information</h2>
+<p>Get good at searching the Internet.</p>
+<ul>
+<li>You need to be able to track down the source of error messages.</li>
+<li>There will be things you don't know how to do and other people have already done them. Learn how to find those details!</li>
+</ul>
+<h2>Searching Code</h2>
+<p>How do you know where the code you need to change lives? You have to search for it!</p>
+<ul>
+<li>Your editor probably has all kinds of fancy search tools. Learn how to use them.</li>
+<li>Learn cli search tools (<code>grep</code>, <code>ack</code>, <code>ripgrep</code>, etc). There are lots of them.
+<ul>
+<li><a href="https://beyondgrep.com/">ack</a></li>
+</ul>
+</li>
+<li>Learn enough regex to make your searches more efficient.
+<ul>
+<li><a href="https://regextutorial.org/">Regex tutorial</a></li>
+</ul>
+</li>
+<li>Learn how to trace your way through code. Maybe you need to change the functionality of a button and you don't know where the code is. Start by finding where the button markup is, then trace your way back up through the code.</li>
+</ul>
+]]></content:encoded>
+            <author>info@biek.org (Mark Biek)</author>
+        </item>
+        <item>
+            <title><![CDATA[Launching vim from a PHP cli app and reading the output.]]></title>
+            <link>https://mark.biek.org//2022/02/php-launch-vim-read-output</link>
+            <guid>https://mark.biek.org//2022/02/php-launch-vim-read-output</guid>
+            <pubDate>Fri, 25 Feb 2022 15:56:00 GMT</pubDate>
+            <description><![CDATA[<p>I've always wondered if it's possible to write a PHP command-line script that launches an editor, lets the user type something, then reads in whatever they type (like a git commit log message).</p>
+<p>Turns out, it's pretty straightforward with the <a href="https://symfony.com/doc/current/components/process.html#using-php-streams-as-the-standard-input-of-a-process">Symfony Process</a> component.</p>
+<pre><code>&#x3C;?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Symfony\Component\Process\Process;
+
+// Create a temporary file so the user has something to type into
+$edit_file = tempnam(sys_get_temp_dir(), "_log");
+
+// Attempt to load the user's EDITOR from the environment. Default to vim otherwise.
+$editor = getenv('EDITOR') !== false ? getenv('EDITOR') : 'vim';
+
+// Launch the editor and open the temp file
+// This will pause execution of our script until they save and close the editor.
+$process = new Process(['vim', $edit_file]);
+$process->setTty(true);
+$process->run();
+
+// Read back the data they entered.
+$data = file_get_contents($edit_file);
+echo "$data\n";
+
+// Clean up after ourselves.
+unlink($edit_file);
+</code></pre>
+]]></description>
+            <content:encoded><![CDATA[<p>I've always wondered if it's possible to write a PHP command-line script that launches an editor, lets the user type something, then reads in whatever they type (like a git commit log message).</p>
+<p>Turns out, it's pretty straightforward with the <a href="https://symfony.com/doc/current/components/process.html#using-php-streams-as-the-standard-input-of-a-process">Symfony Process</a> component.</p>
+<pre><code>&#x3C;?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Symfony\Component\Process\Process;
+
+// Create a temporary file so the user has something to type into
+$edit_file = tempnam(sys_get_temp_dir(), "_log");
+
+// Attempt to load the user's EDITOR from the environment. Default to vim otherwise.
+$editor = getenv('EDITOR') !== false ? getenv('EDITOR') : 'vim';
+
+// Launch the editor and open the temp file
+// This will pause execution of our script until they save and close the editor.
+$process = new Process(['vim', $edit_file]);
+$process->setTty(true);
+$process->run();
+
+// Read back the data they entered.
+$data = file_get_contents($edit_file);
+echo "$data\n";
+
+// Clean up after ourselves.
+unlink($edit_file);
+</code></pre>
+]]></content:encoded>
+            <author>info@biek.org (Mark Biek)</author>
+        </item>
         <item>
             <title><![CDATA[Using jq to filter JSON by regex]]></title>
-            <link>2021/11/using-jq-to-filter-json-by-regex</link>
-            <guid>2021/11/using-jq-to-filter-json-by-regex</guid>
+            <link>https://mark.biek.org//2021/11/using-jq-to-filter-json-by-regex</link>
+            <guid>https://mark.biek.org//2021/11/using-jq-to-filter-json-by-regex</guid>
             <pubDate>Wed, 17 Nov 2021 16:04:00 GMT</pubDate>
             <description><![CDATA[<p>If you're not already familiar with using <a href="https://stedolan.github.io/jq/">jq</a> to manipulate JSON on the command-line, go download it immediately. While it can be a little tricky to learn at first, it'll make your life so much easier.</p>
 <p>For example, I recently learned how to filter a JSON result set using a regex to match the value of a particular object property.</p>
@@ -110,8 +326,8 @@
         </item>
         <item>
             <title><![CDATA[Making a Typescript property dependent on the value of another property]]></title>
-            <link>2021/09/making-a-typescript-property-dependent-on-the-value-of-another-property</link>
-            <guid>2021/09/making-a-typescript-property-dependent-on-the-value-of-another-property</guid>
+            <link>https://mark.biek.org//2021/09/making-a-typescript-property-dependent-on-the-value-of-another-property</link>
+            <guid>https://mark.biek.org//2021/09/making-a-typescript-property-dependent-on-the-value-of-another-property</guid>
             <pubDate>Thu, 30 Sep 2021 00:42:00 GMT</pubDate>
             <description><![CDATA[<p>I recently ran into a situation where I wanted Typescript to require a certain property, only if the <em>value</em> of a different property was a specific value.</p>
 <p>With some help from a <a href="https://github.com/acrobertson">coworker</a> and some additional reading, I found a solution that uses a combination of <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types">Union</a> and <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types">Intersection</a> types.</p>
@@ -253,8 +469,8 @@ let bad2: MyType = {
         </item>
         <item>
             <title><![CDATA[Recreating Laravel Accessor attributes]]></title>
-            <link>2021/04/recreating-laravel-accessor-attributes</link>
-            <guid>2021/04/recreating-laravel-accessor-attributes</guid>
+            <link>https://mark.biek.org//2021/04/recreating-laravel-accessor-attributes</link>
+            <guid>https://mark.biek.org//2021/04/recreating-laravel-accessor-attributes</guid>
             <pubDate>Thu, 08 Apr 2021 18:15:00 GMT</pubDate>
             <description><![CDATA[<p><a href="https://laravel.com">Laravel</a> models have a great feature called <a href="https://laravel.com/docs/8.x/eloquent-mutators#defining-an-accessor">Accessors</a>.</p>
 <p>The basic idea is that you define a class method like this</p>
@@ -300,8 +516,8 @@ Full name: Mark Biek
         </item>
         <item>
             <title><![CDATA[Plugin Unit Testing in WordPress]]></title>
-            <link>2021/03/plugin-unit-testing-in-wordpress</link>
-            <guid>2021/03/plugin-unit-testing-in-wordpress</guid>
+            <link>https://mark.biek.org//2021/03/plugin-unit-testing-in-wordpress</link>
+            <guid>https://mark.biek.org//2021/03/plugin-unit-testing-in-wordpress</guid>
             <pubDate>Fri, 12 Mar 2021 01:13:00 GMT</pubDate>
             <description><![CDATA[<p>I'll admit that I have been pretty hit-and-miss with testing on projects over the course of my career. That said, I've been trying to be a little more consistent about it.</p>
 <p>For Laravel projects, it's real easy since <a href="https://phpunit.de/">PHPUnit</a> integration is built into Laravel <a href="https://laravel.com/docs/8.x/testing">right out of the box</a>.</p>
@@ -338,124 +554,6 @@ Full name: Mark Biek
 <p>To that end, I've started a Github project: <a href="https://github.com/markbiek/wordpress-dev">https://github.com/markbiek/wordpress-dev</a> which is a clone of <a href="http://develop.svn.wordpress.org/trunk/">http://develop.svn.wordpress.org/trunk/</a>.</p>
 <p>The only difference is, my version doesn't delete any data when the tests are run. We've just removed the contents of the <code>_delete_all_data</code> and <code>_delete_all_posts</code> functions in <a href="http://develop.svn.wordpress.org/trunk/tests/phpunit/includes/functions.php">functions.php</a>.</p>
 <p>If you can, I'd recommend sticking with the official WordPress way of testing. But hopefully this will be useful to some other people.</p>
-]]></content:encoded>
-            <author>info@biek.org (Mark Biek)</author>
-        </item>
-        <item>
-            <title><![CDATA[On learning and stupid questions]]></title>
-            <link>2021/02/on-learning-and-stupid-questions</link>
-            <guid>2021/02/on-learning-and-stupid-questions</guid>
-            <pubDate>Sat, 13 Feb 2021 00:07:00 GMT</pubDate>
-            <description><![CDATA[<p>There is an artist and puzzle-maker named <a href="https://www.abrahampiper.com/">Abraham Piper</a> who I discovered because of his <a href="https://www.tiktok.com/@abrahampiper">Tik Toks</a>.</p>
-<p>He covers lots of fun stuff like words, religion, philosopy, the meaningless of life (and why it's OK).</p>
-<p>But my <a href="https://www.tiktok.com/@abrahampiper/video/6918391576058154246">absolute favorite video</a> is about learning and "stupid questions."</p>
-<p>My apologies to Abraham if I don't get this exactly right, but here's what I took away from it.</p>
-<p>Think about every single thing that you currently know.</p>
-<p>At some point in your life, you didn't know each one of those things. And, for each one of those things, there is a precise moment when you learned each one.</p>
-<p>So don't be ashamed of not knowing something. Be proud of yourself for taking the steps to learn it!</p>
-<p>And don't look down on someone for not knowing something and trying to learn it. Just because you knew whatever it was before them doesn't make you better or smarter</p>
-]]></description>
-            <content:encoded><![CDATA[<p>There is an artist and puzzle-maker named <a href="https://www.abrahampiper.com/">Abraham Piper</a> who I discovered because of his <a href="https://www.tiktok.com/@abrahampiper">Tik Toks</a>.</p>
-<p>He covers lots of fun stuff like words, religion, philosopy, the meaningless of life (and why it's OK).</p>
-<p>But my <a href="https://www.tiktok.com/@abrahampiper/video/6918391576058154246">absolute favorite video</a> is about learning and "stupid questions."</p>
-<p>My apologies to Abraham if I don't get this exactly right, but here's what I took away from it.</p>
-<p>Think about every single thing that you currently know.</p>
-<p>At some point in your life, you didn't know each one of those things. And, for each one of those things, there is a precise moment when you learned each one.</p>
-<p>So don't be ashamed of not knowing something. Be proud of yourself for taking the steps to learn it!</p>
-<p>And don't look down on someone for not knowing something and trying to learn it. Just because you knew whatever it was before them doesn't make you better or smarter</p>
-]]></content:encoded>
-            <author>info@biek.org (Mark Biek)</author>
-        </item>
-        <item>
-            <title><![CDATA[Learning about TypeScript interfaces]]></title>
-            <link>2020/10/learning-about-typescript-interfaces</link>
-            <guid>2020/10/learning-about-typescript-interfaces</guid>
-            <pubDate>Fri, 23 Oct 2020 00:49:00 GMT</pubDate>
-            <description><![CDATA[<p>We did our first major <a href="https://via.studio">work project</a> using TypeScript and it's been pretty great. So great, I've decided to use it on my latest side-project as an additional learning opportunity.</p>
-<p>One thing that confused me a bit at first was the difference between <a href="https://www.typescriptlang.org/docs/handbook/interfaces.html">Interfaces</a> and simple types.</p>
-<p>For example, let's say I have a simple type like this</p>
-<pre><code>type Record = {
-	name: string;
-	value: string;
-	num: number;
-};
-</code></pre>
-<p>That's pretty straightfoward. I can declare a variable like this</p>
-<pre><code>const record: Record = {
-	name: 'foo',
-	value: 'bar',
-	num: 100
-};
-</code></pre>
-<p>and I'll get helpful errors if I set an invalid property or value.</p>
-<p>The problem now is that I can't reference any properties of <code>record</code> by index!</p>
-<pre><code>for (const k in record) {
-	if (record.hasOwnProperty(k)) {
-		console.log(record[k]);
-	}
-}
-</code></pre>
-<p>The above will give me a TS error like <code>No index signature with a parameter of type 'string' was found on type Record</code>.</p>
-<p>This is where Interfaces come in handy. With an Interface, I can explicitly type how an object can be indexed.</p>
-<pre><code>interface IRecord {
-	[index: string]: number | string;
-}
-</code></pre>
-<p>This simple interface says that I can index my object using a string (and nothing else! indexing by numeric index will throw an error). It also says possible return values can be numbers or strings (since those are the possible types of my current properties).</p>
-<p>It's a good start, but I still don't have anything preventing me from assigning random properties or properties of invalid types on my object.</p>
-<p>Luckily, Interfaces let you specify properties just like the simple <code>type</code> I defined in the beginning.</p>
-<pre><code>interface IRecord {
-	[index: string]: number | string;
-
-	name: string;
-	value: string;
-	num: number;
-}
-</code></pre>
-<p>Now I can define my record object as <code>const record: IRecord</code>, my object properties are typed, <em>and</em> I can index the object by string.</p>
-]]></description>
-            <content:encoded><![CDATA[<p>We did our first major <a href="https://via.studio">work project</a> using TypeScript and it's been pretty great. So great, I've decided to use it on my latest side-project as an additional learning opportunity.</p>
-<p>One thing that confused me a bit at first was the difference between <a href="https://www.typescriptlang.org/docs/handbook/interfaces.html">Interfaces</a> and simple types.</p>
-<p>For example, let's say I have a simple type like this</p>
-<pre><code>type Record = {
-	name: string;
-	value: string;
-	num: number;
-};
-</code></pre>
-<p>That's pretty straightfoward. I can declare a variable like this</p>
-<pre><code>const record: Record = {
-	name: 'foo',
-	value: 'bar',
-	num: 100
-};
-</code></pre>
-<p>and I'll get helpful errors if I set an invalid property or value.</p>
-<p>The problem now is that I can't reference any properties of <code>record</code> by index!</p>
-<pre><code>for (const k in record) {
-	if (record.hasOwnProperty(k)) {
-		console.log(record[k]);
-	}
-}
-</code></pre>
-<p>The above will give me a TS error like <code>No index signature with a parameter of type 'string' was found on type Record</code>.</p>
-<p>This is where Interfaces come in handy. With an Interface, I can explicitly type how an object can be indexed.</p>
-<pre><code>interface IRecord {
-	[index: string]: number | string;
-}
-</code></pre>
-<p>This simple interface says that I can index my object using a string (and nothing else! indexing by numeric index will throw an error). It also says possible return values can be numbers or strings (since those are the possible types of my current properties).</p>
-<p>It's a good start, but I still don't have anything preventing me from assigning random properties or properties of invalid types on my object.</p>
-<p>Luckily, Interfaces let you specify properties just like the simple <code>type</code> I defined in the beginning.</p>
-<pre><code>interface IRecord {
-	[index: string]: number | string;
-
-	name: string;
-	value: string;
-	num: number;
-}
-</code></pre>
-<p>Now I can define my record object as <code>const record: IRecord</code>, my object properties are typed, <em>and</em> I can index the object by string.</p>
 ]]></content:encoded>
             <author>info@biek.org (Mark Biek)</author>
         </item>
