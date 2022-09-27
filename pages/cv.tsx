@@ -1,6 +1,6 @@
-import Layout from '../views/Layout';
+import Layout from "../views/Layout";
 
-import styles from '../styles/CV.module.css';
+import styles from "../styles/CV.module.css";
 
 export default function CV() {
 	return (
@@ -11,11 +11,22 @@ export default function CV() {
 				<p>
 					Mark Biek
 					<br />
-					<a href='mailto:info@biek.org'>info@biek.org</a>
+					<a href="mailto:info@biek.org">info@biek.org</a>
 					<br />
 					+1 502-509-9545
 					<br />
-					<a href='https://mark.biek.org'>mark.biek.org</a>
+					<a href="https://mark.biek.org">mark.biek.org</a>
+				</p>
+			</article>
+
+			<article>
+				<h2>I don't have accounts on any freelance sites</h2>
+
+				<p>
+					If you happen to see a Mark Biek with my picture on Upwork or any
+					other freelance sites, that's a fake profile. I don't currently do
+					work through any freelance sites, though I am occasionally available
+					for contract work.
 				</p>
 			</article>
 
@@ -43,10 +54,10 @@ export default function CV() {
 				<h4 className={styles.job_title}>
 					Senior Backend Engineer &mdash;
 					<span className={styles.where}>
-						<a href='https://automattic.com' className='company-link'>
-							Automattic{' '}
+						<a href="https://automattic.com" className="company-link">
+							Automattic{" "}
 						</a>
-					</span>{' '}
+					</span>{" "}
 					<span className={styles.when}>(Feb 2022 - Present)</span>
 				</h4>
 				<p>
@@ -65,10 +76,10 @@ export default function CV() {
 				<h4 className={styles.job_title}>
 					Senior Backend Developer &mdash;
 					<span className={styles.where}>
-						<a href='https://viastudio.com' className='company-link'>
-							VIA Studio{' '}
+						<a href="https://viastudio.com" className="company-link">
+							VIA Studio{" "}
 						</a>
-					</span>{' '}
+					</span>{" "}
 					<span className={styles.when}>(Dec 2015 - Feb 2022)</span>
 				</h4>
 				<p>
@@ -92,39 +103,39 @@ export default function CV() {
 				</p>
 				<ul className={styles.did}>
 					<li>
-						Build custom websites using Laravel, WordPress, ReactJS and NextJS.{' '}
+						Build custom websites using Laravel, WordPress, ReactJS and NextJS.{" "}
 						<ul className={styles.subdid}>
 							<li>Recent examples:</li>
 							<li>
-								Product subscription service for{' '}
-								<a href='https://boilerwarehouse.com'>
+								Product subscription service for{" "}
+								<a href="https://boilerwarehouse.com">
 									WARE's boilerwarehouse.com
 								</a>
 								.
 							</li>
 							<li>
-								Parts wishlist functionality for{' '}
-								<a href='https://boilerwarehouse.com'>
+								Parts wishlist functionality for{" "}
+								<a href="https://boilerwarehouse.com">
 									WARE's boilerwarehouse.com
 								</a>
 								.
 							</li>
 							<li>
-								Integration from WordPress to Salesforce for the{' '}
-								<a href='https://staveandthief.com/'>Stave & Thief Society</a>.
+								Integration from WordPress to Salesforce for the{" "}
+								<a href="https://staveandthief.com/">Stave & Thief Society</a>.
 							</li>
 							<li>
 								Backend development and Sanity CMS integration for the
-								redesigned <a href='https://via.studio'>via.studio</a>.
+								redesigned <a href="https://via.studio">via.studio</a>.
 							</li>
 							<li>
 								Developed the Kentucky Performing Arts Center ticketing ReactJS
 								app (
-								<a href='https://via.studio/work/kentucky-performing-arts-website'>
+								<a href="https://via.studio/work/kentucky-performing-arts-website">
 									Case Study
 								</a>
-								,{' '}
-								<a href='https://via.studio/journal/using-react-and-redux-to-build-the-kentucky-performing-arts-ticketing-experience'>
+								,{" "}
+								<a href="https://via.studio/journal/using-react-and-redux-to-build-the-kentucky-performing-arts-ticketing-experience">
 									Tech Stack
 								</a>
 								).
@@ -132,7 +143,7 @@ export default function CV() {
 							<li>
 								Developed redesigned air quality website for Louisville Air
 								Watch (
-								<a href='http://airqualitymap.louisvilleky.gov/'>
+								<a href="http://airqualitymap.louisvilleky.gov/">
 									http://airqualitymap.louisvilleky.gov/
 								</a>
 								) including more efficient API layer.
@@ -140,31 +151,31 @@ export default function CV() {
 						</ul>
 					</li>
 					<li>
-						Design large-scale ecommerce systems for clients{' '}
+						Design large-scale ecommerce systems for clients{" "}
 						<ul className={styles.subdid}>
 							<li>Recent examples:</li>
 							<li>
-								<a href='https://scholarrx.com/'>ScholarRx</a> &ndash;
+								<a href="https://scholarrx.com/">ScholarRx</a> &ndash;
 								Simplified their ecommerce flow by moving to a headless
 								ecommerce platform combined with a React SPA for cart/checkout.
 							</li>
 							<li>
-								<a href='https://www.ridgerunner.com/'>Ridge Runner</a> &ndash;
+								<a href="https://www.ridgerunner.com/">Ridge Runner</a> &ndash;
 								Designed a vendor-focused store platform with an eye toward
 								rapid vendor store setup.
 							</li>
 						</ul>
 					</li>
 					<li>
-						Spearheaded project to sell custom WordPress plugins on{' '}
-						<a href='https://plugins.viastudio.com'>
+						Spearheaded project to sell custom WordPress plugins on{" "}
+						<a href="https://plugins.viastudio.com">
 							https://plugins.viastudio.com
 						</a>
 						. This included lead developer on the plugins themselves as well as
-						the corresponding sales website.{' '}
+						the corresponding sales website.{" "}
 					</li>
 					<li>
-						Development team manager and member of company leadership team{' '}
+						Development team manager and member of company leadership team{" "}
 					</li>
 					<li>Assist with client prospecting. </li>
 					<li>Generate new business leads. </li>
@@ -174,16 +185,16 @@ export default function CV() {
 					<li>Manage internal and cloud servers. </li>
 					<li>
 						Manage Vagrant, Docker, and Jenkins CI projects for internal
-						development.{' '}
+						development.{" "}
 					</li>
 				</ul>
 				<h4 className={styles.job_title}>
 					Senior Development Consultant &mdash;
 					<span className={styles.where}>
-						<a href='http://studymaker.com/' className='company-link'>
-							Studymaker, LLC{' '}
+						<a href="http://studymaker.com/" className="company-link">
+							Studymaker, LLC{" "}
 						</a>
-					</span>{' '}
+					</span>{" "}
 					<span className={styles.when}>(2002 - Present)</span>
 				</h4>
 				<p>
@@ -201,7 +212,7 @@ export default function CV() {
 				<ul className={styles.did}>
 					<li>
 						Development on Studymaker's EDC platform for tracking medical
-						research study data.{' '}
+						research study data.{" "}
 						<ul className={styles.subdid}>
 							<li>Including:</li>
 							<li>
@@ -215,15 +226,15 @@ export default function CV() {
 					</li>
 					<li>
 						Design and maintain AWS architecture for HIPAA-compliant PHP
-						application hosting including monitoring and deployment scripts.{' '}
+						application hosting including monitoring and deployment scripts.{" "}
 					</li>
 					<li>
 						Wrote an AngularJS application for calculating Procalcitonin changes
 						(
 						<a
-							href='https://www.brahms-pct-calculator.com/'
-							target='_blank'
-							rel='noreferrer'
+							href="https://www.brahms-pct-calculator.com/"
+							target="_blank"
+							rel="noreferrer"
 						>
 							https://www.brahms-pct-calculator.com/
 						</a>
@@ -232,28 +243,28 @@ export default function CV() {
 						built on top of the Redcap API. – Beth Israel Deaconess Medical
 						Center, Harvard University. Wrote a mobile-friendly website for
 						collecting patient medical information. Used by BIDMC doctors at the
-						2012 Democratic Convention at their mobile treatment stations.{' '}
+						2012 Democratic Convention at their mobile treatment stations.{" "}
 					</li>
 					<li>
 						Wrote PHP/Laravel/MySQL website for displaying data dashboards.
 						Included custom REST API for pulling data together from multiple
-						sources.{' '}
+						sources.{" "}
 					</li>
 					<li>
 						Wrote a variety of PHP/MySQL websites for data collection. Data
 						collected was used for studies to improve patient care through more
 						efficient and accurate record keeping and to measure the
-						effectiveness of new drugs.{' '}
+						effectiveness of new drugs.{" "}
 					</li>
 					<li>Managed Rackspace servers </li>
 				</ul>
 				<h4 className={styles.job_title}>
 					Senior Development Consultant &mdash;
 					<span className={styles.where}>
-						<a href='https://negotiation-360.com' className='company-link'>
-							Negotation360{' '}
+						<a href="https://negotiation-360.com" className="company-link">
+							Negotation360{" "}
 						</a>
-					</span>{' '}
+					</span>{" "}
 					<span className={styles.when}>(May 2020 - Dec 2020)</span>
 				</h4>
 				<p>
@@ -268,7 +279,7 @@ export default function CV() {
 				<ul className={styles.did}>
 					<li>
 						After the initial developer left, took over api and admin website
-						along with react-native mobile app{' '}
+						along with react-native mobile app{" "}
 					</li>
 					<li>Assist in recovery from credential leak </li>
 					<li>Help manage and automate AWS setup </li>
@@ -276,10 +287,10 @@ export default function CV() {
 				<h4 className={styles.job_title}>
 					Senior Development Consultant &mdash;
 					<span className={styles.where}>
-						<a href='https://mmj.org/' className='company-link'>
-							ioVita{' '}
+						<a href="https://mmj.org/" className="company-link">
+							ioVita{" "}
 						</a>
-					</span>{' '}
+					</span>{" "}
 					<span className={styles.when}>(Jan 2018 - Sep 2019)</span>
 				</h4>
 				<p>
@@ -300,13 +311,13 @@ export default function CV() {
 				</p>
 				<ul className={styles.did}>
 					<li>
-						Assist off-shore team with best practices and system architecture{' '}
+						Assist off-shore team with best practices and system architecture{" "}
 					</li>
 					<li>Help manage and automate AWS and Progress HealthCloud setup </li>
 				</ul>
 				<h4 className={styles.job_title}>
 					Senior Programmer Analyst &mdash;
-					<span className={styles.where}>Kindred Healthcare</span>{' '}
+					<span className={styles.where}>Kindred Healthcare</span>{" "}
 					<span className={styles.when}>(Sep 2013 - Nov 2015)</span>
 				</h4>
 				<p>
@@ -324,66 +335,66 @@ export default function CV() {
 						interface to SQL Server. Service requires high availability in order
 						to process millions of records daily. Improved performance by
 						migrating static SQL INSERT calls to using MERGE statements using
-						User-defined Table Types.{' '}
+						User-defined Table Types.{" "}
 					</li>
 					<li>
 						Lead developer on ASP.NET Web forms site for generating custom SSRS
-						reports.{' '}
+						reports.{" "}
 					</li>
 					<li>
 						Lead developer on ASP.NET MVC website for calculating nursing
-						staffing needs.{' '}
+						staffing needs.{" "}
 					</li>
 					<li>
 						Lead developer on ASP.NET MVC website which allows respiratory
 						therapists to review ventilator data and submit records back to
-						ProTouch (Kindred's EMR).{' '}
+						ProTouch (Kindred's EMR).{" "}
 					</li>
 					<li>
 						Lead developer on a C# desktop application for monitoring servers
 						running ProTouch. Application includes ability to send batch
 						commands to multiple servers. I improved performance by rewriting
 						the batch-send threading code to use the .NET TPL (Task Parallel
-						Library).{' '}
+						Library).{" "}
 					</li>
 					<li>
 						Wrote a responsive ACO physician/facility directory website using
 						PHP/MySQL. This site required quick turn around and was used to
 						demonstrate our group's development capabilities to the new company
-						CIO.{' '}
+						CIO.{" "}
 					</li>
 					<li>
 						Implemented work queue and Windows service monitoring using Nagios.
 						Previously, we wouldn't find out about queue failures for days. Now
-						we have real-time alerts.{' '}
+						we have real-time alerts.{" "}
 					</li>
 					<li>
 						Wrote an internal website to allow developers working on the
-						ProTouch UI layer to easily review their display modules.{' '}
+						ProTouch UI layer to easily review their display modules.{" "}
 					</li>
 					<li>
 						Updated all .NET applications and websites to use config file
 						transformations to easily deploy to different environments.
 						Previously, developers had to manually modify the config files for
-						each environment.{' '}
+						each environment.{" "}
 					</li>
 					<li>
 						Added automatic build numbers to each .NET application and website
 						to allow for easy version tracking on release. Previously, it was
-						difficult to know which version was running in Production.{' '}
+						difficult to know which version was running in Production.{" "}
 					</li>
 					<li>
 						Helped manage an Intern from the UofL Speed School. This included
-						assigning projects, reviewing code, and assisting with development.{' '}
+						assigning projects, reviewing code, and assisting with development.{" "}
 					</li>
 					<li>
 						Helped spearhead an initiative to migrate from Visual Source Safe
-						and Subversion to Git.{' '}
+						and Subversion to Git.{" "}
 					</li>
 				</ul>
 				<h4 className={styles.job_title}>
 					Senior Interactive Developer &mdash;
-					<span className={styles.where}>Power Creative</span>{' '}
+					<span className={styles.where}>Power Creative</span>{" "}
 					<span className={styles.when}>(Aug 2008 - Sep 2013)</span>
 				</h4>
 				<p>
@@ -400,7 +411,7 @@ export default function CV() {
 				</p>
 				<h4 className={styles.job_title}>
 					Senior Programmer Analyst &mdash;
-					<span className={styles.where}>The Stevenson Company</span>{' '}
+					<span className={styles.where}>The Stevenson Company</span>{" "}
 					<span className={styles.when}>(Sep 2002 - Aug 2008)</span>
 				</h4>
 				<p>
@@ -412,7 +423,7 @@ export default function CV() {
 				</p>
 				<h4 className={styles.job_title}>
 					Software Developer &mdash;
-					<span className={styles.where}>ZFrame Corporation</span>{' '}
+					<span className={styles.where}>ZFrame Corporation</span>{" "}
 					<span className={styles.when}>(Jan 2000 - Sep 2002)</span>
 				</h4>
 				<p>
@@ -423,7 +434,7 @@ export default function CV() {
 				</p>
 				<h4 className={styles.job_title}>
 					Software Developer &mdash;
-					<span className={styles.where}>PinPoint Corporation</span>{' '}
+					<span className={styles.where}>PinPoint Corporation</span>{" "}
 					<span className={styles.when}>(Aug 1998 - Jan 2000)</span>
 				</h4>
 				<p>
