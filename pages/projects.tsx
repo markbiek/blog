@@ -1,4 +1,4 @@
-import Layout from '../views/Layout';
+import Layout from "../views/Layout";
 
 export default function Projects() {
 	return (
@@ -13,38 +13,9 @@ export default function Projects() {
 			</aside>
 
 			<article>
-				<h2>Elementor Import/Export Tool</h2>
-				<p>
-					<a href='https://github.com/markbiek/elementor-import-export'>
-						Github project
-					</a>
-				</p>
-				<p>
-					This is a WordPress plugin which adds a new <code>wp</code> command to
-					export and import Elementor post data.
-				</p>
-				<p>
-					All Elementor-related metadata for the post is exported to a
-					PHP-serialized file which can the be imported using the other{' '}
-					<code>wp</code> command.
-				</p>
-			</article>
-
-			<article>
-				<h2>WPEngine Helper</h2>
-				<p>
-					<a href='https://github.com/markbiek/wpe-helper'>Github project</a>
-				</p>
-				<p>
-					This is a console tool (written in PHP with Laravel Zero) for
-					interacting with WPEngine sites.
-				</p>
-			</article>
-
-			<article>
 				<h2>react-editable-label</h2>
 				<p>
-					<a href='https://www.npmjs.com/package/react-editable-label'>
+					<a href="https://www.npmjs.com/package/react-editable-label">
 						Github project
 					</a>
 				</p>
@@ -61,7 +32,7 @@ export default function Projects() {
 			<article>
 				<h2>PHP Features Cheatsheet</h2>
 				<p>
-					<a href='https://markbiek.github.io/php-features-cheatsheet/'>
+					<a href="https://markbiek.github.io/php-features-cheatsheet/">
 						The cheatsheet
 					</a>
 				</p>
@@ -73,9 +44,50 @@ export default function Projects() {
 			</article>
 
 			<article>
+				<h2>Dotfiles</h2>
+				<p>
+					<a href="https://github.com/markbiek/dotfiles">Github project</a>
+				</p>
+				<p>
+					All of the various config files that I use. I put them in Github to
+					make it easier to deploy on multiple machines <em>and</em> to
+					potentially be of use to others.
+				</p>
+			</article>
+
+			<article>
+				<h2>Elementor Import/Export Tool</h2>
+				<p>
+					<a href="https://github.com/markbiek/elementor-import-export">
+						Github project
+					</a>
+				</p>
+				<p>
+					This is a WordPress plugin which adds a new <code>wp</code> command to
+					export and import Elementor post data.
+				</p>
+				<p>
+					All Elementor-related metadata for the post is exported to a
+					PHP-serialized file which can the be imported using the other{" "}
+					<code>wp</code> command.
+				</p>
+			</article>
+
+			<article>
+				<h2>WPEngine Helper</h2>
+				<p>
+					<a href="https://github.com/markbiek/wpe-helper">Github project</a>
+				</p>
+				<p>
+					This is a console tool (written in PHP with Laravel Zero) for
+					interacting with WPEngine sites.
+				</p>
+			</article>
+
+			<article>
 				<h2>bc3-helper</h2>
 				<p>
-					<a href='https://github.com/markbiek/bc3-helper-extension'>
+					<a href="https://github.com/markbiek/bc3-helper-extension">
 						Github project
 					</a>
 				</p>
@@ -89,21 +101,9 @@ export default function Projects() {
 			<article>
 				<h2>Link Shrub</h2>
 				<p>
-					<a href='https://github.com/markbiek/link-shrub'>Github project</a>
+					<a href="https://github.com/markbiek/link-shrub">Github project</a>
 				</p>
 				<p>A very simple, plain, self-hosted alternative to linktr.ee.</p>
-			</article>
-
-			<article>
-				<h2>Dotfiles</h2>
-				<p>
-					<a href='https://github.com/markbiek/dotfiles'>Github project</a>
-				</p>
-				<p>
-					All of the various config files that I use. I put them in Github to
-					make it easier to deploy on multiple machines <em>and</em> to
-					potentially be of use to others.
-				</p>
 			</article>
 		</Layout>
 	);
