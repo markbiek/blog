@@ -73,6 +73,20 @@ export default function CV() {
 					<span className={styles.tag}>nodejs</span>
 					<span className={styles.tag}>payment-processing</span>
 				</p>
+				<ul className={styles.did}>
+					<li>
+						ReactJS and PHP development on{" "}
+						<a href="https://github.com/Automattic/wp-calypso">Calypso</a> for
+						WordPress.com
+					</li>
+					<li>
+						You can view a list of Pull Requests I've merged to Calypso{" "}
+						<a href="https://github.com/Automattic/wp-calypso/pulls?q=is%3Apr+is%3Aclosed+author%3Amarkbiek">
+							on Github
+						</a>
+						.
+					</li>
+				</ul>
 				<h4 className={styles.job_title}>
 					Senior Backend Developer &mdash;
 					<span className={styles.where}>
