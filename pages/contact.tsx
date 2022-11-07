@@ -15,6 +15,16 @@ export default function Contact() {
 					</li>
 				</ul>
 			</article>
+			<article>
+				<h2>I don't have accounts on any freelance sites</h2>
+
+				<p>
+					If you happen to see a Mark Biek with my picture on Upwork or any
+					other freelance sites, that's a fake profile. I don't currently do
+					work through any freelance sites, though I am occasionally available
+					for contract work.
+				</p>
+			</article>
 		</Layout>
 	);
 }
