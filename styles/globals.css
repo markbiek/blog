@@ -6,9 +6,9 @@
 	--gray: #dedede;
 	--tertiary: #d9376e;
 	--highlight: #ff8e3c;
-	--bg: #eff0f3;
-	--headline: #0d0d0d;
-	--copy: #2a2a2a;
+	--bg: rgb(244, 236, 216);
+	--copy: rgb(91, 70, 54);
+	--headline: var(--copy);
 	--button: #ff8e3c;
 	--button-text: #0d0d0d;
 }
@@ -17,6 +17,7 @@ html,
 body {
 	font-family: 'Merriweather', serif;
 	color: var(--copy);
+	background: var(--bg);
 }
 
 a,
