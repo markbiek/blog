@@ -13,6 +13,11 @@ export default function Contact() {
 					<li>
 						<a href="https://github.com/markbiek">Github</a>
 					</li>
+					<li>
+						<a href="https://m.antelopelovefan.com/@antelopelovefan">
+							Mastodon
+						</a>
+					</li>
 				</ul>
 			</article>
 			<article>
