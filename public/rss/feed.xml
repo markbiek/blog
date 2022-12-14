@@ -4,7 +4,7 @@
         <title>Mark Biek - Blog</title>
         <link>https://mark.biek.org/</link>
         <description></description>
-        <lastBuildDate>Mon, 07 Nov 2022 17:55:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Dec 2022 13:22:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Mark Biek's Blog</generator>
         <image>
@@ -13,6 +13,33 @@
             <link>https://mark.biek.org/</link>
         </image>
         <copyright>All rights reserved 2022, Mark Biek</copyright>
+        <item>
+            <title><![CDATA[Learning a Large System]]></title>
+            <link>https://mark.biek.org//2022/12/learning-a-large-system</link>
+            <guid>https://mark.biek.org//2022/12/learning-a-large-system</guid>
+            <pubDate>Thu, 01 Dec 2022 18:18:00 GMT</pubDate>
+            <description><![CDATA[<p>Starting work in a large, existing system is very much like trying to find your way around a very dark and very cluttered warehouse.</p>
+<p>When you start, your flashlight is very small (if you even <em>have</em> a flashlight). You can only see tiny pieces of the room at a time. Nothing really makes sense and you have no sense of how any of the piles of clutter are related to each other.</p>
+<p>After spending some time poking around the warehouse, you get to upgrade your flashlight. You can start to see more swaths of the room and once and can even infer a little bit about how different piles work together. But this is where it gets tricky. It's easy to make false assumptions about the parts you're seeing when the reality is still hidden in the darkness.</p>
+<p>And the process continues like this as time goes by.</p>
+<p>You get bigger flashlights and can see more of the room.</p>
+<p>Spend enough time and you may even get to turn on some overhead lights.</p>
+<p>If the system isn't <em>too</em> huge, you may someday turn on all the lights and can see the whole room at once. But you may never get to that point if the system is massive enough.</p>
+<p>You may have a section of the room that you're most familiar with while someone else may know about other parts. This is great because then you can ask each other about what is in each pile of clutter.</p>
+<p>In that case, you and everyone else in the room has to rely on each other.</p>
+]]></description>
+            <content:encoded><![CDATA[<p>Starting work in a large, existing system is very much like trying to find your way around a very dark and very cluttered warehouse.</p>
+<p>When you start, your flashlight is very small (if you even <em>have</em> a flashlight). You can only see tiny pieces of the room at a time. Nothing really makes sense and you have no sense of how any of the piles of clutter are related to each other.</p>
+<p>After spending some time poking around the warehouse, you get to upgrade your flashlight. You can start to see more swaths of the room and once and can even infer a little bit about how different piles work together. But this is where it gets tricky. It's easy to make false assumptions about the parts you're seeing when the reality is still hidden in the darkness.</p>
+<p>And the process continues like this as time goes by.</p>
+<p>You get bigger flashlights and can see more of the room.</p>
+<p>Spend enough time and you may even get to turn on some overhead lights.</p>
+<p>If the system isn't <em>too</em> huge, you may someday turn on all the lights and can see the whole room at once. But you may never get to that point if the system is massive enough.</p>
+<p>You may have a section of the room that you're most familiar with while someone else may know about other parts. This is great because then you can ask each other about what is in each pile of clutter.</p>
+<p>In that case, you and everyone else in the room has to rely on each other.</p>
+]]></content:encoded>
+            <author>info@biek.org (Mark Biek)</author>
+        </item>
         <item>
             <title><![CDATA[Advice from a software-development old head]]></title>
             <link>https://mark.biek.org//2022/07/advice-from-an-old-head</link>
@@ -511,49 +538,6 @@ Full name: Mark Biek
 Last name: Biek
 Full name: Mark Biek
 </code></pre>
-]]></content:encoded>
-            <author>info@biek.org (Mark Biek)</author>
-        </item>
-        <item>
-            <title><![CDATA[Plugin Unit Testing in WordPress]]></title>
-            <link>https://mark.biek.org//2021/03/plugin-unit-testing-in-wordpress</link>
-            <guid>https://mark.biek.org//2021/03/plugin-unit-testing-in-wordpress</guid>
-            <pubDate>Fri, 12 Mar 2021 01:13:00 GMT</pubDate>
-            <description><![CDATA[<p>I'll admit that I have been pretty hit-and-miss with testing on projects over the course of my career. That said, I've been trying to be a little more consistent about it.</p>
-<p>For Laravel projects, it's real easy since <a href="https://phpunit.de/">PHPUnit</a> integration is built into Laravel <a href="https://laravel.com/docs/8.x/testing">right out of the box</a>.</p>
-<p>I also do a fair amount of WordPress and being able to unit test plugins and other functionality would be very handy.</p>
-<p>While the setup is a little confusing at first, WordPress also comes with great tools for testing.</p>
-<p>The official <a href="https://make.wordpress.org/cli/handbook/misc/plugin-unit-tests/">WordPress testing documentation</a> is good and the <a href="https://developer.wordpress.org/cli/commands/scaffold/plugin-tests/">wp cli</a> can be used to build out most of the test scaffolding for you.</p>
-<p>I also found these resources to be helpful</p>
-<ul>
-<li><a href="https://neliosoftware.com/blog/introduction-to-unit-testing-in-wordpress-phpunit/">Introduction to Unit Testing in WordPress</a></li>
-<li><a href="https://wpmudev.com/blog/unit-testing-wordpress-plugins-phpunit/">Unit Testing WordPress Plugins with PHPUnit</a></li>
-<li><a href="https://www.kirstencassidy.com/testing-wordpress-plugins-wp-cli-phpunit/">Testing WordPress Plugins with WP-CLI and PHPUnit</a></li>
-</ul>
-<p>But there's one thing I don't like about how WordPress handles testing.</p>
-<p>They operate under the assumption that there will be a separate test database that gets completely wiped and reset each time the tests are run. While I understand the point behind, that approach doesn't work for a lot of my use-cases.</p>
-<p>There are several projects with very large databases and it's easier and makes more sense for me to run the unit tests against my local development copy.</p>
-<p>To that end, I've started a Github project: <a href="https://github.com/markbiek/wordpress-dev">https://github.com/markbiek/wordpress-dev</a> which is a clone of <a href="http://develop.svn.wordpress.org/trunk/">http://develop.svn.wordpress.org/trunk/</a>.</p>
-<p>The only difference is, my version doesn't delete any data when the tests are run. We've just removed the contents of the <code>_delete_all_data</code> and <code>_delete_all_posts</code> functions in <a href="http://develop.svn.wordpress.org/trunk/tests/phpunit/includes/functions.php">functions.php</a>.</p>
-<p>If you can, I'd recommend sticking with the official WordPress way of testing. But hopefully this will be useful to some other people.</p>
-]]></description>
-            <content:encoded><![CDATA[<p>I'll admit that I have been pretty hit-and-miss with testing on projects over the course of my career. That said, I've been trying to be a little more consistent about it.</p>
-<p>For Laravel projects, it's real easy since <a href="https://phpunit.de/">PHPUnit</a> integration is built into Laravel <a href="https://laravel.com/docs/8.x/testing">right out of the box</a>.</p>
-<p>I also do a fair amount of WordPress and being able to unit test plugins and other functionality would be very handy.</p>
-<p>While the setup is a little confusing at first, WordPress also comes with great tools for testing.</p>
-<p>The official <a href="https://make.wordpress.org/cli/handbook/misc/plugin-unit-tests/">WordPress testing documentation</a> is good and the <a href="https://developer.wordpress.org/cli/commands/scaffold/plugin-tests/">wp cli</a> can be used to build out most of the test scaffolding for you.</p>
-<p>I also found these resources to be helpful</p>
-<ul>
-<li><a href="https://neliosoftware.com/blog/introduction-to-unit-testing-in-wordpress-phpunit/">Introduction to Unit Testing in WordPress</a></li>
-<li><a href="https://wpmudev.com/blog/unit-testing-wordpress-plugins-phpunit/">Unit Testing WordPress Plugins with PHPUnit</a></li>
-<li><a href="https://www.kirstencassidy.com/testing-wordpress-plugins-wp-cli-phpunit/">Testing WordPress Plugins with WP-CLI and PHPUnit</a></li>
-</ul>
-<p>But there's one thing I don't like about how WordPress handles testing.</p>
-<p>They operate under the assumption that there will be a separate test database that gets completely wiped and reset each time the tests are run. While I understand the point behind, that approach doesn't work for a lot of my use-cases.</p>
-<p>There are several projects with very large databases and it's easier and makes more sense for me to run the unit tests against my local development copy.</p>
-<p>To that end, I've started a Github project: <a href="https://github.com/markbiek/wordpress-dev">https://github.com/markbiek/wordpress-dev</a> which is a clone of <a href="http://develop.svn.wordpress.org/trunk/">http://develop.svn.wordpress.org/trunk/</a>.</p>
-<p>The only difference is, my version doesn't delete any data when the tests are run. We've just removed the contents of the <code>_delete_all_data</code> and <code>_delete_all_posts</code> functions in <a href="http://develop.svn.wordpress.org/trunk/tests/phpunit/includes/functions.php">functions.php</a>.</p>
-<p>If you can, I'd recommend sticking with the official WordPress way of testing. But hopefully this will be useful to some other people.</p>
 ]]></content:encoded>
             <author>info@biek.org (Mark Biek)</author>
         </item>
