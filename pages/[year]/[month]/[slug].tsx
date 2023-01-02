@@ -26,6 +26,12 @@ export async function getStaticProps({ params }: StaticProps) {
 	const post: PostType | null = await getPostBySlug(params.slug);
 	const titles: PostTitleType[] = await getPostTitles();
 
+	if (!post) {
+		return {
+			notFound: true,
+		};
+	}
+
 	return {
 		props: { post, titles },
 	};
