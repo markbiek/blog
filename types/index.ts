@@ -1,7 +1,12 @@
+export interface CmsPageType {
+	title: string;
+	content: string;
+}
+
 export interface PostType {
 	title: string;
 	date: string;
-	author: 'mark';
+	author: "mark";
 	category: string;
 	tags: string;
 	slug: string;
@@ -9,7 +14,7 @@ export interface PostType {
 	url: string;
 }
 
-export type PostTitleType = Pick<PostType, 'title' | 'date' | 'url'>;
+export type PostTitleType = Pick<PostType, "title" | "date" | "url">;
 
 export interface PostViewProps {
 	post: PostType;

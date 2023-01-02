@@ -1,6 +1,12 @@
 import Layout from "../views/Layout";
 
-export default function Now({ post }) {
+import { CmsPageType } from "../types";
+
+interface NowProps {
+	post: CmsPageType;
+}
+
+export default function Now({ post }: NowProps) {
 	const { title, content } = post;
 
 	return (
