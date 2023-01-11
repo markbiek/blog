@@ -87,7 +87,7 @@ export default function CV() {
 					<li>PHP development for the WordPress.com backend.</li>
 				</ul>
 				<h4 className={styles.job_title}>
-					Senior Backend Developer &mdash;
+					Development Team Lead &mdash;
 					<span className={styles.where}>
 						<a href="https://viastudio.com" className="company-link">
 							VIA Studio{" "}
@@ -190,15 +190,14 @@ export default function CV() {
 					<li>
 						Development team manager and member of company leadership team{" "}
 					</li>
-					<li>Assist with client prospecting. </li>
-					<li>Generate new business leads. </li>
-					<li>Lead developer on large projects. </li>
-					<li>Assist Project Managers with scheduling and sprint planning. </li>
-					<li>Mentor Junior developers. </li>
-					<li>Manage internal and cloud servers. </li>
 					<li>
-						Manage Vagrant, Docker, and Jenkins CI projects for internal
-						development.{" "}
+						Assist with client prospecting; Generate new business leads; Lead
+						developer on large projects; Assist Project Managers with scheduling
+						and sprint planning; Mentor Junior developers.{" "}
+					</li>
+					<li>
+						Manage internal and cloud servers; Manage Vagrant, Docker, and
+						Jenkins CI projects for internal development.
 					</li>
 				</ul>
 				<h4 className={styles.job_title}>
@@ -269,7 +268,7 @@ export default function CV() {
 						efficient and accurate record keeping and to measure the
 						effectiveness of new drugs.{" "}
 					</li>
-					<li>Managed Rackspace servers </li>
+					<li>Server management including migration from Rackspace to AWS.</li>
 				</ul>
 				<h4 className={styles.job_title}>
 					Senior Development Consultant &mdash;
