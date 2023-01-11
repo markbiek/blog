@@ -288,7 +288,7 @@ export default function CV() {
 					<span className={styles.tag}>react-native</span>
 					<span className={styles.tag}>aws</span>
 				</p>
-				<ul className={styles.did}>
+				<ul className={`${styles.did} ${styles.hide_print}`}>
 					<li>
 						After the initial developer left, took over api and admin website
 						along with react-native mobile app{" "}
@@ -321,7 +321,7 @@ export default function CV() {
 					<span className={styles.tag}>payment-processing</span>
 					<span className={styles.tag}>python</span>
 				</p>
-				<ul className={styles.did}>
+				<ul className={`${styles.did} ${styles.hide_print}`}>
 					<li>
 						Assist off-shore team with best practices and system architecture{" "}
 					</li>
