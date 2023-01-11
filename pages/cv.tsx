@@ -7,7 +7,7 @@ export default function CV() {
 		<Layout>
 			<h1>Résumé</h1>
 
-			<article className={styles.hide_print}>
+			<article>
 				<p>
 					Mark Biek
 					<br />
@@ -21,7 +21,7 @@ export default function CV() {
 				</p>
 			</article>
 
-			<article>
+			<article className={styles.hide_print}>
 				<h2>I don't have accounts on any freelance sites</h2>
 
 				<p>
@@ -86,7 +86,6 @@ export default function CV() {
 					</li>
 					<li>PHP development for the WordPress.com backend.</li>
 				</ul>
-				<div className={styles.page_break} />
 				<h4 className={styles.job_title}>
 					Senior Backend Developer &mdash;
 					<span className={styles.where}>

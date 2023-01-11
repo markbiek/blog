@@ -66,4 +66,8 @@
 	.technologies li {
 		font-size: 0.75rem;
 	}
+
+	.did li {
+		font-size: 1em;
+	}
 }
