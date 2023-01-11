@@ -48,3 +48,22 @@
 	font-style: italic;
 	margin-left: 0;
 }
+
+.page_break {
+	page-break-after: always;
+}
+
+@media print {
+	.hide_print {
+		display: none;
+	}
+
+	.technologies {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.technologies li {
+		font-size: 0.75rem;
+	}
+}

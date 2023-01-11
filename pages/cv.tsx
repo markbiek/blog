@@ -7,7 +7,7 @@ export default function CV() {
 		<Layout>
 			<h1>Résumé</h1>
 
-			<article>
+			<article className={styles.hide_print}>
 				<p>
 					Mark Biek
 					<br />
@@ -16,6 +16,8 @@ export default function CV() {
 					+1 502-509-9545
 					<br />
 					<a href="https://mark.biek.org">mark.biek.org</a>
+					<br />
+					Louisville, KY, USA
 				</p>
 			</article>
 
@@ -35,7 +37,7 @@ export default function CV() {
 
 				<ul className={styles.technologies}>
 					<li>PHP (vanilla, Laravel, Wordpress)</li>
-					<li>JavaScript (vanilla, es6, typescript, jQuery), NodeJS</li>
+					<li>JavaScript/Typescript/NodeJS</li>
 					<li>ReactJS, Hooks API, Context API, NextJS, react-native</li>
 					<li>Webpack, Mix, Vitae, Parcel</li>
 					<li>HTML, CSS, SCSS, LESS</li>
@@ -44,7 +46,6 @@ export default function CV() {
 					<li>WooCommerce, Shopify, BigCommerce, Swell</li>
 					<li>Stripe, Authorize.Net, FirstData, Payeezy</li>
 					<li>Vagrant, Docker</li>
-					<li>Python</li>
 					<li>C#/.NET</li>
 				</ul>
 			</article>
@@ -52,7 +53,7 @@ export default function CV() {
 			<article>
 				<h2>Places I've worked</h2>
 				<h4 className={styles.job_title}>
-					Senior Backend Engineer &mdash;
+					Senior Software Engineer &mdash;
 					<span className={styles.where}>
 						<a href="https://automattic.com" className="company-link">
 							Automattic{" "}
@@ -75,18 +76,17 @@ export default function CV() {
 				</p>
 				<ul className={styles.did}>
 					<li>
-						ReactJS and PHP development on{" "}
-						<a href="https://github.com/Automattic/wp-calypso">Calypso</a> for
-						WordPress.com
-					</li>
-					<li>
-						You can view a list of Pull Requests I've merged to Calypso{" "}
+						ReactJS developement for{" "}
+						<a href="https://github.com/Automattic/wp-calypso">Calypso</a>{" "}
+						(WordPress.com's frontend). <br />
 						<a href="https://github.com/Automattic/wp-calypso/pulls?q=is%3Apr+is%3Aclosed+author%3Amarkbiek">
-							on Github
+							View my Calypso PRs
 						</a>
 						.
 					</li>
+					<li>PHP development for the WordPress.com backend.</li>
 				</ul>
+				<div className={styles.page_break} />
 				<h4 className={styles.job_title}>
 					Senior Backend Developer &mdash;
 					<span className={styles.where}>
@@ -343,7 +343,7 @@ export default function CV() {
 					<span className={styles.tag}>asp.net-mvc</span>
 					<span className={styles.tag}>php</span>
 				</p>
-				<ul className={styles.did}>
+				<ul className={`${styles.did} ${styles.hide_print}`}>
 					<li>
 						Lead developer on custom Windows service to route data from an AIX
 						interface to SQL Server. Service requires high availability in order
