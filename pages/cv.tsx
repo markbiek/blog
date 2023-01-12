@@ -299,8 +299,43 @@ export default function CV() {
 				<h4 className={styles.job_title}>
 					Senior Development Consultant &mdash;
 					<span className={styles.where}>
-						<a href="https://mmj.org/" className="company-link">
+						<a
+							href="https://www.linkedin.com/company/iovita/"
+							className="company-link"
+						>
 							ioVita{" "}
+						</a>
+					</span>{" "}
+					<span className={styles.when}>(Jan 2018 - Aug 2019)</span>
+				</h4>
+				<p>
+					<span className={styles.tag}>php</span>
+					<span className={styles.tag}>laravel</span>
+					<span className={styles.tag}>javascript</span>
+					<span className={styles.tag}>es6</span>
+					<span className={styles.tag}>react</span>
+					<span className={styles.tag}>html/css</span>
+					<span className={styles.tag}>less/scss</span>
+					<span className={styles.tag}>webpack</span>
+					<span className={styles.tag}>gulp</span>
+					<span className={styles.tag}>nodejs</span>
+					<span className={styles.tag}>aws</span>
+				</p>
+				<ul className={`${styles.did} ${styles.hide_print}`}>
+					<li>
+						Built PHP and React-based data dashboards for managing and viewing
+						clinical data.
+					</li>
+					<li>Help manage and automate setup </li>
+				</ul>
+				<h4 className={styles.job_title}>
+					Senior Technical Advisor &mdash;
+					<span className={styles.where}>
+						<a
+							href="https://www.linkedin.com/company/mmjdotorg/"
+							className="company-link"
+						>
+							MMJ Initiative{" "}
 						</a>
 					</span>{" "}
 					<span className={styles.when}>(Jan 2018 - Sep 2019)</span>
@@ -323,7 +358,9 @@ export default function CV() {
 				</p>
 				<ul className={`${styles.did} ${styles.hide_print}`}>
 					<li>
-						Assist off-shore team with best practices and system architecture{" "}
+						Assist off-shore team with best practices and system architecture
+						for (now-defunct) startup building a tool to assist clinicians with
+						marijuana-related clinical research.
 					</li>
 					<li>Help manage and automate AWS and Progress HealthCloud setup </li>
 				</ul>
