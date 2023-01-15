@@ -102,11 +102,15 @@ dl dt {
 	dl {
 		width: 75%;
 	}
+	main {
+		width: 90%;
+		margin: 1em auto;
+	}
 }
 
 main {
-	width: 90%;
-	margin: 1em auto;
+	width: 99vw;
+	padding-left: 1rem;
 }
 
 @media only screen and (min-width: 768px) {

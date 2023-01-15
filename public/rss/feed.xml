@@ -4,7 +4,7 @@
         <title>Mark Biek - Blog</title>
         <link>https://mark.biek.org/</link>
         <description></description>
-        <lastBuildDate>Thu, 15 Dec 2022 18:15:56 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Jan 2023 15:30:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Mark Biek's Blog</generator>
         <image>
@@ -12,7 +12,7 @@
             <url>https://static.biek.org/blog/img/mark-in-code.png</url>
             <link>https://mark.biek.org/</link>
         </image>
-        <copyright>All rights reserved 2022, Mark Biek</copyright>
+        <copyright>All rights reserved 2023, Mark Biek</copyright>
         <item>
             <title><![CDATA[Learning a Large System]]></title>
             <link>https://mark.biek.org//2022/12/learning-a-large-system</link>

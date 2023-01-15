@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mark.biek.org/</id>
     <title>Mark Biek - Blog</title>
-    <updated>2022-12-15T18:15:56.194Z</updated>
+    <updated>2023-01-15T15:30:54.390Z</updated>
     <generator>Feed for Mark Biek's Blog</generator>
     <author>
         <name>Mark Biek</name>
@@ -13,7 +13,7 @@
     <link rel="self" href="https://mark.biek.org//rss/atom.xml"/>
     <logo>https://static.biek.org/blog/img/mark-in-code.png</logo>
     <icon>https://mark.biek.org//unicorn.svg</icon>
-    <rights>All rights reserved 2022, Mark Biek</rights>
+    <rights>All rights reserved 2023, Mark Biek</rights>
     <entry>
         <title type="html"><![CDATA[Learning a Large System]]></title>
         <id>https://mark.biek.org//2022/12/learning-a-large-system</id>
