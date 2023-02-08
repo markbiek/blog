@@ -27,7 +27,7 @@ I found a Canadian girl on Usenet who had a copy of a radio interview with Moxy 
 
 I wore that tape out.
 
-It's so different now. Im 36 and everything is easy.
+It's so different now. I'm 36 and everything is easy.
 
 We saw the Pixies at the Louisville Palace this year. The opening act was amazing but we couldn't remember the name of the guy or any of the names of the songs.
 

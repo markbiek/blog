@@ -44,13 +44,13 @@ var blob = new Blob(
  {type: ‘application/pdf’, encoding: ‘raw’}
  );
 
-Youll also want to include Blob'js (h[ttps://github'com/eligrey/Blob'js/)](https://github.com/eligrey/Blob.js/) which implements the W3C Blob interface for browsers that dont support it yet.
+Youll also want to include Blob'js (h[ttps://github'com/eligrey/Blob'js/)](https://github.com/eligrey/Blob.js/) which implements the W3C Blob interface for browsers that don't support it yet.
 
 #### Automatic file downloads with FileSaverJS
 
 Newer browsers include support for the W3C saveAs function which can be used to download a Blob as a file.
 
-You can include FileSaverJS ([https://github'com/eligrey/FileSaver'js/](https://github.com/eligrey/FileSaver.js/)) to add the saveAs function for browsers that dont have it yet.
+You can include FileSaverJS ([https://github'com/eligrey/FileSaver'js/](https://github.com/eligrey/FileSaver.js/)) to add the saveAs function for browsers that don't have it yet.
 
 To actually download the file is simple:
 

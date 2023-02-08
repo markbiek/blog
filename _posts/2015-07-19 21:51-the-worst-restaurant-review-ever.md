@@ -7,7 +7,7 @@ Slug: the-worst-restaurant-review-ever
 
 Jane and I popped into the new Highlands restaurant [Stout](http://www.courier-journal.com/story/news/local/highlands-crescenthill/2015/03/31/stout-burgers-beers-open-end-may/70730224/) tonight.
 
-Don't misunderstand the title of this post. The restaurant was fine, its the review thats not very good. Ive never written a restaurant review before.
+Don't misunderstand the title of this post. The restaurant was fine, its the review thats not very good. I've never written a restaurant review before.
 
 Plus, we didn't eat much. We had sweet potato fries and Jane had a beer. And its a place that servers burgers and beer. I can't eat beef and I don't drink. The sweet potato fries were good, but they were just like every other sweet potato fries at every other place in town.
 

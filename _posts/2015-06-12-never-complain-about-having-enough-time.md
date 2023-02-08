@@ -5,21 +5,19 @@ Category: Personal
 Tags:
 Slug: never-complain-about-having-enough-time
 
-https://flic.kr/p/ugZeY
+People are constantly saying, Oh, I wish I could do xyz but I just don't have enough time.
 
-People are constantly saying, Oh, I wish I could do xyz but I just dont have enough time.
-
-Or Im behind on xyz. There just wasnt enough time.
+Or I'm behind on xyz. There just wasn't enough time.
 
 And I get it. Everyone has things going on.
 
-You work full-time, youre married, you have kids, whatever it is.
+You work full-time, you're married, you have kids, whatever it is.
 
-The thing is, you have time for the things that you make a priority. You wouldve had enough time to do xyz if youd made it a priority.
+The thing is, you have time for the things that you make a priority. You would've had enough time to do xyz if youd made it a priority.
 
-But you didnt. You chose to do other things instead, which is perfectly fine.
+But you didn't. You chose to do other things instead, which is perfectly fine.
 
-But you dont get to complain about not doing xyz any more.
+But you don't get to complain about not doing xyz any more.
 
 You either decide how committed you are to xyz and do it.
 

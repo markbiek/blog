@@ -37,5 +37,5 @@ Everything is either on Dropbox, Sync, or Google Drive. Occasionally I'll pull s
 
 And who knows what's going to come next. I'm sure my grandkids will laugh at the idea of online storage.
 
-What? You didnt just have all of humanitys data implanted in your brain, grandpa?
+What? You didn't just have all of humanitys data implanted in your brain, grandpa?
 

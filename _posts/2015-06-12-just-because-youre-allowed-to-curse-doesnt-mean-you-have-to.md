@@ -13,11 +13,11 @@ The entertainment needs shaking up so this is all a good thing.
 
 But I have some issues with the original content.
 
-The beauty of original content on platforms like Netflix and Hulu is theyre not subject to any silly FCC rules so they can do pretty much whatever they want.
+The beauty of original content on platforms like Netflix and Hulu is they're not subject to any silly FCC rules so they can do pretty much whatever they want.
 
 The problem though is, without any silly FCC rules, they can do whatever they want.
 
-I went to writing camp when I was 13 and discovered that we could swear in our poems and the teachers didnt care! So, of course, I started swearing as much as possible in everything. Because I could, not because it added anything to what I was writing.
+I went to writing camp when I was 13 and discovered that we could swear in our poems and the teachers didn't care! So, of course, I started swearing as much as possible in everything. Because I could, not because it added anything to what I was writing.
 
 And thats how I feel about of lot the vulgarity and violence in some of these new streaming shows.
 

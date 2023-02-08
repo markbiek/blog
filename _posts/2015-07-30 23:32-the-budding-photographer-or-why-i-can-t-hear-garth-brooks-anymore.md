@@ -1,4 +1,4 @@
-Title: The budding photographer or why I cant hear Garth Brooks anymore
+Title: The budding photographer or why I can't hear Garth Brooks anymore
 Date: 2015-07-30 23:32
 Author: mark
 Category: 

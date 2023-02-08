@@ -15,13 +15,13 @@ He sits on a shower bench in a shady corner of their back deck. Its so hot here.
 
 We talk about which bushes to water in which order while I plug the electric shears into an outlet up high on the side of the house. I will water the plants in pots first, then leave the hose on uphill from the other bushes.
 
-His hair is short so there isnt too much to trim. Its softer than I expected. With all the different shades of gray, I expected it to feel more wiry. I dont when I last touched my dad on the head.
+His hair is short so there isnt too much to trim. Its softer than I expected. With all the different shades of gray, I expected it to feel more wiry. I don't when I last touched my dad on the head.
 
 I start in the back, moving the shears up and sideways. Then coming down angle to catch the hairs growing in different directions. I fold his left ear down and cut the hair on the sides where it is longest, then the right.
 
 We discuss using the tapered attachments to finish off the sides and how far down the back of his neck I should shave. I will use the bare blade of the shears for this.
 
-I have no anxiety. Just a straight buzz cut, I dont have to worry about style. Only that I catch the little hairs that flatten under the weight of the shears and then pop back up.
+I have no anxiety. Just a straight buzz cut, I don't have to worry about style. Only that I catch the little hairs that flatten under the weight of the shears and then pop back up.
 
 Its a intimate thing to cut someones hair. You have to brush hair out of the way, move their head in different directions. Blow loose hair away. There is so much touching involved.
 

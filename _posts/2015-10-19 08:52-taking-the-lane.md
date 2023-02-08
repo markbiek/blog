@@ -23,7 +23,7 @@ That means you get decide how far right you need to stay over. And, in fact, the
 
 > But to be safe, riders need not place themselves in danger of running off the road or over deteriorated pavement and may take the lane (position near the center of the lane) when hazards, road widths, or traffic speeds dictate.
 
-The only exception is if youre on a street with a dedicated bicycle lane. In that case, unfortunately, youre legally required to use that lane, even if the dedicated lane is obstructed. Heres a gre[at video il](https://www.youtube.com/watch?v=bzE-IMaegzQ)lustrating why that kind of law is ridiculous.
+The only exception is if you're on a street with a dedicated bicycle lane. In that case, unfortunately, you're legally required to use that lane, even if the dedicated lane is obstructed. Heres a gre[at video il](https://www.youtube.com/watch?v=bzE-IMaegzQ)lustrating why that kind of law is ridiculous.
 
 When I ride to work down Bardstown Rd, I almost always take the lane. River Road and the 2nd Street Bridge are other places where I feel safer taking the lane.
 

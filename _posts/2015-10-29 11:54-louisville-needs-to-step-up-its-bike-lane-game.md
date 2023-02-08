@@ -7,7 +7,7 @@ Slug: louisville-needs-to-step-up-its-bike-lane-game
 
 <img src="https://cdn-images-1.medium.com/max/800/1*mTrcSyFvPCFovec91opAhQ.jpeg"  />
 
-Ive been commuting downtown by bike 4 days per week for the last 2 years. I even bought a nice c[ommuter bike ](http://onyourleftcycles.net/)for myself last year.
+I've been commuting downtown by bike 4 days per week for the last 2 years. I even bought a nice c[ommuter bike ](http://onyourleftcycles.net/)for myself last year.
 
 I started having problems with broken spokes on the rear wheel of my bike last month so I took it into the shop. A year of riding the riding the bike lanes on Breckinridge and Kentucky Ave. had bent my wheel to the point that it needed to be replaced!
 

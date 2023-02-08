@@ -15,7 +15,7 @@ Slug: let-s-end-the-trope-of-the-idiot-dad
 
 I had high hopes for The [Jim Gaffigan Show](http://www.imdb.com/title/tt3484406/). I really did.
 
-I shouldnt have because Ive been burned so many times before by stand-up comics trying their hand at a sitcom (Jo[hn Mulaney, ](http://www.imdb.com/title/tt2753110/)Im looking at you.). At this point, Im starting to think Louis CK and Jerry Seinfeld might be the only ones who can pull it off.
+I shouldnt have because I've been burned so many times before by stand-up comics trying their hand at a sitcom (Jo[hn Mulaney, ](http://www.imdb.com/title/tt2753110/)I'm looking at you.). At this point, I'm starting to think Louis CK and Jerry Seinfeld might be the only ones who can pull it off.
 
 I’ve been watching Jim Gaffigan’s stand-up for years so I had to give him the chance. Man, was I disappointed. It’s all the same boring sitcom shlock we’ve been subjected to over and over again.
 

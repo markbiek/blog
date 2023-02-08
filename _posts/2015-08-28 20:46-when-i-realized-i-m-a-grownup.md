@@ -9,7 +9,7 @@ Slug: when-i-realized-i-m-a-grownup
 
 I’ve heard people say you don’t feel like a grownup until you have kids, but I don’t think that was true for me.
 
-Don’t get me wrong. Having kids changed me in a lot of ways, the most significant being how much better I understand my own parents. But there have still been moments in the last decade where I’ve felt like a kid just pretending to be an adult.
+Don’t get me wrong. Having kids changed me in a lot of ways, the most significan't being how much better I understand my own parents. But there have still been moments in the last decade where I’ve felt like a kid just pretending to be an adult.
 
 I’d get invited to someone’s house and my first thought upon entering would be “This is a real grownup’s house.” Maybe everyone feels that way, I don’t know.
 

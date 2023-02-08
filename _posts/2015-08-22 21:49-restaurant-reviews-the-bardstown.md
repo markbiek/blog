@@ -17,7 +17,7 @@ I couldn’t tell you the exact date of our first visit. We would’ve passed by
 
 I suspect the first visit happened on a night when we were walking back home from somewhere else. OK, who am I kidding? Staggering home is more accurate. However it happened, we stopped late one night, loved it, and have been going there ever since.
 
-There is so much going on in that place, its amazing. Their own F[AQ ](http://www.thebardstown.com/faqs.html)says that the owners dont sleep and I believe it.
+There is so much going on in that place, its amazing. Their own F[AQ ](http://www.thebardstown.com/faqs.html)says that the owners don't sleep and I believe it.
 
 The inside looks like it could be any other bar but they’ve taken great care with the menu. I’ve never had a bad meal there and most things are downright amazing.
 

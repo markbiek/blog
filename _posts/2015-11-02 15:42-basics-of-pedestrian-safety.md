@@ -15,7 +15,7 @@ I want safe, well-lit infrastructure for everyone on foot, wherever they’re go
 
 I want drivers who are kind and recognize that no amount of hurry is worth risking a person’s life.
 
-But I live in Louisville, KY which was the 4th worst American city for pedestrians last time I checked. I know the city is working on improvements but I think any significant change is years away.
+But I live in Louisville, KY which was the 4th worst American city for pedestrians last time I checked. I know the city is working on improvements but I think any significan't change is years away.
 
 That means we have to talk about basic pedestrian safety. I don’t want to talk about it because we shouldn’t have to talk about it.
 

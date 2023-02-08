@@ -25,12 +25,12 @@ Our cabin was amazing. A single room cabin with 3 beds, a bathroom, a sitting ar
 
 We spent the rest of the week drinking, swimming, and eating cheap seafood. I also got double-ear infections, lost my glasses the second day and spent the rest of the week completely blind.
 
-One of the last nights, we bought bread for the next day and a bottle of rum and sat out on the beach in front of the cabin drinking and swapping stories. The girls went to bed and Keith and I decided it was time for nighttime-blind bodysurfing (hed lost his glasses too).
+One of the last nights, we bought bread for the next day and a bottle of rum and sat out on the beach in front of the cabin drinking and swapping stories. The girls went to bed and Keith and I decided it was time for nighttime-blind bodysurfing (he'd lost his glasses too).
 
 We put our on suits and started walking out to the water (the tide was way out). Wed been sharing skinny-dipping stories all evening. We exchanged a look when we passed a pile of driftwood, then peeled off our suits and ran naked and screaming into the ocean.
 
 The waves were at least 6ft and there is nothing like being blind and naked and getting pummeled by a warm ocean. There was no seeing the waves coming. All you could do was wait for the feeling of the water sucking out, then the swell behind you, then paddling like something was chasing you.
 
-We were happy but knackered and decided to head back. Unfortunately, in the dark, we didnt realize how far wed drifted and it took some time to find out stuff and the hotel. We were close to the pile of driftwood when we came across a family with two kids out for a night stroll on the beach. I like to imagine they tell people the story of the two naked gringos who ran cackling past them.
+We were happy but knackered and decided to head back. Unfortunately, in the dark, we didn't realize how far we'd drifted and it took some time to find our stuff and the hotel. We were close to the pile of driftwood when we came across a family with two kids out for a night stroll on the beach. I like to imagine they tell people the story of the two naked gringos who ran cackling past them.
 
 Eventually, we found our way back, showered and fell into bed, completely exhausted.

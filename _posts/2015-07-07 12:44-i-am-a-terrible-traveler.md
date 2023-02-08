@@ -25,7 +25,7 @@ I insist on getting to the airport far too early because what if the security li
 
 I pay extra for early boarding privileges to sit near the front of the plane. My concern is missing our connection if were seated too far back.
 
-I weight our bags over and over again to make sure theyre under the allotted 50 pounds.
+I weight our bags over and over again to make sure they're under the allotted 50 pounds.
 
 I create endless contingency plans for scenarios that will never occur. Like if I am taken aside for screening and then detained.
 

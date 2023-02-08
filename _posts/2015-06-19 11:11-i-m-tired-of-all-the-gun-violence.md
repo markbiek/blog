@@ -5,8 +5,6 @@ Category:
 Tags: 
 Slug: i-m-tired-of-all-the-gun-violence
 
-[https://flic.kr/p/52hcnB](https://flic.kr/p/52hcnB)
-
 [Multiple Weekend Shootings In Louisville Leave 4 Dead, 2 Injured](http://www.lex18.com/story/28054027/multiple-weekend-shootings-in-louisville-leave-4-dead-2-injured)
 
 [Three dead in two West Louisville shootings](http://www.courier-journal.com/story/news/crime/2015/02/25/three-dead-west-louisville-shootings/23983079/)
@@ -17,7 +15,7 @@ It just goes [on and on and on](https://www.google.com/webhp?sourceid=chrome-ins
 
 And now theres the s[hooting in Charleston.](https://en.wikipedia.org/wiki/2015_Charleston,_South_Carolina_shooting)
 
-Im sick of it and I want it to stop. This country has too many guns and theres no reason for any of it.
+I'm sick of it and I want it to stop. This country has too many guns and theres no reason for any of it.
 
 Fuck the Second Amendment. Its time and place is long gone.
 

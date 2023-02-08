@@ -23,7 +23,7 @@ Everyone has different triggers. A few of mine are:
 * People who have recently smoked.
 * Thrumming sounds when its hot.
 
-When I get a full-blown one, I see colored lights. I get tunnel vision. Loud noises translate into a bright flash of light in my face. And its the worst pain Ive ever experienced.
+When I get a full-blown one, I see colored lights. I get tunnel vision. Loud noises translate into a bright flash of light in my face. And its the worst pain I've ever experienced.
 
 I wouldn't wish it on anyone.
 

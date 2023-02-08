@@ -1,4 +1,4 @@
-Title: An essential computer skill that most people dont know
+Title: An essential computer skill that most people don't know
 Date: 2015-10-15 12:37
 Author: mark
 Category: 

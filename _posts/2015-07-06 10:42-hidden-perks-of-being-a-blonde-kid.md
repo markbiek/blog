@@ -9,7 +9,7 @@ There were two main perks to being a blonde kid.
 
 I always got to be Bo Duke when we played Dukes of Hazzard.
 
-This didn't happen very often because I dont think any of us actually watched the show.
+This didn't happen very often because I don't think any of us actually watched the show.
 
 But we could pretend to drive a fast car and get away from the police.
 

@@ -6,11 +6,8 @@ Tags:
 Slug: the-glorious-act-of-creation
 
 > Find a bit of beauty in the world today.
-
 > Share it.
-
-> If you cant find it, create it. Some days this is tough to do.
-
+> If you can't find it, create it. Some days this is tough to do.
 > Persevere.
 
 There is a book called [Seventh Son](https://en.wikipedia.org/wiki/Seventh_Son_(novel)) by Orson Scott Card. The main character is a boy named Alvin who is a Maker.
@@ -31,5 +28,5 @@ And the only way to fight it is to make things.
 
 Create art. Build things out of wood. Write stories or code.
 
-Just create something every day. It doesnt have to benefit anyone else. It just needs to be a quick reminder of your own humanity.
+Just create something every day. It doesn't have to benefit anyone else. It just needs to be a quick reminder of your own humanity.
 

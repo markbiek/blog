@@ -25,7 +25,7 @@ Reading through the list of Agency Comments provides an interesting look at the 
 
 [http://portal'louisvilleky.gov/codesandregs/permit/detail?type=PROB&id=405804](http://portal.louisvilleky.gov/codesandregs/permit/detail?type=PROB&id=405804)
 
-> This site requires outdoor amenity areas according to Chapter 5'12.2. 10% of the building square footage is required in outdoor amenity. Please indicate the following calculation on the plan: total building area- 161,822 sf, 10% required in amenity area= 16,182 sf. Total amenity area provided= 0 sf. Applicant will utilize the Public Art fee in lieu to meet requirement.
+> This site requires outdoor amenity areas according to Chapter 5'12.2. 10% of the building square footage is required in outdoor amenity. Please indicate the following calculation on the plan: total building area- 161,822 sf, 10% required in amenity area= 16,182 sf. Total amenity area provided= 0 sf. Applican't will utilize the Public Art fee in lieu to meet requirement.
 
 [Chapter 5'12.2 ](https://louisvilleky.gov/sites/default/files/public_art/publicartmasterplanoptimized.pdf)of the City of Louisvilles Land Development Code requires that buildings with a total footprint of greater than 100,000 square feet need to set aside a minimum of 10% of the building footprint for outdoor amenities (Sidewalks, patio areas, water features, landscaping, etc).
 

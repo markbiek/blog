@@ -15,13 +15,13 @@ My friend Justin and I used to play it and fantasize about the possibility of a 
 
 Imagine the glee we felt when the original Game Boy launched in 1989.
 
-I dont remember how long it took me to save up the $89.99 but I remember the day my mom took me to the Mt. Shasta Mall to buy it.
+I don't remember how long it took me to save up the $89.99 but I remember the day my mom took me to the Mt. Shasta Mall to buy it.
 
 I remember the hours of playing Tetris (the only game that came with it) until I had enough money to buy Super Mario World and a handful of other games.
 
-I had the Game Boy all through high school, although it didnt get much love during those final years.
+I had the Game Boy all through high school, although it didn't get much love during those final years.
 
-In the end, it got lost of broken. Going through a box of old stuff a few years back, I did find some of the game cartridges. I have nothing to play them on but I cant bear to throw them out.
+In the end, it got lost of broken. Going through a box of old stuff a few years back, I did find some of the game cartridges. I have nothing to play them on but I can't bear to throw them out.
 
 Thinking about this inspired me to checkout the Game Boy emulation scene which, not surprisingly, is quite vibrant.
 

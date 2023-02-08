@@ -21,7 +21,7 @@ But I have work email notifications turned off. Theres so much email coming in, 
 
 In my line of work (software development), focus is key.
 
-Communication is vital but its easy for it to overwhelm me. I dont want to be accessible all the time.
+Communication is vital but its easy for it to overwhelm me. I don't want to be accessible all the time.
 
 I want the power to pick and choose how and when I interact.
 

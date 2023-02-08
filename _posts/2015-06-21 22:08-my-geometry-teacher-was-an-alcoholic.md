@@ -21,5 +21,5 @@ It turns out the cooler was full of cans of ODouls non-alcoholic beer. Lots and 
 
 And she had finished all of it.
 
-I dont know if those quantities were enough to get drunk off or what she was getting out of the deal but she had that cooler every day for the entire session.
+I don't know if those quantities were enough to get drunk off or what she was getting out of the deal but she had that cooler every day for the entire session.
 

@@ -9,9 +9,9 @@ Life is messy, despite all efforts to make it tidy.
 
 There are always issues to deal with, problems to solve. You might think that there are problems that are yours and problems that are your partners, but thats not true.
 
-Theres just one bucket of problems that youre facing together. Youre a team, whatever happens. Her problem is yours and your problem is hers.
+Theres just one bucket of problems that you're facing together. Youre a team, whatever happens. Her problem is yours and your problem is hers.
 
-You have to show compassion, even if youre not directly involved in your partners problem.
+You have to show compassion, even if you're not directly involved in your partners problem.
 
 The word compassion comes from the Latin compati which means to feel pity. Compati itself comes from the words com- meaning together and pati meaning to suffer.
 

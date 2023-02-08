@@ -39,7 +39,7 @@ Here's a timeline, assuming that I'm having a good day and it's only taking 15 m
 
 **9:59am** Back in the zone. Unfortunately it's time to head to the weekly 10am meeting.
 
-Sometimes the above happens *all day long* and I get nothing significant done.
+Sometimes the above happens *all day long* and I get nothing significan't done.
 
 Sometimes I'm lucky and I can get a couple of hours or more of focus. 
 

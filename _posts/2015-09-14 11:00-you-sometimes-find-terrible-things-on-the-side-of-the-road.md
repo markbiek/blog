@@ -7,7 +7,7 @@ Slug: you-sometimes-find-terrible-things-on-the-side-of-the-road
 
 <img src="https://cdn-images-2.medium.com/max/800/1*v8KCOvF7rvHYkX7DA2A7aw.jpeg"  />
 
-Ive written about that helmet before (D[ark Start to the Day)](http://mark.biek.org/blog/2012/09/a-dark-start-to-the-day/). That one at least had a happy ending.
+I've written about that helmet before (D[ark Start to the Day)](http://mark.biek.org/blog/2012/09/a-dark-start-to-the-day/). That one at least had a happy ending.
 
 I tracked down the owner of the bike through the Louisville Bike Club mailing list. He was pretty banged up but he recovered fully and his bike was reparable.
 
