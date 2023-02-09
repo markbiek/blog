@@ -56,6 +56,20 @@ export default function Projects() {
 			</article>
 
 			<article>
+				<h2>Bad Teenage Poetry</h2>
+
+				<p>
+					<a href="https://badteenagepoetry.biek.dev/">
+						badteenagepoetry.biek.dev
+					</a>
+				</p>
+				<p>
+					Another small site for learning about NextJS. Inspired by finding an
+					archive of terrible poetry from high school.
+				</p>
+			</article>
+
+			<article>
 				<h2>Elementor Import/Export Tool</h2>
 				<p>
 					<a href="https://github.com/markbiek/elementor-import-export">
@@ -82,28 +96,6 @@ export default function Projects() {
 					This is a console tool (written in PHP with Laravel Zero) for
 					interacting with WPEngine sites.
 				</p>
-			</article>
-
-			<article>
-				<h2>bc3-helper</h2>
-				<p>
-					<a href="https://github.com/markbiek/bc3-helper-extension">
-						Github project
-					</a>
-				</p>
-				<p>
-					At some point, Basecamp 3 changed the formatting of the "My
-					Assignments" page and I thought it was harder to read. This Firefox
-					extension changes the formatting back.
-				</p>
-			</article>
-
-			<article>
-				<h2>Link Shrub</h2>
-				<p>
-					<a href="https://github.com/markbiek/link-shrub">Github project</a>
-				</p>
-				<p>A very simple, plain, self-hosted alternative to linktr.ee.</p>
 			</article>
 		</Layout>
 	);
