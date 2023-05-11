@@ -18,33 +18,22 @@ The journal stayed unused until college where it was reborn as The Magnetic Poet
 <img src="https://cdn-images-1.medium.com/max/800/1*y5iGrHQx6IHkI4AgNSlkvw.jpeg"  />
 
 > I squish a thousand puppies with my bare hands.
-
 > Like Susan, they did not love me.
-
 > -(in the style of one of Susan’s would-be suitors)
 
 > Beneath a sea of legs lies you,
-
 > drunk with love,
-
 > moaning and sweaty,
-
 > the goddess of his bed.
-
 > panting you ache and shake
-
 > robbing the essential light of lost seas.
 
 > Your raw winter hair
-
 > felt like a thousand chocolate deaths.
-
 > Recall panting, light sweating and legs.
 
 > I shake and love you,
-
 > the goddess of my winter,
-
 > the smooth beauty in my bed.
 
 Like I said, perverted, but poetic.
