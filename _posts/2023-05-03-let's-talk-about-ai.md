@@ -47,6 +47,7 @@ Here are a handful of things, personal and professional, that ChatGPT was super 
 ### A dice roller
 It's slow-ish but, in a pinch, you can ask ChatGPT to roll dice for you.
 
+```
 > 🧍 Can you be a dice roller?
 > 🤖 Yes, I can be a virtual dice roller. What kind of dice would you like me to roll for you?
 > 🧍 3d8
@@ -54,23 +55,29 @@ It's slow-ish but, in a pinch, you can ask ChatGPT to roll dice for you.
 > 🤖 Roll 1: 6
 > 🤖 Roll 2: 2
 > 🤖 Roll 3: 8
+```
 
 I won't try to speak to how good the randomness is. It's probably insufficient for anything security-related but should be fine for a game.
 
 ### Automation script using simple-git and Inquirer.js.
 I needed to write an automation script using [simple-git](https://github.com/simple-git-js/simple-git) (for git operations) and [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) (for nice user prompts).
 
+```
 > 🧍 Can you read the documentation for the libraries https://github.com/simple-git-js/simple-git and https://github.com/SBoudrias/Inquirer.js?
 > 🤖 Yes, I can read the documentation for those libraries. Would you like me to provide you with a summary or answer any specific questions?
 > 🧍 I have specific questions.
 > 🤖 Please go ahead and ask your questions.
 > 🧍 How would I use simple-git to check the git status of the current directory?
+```
 
 The first response was accurate (and useful) because it broke down the steps of creating a new simple-git instance and calling `git.status`. The only problem was that it used Promises and callbacks.
 
 So then I asked
+
+```
 > 🧍 Can you rewrite that using async/await?
 > 🤖 Sure! Here's how you can use async/await to check the git status of the current directory using the simple-git library:
+```
 
 ```
 const simpleGit = require('simple-git');
@@ -97,6 +104,7 @@ I had two spreadsheets of pricing data for different currencies that I need to c
 
 In reality, these spreadsheets were quite large but I can demonstrate how ChatGPT helped using a smaller dataset.
 
+```
 > 🧍 I'm going to give you a table of currencies and prices
 > 
 > 🧍 currency,price
@@ -115,15 +123,19 @@ In reality, these spreadsheets were quite large but I can demonstrate how ChatGP
 > 🧍 AUD 100
 >
 > 🤖 Sure. Here's a comparison of the two tables. As we can see, the prices for AUD and EUR match in both tables, but the prices for USD differ. In the first table, the price for USD is 300, whereas in the second table, there are two prices for USD, 300 and 400.
+```
 
 ### Writing TypeScript stuff.
 My TypeScript knowledge is OK but not great. I've found a number of cases where ChatGPT gave me better answers than a regular Internet search.
 
+```
 > 🧍 Let's say I have this type
 > 🧍 export type MaximumFootnotes = '1' | '2' | '3' | '4' | '5';
 > 🧍 How can I make a new object type that only allows keys that are the values in MaximumFootnotes but doesn't require all of them?
 > 
 > 🤖 Here's an example of how you can define a new object type MyFootnotes that allows keys that are values in MaximumFootnotes, but doesn't require all of them:
+```
+
 ```
 export type MaximumFootnotes = '1' | '2' | '3' | '4' | '5';
 
@@ -137,20 +149,30 @@ This is something that Github CoPilot does well with sometimes. My only complain
 
 As an experiment, I tried using ChatGPT to do it in the following manner
 
+```
 > 🧍 I'm going to give you a list of Javascript constants. For each constant, give me code with the following structure and use the comment at the end of the line as the return value for the getTitle function
+```
+
 ```
 export [ MY_CONSTANT ]: {
 	getConstant: () => MY_CONSTANT,
 	getTitle: () => translate('TITLE'),
 }
 ```
+```
 > 🤖 Sure, I'd be happy to help you with that. Please provide me with the list of Javascript constants.
+```
+
 ```
 export const FOO = 'foo'; // This is foo
 export const BAR = 'bar'; // This is bar
 export const BAZ = 'baz'; // This is baz
 ```
+
+```
 > 🤖 Here is the code structure you requested for the given constants:
+```
+
 ```
 export [ FOO ]: {
 	getConstant: () => FOO,
@@ -165,9 +187,13 @@ export [ BAZ ]: {
 	getTitle: () => translate('This is baz'),
 }
 ```
+
+```
 > 🧍 Now give me the Javascript import statement for all of the constants.
 >
 > 🤖 Sure, here's the import statement for all the constants:
+```
+
 ```
 import {
 	FOO,
@@ -179,6 +205,7 @@ import {
 ### Generating a triage schedule.
 We needed a schedule for my team where each person was in charge of triaging incoming issues for two weeks.
 
+```
 > 🧍 I'm going to give you a comma-separated list of names. Please put the list in random order starting with Mark and ending with Alice?
 > Mark, Alice, Beth, Charlie, David, Eddie
 >
@@ -200,13 +227,17 @@ We needed a schedule for my team where each person was in charge of triaging inc
 > 🤖 Jul 31 - Aug 13: Eddie
 > 🤖 Aug 14 - Aug 27: Charlie
 > 🤖 Aug 28 - Sep 10: Beth
+```
 
 ### SQL queries.
 I have a personal project that's a web-based image gallery. Images can be assigned any number of tags. I've been working on a feature that lets you query all images that have one or more tags (eg `/tags/pets+cute`) and was feeling lazy coming up with the SQL query.
 
+```
 > 🧍 Write a sql query which shows all images that have all of the specified tag ids.
 >
 > 🤖 To find all images that have all of the specified tag IDs, you can use the following query:
+```
+
 ```
 SELECT i.*
 FROM images i
