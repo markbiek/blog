@@ -42,6 +42,8 @@ It's not all doom and gloom though. When used properly, things like ChatGPT can 
 ## Recent things I've used ChatGPT for
 I don't think that AI is going to do away with software development. But I _do_ think that software developers who know how to leverage AI are going to have an advantage in the job market. Just like good Internet searches are a skill, so is writing good ChatGPT prompts. 
 
+It'll be interesting to see how this changes the shape of _learning_ software development though. I think AI will be a great learning resource. But, like anything else, be careful that you're not using AI as too much of a crutch. Use it to augment and refine what you're learning, but make sure you're still learning all the core concepts.
+
 Here are a handful of things, personal and professional, that ChatGPT was super helpful with.
 
 ### A dice roller
