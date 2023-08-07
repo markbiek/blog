@@ -28,8 +28,8 @@ seconds of googling lead me to the [RegExp object][] which can be found
 by adding a reference to the **Microsoft VBScript Regular Expressions**
 library.
 
-It's dead simple to use, especially if you have something like [![Regex
-Buddy][]][] to help with building your regular expressions.
+It's dead simple to use, especially if you have something like ![Regex
+Buddy][] to help with building your regular expressions.
 
 Here's an example that does some simple testing as well as grouped
 matching including retrieving subgroups.
@@ -55,4 +55,3 @@ matching including retrieving subgroups.
 
   [RegExp object]: https://msdn.microsoft.com/en-us/library/ms974570.aspx#scripting05_topic2
   [Regex Buddy]: https://farm4.static.flickr.com/3447/3228727140_280fa74bce.jpg?v=0
-  [![Regex Buddy][]]: https://www.regexbuddy.com/

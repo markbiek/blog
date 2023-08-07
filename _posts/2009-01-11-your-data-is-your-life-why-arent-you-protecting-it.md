@@ -22,8 +22,8 @@ lose?
 
 You have some shopping to do if the answer to that question scares you.
 
-Go buy a copy of [![Acronis True Image][]][] and a [![cheap USB hard
-drive][]][].
+Go buy a copy of ![Acronis True Image][] and a cheap USB hard
+drive.
 
 You can get almost total peace of mind for under $200.
 
@@ -60,7 +60,7 @@ But it's always bothered me that I don't have offsite backups as part of
 the equation. I investigated a number of services like [rsync.net][] and
 [Dropbox][] but those seemed a bit expensive.
 
-In the end, I settled on [![Jungle Disk][]][] which uses [Amazon S3][]
+In the end, I settled on ![Jungle Disk][] which uses [Amazon S3][]
 for online storage.
 
 I paid $20 for the full version of Jungle Disk (there's a free trial
@@ -77,11 +77,7 @@ to avoid.
 So get out there and make sure your data is protected.
 
   [Acronis True Image]: https://farm4.static.flickr.com/3505/3182530414_f031461a59_o.gif
-  [![Acronis True Image][]]: https://www.acronis.com/homecomputing/products/trueimage/
-  [cheap USB hard drive]: https://farm4.static.flickr.com/3263/3182530406_fdd915fb5a_o.jpg
-  [![cheap USB hard drive][]]: https://www.newegg.com/Product/ProductList.aspx?Submit=ENE&N=2010150414%20131021357&name=400GB%20-%20750GB
   [rsync.net]: https://www.rsync.net/
   [Dropbox]: https://www.getdropbox.com/
   [Jungle Disk]: https://farm4.static.flickr.com/3089/3184022374_4e452bd146_o.jpg
-  [![Jungle Disk][]]: https://www.jungledisk.com/
   [Amazon S3]: https://aws.amazon.com/s3/

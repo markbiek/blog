@@ -49,9 +49,6 @@ it into an ottoman but I don't think it'll support that kind of weight.
 
 Anyway, see for yourself:
 
-[![image][]][][![image][1]][]
+![image][]
 
-  [image]: https://farm2.static.flickr.com/1080/3171327190_26d7ee193c.jpg?v=0
-  [![image][]]: https://www.flickr.com/photos/markbiek/3171327190/
-  [1]: https://farm2.static.flickr.com/1078/3171322088_57da3d009c.jpg?v=0
-  [![image][1]]: https://www.flickr.com/photos/markbiek/3171322088/
+  [image]: https://farm2.static.flickr.com/1080/3171327190_26d7ee193c.jpg

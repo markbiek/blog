@@ -57,5 +57,5 @@ those two pages of instructions with something like this:
 programX | egrep -v "Stuff I don't want" | sort | programY | egrep -v "More stuff I don't want" > outputZ
 ```
 
-A process that used to talk 20-30 minutes to run (and had to be done
+A process that used to take 20-30 minutes to run (and had to be done
 over and over) now takes less than a second.

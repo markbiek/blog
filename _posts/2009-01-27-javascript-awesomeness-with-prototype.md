@@ -17,10 +17,9 @@ Or you can let Google do the hard work by adding this to your HTML
 header:
 
 
-~~~~ {.html name="code"}
-    
-~~~~
-
+```
+{.html name="code"}
+```
 
 
 The first thing I'll mention is how fantastic the [Prototype API
@@ -58,9 +57,9 @@ Now let's talk about how easy it is to get objects out of the DOM.
 Here's some HTML
 
 
-~~~~ {.html name="code"}
-        
-~~~~
+```
+{.html name="code"}
+```
 
 
 
@@ -87,9 +86,9 @@ object, let's talk about dealing with multiple objects.
 Here's some more HTML
 
 
-~~~~ {.html name="code"}
-                                                
-~~~~
+```
+{.html name="code"}
+```
 
 
 

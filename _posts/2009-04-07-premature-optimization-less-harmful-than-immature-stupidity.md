@@ -15,107 +15,22 @@ files for values **not** found in the name/value pair file.
 
 So the name/value file might look something like this
 
-<table border="0" cellspacing="0" cellpadding="0" style="padding-left:  40px">
-
-
-<tr>
-<td colspan="3">
-\#Variable
-</td>
-</tr>
-
-
-<tr>
-<td>
-Foo
-</td>
-<td>
-=
-</td>
-<td>
-9000
-</td>
-</tr>
-
-
-<tr>
-<td>
-Bar
-</td>
-<td>
-=
-</td>
-<td>
-12345
-</td>
-</tr>
-
-
-<tr>
-<td>
-Baz
-</td>
-<td>
-=
-</td>
-<td>
-8888
-</td>
-</tr>
-
-
-</table>
-
+```
+Variable
+Foo=9000
+Bar=12345
+Baz=888
+```
 
 And one of the tab-delimited files might look like this
-
-<table border="0" cellspacing="0" cellpadding="0" style="padding-left:  40px">
-
-
-<tr>
-<th>
+```
 Variable
-</th>
-</tr>
-
-
-<tr>
-<td>
 9000
-</td>
-</tr>
-
-
-<tr>
-<td>
 9000
-</td>
-</tr>
-
-
-<tr>
-<td>
 8888
-</td>
-</tr>
-
-
-<tr>
-<td>
 12345
-</td>
-</tr>
-
-
-<tr>
-<td>
 55555
-</td>
-</tr>
-
-
-</table>
-
+```
 
 So, in this very contrived case, the validation script would want to
 print out that we found a value of 55555 for *Variable* that didn't

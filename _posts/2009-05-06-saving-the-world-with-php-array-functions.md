@@ -19,9 +19,9 @@ This applies a callback function to every element of an array and
 returns the resulting array.
 
 
-> array **array\_map** ( callback $callback , array $arr1 [, array $...
-> ] )
-
+```
+array **array\_map** ( callback $callback , array $arr1 [, array $...  ] )
+```
 
 
 For example: Applying the [trim][] function to every element of an
@@ -39,9 +39,9 @@ $a = array(' a ', '   b', '   c   ');$a = array_map('trim', $a);print_r($a);
 
 This exchanges all keys with their associated values.
 
-
-> array **array\_flip** ( array $trans )
-
+```
+ array **array\_flip** ( array $trans )
+```
 
 
 
@@ -51,21 +51,14 @@ $a = array( 'foo' => 1, 'bar' => 2, 'baz' => 3);$b = array_flip($a);print_r($b);
 
 
 
-> 
->
-> Array
->
-> (
->
-> [1] =\> foo
->
-> [2] =\> bar
->
-> [3] =\> baz
->
-> )
->
-> 
+```
+Array
+(
+	[1] =\> foo
+	[2] =\> bar
+	[3] =\> baz
+)
+```
 
 
 
@@ -79,81 +72,78 @@ docs, "The comparison function must return an integer less than, equal
 to, or greater than zero if the first argument is considered to be
 respectively less than, equal to, or greater than the second."
 
-
-> bool **usort** ( array &$array , callback $cmp\_function )
-
+```
+bool **usort** ( array &$array , callback $cmp\_function )
+```
 
 (To do the same thing by keys instead of values, use [uksort][])
 
 
 ~~~~ {.php name="code"}
-function cmp_func($a, $b) {    if( $a->val < $b->val ) {        return -1;    }elseif( $a->val == $b->val ) {        return 0;    }elseif( $a->val > $b->val ) {        return 1;    }}class Foo {    public $val;    public function __construct($val) {        $this->val = $val;    }}$a = array();$a[] = new Foo(3);$a[] = new Foo(2);$a[] = new Foo(1);echo '' . print_r($a, true) . '
-~~~~
+function cmp_func($a, $b) {
+	if( $a->val < $b->val ) {
+		return -1;
+	} elseif ( $a->val == $b->val ) {
+		return 0;
+	} elseif ( $a->val > $b->val ) {
+		return 1;
+	}
+}
 
-';
+class Foo { 
+	public $val;
+	
+	public function __construct($val) {
+		$this->val = $val;
+	}
+}
 
+$a = array();
+$a[] = new Foo(3);
+$a[] = new Foo(2);
+$a[] = new Foo(1);
+echo '' . print_r($a, true) . '';
 
 usort($a, 'cmp\_func');
-
-
-echo '
-    ' . print_r($a, true) . '
-
-';
-
-
-</pre>
-
+echo ' ' . print_r($a, true) . ' ';
+~~~~
 
 ### [array\_slice][]
 
 
 Extracts a section of an array.
 
-
-> array **array\_slice** ( array $array , int $offset [, int $length [,
-> bool $preserve\_keys= false ]] )
-
+```
+array **array\_slice** ( array $array , int $offset [, int $length [, bool $preserve\_keys= false ]] )
+```
 
 
 ~~~~ {.php name="code"}
-$a = array( 'a', 'b', 'c', 'd');$b = array_slice($a, 2);echo '' . print_r($b,true) . '
+$a = array( 'a', 'b', 'c', 'd');
+$b = array_slice($a, 2);
+echo '' . print_r($b,true) . ' ';
 ~~~~
 
-';
-
-
-</pre>
-
-
-> 
->
+```
 > Array
->
 > (
->
 > [1] =\> c
->
 > [2] =\> d
->
 > )
->
-> 
-
-
-
+```
 ### [array\_sum][]
 
 
 This returns the sum of the values in an array.
 
-
-> number **array\_sum** ( array $array )
-
+```
+number **array\_sum** ( array $array )
+```
 
 
 ~~~~ {.php name="code"}
-$a = array(1,2,3,4);echo array_sum($a);
+$a = array(1,2,3,4);
+echo array_sum($a);
 ~~~~
 
 
@@ -163,23 +153,18 @@ $a = array(1,2,3,4);echo array_sum($a);
 
 Assign values from an array to individual variables.
 
-
-> void **list** ( mixed $varname [, mixed $... ] )
-
+```
+void **list** ( mixed $varname [, mixed $... ] )
+```
 
 
 ~~~~ {.php name="code"}
-$a = array( 'a', 'b', 'c');list($val1, $val2, $val3) = $a;echo "$val1, $val2, $val3";
+$a = array( 'a', 'b', 'c');
+list($val1, $val2, $val3) = $a;
+echo "$val1, $val2, $val3";
+
+// a, b, c
 ~~~~
-
-
-
-> 
-> a, b, c
->
-> 
-
-
 
   [array functions]: https://us2.php.net/manual/en/book.array.php
   [array\_map]: https://is.php.net/manual/en/function.array-map.php

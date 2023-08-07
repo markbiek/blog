@@ -56,10 +56,10 @@ MacJesus - Your Personal Savior on a Floppy Disc.
 ![image][1]
 
 While researching for this post, I discovered that my terminal program
-of choice (Zterm) is actually still being developed. There's even an OSX
+of choice (Zterm) is actually still [being developed](https://homepage.mac.com/dalverson/zterm/). There's even an OSX
 version.
 
-[![ZTerm][]][]
+![ZTerm][]
 
 It was an amazing little program that you could script to automatically
 dial into differents sites, download files, and logout.
@@ -230,4 +230,3 @@ affect on me than anything else growing up.
   [Robert Carr's]: https://www.lamprey-systems.com/
   [1]: https://farm4.static.flickr.com/3455/3258536886_9c74e4c3ef_o.gif
   [ZTerm]: https://farm4.static.flickr.com/3460/3258510578_21da37fb34_s.jpg
-  [![ZTerm][]]: https://homepage.mac.com/dalverson/zterm/
