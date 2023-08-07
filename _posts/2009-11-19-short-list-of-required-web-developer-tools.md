@@ -99,18 +99,18 @@ Also handy as a general purpose screen-zoom tool.
 I'm sure people out there have their own favorite tools and I'd love to
 hear about them.
 
-  [comprehensive lists]: http://stackoverflow.com/questions/2187/essential-programming-tools
-  [Firebug]: http://getfirebug.com/
-  [print messages]: http://mark.biek.org/blog/2009/10/overriding-the-firebug-console-object-in-ie/
-  [console]: http://getfirebug.com/console.html
-  [YSlow]: http://developer.yahoo.com/yslow/
-  [PageSpeed]: http://code.google.com/speed/page-speed/
-  [FirePHP]: http://www.firephp.org/
-  [excellent guide]: http://sixrevisions.com/web-development/how-to-debug-php-using-firefox-with-firephp/
-  [Web Developer tools]: http://chrispederick.com/work/web-developer/
-  [Html Validator]: http://users.skynet.be/mgueury/mozilla/
-  [Screen Calipers]: http://dl.dropbox.com/u/477519/Calipers.exe
-  [image]: http://farm3.static.flickr.com/2498/4117210587_d6688e40e5.jpg
-  [ColorPic]: http://dl.dropbox.com/u/477519/ColorPic.zip
-  [Iconico]: http://www.iconico.com/colorpic/
-  [1]: http://farm3.static.flickr.com/2547/4117210593_8893e3f39f.jpg
+  [comprehensive lists]: https://stackoverflow.com/questions/2187/essential-programming-tools
+  [Firebug]: https://getfirebug.com/
+  [print messages]: https://mark.biek.org/blog/2009/10/overriding-the-firebug-console-object-in-ie/
+  [console]: https://getfirebug.com/console.html
+  [YSlow]: https://developer.yahoo.com/yslow/
+  [PageSpeed]: https://code.google.com/speed/page-speed/
+  [FirePHP]: https://www.firephp.org/
+  [excellent guide]: https://sixrevisions.com/web-development/how-to-debug-php-using-firefox-with-firephp/
+  [Web Developer tools]: https://chrispederick.com/work/web-developer/
+  [Html Validator]: https://users.skynet.be/mgueury/mozilla/
+  [Screen Calipers]: https://dl.dropbox.com/u/477519/Calipers.exe
+  [image]: https://farm3.static.flickr.com/2498/4117210587_d6688e40e5.jpg
+  [ColorPic]: https://dl.dropbox.com/u/477519/ColorPic.zip
+  [Iconico]: https://www.iconico.com/colorpic/
+  [1]: https://farm3.static.flickr.com/2547/4117210593_8893e3f39f.jpg

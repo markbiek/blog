@@ -57,7 +57,7 @@ that off in production.
 
 
 
-  [CherryPy]: http://www.cherrypy.org/
-  [basic usage example]: http://cherrypy.org/wiki/ModPython
-  [DeployTemplate]: http://cherrypy.org/wiki/DeployTemplate
-  [Name-based VirtualHost entry]: http://httpd.apache.org/docs/2.0/vhosts/name-based.html
+  [CherryPy]: https://www.cherrypy.org/
+  [basic usage example]: https://cherrypy.org/wiki/ModPython
+  [DeployTemplate]: https://cherrypy.org/wiki/DeployTemplate
+  [Name-based VirtualHost entry]: https://httpd.apache.org/docs/2.0/vhosts/name-based.html

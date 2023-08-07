@@ -5,7 +5,7 @@ Category: Personal
 Tags:
 Slug: phone-calls-from-mrs-rothstein
 
-<a href="https://flic.kr/p/ujr6F" target="_blank" rel="noreferrer"><img src="http://i.imgur.com/cbARDpP.jpg" /></a>
+<a href="https://flic.kr/p/ujr6F" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/cbARDpP.jpg" /></a>
 
 Mrs Rothstein is an old lady in a nursing home somewhere in Louisville. I don't know where.
 

@@ -11,11 +11,11 @@ Did you know the Kentucky State Legislature once brought up the idea of buying a
 
 OK, to be fair, it was a non-binding resolution which means the state didn't actually have to do it, even if the resolution passed.
 
-Anyway, I now present to you [Kentucky HR 256](http://www.lrc.state.ky.us/recarch/02rs/HR256.htm), introduced to the House by [Rep Tom Burch](http://www.lrc.ky.gov/legislator/h030.htm) in March 2007.
+Anyway, I now present to you [Kentucky HR 256](https://www.lrc.state.ky.us/recarch/02rs/HR256.htm), introduced to the House by [Rep Tom Burch](https://www.lrc.ky.gov/legislator/h030.htm) in March 2007.
 
 > Encourage the purchase of a submarine to patrol the waters of the Commonwealth and search and destroy all casino riverboats.
 
-I strongly suggest reading the [complete text of the resolution](http://www.lrc.state.ky.us/recarch/02rs/HR256/bill.doc) because it's brilliant.
+I strongly suggest reading the [complete text of the resolution](https://www.lrc.state.ky.us/recarch/02rs/HR256/bill.doc) because it's brilliant.
 
 Here are a couple of the money quotes:
 

@@ -99,6 +99,6 @@ jQuery, etc.
 
 I'll wait.
 
-  [Prototype]: http://www.prototypejs.org
-  [JSON]: http://www.json.org/
-  [json\_encode]: http://us3.php.net/manual/en/function.json-encode.php
+  [Prototype]: https://www.prototypejs.org
+  [JSON]: https://www.json.org/
+  [json\_encode]: https://us3.php.net/manual/en/function.json-encode.php

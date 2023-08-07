@@ -7,7 +7,7 @@ Slug: depression-is-like-being-in-a-loud-room
 
 > Its like I was in a loud room for so long, I didn't know how long it was[all that] lingering tension and unhappiness just buzzing around in my skull.
 
-I stole that title from a blog post by [Wil Wheaton](http://wilwheaton.net/2012/09/depression-lies/) who speaks openly about his own depression, a fact that I am grateful for.
+I stole that title from a blog post by [Wil Wheaton](https://wilwheaton.net/2012/09/depression-lies/) who speaks openly about his own depression, a fact that I am grateful for.
 
 I wasnt sure if I wanted to write this. I'm not sure how I feel about sharing it.
 

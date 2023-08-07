@@ -104,9 +104,9 @@ There’s a lot of extra stuff happening behind the scenes in terms of
 actually wiring up your callback function to the Windows API but you
 don’t necessarily have to understand it to use it.
 
-  [avicap32.dll]: http://www.devx.com/dotnet/Article/30375/1763
-  [DirectShow]: http://msdn.microsoft.com/en-us/library/dd373406(v=VS.85).aspx
-  [Implementing Callback Notifications Using Delegates (Ted Pattison)]: http://msdn.microsoft.com/en-us/magazine/cc188909.aspx
-  [WM\_CAP\_SET\_CALLBACK\_STATUS]: http://msdn.microsoft.com/en-us/library/dd743922(VS.85).aspx
-  [capStatusCallback()]: http://msdn.microsoft.com/en-us/library/dd756940(v=VS.85).aspx
-  [SendMessage]: http://msdn.microsoft.com/en-us/library/ms644950(VS.85).aspx
+  [avicap32.dll]: https://www.devx.com/dotnet/Article/30375/1763
+  [DirectShow]: https://msdn.microsoft.com/en-us/library/dd373406(v=VS.85).aspx
+  [Implementing Callback Notifications Using Delegates (Ted Pattison)]: https://msdn.microsoft.com/en-us/magazine/cc188909.aspx
+  [WM\_CAP\_SET\_CALLBACK\_STATUS]: https://msdn.microsoft.com/en-us/library/dd743922(VS.85).aspx
+  [capStatusCallback()]: https://msdn.microsoft.com/en-us/library/dd756940(v=VS.85).aspx
+  [SendMessage]: https://msdn.microsoft.com/en-us/library/ms644950(VS.85).aspx

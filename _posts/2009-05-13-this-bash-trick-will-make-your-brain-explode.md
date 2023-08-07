@@ -152,6 +152,6 @@ that mysql is printing out.
 That's the Bash trick I use the most. Remember, it works for anything
 that has newline-separated output.
 
-  [Terminal Window]: http://farm3.static.flickr.com/2226/3527858095_2dc5e3e64f_m.jpg
-  [combining multiple commands]: http://www.coffeemonk.com/2009/05/linux-toolbox-alias/%20
-  [xargs]: http://unixhelp.ed.ac.uk/CGI/man-cgi?xargs
+  [Terminal Window]: https://farm3.static.flickr.com/2226/3527858095_2dc5e3e64f_m.jpg
+  [combining multiple commands]: https://www.coffeemonk.com/2009/05/linux-toolbox-alias/%20
+  [xargs]: https://unixhelp.ed.ac.uk/CGI/man-cgi?xargs

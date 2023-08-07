@@ -25,7 +25,7 @@ That’s an acceptable solution (and a lot of people can’t even do that), but 
 
 Windows
 
-There are plenty of tools available for taking screenshots but my favorite is Greenshot ([http://getgreenshot'org/)](http://getgreenshot.org/).
+There are plenty of tools available for taking screenshots but my favorite is Greenshot ([https://getgreenshot'org/)](https://getgreenshot.org/).
 
 It’s free and it turns taking a screenshot and saving it as an image file into a single step. As a bonus, it even saves the full path to the saved image to the clipboard.
 

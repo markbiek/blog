@@ -25,7 +25,7 @@ Another shorthand for FUBAR from WWII.
 
 #### baz
 
-According to the [Jargon File 4'0](http://www.jargon.net/jargonfile/b/baz.html), baz also origin[ates ](https://en.wikipedia.org/wiki/Pogo_(comic_strip))with the Tech Model Railroad Club and the Pogo character Albert the Alligator.
+According to the [Jargon File 4'0](https://www.jargon.net/jargonfile/b/baz.html), baz also origin[ates ](https://en.wikipedia.org/wiki/Pogo_(comic_strip))with the Tech Model Railroad Club and the Pogo character Albert the Alligator.
 
 #### qux
 
@@ -49,7 +49,7 @@ Used by hackers at the Stanford Artificial Intelligence Laboratory (SAIL).
 
 #### waldo
 
-A mechanical device, like an arm, that is controlled by a human limb. They were originally developed for handling nuclear materials in the 1940s and named after the Robert A. Heinlein story of the same name. Popularized by [Tom Cheatham](http://news.harvard.edu/gazette/story/2007/04/thomas-edward-cheatham-jr/) and his students at Harvard.
+A mechanical device, like an arm, that is controlled by a human limb. They were originally developed for handling nuclear materials in the 1940s and named after the Robert A. Heinlein story of the same name. Popularized by [Tom Cheatham](https://news.harvard.edu/gazette/story/2007/04/thomas-edward-cheatham-jr/) and his students at Harvard.
 
 #### fred
 
@@ -57,7 +57,7 @@ Popularized by its ease of typing as a variable name. May stand for Flipping Rid
 
 #### plugh
 
-A magic word from the adventure game [ADVENT](http://www.jar[gon.net/j](https://en.wikipedia.org/wiki/Colossal_Cave_Adventure)argonfile/a/ADVENT.html), a precursor to Adventure.
+A magic word from the adventure game [ADVENT](https://www.jar[gon.net/j](https://en.wikipedia.org/wiki/Colossal_Cave_Adventure)argonfile/a/ADVENT.html), a precursor to Adventure.
 
 #### xyzzy
 
@@ -69,15 +69,15 @@ One of the canonical variables at CMU in the mid-1970s. Sometimes found preceedi
 
 And [other languages](https://en.wikipedia.org/wiki/Metasyntactic_variable) have their own commonly-used words too.
 
-The etymology of Foo is fascinating in its own right. I wont duplicate the fine efforts of R[FC 3092 ](http://www.faqs.org/rfcs/rfc3092.html)to document it.
+The etymology of Foo is fascinating in its own right. I wont duplicate the fine efforts of R[FC 3092 ](https://www.faqs.org/rfcs/rfc3092.html)to document it.
 
 Another weird little bit of computer history.
 
 Additional information:
 
-[What is the origin of foo and bar?](http://stackoverflow.com/questions/4868904/what-is-the-origin-of-foo-and-bar)
+[What is the origin of foo and bar?](https://stackoverflow.com/questions/4868904/what-is-the-origin-of-foo-and-bar)
 
-[Jargon File](http://www.jargon.net/jargonfile/)
+[Jargon File](https://www.jargon.net/jargonfile/)
 
 [Foobar](https://en.wikipedia.org/wiki/Foobar)
 

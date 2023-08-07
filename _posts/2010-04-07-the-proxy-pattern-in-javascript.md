@@ -43,5 +43,5 @@ function normally. We have to include an additional check of the
 **apply** function because window.alert doesn't have an apply method in
 Internet Explorer 8.
 
-  [jQuery function documentation]: http://docs.jquery.com/Types#Function
-  [Proxy Pattern]: http://docs.jquery.com/Types#Proxy_Pattern
+  [jQuery function documentation]: https://docs.jquery.com/Types#Function
+  [Proxy Pattern]: https://docs.jquery.com/Types#Proxy_Pattern

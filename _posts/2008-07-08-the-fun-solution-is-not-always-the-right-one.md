@@ -144,5 +144,5 @@ But it's not a mistake I plan to make again.
 
 
 
-  [Django]: http://www.djangoproject.com
-  [lighthttpd]: http://www.lighttpd.net
+  [Django]: https://www.djangoproject.com
+  [lighthttpd]: https://www.lighttpd.net

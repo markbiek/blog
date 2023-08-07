@@ -55,7 +55,7 @@ calls itself, passing in the jQuery object as a single parameter. Now
 all of the code inside the anonymous function can use **$** to access
 the jQuery object.
 
-  [jQuery]: http://jquery.com/
-  [PrototypeJS]: http://www.prototypejs.org/
-  [noConflict]: http://api.jquery.com/jQuery.noConflict/
-  [jQuery.ready()]: http://api.jquery.com/ready/
+  [jQuery]: https://jquery.com/
+  [PrototypeJS]: https://www.prototypejs.org/
+  [noConflict]: https://api.jquery.com/jQuery.noConflict/
+  [jQuery.ready()]: https://api.jquery.com/ready/

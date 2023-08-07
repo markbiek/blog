@@ -7,7 +7,7 @@ Slug: a-relationship-is-a-choice
 
 A relationship starts when you choose someone and they choose you back, above all other people.
 
-To use my favorite quote from the book [Microserfs](http://www.amazon.com/Microserfs-A-Novel-Douglas-Coupland/dp/0061624268),
+To use my favorite quote from the book [Microserfs](https://www.amazon.com/Microserfs-A-Novel-Douglas-Coupland/dp/0061624268),
 
 > and when you meet someone and fall in love, and they fall in love with you, you ask them Will you take my heart  stains and all? and they say I will, and they ask you the same question and you say, I will, too.
 

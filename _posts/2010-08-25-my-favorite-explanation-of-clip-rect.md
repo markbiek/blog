@@ -39,6 +39,6 @@ to 90x90 so the clip rect would be:
   clip:  rect(10px, 90px, 90px, 10px);
 </code>
 
-  [clip: rect();]: http://www.w3schools.com/css/pr_pos_clip.asp
-  [Ben Wilson]: http://thelocust.org/
-  [image]: http://farm5.static.flickr.com/4079/4925293014_36e2aeb69c_o.jpg
+  [clip: rect();]: https://www.w3schools.com/css/pr_pos_clip.asp
+  [Ben Wilson]: https://thelocust.org/
+  [image]: https://farm5.static.flickr.com/4079/4925293014_36e2aeb69c_o.jpg

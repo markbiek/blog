@@ -55,5 +55,5 @@ But, ultimately, just be aware of how distructive your interruption is and think
 
 Understand and respect that the way a developer works is completely different than the way you do.
 
-[^1]: [http://en.wikipedia.org/wiki/Flow_(psychology)](http://en.wikipedia.org/wiki/Flow_(psychology))
-[^2]: [http://blog.ninlabs.com/2013/01/programmer-interrupted/](http://blog.ninlabs.com/2013/01/programmer-interrupted/)
+[^1]: [https://en.wikipedia.org/wiki/Flow_(psychology)](https://en.wikipedia.org/wiki/Flow_(psychology))
+[^2]: [https://blog.ninlabs.com/2013/01/programmer-interrupted/](https://blog.ninlabs.com/2013/01/programmer-interrupted/)

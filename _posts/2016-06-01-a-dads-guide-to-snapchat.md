@@ -77,7 +77,7 @@ Take a look at these great articles if you want to know more about the history o
 https://medium.com/@garyvee/the-snap-generation-a-guide-to-snapchat-s-history-5ecd3df24f58#.qxb8oy5a1
 
 ### "How to Use Snapchat", Wired's guide for old people 
-http://www.wired.com/2016/04/how-to-use-snapchat-guide-millennials/
+https://www.wired.com/2016/04/how-to-use-snapchat-guide-millennials/
 
 ### "My Little Sister Taught Me How to 'Snapchat like the teens'" by Ben Rose 
 https://www.buzzfeed.com/benrosen/how-to-snapchat-like-the-teens?utm_term=.cgaOAEdwG#.ye4rn5Rw3

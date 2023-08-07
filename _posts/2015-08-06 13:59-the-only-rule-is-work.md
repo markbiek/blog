@@ -25,7 +25,7 @@ Overcome that initial inertia. Start something.
 
 It’s OK to use someone else’s art as a starting point. Hell, that’s how I started writing this.
 
-I once used a line from the William Stafford poem [The Day Millicent Found the World](http://www.poetryfoundation.org/poetrymagazine/browse/150/6#!/20601263) to write one of my favorite teenage poems.
+I once used a line from the William Stafford poem [The Day Millicent Found the World](https://www.poetryfoundation.org/poetrymagazine/browse/150/6#!/20601263) to write one of my favorite teenage poems.
 
 > And now not only the giant trees were strange.
 

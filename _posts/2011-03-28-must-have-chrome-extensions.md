@@ -36,4 +36,4 @@ everything Firebug does.
   [Web Developer]: https://chrome.google.com/webstore/detail/bfbameneiokkgbdmiekhjnmfkcnldhhm
   [HTML Validator]: https://chrome.google.com/webstore/detail/cgndfbhngibokieehnjhbjkkhbfmhojo
   [Google Analytics Debugger]: https://chrome.google.com/webstore/detail/jnkmfdileelhofjcijamephohjechhna
-  [Chrome Developer Tools]: http://code.google.com/chrome/devtools/
+  [Chrome Developer Tools]: https://code.google.com/chrome/devtools/

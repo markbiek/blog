@@ -223,11 +223,11 @@ affect on me than anything else growing up.
 
 
 
-  [Sony Word Processor]: http://farm4.static.flickr.com/3379/3258505002_b9bef2ddcd_o.gif
-  [BBS]: http://en.wikipedia.org/wiki/Bulletin_board_system
-  [image]: http://farm4.static.flickr.com/3264/3257693849_9c7484007b_o.jpg
-  [Temple of the Screaming Electron]: http://en.wikipedia.org/wiki/Totse
-  [Robert Carr's]: http://www.lamprey-systems.com/
-  [1]: http://farm4.static.flickr.com/3455/3258536886_9c74e4c3ef_o.gif
-  [ZTerm]: http://farm4.static.flickr.com/3460/3258510578_21da37fb34_s.jpg
-  [![ZTerm][]]: http://homepage.mac.com/dalverson/zterm/
+  [Sony Word Processor]: https://farm4.static.flickr.com/3379/3258505002_b9bef2ddcd_o.gif
+  [BBS]: https://en.wikipedia.org/wiki/Bulletin_board_system
+  [image]: https://farm4.static.flickr.com/3264/3257693849_9c7484007b_o.jpg
+  [Temple of the Screaming Electron]: https://en.wikipedia.org/wiki/Totse
+  [Robert Carr's]: https://www.lamprey-systems.com/
+  [1]: https://farm4.static.flickr.com/3455/3258536886_9c74e4c3ef_o.gif
+  [ZTerm]: https://farm4.static.flickr.com/3460/3258510578_21da37fb34_s.jpg
+  [![ZTerm][]]: https://homepage.mac.com/dalverson/zterm/

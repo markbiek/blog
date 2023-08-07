@@ -52,5 +52,5 @@ So what's the correct way to do it?
     return vThis.CompareTo(vNetwork) < 0;
 
 1. Get the file version numbers.
-2. Create [Version class objects](http://msdn.microsoft.com/en-us/library/System.Version(v=vs.110).aspx) for each file.
-3. Use [Version.CompareTo](http://msdn.microsoft.com/en-us/library/a5ts8tb6(v=vs.110).aspx) method to do the work for us.
+2. Create [Version class objects](https://msdn.microsoft.com/en-us/library/System.Version(v=vs.110).aspx) for each file.
+3. Use [Version.CompareTo](https://msdn.microsoft.com/en-us/library/a5ts8tb6(v=vs.110).aspx) method to do the work for us.

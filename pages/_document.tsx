@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
 	static async getInitialProps(ctx: any) {
@@ -11,24 +11,24 @@ class MyDocument extends Document {
 			<Html>
 				<Head>
 					<link
-						href='/rss/atom.xml'
-						type='application/atom+xml'
-						rel='alternate'
-						title='Mark Biek ATOM Feed'
+						href="/rss/atom.xml"
+						type="application/atom+xml"
+						rel="alternate"
+						title="Mark Biek ATOM Feed"
 					/>
 					<link
-						href='/rss/feed.xml'
-						type='application/rss+xml'
-						rel='alternate'
-						title='Mark Biek RSS Feed'
+						href="/rss/feed.xml"
+						type="application/rss+xml"
+						rel="alternate"
+						title="Mark Biek RSS Feed"
 					/>
 					<link
-						rel='icon'
-						href='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦄</text></svg>'
+						rel="icon"
+						href="data:image/svg+xml,<svg xmlns=%22https://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦄</text></svg>"
 					/>
 					<link
-						href='https://fonts.googleapis.com/css2?family=Fira+Code&family=Merriweather&family=PT+Sans+Caption:wght@700&family=Trirong:ital,wght@1,200&display=swap'
-						rel='stylesheet'
+						href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Merriweather&family=PT+Sans+Caption:wght@700&family=Trirong:ital,wght@1,200&display=swap"
+						rel="stylesheet"
 					/>
 				</Head>
 				<body>

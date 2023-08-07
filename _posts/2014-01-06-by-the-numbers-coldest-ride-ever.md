@@ -5,7 +5,7 @@ Category: Personal
 Tags: cycling
 Slug: by-the-numbers-coldest-ride-ever
 
-<img src="http://i.imgur.com/TTbhNr9.png" alt="OMG SO COLD" />
+<img src="https://i.imgur.com/TTbhNr9.png" alt="OMG SO COLD" />
 
 Today was the coldest weather I've ever ridden in. Here are some pertinent statistics:
 

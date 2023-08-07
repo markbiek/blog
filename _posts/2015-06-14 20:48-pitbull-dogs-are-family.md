@@ -37,5 +37,5 @@ And she practically ran away.
 
 I was disappointed to see that sort of breed-stereotyping in action but I'm grateful that those attitudes seem to be in the minority around here.
 
-If you want to learn more about pitbull adoption and advocacy in the Louisville area, please take a look at [Saving Sunny](http://www.savingsunnyinc.org/).
+If you want to learn more about pitbull adoption and advocacy in the Louisville area, please take a look at [Saving Sunny](https://www.savingsunnyinc.org/).
 

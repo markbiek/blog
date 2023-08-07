@@ -68,5 +68,5 @@ before I packed up and headed for home.
 We got a couple of years of use out of the equipment. My understanding
 is that the whole thing is now done using iPads.
 
-  [Audience response system]: http://en.wikipedia.org/wiki/Audience_response
-  [image]: http://i.imgur.com/nztMp.jpg
+  [Audience response system]: https://en.wikipedia.org/wiki/Audience_response
+  [image]: https://i.imgur.com/nztMp.jpg

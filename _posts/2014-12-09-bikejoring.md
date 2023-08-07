@@ -25,7 +25,7 @@ We got our first dog a couple of months ago and he's amazing and handsome and I 
 
 <img src="https://lh6.googleusercontent.com/-SAGvQrYreF8/VIEgavpS0yI/AAAAAAABX14/EP5qiAlHo04/s901-no/IMG_20141204_220256.jpg" alt="WHO'S A GOOD BOY!!!" />
 
-Today, we're talking about [bikejoring](http://en.wikipedia.org/wiki/Bikejoring).
+Today, we're talking about [bikejoring](https://en.wikipedia.org/wiki/Bikejoring).
 
 Bikejoring is a sport where you hook your dog up to your bike and they run as fast as they can while you try to keep up. There are lots of ways to do it, all kinds of crazy custom equipment you can buy, and even official races.
 
@@ -35,7 +35,7 @@ After that, I decided to see what I could cobble together from stuff laying arou
 
 ## Parts
 
-- A 6 - 12" length of PVC pipe. (I had some leftover from the [flirt pole](http://en.wikipedia.org/wiki/Flirt_pole) I made[1])
+- A 6 - 12" length of PVC pipe. (I had some leftover from the [flirt pole](https://en.wikipedia.org/wiki/Flirt_pole) I made[1])
 - Several bungie cords
 - A carabiner
 

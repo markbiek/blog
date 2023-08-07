@@ -97,8 +97,8 @@ actually change the border color of the passed in object.
 
 Here's a working [jsfiddle demo][]
 
-  [plugin]: http://plugins.jquery.com/
-  [noConflict]: http://api.jquery.com/jQuery.noConflict/
-  [$.extend]: http://api.jquery.com/jQuery.extend/
-  [$.css]: http://api.jquery.com/css/
-  [jsfiddle demo]: http://jsfiddle.net/antelopelovefan/EGBcm/
+  [plugin]: https://plugins.jquery.com/
+  [noConflict]: https://api.jquery.com/jQuery.noConflict/
+  [$.extend]: https://api.jquery.com/jQuery.extend/
+  [$.css]: https://api.jquery.com/css/
+  [jsfiddle demo]: https://jsfiddle.net/antelopelovefan/EGBcm/

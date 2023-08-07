@@ -86,6 +86,6 @@ and everything is working.
 
 
 
-  [Branching & Merging]: http://svnbook.red-bean.com/en/1.5/svn.branchmerge.html
-  [Branching]: http://farm4.static.flickr.com/3182/3009862333_f54f22c558_o.png
-  [this thread]: http://www.nabble.com/Trouble-using-Svn-merge---reintegrate-td19502890.html
+  [Branching & Merging]: https://svnbook.red-bean.com/en/1.5/svn.branchmerge.html
+  [Branching]: https://farm4.static.flickr.com/3182/3009862333_f54f22c558_o.png
+  [this thread]: https://www.nabble.com/Trouble-using-Svn-merge---reintegrate-td19502890.html

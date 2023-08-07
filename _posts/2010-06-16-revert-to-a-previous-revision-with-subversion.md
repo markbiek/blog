@@ -36,7 +36,7 @@ working copy. Keep in mind, you still have to do an [svn commit][].
 Of course, if you change you mind, you can always do an [svn revert][]
 to undo the merge.
 
-  [TortoiseSVN]: http://tortoisesvn.tigris.org/
-  [svn merge]: http://svnbook.red-bean.com/en/1.0/re16.html
-  [svn commit]: http://svnbook.red-bean.com/en/1.1/re06.html
-  [svn revert]: http://svnbook.red-bean.com/en/1.1/re25.html
+  [TortoiseSVN]: https://tortoisesvn.tigris.org/
+  [svn merge]: https://svnbook.red-bean.com/en/1.0/re16.html
+  [svn commit]: https://svnbook.red-bean.com/en/1.1/re06.html
+  [svn revert]: https://svnbook.red-bean.com/en/1.1/re25.html

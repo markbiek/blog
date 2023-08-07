@@ -7,7 +7,7 @@ Slug: basics-of-qr-codes
 
 Ever see one of these and wondered what the hell it is?
 
-![http://mark.biek.org/blog/][]
+![https://mark.biek.org/blog/][]
 
 It’s a [QR Code][]! (One of the more common two-dimensional (or matrix)
 barcode types. Benefits of the format include fast decoding speed, holds
@@ -21,13 +21,13 @@ the following URL:
 
 
 ~~~~ {.html name="code"}
-http://chart.apis.google.com/chart?chs=100x100&cht=qr&chl=http://mark.biek.org/blog&chld=L|1&choe=UTF-8
+https://chart.apis.google.com/chart?chs=100x100&cht=qr&chl=https://mark.biek.org/blog&chld=L|1&choe=UTF-8
 ~~~~
 
 
 
 You can see that the information being encoded is simply a link to this
-blog (http://mark.biek.org/blog).
+blog (https://mark.biek.org/blog).
 
 QR Codes support encoding of digits **0-9**, letters **A-Z**, and the
 characters **space $ % \* + - . / :**
@@ -70,7 +70,7 @@ What little, unofficial, standardization of encoded data is described in
 this wiki article entitled [BarcodeContents][].
 
 Most/many scanners handle support for the obvious things like
-**http://**, **mailto:**, and even **sms:**, but there’s no real
+**https://**, **mailto:**, and even **sms:**, but there’s no real
 guarentee. Plus, since it’s not built into the device (requiring a
 download from whichever App store you’re using), the person with the
 phone has to take some additional steps to be able to do anything.
@@ -79,9 +79,9 @@ The end result is that you can't control how smooth the end-user
 experience is, although it will definitely be neat for the people who
 can use it successfully.
 
-  [http://mark.biek.org/blog/]: http://chart.apis.google.com/chart?chs=100x100&cht=qr&chl=http://mark.biek.org/blog&chld=L%7C1&choe=UTF-8
-  [QR Code]: http://en.wikipedia.org/wiki/QR_Code
-  [error correction]: http://en.wikipedia.org/wiki/Reed–Solomon_error_correction
-  [Google Charts API]: http://code.google.com/apis/chart/docs/gallery/qr_codes.html
-  [Calvin Klein]: http://mashable.com/2010/07/13/calvin-klein-qr-code-billboard/
-  [BarcodeContents]: http://code.google.com/p/zxing/wiki/BarcodeContents
+  [https://mark.biek.org/blog/]: https://chart.apis.google.com/chart?chs=100x100&cht=qr&chl=https://mark.biek.org/blog&chld=L%7C1&choe=UTF-8
+  [QR Code]: https://en.wikipedia.org/wiki/QR_Code
+  [error correction]: https://en.wikipedia.org/wiki/Reed–Solomon_error_correction
+  [Google Charts API]: https://code.google.com/apis/chart/docs/gallery/qr_codes.html
+  [Calvin Klein]: https://mashable.com/2010/07/13/calvin-klein-qr-code-billboard/
+  [BarcodeContents]: https://code.google.com/p/zxing/wiki/BarcodeContents

@@ -29,12 +29,12 @@ Here's a complete example where clicking on a link popups up the dialog
 
 
 ~~~~ {.html name="code"}
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">    <head>        <title>Test</title>                <link rel="stylesheet" href="/mbiek/dlg/ui-lightness/jquery-ui.css" type="text/css" media="all" />    </head>    <body>        <a href="#">Click Me!</a>        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>        <script type="text/javascript">            function dlg(msg, title) {                var $dialog = $('<div></div>').html(msg).dialog({ title: title});            }            $(document).ready( function() {                $('a').click( function(event) {                    dlg('This is a dialog.', 'Yay');                });            });        </script>    </body></html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"        "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="https://www.w3.org/1999/xhtml">    <head>        <title>Test</title>                <link rel="stylesheet" href="/mbiek/dlg/ui-lightness/jquery-ui.css" type="text/css" media="all" />    </head>    <body>        <a href="#">Click Me!</a>        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>        <script type="text/javascript">            function dlg(msg, title) {                var $dialog = $('<div></div>').html(msg).dialog({ title: title});            }            $(document).ready( function() {                $('a').click( function(event) {                    dlg('This is a dialog.', 'Yay');                });            });        </script>    </body></html>
 ~~~~
 
 
 
-  [jQuery UI Dialog]: http://jqueryui.com/demos/dialog/
-  [here]: http://blog.nemikor.com/2009/04/08/basic-usage-of-the-jquery-ui-dialog/
-  [theme]: http://jqueryui.com/themeroller/
-  [image]: http://farm5.static.flickr.com/4060/4473473274_0299ed0d62_o.png
+  [jQuery UI Dialog]: https://jqueryui.com/demos/dialog/
+  [here]: https://blog.nemikor.com/2009/04/08/basic-usage-of-the-jquery-ui-dialog/
+  [theme]: https://jqueryui.com/themeroller/
+  [image]: https://farm5.static.flickr.com/4060/4473473274_0299ed0d62_o.png

@@ -81,4 +81,4 @@ bodies.
 
 I suppose I can only hope that they make out as well as I did.
 
-  [image]: http://farm3.static.flickr.com/2440/3881790714_0857475e73_m.jpg
+  [image]: https://farm3.static.flickr.com/2440/3881790714_0857475e73_m.jpg

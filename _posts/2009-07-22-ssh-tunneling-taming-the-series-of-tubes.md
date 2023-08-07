@@ -104,7 +104,7 @@ We can set up the following SSH tunnel to get access to the web server.
 
 
 Once you're connected to remote.foo.com, start up your browser and surf
-to [http://localhost:8080][] and that traffic will get tunneled through
+to [https://localhost:8080][] and that traffic will get tunneled through
 to the machine behind remote.foo.com.
 
 It's important to note that the traffic from your local machine **to**
@@ -130,10 +130,10 @@ tricks. My most common use of late has been tunneling connections to
 either PostgreSQL or MySQL so I can use [PGAdmin][] or [SQLyog
 Community][].
 
-  [SSH Tunnel diagram]: http://farm4.static.flickr.com/3475/3745579035_a591e7fc20.jpg
-  [image]: http://farm3.static.flickr.com/2671/3746243218_b4ea2d0c67.jpg?v=0
-  [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/
-  [1]: http://farm3.static.flickr.com/2524/3746243224_95e8ec1cd5.jpg
-  [http://localhost:8080]: http://localhost:8080
-  [PGAdmin]: http://www.pgadmin.org/
-  [SQLyog Community]: http://webyog.com/en/downloads.php
+  [SSH Tunnel diagram]: https://farm4.static.flickr.com/3475/3745579035_a591e7fc20.jpg
+  [image]: https://farm3.static.flickr.com/2671/3746243218_b4ea2d0c67.jpg?v=0
+  [PuTTY]: https://www.chiark.greenend.org.uk/~sgtatham/putty/
+  [1]: https://farm3.static.flickr.com/2524/3746243224_95e8ec1cd5.jpg
+  [https://localhost:8080]: https://localhost:8080
+  [PGAdmin]: https://www.pgadmin.org/
+  [SQLyog Community]: https://webyog.com/en/downloads.php

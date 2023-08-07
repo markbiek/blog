@@ -117,6 +117,6 @@ again.
 
 
 
-  [Users API]: http://code.google.com/appengine/docs/users/
-  [AppEngine]: http://appengine.google.com/
-  [Indexes]: http://code.google.com/appengine/docs/configuringindexes.html
+  [Users API]: https://code.google.com/appengine/docs/users/
+  [AppEngine]: https://appengine.google.com/
+  [Indexes]: https://code.google.com/appengine/docs/configuringindexes.html

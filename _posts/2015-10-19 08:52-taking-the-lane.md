@@ -33,5 +33,5 @@ If you take the entire lane by riding right down the center, it makes it clear t
 
 It’s counterintuitive, but riding in the middle of the road can make you safer!
 
-(Complete details about [Kentucky Bicycle Law](http://transportation.ky.gov/Bike-Walk/Documents/Bike%20Law%20Brochure.pdf))
+(Complete details about [Kentucky Bicycle Law](https://transportation.ky.gov/Bike-Walk/Documents/Bike%20Law%20Brochure.pdf))
 

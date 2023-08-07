@@ -8,4 +8,4 @@ I think I need to get over myself a little bit.
 
 Stop being afraid to post short things. Stop [wasting my words][].
 
-  [wasting my words]: http://www.hanselman.com/blog/YourWordsAreWasted.aspx
+  [wasting my words]: https://www.hanselman.com/blog/YourWordsAreWasted.aspx

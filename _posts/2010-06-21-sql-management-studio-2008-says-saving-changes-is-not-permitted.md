@@ -22,4 +22,4 @@ re-creation”
 
 ![image][]
 
-  [image]: http://farm2.static.flickr.com/1363/4721404562_2b9bb78f6f.jpg
+  [image]: https://farm2.static.flickr.com/1363/4721404562_2b9bb78f6f.jpg

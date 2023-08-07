@@ -74,6 +74,6 @@ copy of a file was newer than another which can be done like this:
 
 My next goal is to work this into my [Google Docs backup script][].
 
-  [how to get file creation/modification date/times in Python]: http://stackoverflow.com/questions/237079/how-to-get-file-creation-modification-date-times-in-python
-  [os.stat()]: http://www.python.org/doc/2.5.2/lib/module-stat.html
-  [Google Docs backup script]: http://mark.biek.org/blog/2009/03/backing-up-your-google-docs/
+  [how to get file creation/modification date/times in Python]: https://stackoverflow.com/questions/237079/how-to-get-file-creation-modification-date-times-in-python
+  [os.stat()]: https://www.python.org/doc/2.5.2/lib/module-stat.html
+  [Google Docs backup script]: https://mark.biek.org/blog/2009/03/backing-up-your-google-docs/

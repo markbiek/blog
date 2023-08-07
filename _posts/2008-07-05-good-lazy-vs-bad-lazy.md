@@ -29,7 +29,7 @@ application.
 My goal is to be good-lazy. Of course I have my bad-lazy days but they
 don't come very often. I find that becoming more proficient with a tool
 improves my attitude overall. I think it probably boils down to
-[controlling your environment](http://www.joelonsoftware.com/uibook/fog0000000249.html).
+[controlling your environment](https://www.joelonsoftware.com/uibook/fog0000000249.html).
 
 I inherited a process last year that came with two full pages of
 single-spaced instructions. It went on and on and on in this vein:

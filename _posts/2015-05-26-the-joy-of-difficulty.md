@@ -22,7 +22,7 @@ Every large project or challenge I undertake follows a similar continuum.
 ____
 
 
-Whether it's [a marathon](http://mark.biek.org/blog/2014/06/i-ran-a-marathon/), software development project, or [riding 100 miles on my bike](http://mark.biek.org/blog/2014/02/my-first-century/), I almost always go through these exact steps.
+Whether it's [a marathon](https://mark.biek.org/blog/2014/06/i-ran-a-marathon/), software development project, or [riding 100 miles on my bike](https://mark.biek.org/blog/2014/02/my-first-century/), I almost always go through these exact steps.
 
 You'd think it was for The End but I've come to realize, it's actually for the transition between I'm not going to make it and There's hope.
 
@@ -30,7 +30,7 @@ It's the rush of that glistening moment that I'm going to succeed.
 
 And you can't get it with just any task. It has to be something hard to get that rush.
 
-With that, I'll leave you with one of my favorite quotes by the poet [Rilke](http://en.wikipedia.org/wiki/Rainer_Maria_Rilke)
+With that, I'll leave you with one of my favorite quotes by the poet [Rilke](https://en.wikipedia.org/wiki/Rainer_Maria_Rilke)
 
 ____
 

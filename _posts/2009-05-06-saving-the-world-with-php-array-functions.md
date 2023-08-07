@@ -181,12 +181,12 @@ $a = array( 'a', 'b', 'c');list($val1, $val2, $val3) = $a;echo "$val1, $val2, $v
 
 
 
-  [array functions]: http://us2.php.net/manual/en/book.array.php
-  [array\_map]: http://is.php.net/manual/en/function.array-map.php
-  [trim]: http://us3.php.net/manual/en/function.trim.php
-  [array\_flip]: http://is.php.net/manual/en/function.array-flip.php
-  [usort]: http://is.php.net/manual/en/function.usort.php
-  [uksort]: http://is.php.net/manual/en/function.uksort.php
-  [array\_slice]: http://is.php.net/manual/en/function.array-slice.php
-  [array\_sum]: http://is.php.net/manual/en/function.array-sum.php
-  [list]: http://is.php.net/manual/en/function.list.php
+  [array functions]: https://us2.php.net/manual/en/book.array.php
+  [array\_map]: https://is.php.net/manual/en/function.array-map.php
+  [trim]: https://us3.php.net/manual/en/function.trim.php
+  [array\_flip]: https://is.php.net/manual/en/function.array-flip.php
+  [usort]: https://is.php.net/manual/en/function.usort.php
+  [uksort]: https://is.php.net/manual/en/function.uksort.php
+  [array\_slice]: https://is.php.net/manual/en/function.array-slice.php
+  [array\_sum]: https://is.php.net/manual/en/function.array-sum.php
+  [list]: https://is.php.net/manual/en/function.list.php

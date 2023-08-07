@@ -157,6 +157,6 @@ I'm off to figure out how the [simplejson][] library works.
 
 
 
-  [Google App Engine]: http://code.google.com/appengine/
-  [Getting Started]: http://code.google.com/appengine/docs/gettingstarted/
-  [simplejson]: http://simplejson.googlecode.com
+  [Google App Engine]: https://code.google.com/appengine/
+  [Getting Started]: https://code.google.com/appengine/docs/gettingstarted/
+  [simplejson]: https://simplejson.googlecode.com

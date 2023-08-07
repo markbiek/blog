@@ -84,5 +84,5 @@ Learn the above well and you'll be able to write Facebook quizzes that
 are *more better* than 90% of the existing ones. Maybe you'll even end
 up writing one that keeps my rage levels low enough to actually take it.
 
-  [Bob the Angry Flower]: http://www.angryflower.com/
-  [image]: http://farm4.static.flickr.com/3560/3442075253_3dec58570f_o.gif
+  [Bob the Angry Flower]: https://www.angryflower.com/
+  [image]: https://farm4.static.flickr.com/3560/3442075253_3dec58570f_o.gif

@@ -86,7 +86,7 @@ If all goes well, you should see something like this:
 
 
 
-Go to [http://localhost][] in your browser and you should see the text
+Go to [https://localhost][] in your browser and you should see the text
 "Hello World."
 
 And here's a quick database example that connects to a PostgreSQL
@@ -110,7 +110,7 @@ That's a **very** basic intro to CherryPy. The [complete
 documentation][] has lots of great stuff and I'll be back to write more
 about it after I've had a chance to write something real.
 
-  [mentioned briefly]: http://mark.biek.org/blog/2009/06/installing-things-on-linux-is-still-a-pain-in-the-tuchus/
-  [the install]: http://www.cherrypy.org/wiki/CherryPyInstall
-  [http://localhost]: http://localhost
-  [complete documentation]: http://www.cherrypy.org/wiki/TableOfContents
+  [mentioned briefly]: https://mark.biek.org/blog/2009/06/installing-things-on-linux-is-still-a-pain-in-the-tuchus/
+  [the install]: https://www.cherrypy.org/wiki/CherryPyInstall
+  [https://localhost]: https://localhost
+  [complete documentation]: https://www.cherrypy.org/wiki/TableOfContents

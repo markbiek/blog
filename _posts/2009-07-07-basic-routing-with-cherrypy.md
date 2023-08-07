@@ -25,7 +25,7 @@ the code that's actually running the site.
 First we create an instance of the Root() class and mount it at the url
 '/'. Then we start the cherrypy engine. The default behavior in this
 case is for the site to run on port 8080 so our site is running on
-[http://localhost:8080][].
+[https://localhost:8080][].
 
 Hitting that url is going to call the **index()** of the Root() class.
 Note the **index.exposed = True** line below the method. That's
@@ -42,7 +42,7 @@ if __name__ == "__main__":    root = Root()    root.names = NamesPage()    cherr
 
 
 See the line starting with **root.names =**? That's going to set up a
-handler for the url [http://localhost:8080/names][].
+handler for the url [https://localhost:8080/names][].
 
 Let's look at the definition of the NamesPage() class. The simplest
 would be something just like the Root() class.
@@ -55,7 +55,7 @@ class NamesPage:    def index(self):        return "This is the root"    index.e
 
 
 But what if we also wanted to handle the url
-[http://localhost:8080/names/help][]?
+[https://localhost:8080/names/help][]?
 
 
 ~~~~ {.python name="code"}
@@ -70,7 +70,7 @@ to any method in the routing class with a matching name.
 
 The next neat bit about routing comes into play when the last part of
 the URI doesn't match any defined methods. For example, how do we handle
-the url [http://localhost:8080/names/mark][]?
+the url [https://localhost:8080/names/mark][]?
 
 As the NamesPage() class stands now, we'll end up with a 404 exception.
 But, by using the **default()** method in the NamesPage() class, we can
@@ -90,9 +90,9 @@ method.
 The above is a pretty simple summary. There's a lot more that can be
 done as you can see from the [PageHandlers][] documentation.
 
-  [CherryPy]: http://mark.biek.org/blog/2009/06/getting-started-with-cherrypy/
-  [http://localhost:8080]: http://localhost:8080/
-  [http://localhost:8080/names]: http://localhost:8080/names
-  [http://localhost:8080/names/help]: http://localhost:8080/names/help
-  [http://localhost:8080/names/mark]: http://localhost:8080/names/mark
-  [PageHandlers]: http://www.cherrypy.org/wiki/PageHandlers
+  [CherryPy]: https://mark.biek.org/blog/2009/06/getting-started-with-cherrypy/
+  [https://localhost:8080]: https://localhost:8080/
+  [https://localhost:8080/names]: https://localhost:8080/names
+  [https://localhost:8080/names/help]: https://localhost:8080/names/help
+  [https://localhost:8080/names/mark]: https://localhost:8080/names/mark
+  [PageHandlers]: https://www.cherrypy.org/wiki/PageHandlers

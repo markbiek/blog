@@ -31,12 +31,12 @@ POST request.
 
 
 ~~~~ {.php name="code"}
-$username = "Your Twitter Username";$password = "Your Twitter Password";$url = "http://twitter.com/direct_messages.json";$httpReq = curl_init();curl_setopt($httpReq, CURLOPT_URL, $url);curl_setopt($httpReq, CURLOPT_RETURNTRANSFER, true);curl_setopt($httpReq, CURLOPT_USERPWD, $username . ':' . $password);$jsonret = curl_exec($httpReq);curl_close($httpReq);$data = json_decode($jsonret);
+$username = "Your Twitter Username";$password = "Your Twitter Password";$url = "https://twitter.com/direct_messages.json";$httpReq = curl_init();curl_setopt($httpReq, CURLOPT_URL, $url);curl_setopt($httpReq, CURLOPT_RETURNTRANSFER, true);curl_setopt($httpReq, CURLOPT_USERPWD, $username . ':' . $password);$jsonret = curl_exec($httpReq);curl_close($httpReq);$data = json_decode($jsonret);
 ~~~~
 
 
 
-We're doing a GET of **http://twitter.com/direct\_messages** and sending
+We're doing a GET of **https://twitter.com/direct\_messages** and sending
 our Twitter username & password via HTTP Basic Authentication (the only
 authentication Twitter fully supports so far).
 
@@ -53,7 +53,7 @@ In this case **$data** is an Array of PHP **stdClass** objects.
 
 
 ~~~~ {.php name="code"}
-Array(    [0] => stdClass Object        (            [sender] => stdClass Object                (                    [description] =>                    [screen_name] => antelopelovefan                    [url] => http://antelopelovefan.com                    [name] => Mark Biek                    [protected] =>                    [profile_image_url] => http://s3.amazonaws.com/twitter_production/profile_images/74213403/m34_tiny_normal.png                    [location] =>                    [id] => 3556041                    [followers_count] => 17                )            [created_at] => Mon Feb 16 21:41:34 +0000 2009            [recipient_id] => 99999999            [sender_id] => 3556041            [recipient] => stdClass Object                (                    [description] =>                    [screen_name] => faketwitterbot                    [url] =>                    [name] => Fake Twitter Bot                    [protected] =>                    [profile_image_url] => http://static.twitter.com/images/default_profile_normal.png                    [location] =>                    [id] => 99999999                    [followers_count] => 1                )            [sender_screen_name] => antelopelovefan            [text] => This is another test message            [id] => 60474989            [recipient_screen_name] => faketwitterbot        ))
+Array(    [0] => stdClass Object        (            [sender] => stdClass Object                (                    [description] =>                    [screen_name] => antelopelovefan                    [url] => https://antelopelovefan.com                    [name] => Mark Biek                    [protected] =>                    [profile_image_url] => https://s3.amazonaws.com/twitter_production/profile_images/74213403/m34_tiny_normal.png                    [location] =>                    [id] => 3556041                    [followers_count] => 17                )            [created_at] => Mon Feb 16 21:41:34 +0000 2009            [recipient_id] => 99999999            [sender_id] => 3556041            [recipient] => stdClass Object                (                    [description] =>                    [screen_name] => faketwitterbot                    [url] =>                    [name] => Fake Twitter Bot                    [protected] =>                    [profile_image_url] => https://static.twitter.com/images/default_profile_normal.png                    [location] =>                    [id] => 99999999                    [followers_count] => 1                )            [sender_screen_name] => antelopelovefan            [text] => This is another test message            [id] => 60474989            [recipient_screen_name] => faketwitterbot        ))
 ~~~~
 
 
@@ -76,7 +76,7 @@ retrieve the list of messages
 
 
 ~~~~ {.php name="code"}
-$username = "Your Twitter Username";$password = "Your Twitter Password";$url = "http://twitter.com/direct_messages/new.json";$postData = array('user'=>'antelopelovefan', 'text'=>'The current date/time is ' . date('c'));$httpReq = curl_init();curl_setopt($httpReq, CURLOPT_URL, $url);curl_setopt($httpReq, CURLOPT_RETURNTRANSFER, true);curl_setopt($httpReq, CURLOPT_USERPWD, $username . ':' . $password);curl_setopt($httpReq, CURLOPT_HTTPHEADER, array('Expect:'));curl_setopt($httpReq, CURLOPT_POST, true);curl_setopt($httpReq, CURLOPT_POSTFIELDS, $postData);$jsonret = curl_exec($httpReq);curl_close($httpReq);$data = json_decode($jsonret);
+$username = "Your Twitter Username";$password = "Your Twitter Password";$url = "https://twitter.com/direct_messages/new.json";$postData = array('user'=>'antelopelovefan', 'text'=>'The current date/time is ' . date('c'));$httpReq = curl_init();curl_setopt($httpReq, CURLOPT_URL, $url);curl_setopt($httpReq, CURLOPT_RETURNTRANSFER, true);curl_setopt($httpReq, CURLOPT_USERPWD, $username . ':' . $password);curl_setopt($httpReq, CURLOPT_HTTPHEADER, array('Expect:'));curl_setopt($httpReq, CURLOPT_POST, true);curl_setopt($httpReq, CURLOPT_POSTFIELDS, $postData);$jsonret = curl_exec($httpReq);curl_close($httpReq);$data = json_decode($jsonret);
 ~~~~
 
 
@@ -94,7 +94,7 @@ let's delete each message when we're done.
 
 
 ~~~~ {.php name="code"}
-foreach($data as $message) {  $username = "Your Twitter Username";  $password = "Your Twitter Password";  $url = 'http://twitter.com/direct_messages/destroy/' . $message->id . '.json';  $httpReq = curl_init();  curl_setopt($httpReq, CURLOPT_URL, $url);  curl_setopt($httpReq, CURLOPT_RETURNTRANSFER, true);  curl_setopt($httpReq, CURLOPT_USERPWD, $username . ':' . $password);  curl_setopt($httpReq, CURLOPT_HTTPHEADER, array('Expect:'));  curl_setopt($httpReq, CURLOPT_POST, true);  $jsonret = curl_exec($httpReq);  curl_close($httpReq);  $data = json_decode($jsonret);}
+foreach($data as $message) {  $username = "Your Twitter Username";  $password = "Your Twitter Password";  $url = 'https://twitter.com/direct_messages/destroy/' . $message->id . '.json';  $httpReq = curl_init();  curl_setopt($httpReq, CURLOPT_URL, $url);  curl_setopt($httpReq, CURLOPT_RETURNTRANSFER, true);  curl_setopt($httpReq, CURLOPT_USERPWD, $username . ':' . $password);  curl_setopt($httpReq, CURLOPT_HTTPHEADER, array('Expect:'));  curl_setopt($httpReq, CURLOPT_POST, true);  $jsonret = curl_exec($httpReq);  curl_close($httpReq);  $data = json_decode($jsonret);}
 ~~~~
 
 
@@ -115,11 +115,11 @@ And here's the code for implementing a [simple Twitter-bot][] like the
 one I described above.
 
   [Twitter]: https://twitter.com/signup
-  [XAMPP]: http://www.apachefriends.org/en/xampp.html
-  [REST API]: http://apiwiki.twitter.com/REST+API+Documentation
-  [RESTful]: http://en.wikipedia.org/wiki/Representational_State_Transfer
-  [json\_decode]: http://us3.php.net/manual/en/function.json-decode.php
-  [Twitter libraries]: http://apiwiki.twitter.com/Libraries
-  [TRequest.php]: http://mark.biek.org/blog/static/TRequest.htm
-  [TDirectMessages.php]: http://mark.biek.org/blog/static/TDirectMessages.htm
-  [simple Twitter-bot]: http://mark.biek.org/blog/static/SimpleTwitterBot.htm
+  [XAMPP]: https://www.apachefriends.org/en/xampp.html
+  [REST API]: https://apiwiki.twitter.com/REST+API+Documentation
+  [RESTful]: https://en.wikipedia.org/wiki/Representational_State_Transfer
+  [json\_decode]: https://us3.php.net/manual/en/function.json-decode.php
+  [Twitter libraries]: https://apiwiki.twitter.com/Libraries
+  [TRequest.php]: https://mark.biek.org/blog/static/TRequest.htm
+  [TDirectMessages.php]: https://mark.biek.org/blog/static/TDirectMessages.htm
+  [simple Twitter-bot]: https://mark.biek.org/blog/static/SimpleTwitterBot.htm

@@ -100,17 +100,17 @@ Given that this was almost 20 years ago and that version of iNES doesn’t
 exist, I think it’s probably safe to share the source of my one and only
 attempt at being a software cracker.
 
-**UnPirate iNES**: [http://pastebin.com/YJQd916j][]
+**UnPirate iNES**: [https://pastebin.com/YJQd916j][]
 
-  [Myst]: http://en.wikipedia.org/wiki/Myst
-  [image]: http://i.imgur.com/8bg5Y.png
-  [Civilization]: http://en.wikipedia.org/wiki/Civilization_(video_game)
-  [1]: http://i.imgur.com/cqRnV.jpg
-  [Spectre]: http://en.wikipedia.org/wiki/Spectre_(video_game)
-  [Lawnmower Man]: http://www.imdb.com/title/tt0104692/
-  [2]: http://i.imgur.com/pyXhu.jpg
-  [Marathon]: http://en.wikipedia.org/wiki/Marathon_(video_game)
-  [3]: http://i.imgur.com/46vz0.jpg
-  [Zen and the Art of Resource Editing]: http://www.amazon.com/Zen-Art-Resource-Editing-Resedit/dp/1568302444/ref=sr_1_2?ie=UTF8&qid=1331921782&sr=8-2
-  [ResEdit]: http://en.wikipedia.org/wiki/ResEdit
-  [http://pastebin.com/YJQd916j]: http://pastebin.com/YJQd916j
+  [Myst]: https://en.wikipedia.org/wiki/Myst
+  [image]: https://i.imgur.com/8bg5Y.png
+  [Civilization]: https://en.wikipedia.org/wiki/Civilization_(video_game)
+  [1]: https://i.imgur.com/cqRnV.jpg
+  [Spectre]: https://en.wikipedia.org/wiki/Spectre_(video_game)
+  [Lawnmower Man]: https://www.imdb.com/title/tt0104692/
+  [2]: https://i.imgur.com/pyXhu.jpg
+  [Marathon]: https://en.wikipedia.org/wiki/Marathon_(video_game)
+  [3]: https://i.imgur.com/46vz0.jpg
+  [Zen and the Art of Resource Editing]: https://www.amazon.com/Zen-Art-Resource-Editing-Resedit/dp/1568302444/ref=sr_1_2?ie=UTF8&qid=1331921782&sr=8-2
+  [ResEdit]: https://en.wikipedia.org/wiki/ResEdit
+  [https://pastebin.com/YJQd916j]: https://pastebin.com/YJQd916j

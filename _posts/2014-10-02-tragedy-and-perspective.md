@@ -5,7 +5,7 @@ Category: Personal
 Tags: 
 Slug: tragedy-and-perspective
 
-By now, most people in Louisville have heard the terrible story of [Ray Etheridge](http://www.courier-journal.com/story/news/crime/2014/10/01/boy-found-park-identified-case-ruled-homicide/16540051/), the homeless 12-year-old who was found murdered in Cherokee Park. 
+By now, most people in Louisville have heard the terrible story of [Ray Etheridge](https://www.courier-journal.com/story/news/crime/2014/10/01/boy-found-park-identified-case-ruled-homicide/16540051/), the homeless 12-year-old who was found murdered in Cherokee Park. 
 
 This is a devastating tragedy and my heart breaks for this poor boy's family.
 

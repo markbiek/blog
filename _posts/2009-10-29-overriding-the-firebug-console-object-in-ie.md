@@ -28,5 +28,5 @@ Now console.log() will still go the Firebug console in FF but will pop
 up an alert in IE. You could just easily tweak it to output to a div (or
 do nothing) instead of having the alert box.
 
-  [FireBug]: http://getfirebug.com/
-  [Console]: http://getfirebug.com/console.html
+  [FireBug]: https://getfirebug.com/
+  [Console]: https://getfirebug.com/console.html

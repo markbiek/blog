@@ -108,6 +108,6 @@ related to me by one of my two favorite priests on my wedding day.
 
 ![image][1]
 
-  [JARK]: http://farm4.static.flickr.com/3228/2843585695_1ea36e0b52_o.jpg
-  [image]: http://farm4.static.flickr.com/3173/2844422948_7ecf0e768a_o.jpg
-  [1]: http://farm4.static.flickr.com/3025/2843587909_c6972e4c9b_o.jpg
+  [JARK]: https://farm4.static.flickr.com/3228/2843585695_1ea36e0b52_o.jpg
+  [image]: https://farm4.static.flickr.com/3173/2844422948_7ecf0e768a_o.jpg
+  [1]: https://farm4.static.flickr.com/3025/2843587909_c6972e4c9b_o.jpg

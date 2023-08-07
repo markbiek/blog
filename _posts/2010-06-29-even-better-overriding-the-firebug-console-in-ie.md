@@ -24,5 +24,5 @@ and to have those functions actually do something in IE (of course you
 could also just use [Firebug Lite][]) but I find the snippet above is
 good enough for most cases.
 
-  [Overriding the Firebug console object]: http://mark.biek.org/blog/2009/10/overriding-the-firebug-console-object-in-ie/
-  [Firebug Lite]: http://getfirebug.com/firebuglite
+  [Overriding the Firebug console object]: https://mark.biek.org/blog/2009/10/overriding-the-firebug-console-object-in-ie/
+  [Firebug Lite]: https://getfirebug.com/firebuglite

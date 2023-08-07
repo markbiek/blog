@@ -17,7 +17,7 @@ I couldn’t tell you the exact date of our first visit. We would’ve passed by
 
 I suspect the first visit happened on a night when we were walking back home from somewhere else. OK, who am I kidding? Staggering home is more accurate. However it happened, we stopped late one night, loved it, and have been going there ever since.
 
-There is so much going on in that place, its amazing. Their own F[AQ ](http://www.thebardstown.com/faqs.html)says that the owners don't sleep and I believe it.
+There is so much going on in that place, its amazing. Their own F[AQ ](https://www.thebardstown.com/faqs.html)says that the owners don't sleep and I believe it.
 
 The inside looks like it could be any other bar but they’ve taken great care with the menu. I’ve never had a bad meal there and most things are downright amazing.
 
@@ -25,7 +25,7 @@ The Billy’s Cheese (beer cheese with pretzel bread) is a great starter and you
 
 The sandwich/burger selection is also great. My favorites are the Bison-tennial Burger (fresh KY bison!) and the My Kingdom for Some Pork sandwich. Other great entrees are the Rigate Diablo pasta and the Corn-delia.
 
-The beer selection is serviceable but nothing too exotic. Their bartenders have you covered on the cocktail front though.. They also usually have a signature cocktail for [Bardstown Rd Aglo](http://www.thehighlandsoflouisville.com/HCGBRAglow.php). One year was the Cozy Rosie which is 4 Roses bourbon, sour apple pucker, a splash of soda water, cinnamon schnapps, and a garnish of Red Hot candies. We still order that one, even when its not the holidays.
+The beer selection is serviceable but nothing too exotic. Their bartenders have you covered on the cocktail front though.. They also usually have a signature cocktail for [Bardstown Rd Aglo](https://www.thehighlandsoflouisville.com/HCGBRAglow.php). One year was the Cozy Rosie which is 4 Roses bourbon, sour apple pucker, a splash of soda water, cinnamon schnapps, and a garnish of Red Hot candies. We still order that one, even when its not the holidays.
 
 My second favorite is the Fourbon Ball, a wicked concoction of 4 Roses bourbon, white chocolate liqueur and who knows what else. Whatever is in it, it tastes like love.
 
@@ -35,7 +35,7 @@ One of my favorites is the Ten-Tucky Festival which features ten 10-minute plays
 
 We were there one night at 1:30am when a crowd of people dressed as pirates came pouring in and started singing chanties on the side stage.
 
-You can see their complete calendar [online](http://www.thebardstown.com/events.html) but its just as much fun to show up and see whats happening.
+You can see their complete calendar [online](https://www.thebardstown.com/events.html) but its just as much fun to show up and see whats happening.
 
 The beauty of The Bardstown is that there’s always something exciting happening.
 

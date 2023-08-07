@@ -9,7 +9,7 @@ Sometimes a person will do something and there's no denying it's an incredible f
 
 Like Satoshi Araki's incredibly detailed urban dioramas
 
-<a href="http://boingboing.net/2014/10/06/satoshi-arakis-exquisite-urb.html" target="_blank" rel="noreferrer"><img src="http://i.imgur.com/vZP4s7e.jpg" /></a>
+<a href="https://boingboing.net/2014/10/06/satoshi-arakis-exquisite-urb.html" target="_blank" rel="noreferrer"><img src="https://i.imgur.com/vZP4s7e.jpg" /></a>
 
 Or setting a world record solving a Rubix Cube
 
@@ -21,7 +21,7 @@ Or Paul Smith's typewriter paintings
 
 Or Scott Weaver's toothpick sculptures
 
-<a href="http://oddstufflab.com/art/astonishing-toothpick-sculptures-created-by-scott-weaver/"><img src="http://i.imgur.com/P1KpiqU.jpg" /></a>
+<a href="https://oddstufflab.com/art/astonishing-toothpick-sculptures-created-by-scott-weaver/"><img src="https://i.imgur.com/P1KpiqU.jpg" /></a>
 
 A common refrain is
 

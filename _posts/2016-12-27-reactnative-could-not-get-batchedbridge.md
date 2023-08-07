@@ -23,7 +23,7 @@ I don't know exactly what causes ☝️ but it's easy (albeit completely non-obv
 `react-native start --reset-cache`
 
 ## Manually force a build of the android build
-`curl "http://localhost:8081/index.android.bundle?platform=android" -o "android/app/src/main/assets/index.android.bundle"`
+`curl "https://localhost:8081/index.android.bundle?platform=android" -o "android/app/src/main/assets/index.android.bundle"`
 
 ## Profit!
 Now you should be able to do `react-native run-android` to launch your app.

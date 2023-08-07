@@ -55,5 +55,5 @@ I stave off my chicken sandwich cravings for almost two weeks before I
 am forced to return. I can't tell if the owner remembers me or not and
 the evening passes without incident.
 
-  [Parque Calderon]: http://farm4.static.flickr.com/3517/3720518238_34f1b957e0_o.png
-  [Raymipamba]: http://farm3.static.flickr.com/2671/3720518236_5bb35ab96b_o.png
+  [Parque Calderon]: https://farm4.static.flickr.com/3517/3720518238_34f1b957e0_o.png
+  [Raymipamba]: https://farm3.static.flickr.com/2671/3720518236_5bb35ab96b_o.png

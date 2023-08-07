@@ -7,7 +7,7 @@ Slug: my-bicycle-has-a-115-db-air-horn
 
 <img src="https://cdn-images-2.medium.com/max/800/1*b6eD3uj3WAMiJcBkvcX86g.jpeg"  />
 
-This is the [Delta Airzound Bike Horn](http://www.amazon.com/gp/product/B000ACAMJC?psc=1&redirect=true&ref_=oh_aui_search_detailpage) and it saved my life yesterday.
+This is the [Delta Airzound Bike Horn](https://www.amazon.com/gp/product/B000ACAMJC?psc=1&redirect=true&ref_=oh_aui_search_detailpage) and it saved my life yesterday.
 
 It’s a 115 dB horn that runs off compressed air. You recharge it with a normal bicycle pump. 115 dB is loud. Really loud. It’s right in between being front row at a rock concert and physical pain.
 

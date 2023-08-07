@@ -75,4 +75,4 @@ outConn.open testConnStr'This is an empty recordset that points to the destinati
 
 
 
-  [IDENTITY INSERT]: http://msdn.microsoft.com/en-us/library/aa259221(v=SQL.80).aspx
+  [IDENTITY INSERT]: https://msdn.microsoft.com/en-us/library/aa259221(v=SQL.80).aspx

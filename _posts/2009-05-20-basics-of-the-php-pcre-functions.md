@@ -105,13 +105,13 @@ If you're looking for tutorials and documentation on lots of different
 flavors of regular expressions, I highly recommend
 [Regular-Expressions.info][].
 
-  [PCRE functions]: http://us.php.net/manual/en/ref.pcre.php
-  [preg\_match]: http://us.php.net/manual/en/function.preg-match.php
-  [preg\_match\_all]: http://us.php.net/manual/en/function.preg-match-all.php
-  [preg\_replace]: http://us.php.net/manual/en/function.preg-replace.php
-  [str\_replace]: http://us3.php.net/manual/en/function.str-replace.php
-  [backreferences]: http://www.regular-expressions.info/brackets.html
-  [preg\_split]: http://us.php.net/manual/en/function.preg-split.php
-  [explode]: http://us.php.net/manual/en/function.explode.php
-  [str\_split]: http://us.php.net/manual/en/function.str-split.php
-  [Regular-Expressions.info]: http://www.regular-expressions.info/
+  [PCRE functions]: https://us.php.net/manual/en/ref.pcre.php
+  [preg\_match]: https://us.php.net/manual/en/function.preg-match.php
+  [preg\_match\_all]: https://us.php.net/manual/en/function.preg-match-all.php
+  [preg\_replace]: https://us.php.net/manual/en/function.preg-replace.php
+  [str\_replace]: https://us3.php.net/manual/en/function.str-replace.php
+  [backreferences]: https://www.regular-expressions.info/brackets.html
+  [preg\_split]: https://us.php.net/manual/en/function.preg-split.php
+  [explode]: https://us.php.net/manual/en/function.explode.php
+  [str\_split]: https://us.php.net/manual/en/function.str-split.php
+  [Regular-Expressions.info]: https://www.regular-expressions.info/

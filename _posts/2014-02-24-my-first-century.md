@@ -5,13 +5,13 @@ Category: Personal
 Tags: cycling
 Slug: my-first-century
 
-In cycling parlance, a [century](http://en.wikipedia.org/wiki/Century_ride) is "a bicycle ride of 100 miles or more within 12 hours.".
+In cycling parlance, a [century](https://en.wikipedia.org/wiki/Century_ride) is "a bicycle ride of 100 miles or more within 12 hours.".
 
 This past Saturday, I did my first one in Louisville's [Cherokee Park](https://www.google.com/maps/place/Cherokee+Park/@38.2394998,-85.694342,16z/data=!4m2!3m1!1s0x8869734d173161c1:0xe3472083a0cad7da) Scenic Loop.
 
 The Scenic Loop is a closed, ~2.4mi, one-way loop open to cars, pedestrians, and cyclists.
 
-<img src="http://i.imgur.com/IUT5TyD.jpg" alt="Ride Map" />
+<img src="https://i.imgur.com/IUT5TyD.jpg" alt="Ride Map" />
 
 I rode around it 43 times. It took 7 hours and 30 minutes. This is how it happened.
 

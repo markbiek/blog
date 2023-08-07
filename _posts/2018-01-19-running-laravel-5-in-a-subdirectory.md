@@ -10,7 +10,7 @@ Running Laravel 5 in a subdirectory (instead of a subdomain or top-level domain)
 ### Step 1: Apache Config
 Make sure to alias your subdirectory to the public directory of your Laravel project.
 
-Let's say my site is going to be at http://mydomain.com/laravel-site. My Apache config would look like this:
+Let's say my site is going to be at https://mydomain.com/laravel-site. My Apache config would look like this:
 
 ```
 Alias /laravel-site /path/to/laravel/public

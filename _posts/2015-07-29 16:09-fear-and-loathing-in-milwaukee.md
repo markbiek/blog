@@ -25,7 +25,7 @@ We wasted half an afternoon trying to copy files from a computer with network ac
 
 The show was in a huge warehouse space packed with people. GE people from all different departments gathered for their shot to show off their work to Jack. People had been killing themselves for this once-in-a-lifetime opportunity.
 
-Most of the demos involved medical devices but I do remember one product that was a precursor to todays S[mart Board.](http://education.smarttech.com/)
+Most of the demos involved medical devices but I do remember one product that was a precursor to todays S[mart Board.](https://education.smarttech.com/)
 
 Our demo went well despite some initial glitches in the beginning. The main configuration service went down hard just before the show was about to start. I was the only one there who knew how to fix it but our GE contact refused to let me into the room because I was wearing sneakers. I had to stand outside the door, give him instructions, and then he’d scuttle into the room and try and follow them. After about 10 minutes he gave up and let me in, despite my footwear.
 

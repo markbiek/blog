@@ -91,5 +91,5 @@ with arguments.
 </small>
 
   [1]: #fn1
-  [article]: http://www.artima.com/weblogs/viewpost.jsp?thread=240845
-  [Decorators I: Introduction to Python Decorators]: http://www.artima.com/weblogs/viewpost.jsp?thread=240808
+  [article]: https://www.artima.com/weblogs/viewpost.jsp?thread=240845
+  [Decorators I: Introduction to Python Decorators]: https://www.artima.com/weblogs/viewpost.jsp?thread=240808

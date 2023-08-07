@@ -5,7 +5,7 @@ Category: Personal
 Tags: running
 Slug: i-ran-a-marathon
 
-Last Monday, [I ran a marathon](http://www.strava.com/activities/151766921). 
+Last Monday, [I ran a marathon](https://www.strava.com/activities/151766921). 
 
 It wasn't a race, just something I've wanted to do for a long time. I didn't have any company. I only partly planned the route.  I just came home from work, packed as much water as I could and started running. 5:18:45 later, I was done.  I was slow and it was hot out. By the time I got home, my legs were so thrashed I could barely climb into the shower.
 

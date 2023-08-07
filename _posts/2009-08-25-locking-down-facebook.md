@@ -99,14 +99,14 @@ what about you.
 But always to try to keep in the back of your head what would happen if
 the above doesn't work.
 
-  [image]: http://farm3.static.flickr.com/2537/3837009597_df0b2cd178_o.png
-  [1]: http://farm4.static.flickr.com/3583/3837800402_5ac2ea4fec_o.png
-  [2]: http://farm3.static.flickr.com/2515/3837009653_8f33743006.jpg
-  [3]: http://farm4.static.flickr.com/3448/3837800588_0fefba5960_o.png
-  [4]: http://farm3.static.flickr.com/2578/3857831122_70cfc5298e.jpg
-  [5]: http://farm4.static.flickr.com/3534/3837800510_b3c2fcdb42_o.png
-  [6]: http://farm3.static.flickr.com/2616/3837009733_36590c93f6.jpg
-  [7]: http://farm3.static.flickr.com/2431/3837800540_048611599a_o.png
-  [8]: http://farm4.static.flickr.com/3587/3837009831_6f0f26e7b8_o.png
-  [9]: http://farm3.static.flickr.com/2426/3837800630_0b44a9dac1_o.png
-  [10]: http://farm3.static.flickr.com/2554/3837009895_9c15c161f2.jpg
+  [image]: https://farm3.static.flickr.com/2537/3837009597_df0b2cd178_o.png
+  [1]: https://farm4.static.flickr.com/3583/3837800402_5ac2ea4fec_o.png
+  [2]: https://farm3.static.flickr.com/2515/3837009653_8f33743006.jpg
+  [3]: https://farm4.static.flickr.com/3448/3837800588_0fefba5960_o.png
+  [4]: https://farm3.static.flickr.com/2578/3857831122_70cfc5298e.jpg
+  [5]: https://farm4.static.flickr.com/3534/3837800510_b3c2fcdb42_o.png
+  [6]: https://farm3.static.flickr.com/2616/3837009733_36590c93f6.jpg
+  [7]: https://farm3.static.flickr.com/2431/3837800540_048611599a_o.png
+  [8]: https://farm4.static.flickr.com/3587/3837009831_6f0f26e7b8_o.png
+  [9]: https://farm3.static.flickr.com/2426/3837800630_0b44a9dac1_o.png
+  [10]: https://farm3.static.flickr.com/2554/3837009895_9c15c161f2.jpg

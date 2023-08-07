@@ -15,7 +15,7 @@ Being on a good team is really everything. I want to work with smart, interestin
 
 #### I want to solve interesting problems.
 
-Sometimes this means fixing old stuff. Sometimes it means making new stuff. Whatever is, I just don't want to be b[ored.](http://randsinrepose.com/archives/bored-people-quit/) I don't want to spend time fighting tools or process. I want to do stuff.
+Sometimes this means fixing old stuff. Sometimes it means making new stuff. Whatever is, I just don't want to be b[ored.](https://randsinrepose.com/archives/bored-people-quit/) I don't want to spend time fighting tools or process. I want to do stuff.
 
 #### I want to make things that get used.
 

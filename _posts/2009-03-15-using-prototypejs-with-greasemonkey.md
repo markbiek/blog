@@ -44,12 +44,12 @@ following things
 
 
 Here's a complete script using the above strategy. This particular
-example only works for [http://www.cnn.com][]. It does an
+example only works for [https://www.cnn.com][]. It does an
 **Effect.Shake** and puts a red border on each <img\> tag on the page.
 
 
 ~~~~ {.javascript name="code"}
-// ==UserScript==// @name           Prototype Test// @namespace      http://www.cnn.com// @description    This is a test script// @include        http://www.cnn.com/*// ==/UserScript==var scriptTags = document.getElementsByTagName('script');var addPrototype = true;var addScriptaculous = true;//Loop over all script tags in the page header//and check to see if Prototype or Scriptaculous are already being includedfor(i in scriptTags) {    if( scriptTags[i].src.match(/prototype.*?\.js/) ) {        addPrototype = false;    }    if( scriptTags[i].src.match(/scriptaculous.*?\.js/) ) {        addScriptaculous = false;    }}var scripts = [];var idx = 0;if(addPrototype) {    scripts[idx] = 'http://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js';    idx++}if(addScriptaculous) {    scripts[idx] = 'http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js';    idx++}//Add any missing script tags to the page headerfor (i in scripts) {    var script = document.createElement('script');    script.src = scripts[i];    document.getElementsByTagName('head')[0].appendChild(script);}//Handler for the window load eventwindow.addEventListener('load', function(event) {    //Get handles to the Prototype and Scriptaculous functions we're going to use    $ = unsafeWindow['window'].$;    $$ = unsafeWindow['window'].$$;    Effect = unsafeWindow['window'].Effect;        $$('img').each( function(elem) {        Effect.Shake(elem);        elem.setStyle( {border:  '3px dotted red'});    });}, 'false');
+// ==UserScript==// @name           Prototype Test// @namespace      https://www.cnn.com// @description    This is a test script// @include        https://www.cnn.com/*// ==/UserScript==var scriptTags = document.getElementsByTagName('script');var addPrototype = true;var addScriptaculous = true;//Loop over all script tags in the page header//and check to see if Prototype or Scriptaculous are already being includedfor(i in scriptTags) {    if( scriptTags[i].src.match(/prototype.*?\.js/) ) {        addPrototype = false;    }    if( scriptTags[i].src.match(/scriptaculous.*?\.js/) ) {        addScriptaculous = false;    }}var scripts = [];var idx = 0;if(addPrototype) {    scripts[idx] = 'https://ajax.googleapis.com/ajax/libs/prototype/1.6.0.3/prototype.js';    idx++}if(addScriptaculous) {    scripts[idx] = 'https://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.2/scriptaculous.js';    idx++}//Add any missing script tags to the page headerfor (i in scripts) {    var script = document.createElement('script');    script.src = scripts[i];    document.getElementsByTagName('head')[0].appendChild(script);}//Handler for the window load eventwindow.addEventListener('load', function(event) {    //Get handles to the Prototype and Scriptaculous functions we're going to use    $ = unsafeWindow['window'].$;    $$ = unsafeWindow['window'].$$;    Effect = unsafeWindow['window'].Effect;        $$('img').each( function(elem) {        Effect.Shake(elem);        elem.setStyle( {border:  '3px dotted red'});    });}, 'false');
 ~~~~
 
 
@@ -70,5 +70,5 @@ The **unsafeWindow** lets us get a handle to the page copy of the the
 various PrototypeJS functions.
 
   [Greasemonkey]: https://addons.mozilla.org/en-US/firefox/addon/748
-  [PrototypeJS]: http://www.prototypejs.org
-  [http://www.cnn.com]: http://www.cnn.com
+  [PrototypeJS]: https://www.prototypejs.org
+  [https://www.cnn.com]: https://www.cnn.com

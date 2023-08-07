@@ -68,7 +68,7 @@ values. The one you're generally interested in is *Auth*.
 You can retrieve [a list of documents][] by sending an **authenticated
 request** to
 
-**http://docs.google.com/feeds/documents/private/full**
+**https://docs.google.com/feeds/documents/private/full**
 
 A request is authenticated by including the auth value retrieved in Step
 1 as part of the HTTP header. The actual format of the header looks like
@@ -94,7 +94,7 @@ this:
 
 
 ~~~~ {.xml name="code"}
-    type="text/html" />      test.user    test.user@gmail.com      scheme="http://schemas.google.com/g/2005#kind"  term="http://schemas.google.com/docs/2007#document" />    scheme="http://schemas.google.com/g/2005/labels"  term="http://schemas.google.com/g/2005/labels#starred" />  http://docs.google.com/feeds/documents/private/full/document%3Adocument_id    type="text/html" />    rel="self" type="application/atom+xml" />  Test Document  2007-07-03T18:02:50.338Z
+    type="text/html" />      test.user    test.user@gmail.com      scheme="https://schemas.google.com/g/2005#kind"  term="https://schemas.google.com/docs/2007#document" />    scheme="https://schemas.google.com/g/2005/labels"  term="https://schemas.google.com/g/2005/labels#starred" />  https://docs.google.com/feeds/documents/private/full/document%3Adocument_id    type="text/html" />    rel="self" type="application/atom+xml" />  Test Document  2007-07-03T18:02:50.338Z
 ~~~~
 
 
@@ -140,15 +140,15 @@ documents.
 -   Documents:
     
     
-    *http://docs.google.com/feeds/download/documents/Export?docID=**example\_document\_id**&exportFormat=**example\_format***
+    *https://docs.google.com/feeds/download/documents/Export?docID=**example\_document\_id**&exportFormat=**example\_format***
 -   Presentations:
     
-    *http://docs.google.com/feeds/download/presentations/Export?docID=**example\_document\_id**&exportFormat=**example\_format***
+    *https://docs.google.com/feeds/download/presentations/Export?docID=**example\_document\_id**&exportFormat=**example\_format***
 
     
 -   Spreadsheets:
     
-    *http://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=**example\_spreadsheet\_id**&fmcmd=**example\_format***
+    *https://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=**example\_spreadsheet\_id**&fmcmd=**example\_format***
 
     
 
@@ -168,7 +168,7 @@ to do it:
 
 
 ~~~~ {.python name="code"}
-def downloadDoc(docID, categoryLabel, cleanTitle, auth):    if categoryLabel == 'document':        docUrl = 'http://docs.google.com/feeds/download/documents/Export?docID=' + docID + '&exportFormat=doc'        ext = '.doc'    elif categoryLabel == 'presentation':        docUrl = 'http://docs.google.com/feeds/download/presentations/Export?docID=' + docID + '&exportFormat=ppt'        ext = '.ppt'    elif categoryLabel == 'spreadsheet':        docUrl = 'http://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=' + docID + '&fmcmd=4'        ext = '.xls'        print "Warning:  Downloading spreadsheets doesn't work yet."        return    else:        print 'Error:  Unknown category label (' + categoryLabel + ')'    filename = cleanTitle + ext    print 'Saving "' + filename + '"'    header = {'Authorization': 'GoogleLogin auth=' + auth}    req = urllib2.Request( docUrl, None, header)    res = urllib2.urlopen(req)    file = open(filename, 'w')    file.write(res.read())    file.close()
+def downloadDoc(docID, categoryLabel, cleanTitle, auth):    if categoryLabel == 'document':        docUrl = 'https://docs.google.com/feeds/download/documents/Export?docID=' + docID + '&exportFormat=doc'        ext = '.doc'    elif categoryLabel == 'presentation':        docUrl = 'https://docs.google.com/feeds/download/presentations/Export?docID=' + docID + '&exportFormat=ppt'        ext = '.ppt'    elif categoryLabel == 'spreadsheet':        docUrl = 'https://spreadsheets.google.com/feeds/download/spreadsheets/Export?key=' + docID + '&fmcmd=4'        ext = '.xls'        print "Warning:  Downloading spreadsheets doesn't work yet."        return    else:        print 'Error:  Unknown category label (' + categoryLabel + ')'    filename = cleanTitle + ext    print 'Saving "' + filename + '"'    header = {'Authorization': 'GoogleLogin auth=' + auth}    req = urllib2.Request( docUrl, None, header)    res = urllib2.urlopen(req)    file = open(filename, 'w')    file.write(res.read())    file.close()
 ~~~~
 
 
@@ -194,9 +194,9 @@ peace of mind.
 
 
   [Google Docs]: 
-  [strategy]: http://mark.biek.org/blog/2009/01/your-data-is-your-life-why-arent-you-protecting-it/
-  [Google Documents List Data API]: http://code.google.com/apis/documents/docs/2.0/developers_guide_protocol.html
-  [authenticating against a Google account]: http://mark.biek.org/blog/2009/01/google-client-logins/
-  [a list of documents]: http://code.google.com/apis/documents/docs/2.0/developers_guide_protocol.html#ListDocs
-  [Document and Presentation export formats]: http://code.google.com/apis/documents/docs/2.0/developers_guide_protocol.html#DownloadingDocsAndPresentations
-  [Spreadsheet export formats]: http://code.google.com/apis/documents/docs/2.0/developers_guide_protocol.html#DownloadingSpreadsheets
+  [strategy]: https://mark.biek.org/blog/2009/01/your-data-is-your-life-why-arent-you-protecting-it/
+  [Google Documents List Data API]: https://code.google.com/apis/documents/docs/2.0/developers_guide_protocol.html
+  [authenticating against a Google account]: https://mark.biek.org/blog/2009/01/google-client-logins/
+  [a list of documents]: https://code.google.com/apis/documents/docs/2.0/developers_guide_protocol.html#ListDocs
+  [Document and Presentation export formats]: https://code.google.com/apis/documents/docs/2.0/developers_guide_protocol.html#DownloadingDocsAndPresentations
+  [Spreadsheet export formats]: https://code.google.com/apis/documents/docs/2.0/developers_guide_protocol.html#DownloadingSpreadsheets

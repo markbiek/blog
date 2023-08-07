@@ -42,5 +42,5 @@ if(window.navigator.standalone) {    $(document).delegate('a', 'click', function
 
 
 
-  [image]: http://i.imgur.com/TIaPR.png
-  [apple-mobile-web-app-capable]: http://developer.apple.com/library/safari/#documentation/appleapplications/reference/SafariHTMLRef/Articles/MetaTags.html
+  [image]: https://i.imgur.com/TIaPR.png
+  [apple-mobile-web-app-capable]: https://developer.apple.com/library/safari/#documentation/appleapplications/reference/SafariHTMLRef/Articles/MetaTags.html

@@ -39,7 +39,7 @@ var httpRequest = function(params) {    var xhr = Titanium.Network.createHTTPCli
 
 
 
-  [Basic Authentication]: http://en.wikipedia.org/wiki/Basic_access_authentication
-  [Appcelerator Titanium]: http://www.appcelerator.com/
-  [HTTPClient]: http://developer.appcelerator.com/apidoc/desktop/latest/Titanium.Network.HTTPClient-object.html
-  [setBasicCredentials()]: http://developer.appcelerator.com/apidoc/desktop/latest/Titanium.Network.HTTPClient.setBasicCredentials-method.html
+  [Basic Authentication]: https://en.wikipedia.org/wiki/Basic_access_authentication
+  [Appcelerator Titanium]: https://www.appcelerator.com/
+  [HTTPClient]: https://developer.appcelerator.com/apidoc/desktop/latest/Titanium.Network.HTTPClient-object.html
+  [setBasicCredentials()]: https://developer.appcelerator.com/apidoc/desktop/latest/Titanium.Network.HTTPClient.setBasicCredentials-method.html

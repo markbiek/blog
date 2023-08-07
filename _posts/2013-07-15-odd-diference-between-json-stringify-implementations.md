@@ -25,7 +25,7 @@ Let's say I have a fairly nested JS object like this and I need to JSON-encode i
 
 If I JSON-encode it using the native browser `JSON.stringify` (tested in Chrome, Firefox, IE9/10), I get back a JSON string that looks like this (which is what I expect):
 
-[Native JSON.stringify JSFiddle example](http://jsfiddle.net/antelopelovefan/G62zj/3/)
+[Native JSON.stringify JSFiddle example](https://jsfiddle.net/antelopelovefan/G62zj/3/)
 
     {
         "totA": -1,
@@ -48,11 +48,11 @@ If I JSON-encode it using the native browser `JSON.stringify` (tested in Chrome,
         ]
     }
     
-The weirdness comes in if I try to do the same thing on a page that's using either [PrototypeJS <= 1.6](http://prototypejs.org/).
+The weirdness comes in if I try to do the same thing on a page that's using either [PrototypeJS <= 1.6](https://prototypejs.org/).
 
 In that case, `JSON.stringify` on the _same_ object gives me back the following JSON:
 
-[ProtypeJS JSON.stringify JSFiddle example](http://jsfiddle.net/antelopelovefan/Ky3tv/1/)
+[ProtypeJS JSON.stringify JSFiddle example](https://jsfiddle.net/antelopelovefan/Ky3tv/1/)
 
     {
         "totA": -1,
@@ -64,10 +64,10 @@ In that case, `JSON.stringify` on the _same_ object gives me back the following 
     
 Obviously, the above is a problem because it doesn't JSON-decode to the same object that was originally passed to `JSON.stringify`.
 
-After asking the fine people on [StackOverflow](http://stackoverflow.com) I found out several interesting things.
+After asking the fine people on [StackOverflow](https://stackoverflow.com) I found out several interesting things.
 
 ### The idea of `.toJSON()` methods
-Both json2.js and native JSON.stringify calls check to see if the object being encoded already has a `.toJSON()` method and uses that method instead of encoding the object according to the [JSON spec](http://www.json.org/).
+Both json2.js and native JSON.stringify calls check to see if the object being encoded already has a `.toJSON()` method and uses that method instead of encoding the object according to the [JSON spec](https://www.json.org/).
 
 ### This was an issue specific to PrototypeJS <= 1.6
 There's a bug in one of the PrototypeJS `.toJSON()` functions that crops up with objects nested inside arrays. PrototypeJS 1.7 has since fixed this issue.
@@ -82,6 +82,6 @@ There's a bug in one of the PrototypeJS `.toJSON()` functions that crops up with
     }
 
 
-[^1]: Taken from the following StackOverflow questions. [http://stackoverflow.com/questions/17618791/noticing-an-odd-difference-between-different-implementations-of-json-stringify](http://stackoverflow.com/questions/17618791/noticing-an-odd-difference-between-different-implementations-of-json-stringify) and [http://stackoverflow.com/questions/710586/json-stringify-bizarreness](http://stackoverflow.com/questions/710586/json-stringify-bizarreness)
+[^1]: Taken from the following StackOverflow questions. [https://stackoverflow.com/questions/17618791/noticing-an-odd-difference-between-different-implementations-of-json-stringify](https://stackoverflow.com/questions/17618791/noticing-an-odd-difference-between-different-implementations-of-json-stringify) and [https://stackoverflow.com/questions/710586/json-stringify-bizarreness](https://stackoverflow.com/questions/710586/json-stringify-bizarreness)
 
-[^2]: [http://stackoverflow.com/a/3148441/305](http://stackoverflow.com/a/3148441/305)
+[^2]: [https://stackoverflow.com/a/3148441/305](https://stackoverflow.com/a/3148441/305)

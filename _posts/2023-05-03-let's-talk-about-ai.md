@@ -15,7 +15,7 @@ The article [ChatGPT Can't Kill Anything Worth Preserving](https://biblioracle.s
 
 The short version is, if your students can do entire assignments you've given them using ChatGPT, you're assigning crappy assignments. That said, we want to be careful and intentional about _how_ we let AI do things for us.
 
-While I find Paul Graham to be hit or miss (love his [stuff on writing](http://paulgraham.com/writing44.html)), I definitely think this [Twitter thread](https://twitter.com/paulg/status/1655925905527537666) brings up a lot of important points about AI and writing.
+While I find Paul Graham to be hit or miss (love his [stuff on writing](https://paulgraham.com/writing44.html)), I definitely think this [Twitter thread](https://twitter.com/paulg/status/1655925905527537666) brings up a lot of important points about AI and writing.
 
 If you don't want to read the whole thread, just read this quote:
 

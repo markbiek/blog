@@ -156,8 +156,8 @@ export default function CV() {
 							<li>
 								Developed redesigned air quality website for Louisville Air
 								Watch (
-								<a href="http://airqualitymap.louisvilleky.gov/">
-									http://airqualitymap.louisvilleky.gov/
+								<a href="https://airqualitymap.louisvilleky.gov/">
+									https://airqualitymap.louisvilleky.gov/
 								</a>
 								) including more efficient API layer.
 							</li>
@@ -203,7 +203,7 @@ export default function CV() {
 				<h4 className={styles.job_title}>
 					Senior Development Consultant &mdash;
 					<span className={styles.where}>
-						<a href="http://studymaker.com/" className="company-link">
+						<a href="https://studymaker.com/" className="company-link">
 							Studymaker, LLC{" "}
 						</a>
 					</span>{" "}

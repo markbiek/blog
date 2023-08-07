@@ -89,10 +89,10 @@ $(function () {    $('#choice1').data('show', '#Q2a').data('hide', '#Q2b');    $
 
 
 
-  [PrototypeJS]: http://www.prototypejs.org/
-  [jQuery]: http://jquery.com/
-  [jQuery UI]: http://jqueryui.com/demos/
-  [jQTouch]: http://www.jqtouch.com/
-  [jQuery API]: http://api.jquery.com/
-  [jQuery.data()]: http://api.jquery.com/data/
-  [notjustahatrack.com]: http://notjustahatrack.com/
+  [PrototypeJS]: https://www.prototypejs.org/
+  [jQuery]: https://jquery.com/
+  [jQuery UI]: https://jqueryui.com/demos/
+  [jQTouch]: https://www.jqtouch.com/
+  [jQuery API]: https://api.jquery.com/
+  [jQuery.data()]: https://api.jquery.com/data/
+  [notjustahatrack.com]: https://notjustahatrack.com/

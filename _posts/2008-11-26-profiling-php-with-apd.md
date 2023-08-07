@@ -72,8 +72,8 @@ improvements.
 
 Not a big time investment for such a big speed gain.
 
-  [StackOverflow]: http://www.stackoverflow.com
-  [What's the simplest way to profile a PHP script]: http://stackoverflow.com/questions/21133/simplest-way-to-profile-a-php-script
-  [PCL APD extension]: http://www.php.net/apd
-  [Markdown]: http://daringfireball.net/projects/markdown/
-  [Template Lite]: http://templatelite.sourceforge.net/
+  [StackOverflow]: https://www.stackoverflow.com
+  [What's the simplest way to profile a PHP script]: https://stackoverflow.com/questions/21133/simplest-way-to-profile-a-php-script
+  [PCL APD extension]: https://www.php.net/apd
+  [Markdown]: https://daringfireball.net/projects/markdown/
+  [Template Lite]: https://templatelite.sourceforge.net/

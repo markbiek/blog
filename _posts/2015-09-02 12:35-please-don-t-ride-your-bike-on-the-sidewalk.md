@@ -45,7 +45,7 @@ We need to get everyone used to the idea of cyclists as equal citizens on the ro
 
 ### It’s illegal
 
-This, in my mind, is the least important reason. I'm 100% OK with breaking the law if it makes me safer to do it (for more details, read up on the I[daho Stop laws)](http://mark.biek.org/blog/2015/05/i-love-the-idahostop/). Sidewalk riding is a case where the law makes total sense and should be respected.
+This, in my mind, is the least important reason. I'm 100% OK with breaking the law if it makes me safer to do it (for more details, read up on the I[daho Stop laws)](https://mark.biek.org/blog/2015/05/i-love-the-idahostop/). Sidewalk riding is a case where the law makes total sense and should be respected.
 
 So take the plunge. Ride in the street where you belong!
 

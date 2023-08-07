@@ -30,11 +30,11 @@ seem to be resolved.
 
 
 ~~~~ {.html name="code"}
-<html>    <head>        <!-- OpenID 2.0 delegate information -->        <link rel="openid2.provider" href="http://www.myopenid.com/server" />        <link rel="openid2.local_id" href="http://yourusername.myopenid.com/" />        <!-- OpenID 1.1 delegate information -->        <link rel="openid.server" href="http://www.myopenid.com/server" />        <link rel="openid.delegate" href="http://yourusername.myopenid.com/" />    </head>    <body>    </body></html>
+<html>    <head>        <!-- OpenID 2.0 delegate information -->        <link rel="openid2.provider" href="https://www.myopenid.com/server" />        <link rel="openid2.local_id" href="https://yourusername.myopenid.com/" />        <!-- OpenID 1.1 delegate information -->        <link rel="openid.server" href="https://www.myopenid.com/server" />        <link rel="openid.delegate" href="https://yourusername.myopenid.com/" />    </head>    <body>    </body></html>
 ~~~~
 
 
 
-  [OpenID]: http://mark.biek.org/blog/2008/10/un-befuddling-openid/
-  [Facebook Error Message]: http://farm4.static.flickr.com/3350/3592405201_ac9a52234c_o.png
-  [delegate page]: http://antelopelovefan.com/id
+  [OpenID]: https://mark.biek.org/blog/2008/10/un-befuddling-openid/
+  [Facebook Error Message]: https://farm4.static.flickr.com/3350/3592405201_ac9a52234c_o.png
+  [delegate page]: https://antelopelovefan.com/id

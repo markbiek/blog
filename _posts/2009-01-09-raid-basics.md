@@ -140,7 +140,7 @@ array. Four 100gb drives would yield 200gb of usable space.
 <small>Thanks to Wikipedia for the images. Don't worry, I'm not leeching
 them.</small>
 
-  [backup solution]: http://mark.biek.org/blog/2009/01/your-data-is-your-life-why-arent-you-protecting-it/
-  [image]: http://farm4.static.flickr.com/3398/3181879875_f936c63094.jpg?v=0
-  [1]: http://farm4.static.flickr.com/3432/3181879877_7f6ecc033f.jpg?v=0
-  [2]: http://farm4.static.flickr.com/3099/3181879885_f5c6557b3a.jpg?v=0
+  [backup solution]: https://mark.biek.org/blog/2009/01/your-data-is-your-life-why-arent-you-protecting-it/
+  [image]: https://farm4.static.flickr.com/3398/3181879875_f936c63094.jpg?v=0
+  [1]: https://farm4.static.flickr.com/3432/3181879877_7f6ecc033f.jpg?v=0
+  [2]: https://farm4.static.flickr.com/3099/3181879885_f5c6557b3a.jpg?v=0

@@ -38,4 +38,4 @@ So how do you fix a nested working copy? It’s really easy.
 
 \4. Profit!
 
-  [image]: http://i.imgur.com/SWQbq.png
+  [image]: https://i.imgur.com/SWQbq.png

@@ -97,5 +97,5 @@ lying? Are they just padding things to get the next job?
 And, more importantly, how do I get the people who **can** do these
 tests (and aren't psychopaths) to work for us?
 
-  [Joel Spolsky]: http://www.joelonsoftware.com/articles/fog0000000073.html
-  ["FizzBuzz"]: http://www.google.com/search?q=fizzbuzz
+  [Joel Spolsky]: https://www.joelonsoftware.com/articles/fog0000000073.html
+  ["FizzBuzz"]: https://www.google.com/search?q=fizzbuzz

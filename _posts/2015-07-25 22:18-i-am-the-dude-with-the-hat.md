@@ -7,7 +7,7 @@ Slug: i-am-the-dude-with-the-hat
 
 <img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*q0HAFp29yMNy4HPxGGP1sw.jpeg"  />
 
-There is [a hat](http://www.riverz.com/riverz/1-riverz-utah.html) from the San Francisco Hat Company that I spent almost a year lusting after.
+There is [a hat](https://www.riverz.com/riverz/1-riverz-utah.html) from the San Francisco Hat Company that I spent almost a year lusting after.
 
 It is the Riverz Utah. A super wide-brim hat (5 inches!) with a lifeguard-style crown. It’s made of synthetic straw so it’s crushable and waterproof.
 

@@ -43,6 +43,6 @@ Python.
 
 Oh well. And yay for [jQuery][] and [JSONLint][].
 
-  [this answer on Stackoverflow]: http://stackoverflow.com/questions/572991/jquery-getjson-doesnt-trigger-callback/573044#573044
-  [JSONLint]: http://www.jsonlint.com/
-  [jQuery]: http://jquery.com/
+  [this answer on Stackoverflow]: https://stackoverflow.com/questions/572991/jquery-getjson-doesnt-trigger-callback/573044#573044
+  [JSONLint]: https://www.jsonlint.com/
+  [jQuery]: https://jquery.com/

@@ -41,5 +41,5 @@ able to get IIS stopped.
 
 As you can imagine, we had a lot of really pissed of replies.
 
-  [The Daily WTF]: http://thedailywtf.com/
-  [dirty little secret]: http://worsethanfailure.com/Articles/Guest_Article_0x3a__Our_Dirty_Little_Secret.aspx
+  [The Daily WTF]: https://thedailywtf.com/
+  [dirty little secret]: https://worsethanfailure.com/Articles/Guest_Article_0x3a__Our_Dirty_Little_Secret.aspx

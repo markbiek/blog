@@ -14,4 +14,4 @@ that no one will really have any interest in at all.
 
 So here goes.
 
-  [geek blog.]: http://blog.antelopelovefan.com
+  [geek blog.]: https://blog.antelopelovefan.com

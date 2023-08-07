@@ -53,6 +53,6 @@ matching including retrieving subgroups.
         Debug.Print colregmatch.Item(0).submatches.Item(1)     
     End If
 
-  [RegExp object]: http://msdn.microsoft.com/en-us/library/ms974570.aspx#scripting05_topic2
-  [Regex Buddy]: http://farm4.static.flickr.com/3447/3228727140_280fa74bce.jpg?v=0
-  [![Regex Buddy][]]: http://www.regexbuddy.com/
+  [RegExp object]: https://msdn.microsoft.com/en-us/library/ms974570.aspx#scripting05_topic2
+  [Regex Buddy]: https://farm4.static.flickr.com/3447/3228727140_280fa74bce.jpg?v=0
+  [![Regex Buddy][]]: https://www.regexbuddy.com/

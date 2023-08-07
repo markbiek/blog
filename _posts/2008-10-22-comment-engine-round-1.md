@@ -75,7 +75,7 @@ Here's an example url:
 
 
 
-[http://antelopecomments.appspot.com/get/blog.antelopelovefan.com][]
+[https://antelopecomments.appspot.com/get/blog.antelopelovefan.com][]
 
 
 
@@ -101,7 +101,7 @@ returns the same thing).
 
 
 
-[http://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim][]
+[https://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim][]
 
 
 
@@ -109,7 +109,7 @@ And then I can do this if I just want that one comment with id 46540
 
 
 
-[http://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim/46540][]
+[https://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim/46540][]
 
 
 
@@ -153,11 +153,11 @@ site soon.
 
 
 
-  [Last week]: http://blog.antelopelovefan.com/foray-into-the-google-app-engine
-  [Users API]: http://code.google.com/appengine/docs/users/
-  [http://antelopecomments.appspot.com/get/blog.antelopelovefan.com]: http://antelopecomments.appspot.com/get/blog.antelopelovefan.com
-  [http://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim]:
-    http://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim
-  [http://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim/46540]:
-    http://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim/46540
-  [reCAPTCHA]: http://recaptcha.net/
+  [Last week]: https://blog.antelopelovefan.com/foray-into-the-google-app-engine
+  [Users API]: https://code.google.com/appengine/docs/users/
+  [https://antelopecomments.appspot.com/get/blog.antelopelovefan.com]: https://antelopecomments.appspot.com/get/blog.antelopelovefan.com
+  [https://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim]:
+    https://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim
+  [https://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim/46540]:
+    https://antelopecomments.appspot.com/get/blog.antelopelovefan.com/search-replace-with-vim/46540
+  [reCAPTCHA]: https://recaptcha.net/

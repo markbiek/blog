@@ -38,6 +38,6 @@ Here's how we handled it.
 
 
 
-  [go dark]: http://www.codinghorror.com/blog/archives/001134.html
-  [image]: http://farm4.static.flickr.com/3072/2492848634_555a90b120.jpg
-  [issue tracking]: http://fogbugz.com
+  [go dark]: https://www.codinghorror.com/blog/archives/001134.html
+  [image]: https://farm4.static.flickr.com/3072/2492848634_555a90b120.jpg
+  [issue tracking]: https://fogbugz.com

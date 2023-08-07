@@ -28,4 +28,4 @@ hope, I'll track down the owner and get it back to them.
 
 All in all, a dark start to the day.
 
-  [image]: http://i.imgur.com/ZkzPK.jpg
+  [image]: https://i.imgur.com/ZkzPK.jpg

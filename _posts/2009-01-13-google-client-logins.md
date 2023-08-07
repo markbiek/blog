@@ -36,4 +36,4 @@ try {    $login = new GoogleClientLogin( '[username]@gmail.com', '[password]', G
 **<identifier\>** is just some string that identifies your app,
 presumably so Google can cut down on abuse.
 
-  [Authentication for Installed Applications]: http://code.google.com/apis/accounts/docs/AuthForInstalledApps.html
+  [Authentication for Installed Applications]: https://code.google.com/apis/accounts/docs/AuthForInstalledApps.html

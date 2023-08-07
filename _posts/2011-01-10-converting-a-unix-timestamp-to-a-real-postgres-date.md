@@ -82,5 +82,5 @@ SELECT*, TIMESTAMP 'epoch' + unix_date * INTERVAL '1 second' as real_dateFROM my
 
 
 
-  [Unix timestamp]: http://en.wikipedia.org/wiki/Unix_time
-  [Postgres date type]: http://www.postgresql.org/docs/8.1/static/datatype-datetime.html
+  [Unix timestamp]: https://en.wikipedia.org/wiki/Unix_time
+  [Postgres date type]: https://www.postgresql.org/docs/8.1/static/datatype-datetime.html

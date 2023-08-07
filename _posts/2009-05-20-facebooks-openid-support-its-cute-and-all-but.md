@@ -17,7 +17,7 @@ of my actual logins.
 
 ![Delegate page source][]
 
-That lets me specify the [http://antelopelovefan.com/id][OpenID
+That lets me specify the [https://antelopelovefan.com/id][OpenID
 Delegate] as my login URL but the actual authentication happens through
 MyOpenID. This is nice because I won't have to go around changing all of
 my identities if I switch from MyOpenID to something else.
@@ -57,8 +57,8 @@ ended up at the login screen and my message was gone.
 To sum up, I'm excited that Facebook is trying to support OpenID but I
 some big improvements come soon.
 
-  [going to launch support for OpenID]: http://arstechnica.com/web/news/2009/05/facebook-launches-support-for-openid-logins.ars
+  [going to launch support for OpenID]: https://arstechnica.com/web/news/2009/05/facebook-launches-support-for-openid-logins.ars
   [MyOpenID]: https://www.myopenid.com/
-  [OpenID Delegate]: http://antelopelovefan.com/id
-  [Delegate page source]: http://farm4.static.flickr.com/3344/3548187379_48c077663f_o.jpg
-  [Not a valid OpenID url]: http://farm4.static.flickr.com/3551/3549028576_a8d44ca1ef_o.png
+  [OpenID Delegate]: https://antelopelovefan.com/id
+  [Delegate page source]: https://farm4.static.flickr.com/3344/3548187379_48c077663f_o.jpg
+  [Not a valid OpenID url]: https://farm4.static.flickr.com/3551/3549028576_a8d44ca1ef_o.png

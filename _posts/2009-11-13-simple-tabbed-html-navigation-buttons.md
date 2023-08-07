@@ -10,7 +10,7 @@ introduced me to a nice way create tab-like navigation buttons.
 
 A simple example of the finished product looks like this.
 
-<iframe src="http://mark.biek.org/blog/static/tabtest.php" width="500" height="40" scrolling="no" frameborder="0"></iframe>
+<iframe src="https://mark.biek.org/blog/static/tabtest.php" width="500" height="40" scrolling="no" frameborder="0"></iframe>
 
 #### Advantages
 
@@ -83,4 +83,4 @@ padding.
 
 That's all there is too it. Nothing too magical, but a nice effect.
 
-  [fourthgate.org]: http://www.fourthgate.org/
+  [fourthgate.org]: https://www.fourthgate.org/

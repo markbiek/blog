@@ -8,7 +8,7 @@ Slug: vaccinate-your-damn-kids-already
 
 I woke up to this headline on Mon:
 
-> [Seattle kids are less likely to get polio vaccine than kids in Rwanda, and rates continue to drop](http://boingboing.net/2015/07/20/in-seattle-childrens-polio.html)
+> [Seattle kids are less likely to get polio vaccine than kids in Rwanda, and rates continue to drop](https://boingboing.net/2015/07/20/in-seattle-childrens-polio.html)
 
 Seriously? What is wrong with people?
 

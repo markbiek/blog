@@ -60,6 +60,6 @@ All in all, an interesting experience with a different set of challenges
 and I feel privileged to have been able to contribute, albeit in a very
 small way. Score 1 for the power of technology.
 
-  [Appcelerator]: http://www.appcelerator.com/
-  [jQtouch]: http://www.jqtouch.com/
-  [WAMP]: http://www.wampserver.com/en/
+  [Appcelerator]: https://www.appcelerator.com/
+  [jQtouch]: https://www.jqtouch.com/
+  [WAMP]: https://www.wampserver.com/en/

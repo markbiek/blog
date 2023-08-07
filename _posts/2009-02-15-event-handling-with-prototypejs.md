@@ -69,4 +69,4 @@ This stops the default action of the event. In this case, without it,
 clicking on the link would popup in a new window **and** in the current
 window.
 
-  [awesomeness of Prototype]: http://mark.biek.org/blog/2009/01/javascript-awesomeness-with-prototype/
+  [awesomeness of Prototype]: https://mark.biek.org/blog/2009/01/javascript-awesomeness-with-prototype/

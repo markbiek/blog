@@ -94,16 +94,16 @@ much". I was hooked.
 2003 - Jane and I on a rare, baby-free outing to see the Indigo Girls.
 Girlyman was the opening act and we sat in awe for their entire set.
 
-  [Down by the Riverside (?)]: http://www.amazon.com/gp/product/B000SA06BK/ref=dm_dp_trk2?ie=UTF8&qid=1288708594&sr=301-1
-  [Jump (Pointer Sisters)]: http://www.amazon.com/Jump-For-My-Love/dp/B001O3OEPE/ref=sr_1_1?ie=UTF8&qid=1288708628&sr=1-1
+  [Down by the Riverside (?)]: https://www.amazon.com/gp/product/B000SA06BK/ref=dm_dp_trk2?ie=UTF8&qid=1288708594&sr=301-1
+  [Jump (Pointer Sisters)]: https://www.amazon.com/Jump-For-My-Love/dp/B001O3OEPE/ref=sr_1_1?ie=UTF8&qid=1288708628&sr=1-1
   [The Point (Harry Nilsson)]: https://www.amazon.com/Point-Deluxe-Packaging-Harry-Nilsson/dp/B000077SX4
-  [Nasty (Janet Jackson)]: http://www.amazon.com/Nasty/dp/B000V619RQ/ref=sr_1_1?ie=UTF8&qid=1288708674&sr=1-1
-  [Pop Goes the World (Men Without Hats)]: http://itunes.apple.com/us/album/pop-goes-the-world/id367919319?i=367919574
-  [Deeper Shade of Soul (Urban Dance Squad)]: http://www.amazon.com/Deeper-Shade-Of-Soul/dp/B001XRCW5U/ref=sr_1_6?ie=UTF8&qid=1288829715&sr=1-6
-  [Smells Like Teen Spirit (Nirvana)]: http://www.amazon.com/Smells-Like-Teen-Spirit/dp/B000V639BK/ref=sr_1_1?ie=UTF8&qid=1288708856&sr=1-1
-  [Fucking Hostile (Pantera)]: http://www.amazon.com/Fucking-Hostile-Explicit/dp/B001O80G6U/ref=sr_1_1?ie=UTF8&qid=1288708874&sr=1-1
-  [Piece of My Heart (Janis Joplin)]: http://www.amazon.com/Piece-Of-My-Heart/dp/B00160ULMA/ref=sr_1_1?ie=UTF8&qid=1288708916&sr=1-1
-  [Three Days (Jane's Addiction)]: http://www.amazon.com/Three-Days/dp/B002FVQ1QY/ref=sr_1_7?ie=UTF8&qid=1288708940&sr=1-7
-  [Debaser (Pixies)]: http://www.amazon.com/Debaser/dp/B000SFQL46/ref=sr_1_3?ie=UTF8&qid=1288709038&sr=1-3
-  [Every State Line (Ani DiFranco)]: http://www.amazon.com/Every-State-Line/dp/B000SHH8DC/ref=sr_1_1?ie=UTF8&qid=1288709063&sr=1-1
-  [Fall Stories (Girlyman)]: http://www.amazon.com/Fall-Stories/dp/B001BVRXSO/ref=sr_1_1?ie=UTF8&qid=1288709081&sr=1-1
+  [Nasty (Janet Jackson)]: https://www.amazon.com/Nasty/dp/B000V619RQ/ref=sr_1_1?ie=UTF8&qid=1288708674&sr=1-1
+  [Pop Goes the World (Men Without Hats)]: https://itunes.apple.com/us/album/pop-goes-the-world/id367919319?i=367919574
+  [Deeper Shade of Soul (Urban Dance Squad)]: https://www.amazon.com/Deeper-Shade-Of-Soul/dp/B001XRCW5U/ref=sr_1_6?ie=UTF8&qid=1288829715&sr=1-6
+  [Smells Like Teen Spirit (Nirvana)]: https://www.amazon.com/Smells-Like-Teen-Spirit/dp/B000V639BK/ref=sr_1_1?ie=UTF8&qid=1288708856&sr=1-1
+  [Fucking Hostile (Pantera)]: https://www.amazon.com/Fucking-Hostile-Explicit/dp/B001O80G6U/ref=sr_1_1?ie=UTF8&qid=1288708874&sr=1-1
+  [Piece of My Heart (Janis Joplin)]: https://www.amazon.com/Piece-Of-My-Heart/dp/B00160ULMA/ref=sr_1_1?ie=UTF8&qid=1288708916&sr=1-1
+  [Three Days (Jane's Addiction)]: https://www.amazon.com/Three-Days/dp/B002FVQ1QY/ref=sr_1_7?ie=UTF8&qid=1288708940&sr=1-7
+  [Debaser (Pixies)]: https://www.amazon.com/Debaser/dp/B000SFQL46/ref=sr_1_3?ie=UTF8&qid=1288709038&sr=1-3
+  [Every State Line (Ani DiFranco)]: https://www.amazon.com/Every-State-Line/dp/B000SHH8DC/ref=sr_1_1?ie=UTF8&qid=1288709063&sr=1-1
+  [Fall Stories (Girlyman)]: https://www.amazon.com/Fall-Stories/dp/B001BVRXSO/ref=sr_1_1?ie=UTF8&qid=1288709081&sr=1-1

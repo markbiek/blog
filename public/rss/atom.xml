@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
     <id>https://mark.biek.org/</id>
     <title>Mark Biek - Blog</title>
     <updated>2023-08-07T15:30:26.141Z</updated>
@@ -25,7 +25,7 @@
 <h3>AI in Education</h3>
 <p>The article <a href="https://biblioracle.substack.com/p/chatgpt-cant-kill-anything-worth">ChatGPT Can't Kill Anything Worth Preserving</a> is my favorite take on ChatGPT in education. Please go and read this article, then go back and read it again.</p>
 <p>The short version is, if your students can do entire assignments you've given them using ChatGPT, you're assigning crappy assignments. That said, we want to be careful and intentional about <em>how</em> we let AI do things for us.</p>
-<p>While I find Paul Graham to be hit or miss (love his <a href="http://paulgraham.com/writing44.html">stuff on writing</a>), I definitely think this <a href="https://twitter.com/paulg/status/1655925905527537666">Twitter thread</a> brings up a lot of important points about AI and writing.</p>
+<p>While I find Paul Graham to be hit or miss (love his <a href="https://paulgraham.com/writing44.html">stuff on writing</a>), I definitely think this <a href="https://twitter.com/paulg/status/1655925905527537666">Twitter thread</a> brings up a lot of important points about AI and writing.</p>
 <p>If you don't want to read the whole thread, just read this quote:</p>
 <blockquote>
 <p>I'm not warning about the switch to AI in the hope of averting it, but to warn the few people who care enough to save themselves, or their kids. Learn to use AI. It's a powerful technology, and you should know how to use it. But also learn how to write.</p>
@@ -207,7 +207,7 @@ HAVING COUNT(*) = n
 <h3>AI in Education</h3>
 <p>The article <a href="https://biblioracle.substack.com/p/chatgpt-cant-kill-anything-worth">ChatGPT Can't Kill Anything Worth Preserving</a> is my favorite take on ChatGPT in education. Please go and read this article, then go back and read it again.</p>
 <p>The short version is, if your students can do entire assignments you've given them using ChatGPT, you're assigning crappy assignments. That said, we want to be careful and intentional about <em>how</em> we let AI do things for us.</p>
-<p>While I find Paul Graham to be hit or miss (love his <a href="http://paulgraham.com/writing44.html">stuff on writing</a>), I definitely think this <a href="https://twitter.com/paulg/status/1655925905527537666">Twitter thread</a> brings up a lot of important points about AI and writing.</p>
+<p>While I find Paul Graham to be hit or miss (love his <a href="https://paulgraham.com/writing44.html">stuff on writing</a>), I definitely think this <a href="https://twitter.com/paulg/status/1655925905527537666">Twitter thread</a> brings up a lot of important points about AI and writing.</p>
 <p>If you don't want to read the whole thread, just read this quote:</p>
 <blockquote>
 <p>I'm not warning about the switch to AI in the hope of averting it, but to warn the few people who care enough to save themselves, or their kids. Learn to use AI. It's a powerful technology, and you should know how to use it. But also learn how to write.</p>

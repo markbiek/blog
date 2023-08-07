@@ -11,7 +11,7 @@ Prototype can do.
 
 The first thing to do is add the appropriate Prototype includes to your
 HTML file. You can do this by downloading the latest version from
-[http://www.prototypejs.org][] and hosting it yourself.
+[https://www.prototypejs.org][] and hosting it yourself.
 
 Or you can let Google do the hard work by adding this to your HTML
 header:
@@ -123,11 +123,11 @@ So those are few simple examples of using Prototype to retrieve DOM
 elements. I'll come back and cover some other Prototype fun in a later
 post.
 
-  [Prototype]: http://www.prototypejs.org/
-  [previous post]: http://mark.biek.org/blog/2008/09/from-javascript-to-php-and-back-again/
-  [http://www.prototypejs.org]: http://www.prototypejs.org
-  [Prototype API Documentation]: http://www.prototypejs.org/api
-  [Event]: http://www.prototypejs.org/api/event
-  [element]: http://www.prototypejs.org/api/element
-  [$$]: http://www.prototypejs.org/api/utility/dollar-dollar
-  [each]: http://www.prototypejs.org/api/array#method-each
+  [Prototype]: https://www.prototypejs.org/
+  [previous post]: https://mark.biek.org/blog/2008/09/from-javascript-to-php-and-back-again/
+  [https://www.prototypejs.org]: https://www.prototypejs.org
+  [Prototype API Documentation]: https://www.prototypejs.org/api
+  [Event]: https://www.prototypejs.org/api/event
+  [element]: https://www.prototypejs.org/api/element
+  [$$]: https://www.prototypejs.org/api/utility/dollar-dollar
+  [each]: https://www.prototypejs.org/api/array#method-each

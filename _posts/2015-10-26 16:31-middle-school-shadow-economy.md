@@ -9,9 +9,9 @@ Slug: middle-school-shadow-economy
 
 In the absence of cold, hard cash, people will find some other currency to use.
 
-[In prison](http://www.wired.com/2011/01/st_prisoncurrencies/), its 3'5 ounce pouches of mackerel. Its 4 ounce bags of instant coffee. Or, for high value transactions, its books of 20 postage stamps. You can pay to have your cell cleaned, settle a gambling debt, or get a haircut without physical money ever changing hands.
+[In prison](https://www.wired.com/2011/01/st_prisoncurrencies/), its 3'5 ounce pouches of mackerel. Its 4 ounce bags of instant coffee. Or, for high value transactions, its books of 20 postage stamps. You can pay to have your cell cleaned, settle a gambling debt, or get a haircut without physical money ever changing hands.
 
-On the street, Tide has become an [alternative currency](http://nymag.com/news/features/tide-detergent-drugs-2013-1/) for buying drugs. A 150 ounce bottle of Tide can be traded for $5 cash or $10 worth of harder drugs. Whole task forces have been created just to deal with Tide theft from stores. People are being arrested for run huge Tide-smuggling rings.
+On the street, Tide has become an [alternative currency](https://nymag.com/news/features/tide-detergent-drugs-2013-1/) for buying drugs. A 150 ounce bottle of Tide can be traded for $5 cash or $10 worth of harder drugs. Whole task forces have been created just to deal with Tide theft from stores. People are being arrested for run huge Tide-smuggling rings.
 
 When I was a kid, we did our wheeling and dealing with Atomic Fireballs. I was in 7th grade in the late 1980s when fireballs became the currency of choice.
 

@@ -76,12 +76,12 @@ to avoid.
 
 So get out there and make sure your data is protected.
 
-  [Acronis True Image]: http://farm4.static.flickr.com/3505/3182530414_f031461a59_o.gif
-  [![Acronis True Image][]]: http://www.acronis.com/homecomputing/products/trueimage/
-  [cheap USB hard drive]: http://farm4.static.flickr.com/3263/3182530406_fdd915fb5a_o.jpg
-  [![cheap USB hard drive][]]: http://www.newegg.com/Product/ProductList.aspx?Submit=ENE&N=2010150414%20131021357&name=400GB%20-%20750GB
-  [rsync.net]: http://www.rsync.net/
-  [Dropbox]: http://www.getdropbox.com/
-  [Jungle Disk]: http://farm4.static.flickr.com/3089/3184022374_4e452bd146_o.jpg
-  [![Jungle Disk][]]: http://www.jungledisk.com/
-  [Amazon S3]: http://aws.amazon.com/s3/
+  [Acronis True Image]: https://farm4.static.flickr.com/3505/3182530414_f031461a59_o.gif
+  [![Acronis True Image][]]: https://www.acronis.com/homecomputing/products/trueimage/
+  [cheap USB hard drive]: https://farm4.static.flickr.com/3263/3182530406_fdd915fb5a_o.jpg
+  [![cheap USB hard drive][]]: https://www.newegg.com/Product/ProductList.aspx?Submit=ENE&N=2010150414%20131021357&name=400GB%20-%20750GB
+  [rsync.net]: https://www.rsync.net/
+  [Dropbox]: https://www.getdropbox.com/
+  [Jungle Disk]: https://farm4.static.flickr.com/3089/3184022374_4e452bd146_o.jpg
+  [![Jungle Disk][]]: https://www.jungledisk.com/
+  [Amazon S3]: https://aws.amazon.com/s3/

@@ -195,4 +195,4 @@ So I guess the lesson here is that sometimes optimization is important.
 But sometimes you have to recognize that you're trying to optimize
 something that was the wrong way to solve the problem to begin with.
 
-  [Dunce]: http://farm4.static.flickr.com/3382/3419970810_94bd559b3c_o.jpg
+  [Dunce]: https://farm4.static.flickr.com/3382/3419970810_94bd559b3c_o.jpg

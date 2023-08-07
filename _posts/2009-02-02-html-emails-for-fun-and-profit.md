@@ -64,4 +64,4 @@ We use Exact Target and they have an HTML preview feature but it's not
 perfect. I've run into a lot of situations where an email looked good in
 the preview but still came through broken in Outlook 2007.
 
-  [StackOverflow]: http://stackoverflow.com
+  [StackOverflow]: https://stackoverflow.com

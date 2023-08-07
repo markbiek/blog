@@ -36,7 +36,7 @@ Picasa user we’re authenticated as.
 
 
 ~~~~ {.php name="code"}
-    $authHeader = 'Authorization:  GoogleLogin auth="' . $authToken . '"';    $feedUrl = "https://picasaweb.google.com/data/feed/api/user/$userId";        $rawXml = "<entry xmlns='http://www.w3.org/2005/Atom'                    xmlns:media='http://search.yahoo.com/mrss/'                    xmlns:gphoto='http://schemas.google.com/photos/2007'>                  <title type='text'>Test album from PHP</title>                  <summary type='text'>This is a test album</summary>                  <gphoto:location>Louisville</gphoto:location>                  <gphoto:access>public</gphoto:access>                  <gphoto:timestamp>1152255600000</gphoto:timestamp>                  <category scheme='http://schemas.google.com/g/2005#kind'                    term='http://schemas.google.com/photos/2007#album'></category>                </entry>";        curl_setopt($ch, CURLOPT_URL, $feedUrl);      curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);          $data = array($xml);        $options = array(                CURLOPT_SSL_VERIFYPEER=> false,                CURLOPT_POST=> true,                CURLOPT_RETURNTRANSFER=> true,                CURLOPT_HEADER=> true,                CURLOPT_FOLLOWLOCATION=> true,                CURLOPT_POSTFIELDS=> $rawXml,                CURLOPT_HTTPHEADER=> array('GData-Version:  2', $authHeader, 'Content-Type:  application/atom+xml')            );    curl_setopt_array($ch, $options);        $ret = curl_exec($ch);    curl_close($ch);
+    $authHeader = 'Authorization:  GoogleLogin auth="' . $authToken . '"';    $feedUrl = "https://picasaweb.google.com/data/feed/api/user/$userId";        $rawXml = "<entry xmlns='https://www.w3.org/2005/Atom'                    xmlns:media='https://search.yahoo.com/mrss/'                    xmlns:gphoto='https://schemas.google.com/photos/2007'>                  <title type='text'>Test album from PHP</title>                  <summary type='text'>This is a test album</summary>                  <gphoto:location>Louisville</gphoto:location>                  <gphoto:access>public</gphoto:access>                  <gphoto:timestamp>1152255600000</gphoto:timestamp>                  <category scheme='https://schemas.google.com/g/2005#kind'                    term='https://schemas.google.com/photos/2007#album'></category>                </entry>";        curl_setopt($ch, CURLOPT_URL, $feedUrl);      curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);          $data = array($xml);        $options = array(                CURLOPT_SSL_VERIFYPEER=> false,                CURLOPT_POST=> true,                CURLOPT_RETURNTRANSFER=> true,                CURLOPT_HEADER=> true,                CURLOPT_FOLLOWLOCATION=> true,                CURLOPT_POSTFIELDS=> $rawXml,                CURLOPT_HTTPHEADER=> array('GData-Version:  2', $authHeader, 'Content-Type:  application/atom+xml')            );    curl_setopt_array($ch, $options);        $ret = curl_exec($ch);    curl_close($ch);
 ~~~~
 
 
@@ -77,7 +77,7 @@ The documentation shows an example request as looking like this
 
 
 ~~~~ {.php name="code"}
-Content-Type: multipart/related; boundary="END_OF_PART"Content-Length: 423478347MIME-version: 1.0Media multipart posting--END_OF_PARTContent-Type: application/atom+xml  plz-to-love-realcat.jpg  Real cat wants attention too.      term="http://schemas.google.com/photos/2007#photo"/>--END_OF_PARTContent-Type: image/jpeg...binary image data...--END_OF_PART--
+Content-Type: multipart/related; boundary="END_OF_PART"Content-Length: 423478347MIME-version: 1.0Media multipart posting--END_OF_PARTContent-Type: application/atom+xml  plz-to-love-realcat.jpg  Real cat wants attention too.      term="https://schemas.google.com/photos/2007#photo"/>--END_OF_PARTContent-Type: image/jpeg...binary image data...--END_OF_PART--
 ~~~~
 
 
@@ -122,7 +122,7 @@ Here’s a code example of uploading an image including metadata.
 
 
 ~~~~ {.php name="code"}
-    $albumUrl = "https://picasaweb.google.com/data/feed/api/user/$userId/albumid/$albumId";    $imgName = $_SERVER['DOCUMENT_ROOT'] . '/picasa/cute_baby_kitten.jpg';        $rawImgXml = '                  plz-to-love-realcat.jpg                  Real cat wants attention too.                                      term="http://schemas.google.com/photos/2007#photo"/>                ';            $fileSize = filesize($imgName);    $fh = fopen($imgName, 'rb');    $imgData = fread($fh, $fileSize);    fclose($fh);        $dataLength = strlen($rawImgXml) + $fileSize;    $data = "";    $data .= "\nMedia multipart posting\n";    $data .= "--P4CpLdIHZpYqNn7\n";    $data .= "Content-Type: application/atom+xml\n\n";    $data .= $rawImgXml . "\n";    $data .= "--P4CpLdIHZpYqNn7\n";    $data .= "Content-Type: image/jpeg\n\n";    $data .= $imgData . "\n";    $data .= "--P4CpLdIHZpYqNn7--";        $header = array('GData-Version:  2', $authHeader, 'Content-Type: multipart/related; boundary=P4CpLdIHZpYqNn7;', 'Content-Length: ' . strlen($data), 'MIME-version: 1.0');        $ret = "";    $ch  = curl_init($albumUrl);    $options = array(            CURLOPT_SSL_VERIFYPEER=> false,            CURLOPT_POST=> true,            CURLOPT_RETURNTRANSFER=> true,            CURLOPT_HEADER=> true,            CURLOPT_FOLLOWLOCATION=> true,            CURLOPT_POSTFIELDS=> $data,            CURLOPT_HTTPHEADER=> $header        );    curl_setopt_array($ch, $options);    $ret = curl_exec($ch);    curl_close($ch);
+    $albumUrl = "https://picasaweb.google.com/data/feed/api/user/$userId/albumid/$albumId";    $imgName = $_SERVER['DOCUMENT_ROOT'] . '/picasa/cute_baby_kitten.jpg';        $rawImgXml = '                  plz-to-love-realcat.jpg                  Real cat wants attention too.                                      term="https://schemas.google.com/photos/2007#photo"/>                ';            $fileSize = filesize($imgName);    $fh = fopen($imgName, 'rb');    $imgData = fread($fh, $fileSize);    fclose($fh);        $dataLength = strlen($rawImgXml) + $fileSize;    $data = "";    $data .= "\nMedia multipart posting\n";    $data .= "--P4CpLdIHZpYqNn7\n";    $data .= "Content-Type: application/atom+xml\n\n";    $data .= $rawImgXml . "\n";    $data .= "--P4CpLdIHZpYqNn7\n";    $data .= "Content-Type: image/jpeg\n\n";    $data .= $imgData . "\n";    $data .= "--P4CpLdIHZpYqNn7--";        $header = array('GData-Version:  2', $authHeader, 'Content-Type: multipart/related; boundary=P4CpLdIHZpYqNn7;', 'Content-Length: ' . strlen($data), 'MIME-version: 1.0');        $ret = "";    $ch  = curl_init($albumUrl);    $options = array(            CURLOPT_SSL_VERIFYPEER=> false,            CURLOPT_POST=> true,            CURLOPT_RETURNTRANSFER=> true,            CURLOPT_HEADER=> true,            CURLOPT_FOLLOWLOCATION=> true,            CURLOPT_POSTFIELDS=> $data,            CURLOPT_HTTPHEADER=> $header        );    curl_setopt_array($ch, $options);    $ret = curl_exec($ch);    curl_close($ch);
 ~~~~
 
 
@@ -140,7 +140,7 @@ And the actual request body ends up looking like this:
 
 
 ~~~~ {.php name="code"}
-Media multipart posting--P4CpLdIHZpYqNn7Content-Type: application/atom+xml              plz-to-love-realcat.jpg              Real cat wants attention too.                              term="http://schemas.google.com/photos/2007#photo"/>            --P4CpLdIHZpYqNn7Content-Type: image/jpegIMAGE DATA GOES HERE--P4CpLdIHZpYqNn7--
+Media multipart posting--P4CpLdIHZpYqNn7Content-Type: application/atom+xml              plz-to-love-realcat.jpg              Real cat wants attention too.                              term="https://schemas.google.com/photos/2007#photo"/>            --P4CpLdIHZpYqNn7Content-Type: image/jpegIMAGE DATA GOES HERE--P4CpLdIHZpYqNn7--
 ~~~~
 
 
@@ -153,10 +153,10 @@ There are [lots of neat things][] you can do with the Picasa data API.
 
 Hopefully the above will be enough to get you rolling with them.
 
-  [Picasa Data API]: http://code.google.com/apis/picasaweb/overview.html
-  [Zend Framework]: http://framework.zend.com/manual/en/zend.gdata.photos.html
-  [oAuth]: http://oauth.net/
-  [Google client logins]: http://mark.biek.org/blog/2009/01/google-client-logins/
+  [Picasa Data API]: https://code.google.com/apis/picasaweb/overview.html
+  [Zend Framework]: https://framework.zend.com/manual/en/zend.gdata.photos.html
+  [oAuth]: https://oauth.net/
+  [Google client logins]: https://mark.biek.org/blog/2009/01/google-client-logins/
   [YouTube Data API]: https://developers.google.com/youtube/2.0/developers_guide_protocol_testing
-  [image]: http://i.imgur.com/2UgaW.png
-  [lots of neat things]: http://code.google.com/apis/picasaweb/docs/2.0/developers_guide_protocol.html
+  [image]: https://i.imgur.com/2UgaW.png
+  [lots of neat things]: https://code.google.com/apis/picasaweb/docs/2.0/developers_guide_protocol.html

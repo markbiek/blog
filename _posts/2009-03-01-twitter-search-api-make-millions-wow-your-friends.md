@@ -11,17 +11,17 @@ use. Another nice thing is that the Search API is **not** rate-limited
 really tried.)
 
 -   Find tweets containing a word:
-    http://search.twitter.com/search.atom?q=twitter
+    https://search.twitter.com/search.atom?q=twitter
 -   Find tweets from a user:
-    http://search.twitter.com/search.atom?q=from%3Aantelopelovefan
+    https://search.twitter.com/search.atom?q=from%3Aantelopelovefan
 -   Find tweets to a user:
-    http://search.twitter.com/search.atom?q=to%3Aantelopelovefan
+    https://search.twitter.com/search.atom?q=to%3Aantelopelovefan
 -   Find tweets referencing a user:
-    http://search.twitter.com/search.atom?q=%40antelopelovefan
+    https://search.twitter.com/search.atom?q=%40antelopelovefan
 -   Find tweets containing a hashtag:
-    http://search.twitter.com/search.atom?q=%23stackoverflow
+    https://search.twitter.com/search.atom?q=%23stackoverflow
 -   Combine any of the operators together:
-    http://search.twitter.com/search.atom?q=movie+%3A%29
+    https://search.twitter.com/search.atom?q=movie+%3A%29
 
 
 The above examples return the results as an [Atom][] feed. Like the
@@ -108,9 +108,9 @@ $jsonHeader = array();try {    if(count($_SESSION['searchResults']) <= 0) {     
 
 
 
-  [Search API]: http://apiwiki.twitter.com/Search+API+Documentation#Search
-  [Atom]: http://en.wikipedia.org/wiki/Atom_(standard)
-  [PeriodicalExecuter]: http://www.prototypejs.org/api/periodicalExecuter
-  [last post on Twitter]: http://mark.biek.org/blog/2009/02/writing-a-simple-twitter-bot-in-php/
-  [TRequest]: http://mark.biek.org/blog/static/TRequest.htm
-  [TSearch]: http://mark.biek.org/blog/static/TSearch.htm
+  [Search API]: https://apiwiki.twitter.com/Search+API+Documentation#Search
+  [Atom]: https://en.wikipedia.org/wiki/Atom_(standard)
+  [PeriodicalExecuter]: https://www.prototypejs.org/api/periodicalExecuter
+  [last post on Twitter]: https://mark.biek.org/blog/2009/02/writing-a-simple-twitter-bot-in-php/
+  [TRequest]: https://mark.biek.org/blog/static/TRequest.htm
+  [TSearch]: https://mark.biek.org/blog/static/TSearch.htm

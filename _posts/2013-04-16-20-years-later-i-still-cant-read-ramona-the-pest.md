@@ -55,5 +55,5 @@ shipped it off.
 My cousin loved the book but, to this day almost 20 years later, I still
 can’t bring myself to read Ramona the Pest.
 
-  [HyperCard]: http://en.wikipedia.org/wiki/HyperCard
-  [Ramona the Pest]: http://en.wikipedia.org/wiki/Ramona_the_Pest
+  [HyperCard]: https://en.wikipedia.org/wiki/HyperCard
+  [Ramona the Pest]: https://en.wikipedia.org/wiki/Ramona_the_Pest

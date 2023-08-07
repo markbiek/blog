@@ -5,7 +5,7 @@ Category: Geek
 Tags: 
 Slug: never-trust-your-inputs
 
-<a href="http://xkcd.com/327"><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*P4nj9fJjSeJ9-c0rwSZqlg.png" /></a>
+<a href="https://xkcd.com/327"><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*P4nj9fJjSeJ9-c0rwSZqlg.png" /></a>
 
 Normally, when sending bulk emails for a client, you have a carefully maintained master list. You keep track of new subscribers and people who have unsubscribed so you don.t accidentally harrass them.
 

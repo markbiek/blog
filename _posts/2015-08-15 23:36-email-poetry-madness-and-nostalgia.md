@@ -5,7 +5,7 @@ Category:
 Tags: 
 Slug: email-poetry-madness-and-nostalgia
 
-Yeah, its another F[ir Acres Writing workshop ](http://mark.biek.org/blog/2009/02/the-shapening/)story. Maybe I'm a little re[petitive. So w](http://www.jamesaltucher.com/2015/08/kurt-vonnegut-the-secret-of-all-art/)hat? I'm rolling with it. Its like James Altucher said:
+Yeah, its another F[ir Acres Writing workshop ](https://mark.biek.org/blog/2009/02/the-shapening/)story. Maybe I'm a little re[petitive. So w](https://www.jamesaltucher.com/2015/08/kurt-vonnegut-the-secret-of-all-art/)hat? I'm rolling with it. Its like James Altucher said:
 
 > [All artists] have a deeply personal emotional anchor they can tie their work to.
 

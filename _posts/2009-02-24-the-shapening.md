@@ -192,6 +192,6 @@ The course of my life was set.
 
 ![Me, Summer, 1993][]
 
-  [my first time online]: http://mark.biek.org/blog/2009/02/a-refugee-from-the-world/
-  [Fir Acres Workshop in Writing and Thinking]: http://www.lclark.edu/org/firacres/
-  [Me, Summer, 1993]: http://farm4.static.flickr.com/3339/3305955340_0963374d1f.jpg?v=0
+  [my first time online]: https://mark.biek.org/blog/2009/02/a-refugee-from-the-world/
+  [Fir Acres Workshop in Writing and Thinking]: https://www.lclark.edu/org/firacres/
+  [Me, Summer, 1993]: https://farm4.static.flickr.com/3339/3305955340_0963374d1f.jpg?v=0

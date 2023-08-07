@@ -11,7 +11,7 @@ My first online experience was in about 7th grade (1988?). My mom owned a medica
 
 The ones I used looked more of a ripoff of the original Macintosh. There was a floppy with the operating system, another floppy with the word processing program, and another that turned out to be a communications program because the machine had a built-in modem.
 
-I was at the office one day after school and my mom randomly showed me how to dial into a [BBS](http://en.wikipedia.org/wiki/Bulletin_board_system) somewhere in the bay area. I remember being instantly enthralled by the idea that we were connected to another computer hundreds of miles away, even if there wasnt anything particularly interesting happening on the other end. This simple show-and-tell changed something in me and I never looked at computers the same way again. A computer wasnt just something you sat alone in front of, but a doorway to a different place.
+I was at the office one day after school and my mom randomly showed me how to dial into a [BBS](https://en.wikipedia.org/wiki/Bulletin_board_system) somewhere in the bay area. I remember being instantly enthralled by the idea that we were connected to another computer hundreds of miles away, even if there wasnt anything particularly interesting happening on the other end. This simple show-and-tell changed something in me and I never looked at computers the same way again. A computer wasnt just something you sat alone in front of, but a doorway to a different place.
 
 The BBS scene in Redding, CA was pretty sparse at the time and I wasnt allowed to call southern CA very often so my online access was limited for the next year or so. Then we got our first Macintosh with 2400bps modem. I found a few local BBSes that I started to frequent and was soon spending far too much time playing TradeWars and downloading hax0r text files. I downloaded a wardialing program and tied up our spare phone line for days canning our entire area code. I even found a few interesting places (One was a plastics company that was running some flavor of Unix, not that I had any idea what Unix was at the time).
 
@@ -19,7 +19,7 @@ Of course I was too much of a wuss to actually do anything with all of this new 
 
 <img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*Z0SozL4qzdc2jo8jLohKXw.jpeg" />
 
-Despite the growing number of places I could dial into locally, I still managed to rack up a number of large phone bills calling places like the [Temple of the Screaming Electron](ht[tp://en.wikip](http://www.lamprey-systems.com/)edia.org/wiki/Totse) and Robert Carrs Private Idaho BBS.
+Despite the growing number of places I could dial into locally, I still managed to rack up a number of large phone bills calling places like the [Temple of the Screaming Electron](ht[tp://en.wikip](https://www.lamprey-systems.com/)edia.org/wiki/Totse) and Robert Carrs Private Idaho BBS.
 
 Carr was the genius behind such wonderfully offensive Mac program as MacJesus  Your Personal Savior on a Floppy Disc.
 

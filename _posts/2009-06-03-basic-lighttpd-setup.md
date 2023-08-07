@@ -135,6 +135,6 @@ port 80 but that should be enough to run with otherwise.
 Stay tuned for the next installation of this series where I attempt to
 get FastCGI working with Lighty and then move on to web.py.
 
-  [lighttpd]: http://www.lighttpd.net/
-  [web.py]: http://webpy.org/?v=151
-  [here]: http://www.lighttpd.net/download
+  [lighttpd]: https://www.lighttpd.net/
+  [web.py]: https://webpy.org/?v=151
+  [here]: https://www.lighttpd.net/download

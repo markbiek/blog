@@ -5,7 +5,7 @@ Category: Geek
 Tags: vs-2012,c#
 Slug: autoincrementing-build-numbers-in-visual-studio-2012
 
-I've been using [ProjectBuildCounter](http://build.codeplex.com/) for doing auto-incrementing build numbers in Visual Studio.
+I've been using [ProjectBuildCounter](https://build.codeplex.com/) for doing auto-incrementing build numbers in Visual Studio.
 
 It's pretty easy to use right out of the box and it has lots of [configuration options](https://www.youtube.com/watch?v=macLx-i6syA).
 

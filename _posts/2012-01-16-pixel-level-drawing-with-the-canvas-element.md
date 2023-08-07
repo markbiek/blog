@@ -55,7 +55,7 @@ prototype so we call it directly on the ImageData element like this:
 
     imgd.setPixel({x:100,y:100}, ‘#f00’);
 
-[Here&rsquo;s a sample](https://gist.github.com/markbiek/1149516) that draws a [Sierpinski triangle](http://en.wikipedia.org/wiki/Sierpinski_triangle) using the
-[chaos game](http://en.wikipedia.org/wiki/Chaos_game)
+[Here&rsquo;s a sample](https://gist.github.com/markbiek/1149516) that draws a [Sierpinski triangle](https://en.wikipedia.org/wiki/Sierpinski_triangle) using the
+[chaos game](https://en.wikipedia.org/wiki/Chaos_game)
 
-  [image]: http://i.imgur.com/77DH6.jpg "ImageData element"
+  [image]: https://i.imgur.com/77DH6.jpg "ImageData element"

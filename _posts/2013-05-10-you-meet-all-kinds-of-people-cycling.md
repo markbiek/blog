@@ -9,7 +9,7 @@ You meet all kinds of people cycling.
 
 ### Encounter 1
 
-I was sitting at the intersection of [Taylorsville Rd. & Hikes Ln.](http://goo.gl/maps/PdRgC) waiting for the light to change when a giant pickup truck pulled up next to me and the driver rolled down the window. I was half expecting some version of the "Get the hell out of the road" speech I get from time to time.
+I was sitting at the intersection of [Taylorsville Rd. & Hikes Ln.](https://goo.gl/maps/PdRgC) waiting for the light to change when a giant pickup truck pulled up next to me and the driver rolled down the window. I was half expecting some version of the "Get the hell out of the road" speech I get from time to time.
 
 But I was pleased when the 60-something guy inside starting asking questions about where I got my rear blinky light (Planet Bike Superflash Turbo).
 

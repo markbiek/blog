@@ -153,14 +153,14 @@ mentioned previously:
 
 
 
-  [Gettext]: http://php.net/manual/en/book.gettext.php
-  [xgettext]: http://www.gnu.org/software/hello/manual/gettext/xgettext-Invocation.html
-  [msgfmt]: http://www.gnu.org/software/hello/manual/gettext/msgfmt-Invocation.html#msgfmt-Invocation
-  [POEdit]: http://www.poedit.net/
-  [New catalog menu]: http://farm5.static.flickr.com/4054/4290782805_2fd45133e3_o.png
-  [Project Settings]: http://farm3.static.flickr.com/2768/4290782809_018eab6b51_o.png
-  [Project Path Settings]: http://farm5.static.flickr.com/4023/4290782813_dd92397260_o.png
-  [Save .po file]: http://farm3.static.flickr.com/2697/4290782811_37556bfba3_o.png
-  [Scan PHP Files]: http://farm5.static.flickr.com/4007/4293877582_0c4e8cc464_o.png
-  [Update Summary]: http://farm5.static.flickr.com/4025/4290782819_92c02aa129_o.png
-  [Define translation tables]: http://farm3.static.flickr.com/2696/4290782823_4495ee2a28_o.png
+  [Gettext]: https://php.net/manual/en/book.gettext.php
+  [xgettext]: https://www.gnu.org/software/hello/manual/gettext/xgettext-Invocation.html
+  [msgfmt]: https://www.gnu.org/software/hello/manual/gettext/msgfmt-Invocation.html#msgfmt-Invocation
+  [POEdit]: https://www.poedit.net/
+  [New catalog menu]: https://farm5.static.flickr.com/4054/4290782805_2fd45133e3_o.png
+  [Project Settings]: https://farm3.static.flickr.com/2768/4290782809_018eab6b51_o.png
+  [Project Path Settings]: https://farm5.static.flickr.com/4023/4290782813_dd92397260_o.png
+  [Save .po file]: https://farm3.static.flickr.com/2697/4290782811_37556bfba3_o.png
+  [Scan PHP Files]: https://farm5.static.flickr.com/4007/4293877582_0c4e8cc464_o.png
+  [Update Summary]: https://farm5.static.flickr.com/4025/4290782819_92c02aa129_o.png
+  [Define translation tables]: https://farm3.static.flickr.com/2696/4290782823_4495ee2a28_o.png

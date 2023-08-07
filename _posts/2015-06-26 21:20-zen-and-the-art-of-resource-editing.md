@@ -15,7 +15,7 @@ ResEdit was a utility which let you view and modify the [resource fork](https://
 
 I figured out how make simple changes on my own (mainly changing to text of menu items to bad words) but I was pretty limited in what I could do.
 
-And then I discovered [Zen and the Art of Resource Editing](http://www.amazon.com/Zen-Art-Resource-Editing-Resedit/dp/0938151754).
+And then I discovered [Zen and the Art of Resource Editing](https://www.amazon.com/Zen-Art-Resource-Editing-Resedit/dp/0938151754).
 
 They taught magical tricks like changing the Macintosh startup sound (I changed my to the [THX sound](https://www.youtube.com/watch?v=FWkJ86JqlPA)) or even changing the startup screen.
 

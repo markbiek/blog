@@ -29,25 +29,25 @@ Here are the details for [Richards Investment Company LLC](https://app.sos.ky.go
 
 #### Construction permits, Planning/Zoning Applications, etc
 
-The city portal for Codes & Regulations has a [great search form](http://portal.louisvilleky.gov/codesandregs/mainsearch) where you can see all kinds of activity at a specific address.
+The city portal for Codes & Regulations has a [great search form](https://portal.louisvilleky.gov/codesandregs/mainsearch) where you can see all kinds of activity at a specific address.
 
-You can also see lists of all [Planning Reports](ht[tp://portal.loui](http://portal.louisvilleky.gov/codesandregs/development-reports/buildingreports)svilleky.gov/codesandregs/planning-reports) and Building Reports (filterable by date/status/type)
+You can also see lists of all [Planning Reports](ht[tp://portal.loui](https://portal.louisvilleky.gov/codesandregs/development-reports/buildingreports)svilleky.gov/codesandregs/planning-reports) and Building Reports (filterable by date/status/type)
 
-There is a [mapping website](http://api.louisvilleky.gov/mapping/map?mapType=permits) which lets you map open permits of different types. This site only shows active building projects. Properties still in the planning phase wont show up here.
+There is a [mapping website](https://api.louisvilleky.gov/mapping/map?mapType=permits) which lets you map open permits of different types. This site only shows active building projects. Properties still in the planning phase wont show up here.
 
 #### ALL THE DATA
 
-Do you need more data? Well the [Louisville Open Data Portal](http://portal.louisvilleky.gov/service/data) has got you covered!
+Do you need more data? Well the [Louisville Open Data Portal](https://portal.louisvilleky.gov/service/data) has got you covered!
 
 There is an amazing wealth of information here.
 
-[Crime Data](http://portal.louisvilleky.gov/dataset/crimedataall-data)
+[Crime Data](https://portal.louisvilleky.gov/dataset/crimedataall-data)
 
-[Bike Route Data](http://portal.louisvilleky.gov/dataset/bike-route-data)
+[Bike Route Data](https://portal.louisvilleky.gov/dataset/bike-route-data)
 
-[Animal Tag Data](http://portal.louisvilleky.gov/dataset/animaltag-data)
+[Animal Tag Data](https://portal.louisvilleky.gov/dataset/animaltag-data)
 
-[Restaurant Inspection Scores](http://portal.louisvilleky.gov/dataset/restaurant-inspection-data)
+[Restaurant Inspection Scores](https://portal.louisvilleky.gov/dataset/restaurant-inspection-data)
 
 The list goes on and on. And most datasets are downloadable as tab-separated or CSV for easy processing.
 

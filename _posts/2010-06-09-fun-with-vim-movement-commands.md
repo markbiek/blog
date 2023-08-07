@@ -81,8 +81,8 @@ deletes with movements and repetition. There are lots of other commands
 that I haven't covered and every one you learn will make you that much
 faster.
 
-  [Vim]: http://www.vim.org/
-  [First picture]: http://farm5.static.flickr.com/4045/4685397401_2a933a3d0e.jpg
-  [Second picture]: http://farm5.static.flickr.com/4047/4685397411_6c820e4994.jpg
-  [Third picture]: http://farm5.static.flickr.com/4043/4685397415_8fdefe4014.jpg
-  [Fourth picture]: http://farm5.static.flickr.com/4054/4685397485_8a282354a5.jpg
+  [Vim]: https://www.vim.org/
+  [First picture]: https://farm5.static.flickr.com/4045/4685397401_2a933a3d0e.jpg
+  [Second picture]: https://farm5.static.flickr.com/4047/4685397411_6c820e4994.jpg
+  [Third picture]: https://farm5.static.flickr.com/4043/4685397415_8fdefe4014.jpg
+  [Fourth picture]: https://farm5.static.flickr.com/4054/4685397485_8a282354a5.jpg

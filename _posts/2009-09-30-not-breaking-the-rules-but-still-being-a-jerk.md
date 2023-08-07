@@ -49,7 +49,7 @@ In the case of StackOverflow, that means voting up answers you like and
 I'm going to go ahead and pick on a specific user who is a fantastic
 example of all the negative behaviors I've been talking about.
 
-<iframe src="http://stackoverflow.com/users/flair/104015.html?theme=clean" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" width="210" height="60"></iframe>
+<iframe src="https://stackoverflow.com/users/flair/104015.html?theme=clean" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" width="210" height="60"></iframe>
 
 I have some screenshots of the profile statistics from about a week ago.
 
@@ -71,12 +71,12 @@ There's nothing wrong with asking lots of questions but there's a right
 way to do it and a wrong way. And it doesn't get more wrong than this
 schmoe.
 
-  [StackOverflow]: http://stackoverflow.com/
-  [League of Justice]: http://blog.stackoverflow.com/2009/07/why-cant-you-have-just-one-site/
-  [privileges]: http://stackoverflow.com/faq
-  [Badges]: http://stackoverflow.com/badges
-  [help vampire]: http://slash7.com/pages/vampires
-  [accepting]: http://meta.stackoverflow.com/questions/5234/accepting-answers-what-is-it-all-about
-  [image]: http://farm3.static.flickr.com/2441/3947724468_8b94bf1d19.jpg
-  [1]: http://farm3.static.flickr.com/2581/3946943563_bb90e7d0a5.jpg
-  [any question]: http://stackoverflow.com/questions/1326015/whats-the-difference-between-b-and-strong-closed
+  [StackOverflow]: https://stackoverflow.com/
+  [League of Justice]: https://blog.stackoverflow.com/2009/07/why-cant-you-have-just-one-site/
+  [privileges]: https://stackoverflow.com/faq
+  [Badges]: https://stackoverflow.com/badges
+  [help vampire]: https://slash7.com/pages/vampires
+  [accepting]: https://meta.stackoverflow.com/questions/5234/accepting-answers-what-is-it-all-about
+  [image]: https://farm3.static.flickr.com/2441/3947724468_8b94bf1d19.jpg
+  [1]: https://farm3.static.flickr.com/2581/3946943563_bb90e7d0a5.jpg
+  [any question]: https://stackoverflow.com/questions/1326015/whats-the-difference-between-b-and-strong-closed

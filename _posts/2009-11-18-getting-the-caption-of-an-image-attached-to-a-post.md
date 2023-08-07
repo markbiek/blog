@@ -65,9 +65,9 @@ nicely together (using [previous\_post\_link][] and [next\_post\_link][]
 on each page that has a post using the gallery shortcode) and I can
 easily pull a random image attachment out to display on the front page.
 
-  [template tags]: http://codex.wordpress.org/Template_Tags
-  [gallery]: http://codex.wordpress.org/Gallery_Shortcode
-  [get\_posts()]: http://codex.wordpress.org/Template_Tags/get_posts
-  [shortcode]: http://codex.wordpress.org/Shortcode_API
-  [previous\_post\_link]: http://codex.wordpress.org/Template_Tags/previous_post_link
-  [next\_post\_link]: http://codex.wordpress.org/Template_Tags/next_post_link
+  [template tags]: https://codex.wordpress.org/Template_Tags
+  [gallery]: https://codex.wordpress.org/Gallery_Shortcode
+  [get\_posts()]: https://codex.wordpress.org/Template_Tags/get_posts
+  [shortcode]: https://codex.wordpress.org/Shortcode_API
+  [previous\_post\_link]: https://codex.wordpress.org/Template_Tags/previous_post_link
+  [next\_post\_link]: https://codex.wordpress.org/Template_Tags/next_post_link

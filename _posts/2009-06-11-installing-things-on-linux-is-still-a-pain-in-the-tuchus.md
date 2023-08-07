@@ -42,6 +42,6 @@ installation easier if you want your project to really succeed.
 good but, at this point, I still have more Windows experience to speak
 to.</small>
 
-  [web.py]: http://webpy.org/
-  [psycopg2]: http://initd.org/pub/software/psycopg/
-  [CherryPy]: http://www.cherrypy.org/
+  [web.py]: https://webpy.org/
+  [psycopg2]: https://initd.org/pub/software/psycopg/
+  [CherryPy]: https://www.cherrypy.org/

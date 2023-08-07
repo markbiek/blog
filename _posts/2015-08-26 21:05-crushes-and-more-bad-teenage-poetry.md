@@ -28,7 +28,7 @@ See, what I didn’t realize for a long time, is the real meaning of “a nice g
 
 That shit is tired and boring and nobody wants to deal with it.
 
-This bit from the amazing essay [Your Princess is in Another Castle](http://www.thedailybeast.com/articles/2014/05/27/your-princess-is-in-another-castle-misogyny-entitlement-and-nerds.html) sums it up.
+This bit from the amazing essay [Your Princess is in Another Castle](https://www.thedailybeast.com/articles/2014/05/27/your-princess-is-in-another-castle-misogyny-entitlement-and-nerds.html) sums it up.
 
 > We are not the lovable nerdy protagonist who’s lovable because he’s the protagonist. We’re not guaranteed to get laid by the hot chick of our dreams as long as we work hard enough at it. There isn’t a team of writers or a studio audience pulling for us to triumph by “getting the girl” in the end. And when our clever ruses and schemes to “get girls” fail, it’s not because the girls are too stupid or too bitchy or too shallow to play by those unwritten rules we’ve absorbed.
 

@@ -36,7 +36,7 @@ I refuse to let this city beat me.
 For example, there have been 5 incidents where I would've been hit if I had entered the intersection when the light turned green in my direction. One day, I counted 9 cars running the red light at the intersection of 4th and Broadway.
 
 [^2]:
-Cyclist Fatalities in Traffic Crashes, 2003 - 2012 [http://www-nrd.nhtsa.dot.gov/Pubs/812018.pdf](http://www-nrd.nhtsa.dot.gov/Pubs/812018.pdf)
+Cyclist Fatalities in Traffic Crashes, 2003 - 2012 [https://www-nrd.nhtsa.dot.gov/Pubs/812018.pdf](https://www-nrd.nhtsa.dot.gov/Pubs/812018.pdf)
 
 [^3]:
 This story is also published on [Medium](https://medium.com/@antelopelovefan/i-refuse-to-let-this-city-beat-me-2156adb062a1)

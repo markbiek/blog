@@ -179,12 +179,12 @@ Do be safe. And don't be a jerk.
 </small>
 
   [1]: #footnote1
-  [one of these]: http://www.amazon.com/Planet-Bike-Beamer-Bicycle-Bracket/dp/B000HU11ZG/ref=sr_1_2?ie=UTF8&s=toys-and-games&qid=1243439135&sr=8-2
-  [2]: http://www.amazon.com/Planet-Bike-Blinky-Bicycle-Leveling/dp/B000793NY4/ref=sr_1_6?ie=UTF8&s=sporting-goods&qid=1243439153&sr=8-6
-  [glasses mounted]: http://www.nashbar.com/bikes/Product_10053_10052_124383_-1_23500_10000_23505
-  [helmet mounted]: http://www.nashbar.com/bikes/Product_10053_10052_186739_-1_201355_10000_201357
-  [Left-turn signal]: http://farm3.static.flickr.com/2435/3569821915_881f866207.jpg?v=0
-  [Right-turn signal]: http://farm3.static.flickr.com/2430/3569821921_d1989f0d4e.jpg?v=0
-  [Ride in the lane to the left of the shoulder]: http://farm4.static.flickr.com/3298/3569806321_29b80c6fce_o.png
-  [Don't zig-zag around cars]: http://farm3.static.flickr.com/2479/3569806323_a8f5b5fe43_o.png
-  [F.A.R.S Encyclopedia]: http://www-fars.nhtsa.dot.gov/Main/index.aspx
+  [one of these]: https://www.amazon.com/Planet-Bike-Beamer-Bicycle-Bracket/dp/B000HU11ZG/ref=sr_1_2?ie=UTF8&s=toys-and-games&qid=1243439135&sr=8-2
+  [2]: https://www.amazon.com/Planet-Bike-Blinky-Bicycle-Leveling/dp/B000793NY4/ref=sr_1_6?ie=UTF8&s=sporting-goods&qid=1243439153&sr=8-6
+  [glasses mounted]: https://www.nashbar.com/bikes/Product_10053_10052_124383_-1_23500_10000_23505
+  [helmet mounted]: https://www.nashbar.com/bikes/Product_10053_10052_186739_-1_201355_10000_201357
+  [Left-turn signal]: https://farm3.static.flickr.com/2435/3569821915_881f866207.jpg?v=0
+  [Right-turn signal]: https://farm3.static.flickr.com/2430/3569821921_d1989f0d4e.jpg?v=0
+  [Ride in the lane to the left of the shoulder]: https://farm4.static.flickr.com/3298/3569806321_29b80c6fce_o.png
+  [Don't zig-zag around cars]: https://farm3.static.flickr.com/2479/3569806323_a8f5b5fe43_o.png
+  [F.A.R.S Encyclopedia]: https://www-fars.nhtsa.dot.gov/Main/index.aspx

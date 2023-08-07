@@ -38,5 +38,5 @@ those extensions also fixed the error.
 
 Thanks to [this Stackoverflow answer][] for the suggestion.
 
-  [jQuery.live()]: ”http://api.jquery.com/live/”
-  [this Stackoverflow answer]: http://stackoverflow.com/questions/6424633/chrome-uncaught-error-cant-load-xregexp-twice-in-the-same-frame/6424780#6424780
+  [jQuery.live()]: ”https://api.jquery.com/live/”
+  [this Stackoverflow answer]: https://stackoverflow.com/questions/6424633/chrome-uncaught-error-cant-load-xregexp-twice-in-the-same-frame/6424780#6424780

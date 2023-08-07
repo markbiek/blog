@@ -58,13 +58,13 @@ the spreadsheet downloads, and folder support) can be downloaded
 to modify **main.py** depending on the location of your doxworker.cfg
 file.
 
-  [backup my Google docs]: http://mark.biek.org/blog/2009/03/backing-up-your-google-docs/
-  [document list]: http://code.google.com/apis/documents/docs/2.0/developers_guide_protocol.html#ListDocs
-  [Protocol Reference]: http://code.google.com/apis/gdata/docs/2.0/reference.html
-  [RFC 3339]: http://www.ietf.org/rfc/rfc3339.txt
-  [ATOM feeds]: http://www.atomenabled.org/developers/syndication/atom-format-spec.php#date.constructs
-  [GMT]: http://wwp.greenwichmeantime.com/
-  [StackOverflow]: http://stackoverflow.com/questions/1941927/convert-an-rfc-3339-time-to-a-standard-python-timestamp
-  [PyFeed]: http://home.blarg.net/~steveha/pyfeed.html
-  [Ben]: http://thelocust.org
+  [backup my Google docs]: https://mark.biek.org/blog/2009/03/backing-up-your-google-docs/
+  [document list]: https://code.google.com/apis/documents/docs/2.0/developers_guide_protocol.html#ListDocs
+  [Protocol Reference]: https://code.google.com/apis/gdata/docs/2.0/reference.html
+  [RFC 3339]: https://www.ietf.org/rfc/rfc3339.txt
+  [ATOM feeds]: https://www.atomenabled.org/developers/syndication/atom-format-spec.php#date.constructs
+  [GMT]: https://wwp.greenwichmeantime.com/
+  [StackOverflow]: https://stackoverflow.com/questions/1941927/convert-an-rfc-3339-time-to-a-standard-python-timestamp
+  [PyFeed]: https://home.blarg.net/~steveha/pyfeed.html
+  [Ben]: https://thelocust.org
   [here]: mark.biek.org/blog/static/doxworker.tar.gz

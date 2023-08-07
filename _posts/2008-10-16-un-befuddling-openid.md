@@ -25,7 +25,7 @@ So this is my attempt to de-mystify [OpenID][].
 
 
 When it comes right down it, an OpenID is **just a url**. It's a regular
-old url like *http://www.cnn.com* or *http://antelopelovefan.com*.
+old url like *https://www.cnn.com* or *https://antelopelovefan.com*.
 
 
 
@@ -97,7 +97,7 @@ Here's how you do it:
 
 
 You need a url somewhere that you control. I have my own hosted websites
-so I just created the url [http://antelopelovefan.com/id][].
+so I just created the url [https://antelopelovefan.com/id][].
 
 
 
@@ -106,7 +106,7 @@ Let's look at the source for that page
 
 
 
-    <html>    <head>        <link rel="openid.server" href="http://www.myopenid.com/server" />        <link rel="openid.delegate" href="http://antelopelovefan.myopenid.com/" />    </head>    <body></body></html>
+    <html>    <head>        <link rel="openid.server" href="https://www.myopenid.com/server" />        <link rel="openid.delegate" href="https://antelopelovefan.myopenid.com/" />    </head>    <body></body></html>
 
 
 
@@ -132,7 +132,7 @@ Well, since you asked so nicely, OK.
 
 
 
--   It asks for my OpenID (which is http://antelopelovefan.com/id). You
+-   It asks for my OpenID (which is https://antelopelovefan.com/id). You
     can see helpful links to lots of other providers.
 
 
@@ -173,19 +173,19 @@ Well, since you asked so nicely, OK.
 
 
 
-  [Yahoo's usability study]: http://developer.yahoo.com/openid/bestpractices.html
-  [OpenID]: http://openid.net/
-  [get an OpenID]: http://openid.net/get/
-  [Flickr]: http://www.flicker.com
-  [Blogger]: http://www.blogspot.com
-  [AOL]: http://openid.blogspot.com
-  [Yahoo]: http://openid.yahoo.com
+  [Yahoo's usability study]: https://developer.yahoo.com/openid/bestpractices.html
+  [OpenID]: https://openid.net/
+  [get an OpenID]: https://openid.net/get/
+  [Flickr]: https://www.flicker.com
+  [Blogger]: https://www.blogspot.com
+  [AOL]: https://openid.blogspot.com
+  [Yahoo]: https://openid.yahoo.com
   [myOpenID]: https://www.myopenid.com/
-  [http://antelopelovefan.com/id]: http://antelopelovefan.com/id
-  [StackOverflow]: http://stackoverflow.com
-  [image]: http://farm4.static.flickr.com/3048/2947052022_70620a2628.jpg?v=1224162654
-  [1]: http://farm4.static.flickr.com/3152/2946241717_c7af2bf3aa.jpg?v=0
-  [Jeff Atwood]: http://www.codinghorror.com
-  [2]: http://farm3.static.flickr.com/2165/2947052024_0eb4f15dca.jpg?v=1224162574
-  [3]: http://farm4.static.flickr.com/3048/2947052014_2cf2e98383.jpg?v=1224162761
-  [4]: http://farm4.static.flickr.com/3208/2947052020_692465cf55.jpg?v=1224162681
+  [https://antelopelovefan.com/id]: https://antelopelovefan.com/id
+  [StackOverflow]: https://stackoverflow.com
+  [image]: https://farm4.static.flickr.com/3048/2947052022_70620a2628.jpg?v=1224162654
+  [1]: https://farm4.static.flickr.com/3152/2946241717_c7af2bf3aa.jpg?v=0
+  [Jeff Atwood]: https://www.codinghorror.com
+  [2]: https://farm3.static.flickr.com/2165/2947052024_0eb4f15dca.jpg?v=1224162574
+  [3]: https://farm4.static.flickr.com/3048/2947052014_2cf2e98383.jpg?v=1224162761
+  [4]: https://farm4.static.flickr.com/3208/2947052020_692465cf55.jpg?v=1224162681

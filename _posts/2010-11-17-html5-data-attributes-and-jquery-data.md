@@ -9,5 +9,5 @@ I've got a guest entry over on the Power Creative [Development Blog][].
 
 Check out my post on [HTML5 Data Attributes and jQuery.data()][]
 
-  [Development Blog]: http://www.powercreative.com/blogs/development
-  [HTML5 Data Attributes and jQuery.data()]: http://www.powercreative.com/blogs/development/html5-data-attributes-and-jquerydata
+  [Development Blog]: https://www.powercreative.com/blogs/development
+  [HTML5 Data Attributes and jQuery.data()]: https://www.powercreative.com/blogs/development/html5-data-attributes-and-jquerydata

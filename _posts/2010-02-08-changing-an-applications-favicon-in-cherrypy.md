@@ -88,4 +88,4 @@ than looking for a CherryPy route.
 
 
 
-  [configuring CherryPy to run with Apache]: http://mark.biek.org/blog/2010/01/running-a-cherrypy-app-with-apache-and-mod_python/
+  [configuring CherryPy to run with Apache]: https://mark.biek.org/blog/2010/01/running-a-cherrypy-app-with-apache-and-mod_python/

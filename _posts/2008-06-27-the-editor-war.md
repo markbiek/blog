@@ -155,8 +155,8 @@ And make sure to always keep an eye out for something better.
 
 
 
-  [Emacs]: http://www.gnu.org/software/emacs/
-  [UltraEdit]: http://www.ultraedit.com
-  [Textpad]: http://www.textpad.com/
-  [jEdit]: http://www.jedit.org/
-  [Vim]: http://www.vim.org/
+  [Emacs]: https://www.gnu.org/software/emacs/
+  [UltraEdit]: https://www.ultraedit.com
+  [Textpad]: https://www.textpad.com/
+  [jEdit]: https://www.jedit.org/
+  [Vim]: https://www.vim.org/

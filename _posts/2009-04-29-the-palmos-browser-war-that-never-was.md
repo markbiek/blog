@@ -122,15 +122,15 @@ memory. It was also good from a personal standpoint because, since I was
 working from home, I had to make sure that I stayed focused and
 organized to hit all of my deadlines.
 
-  [PinPoint Corporation]: http://www.pinpointco.com
-  [ZFrame]: http://www.zframe.com/
-  [Omnisky Modem]: http://farm4.static.flickr.com/3553/3486066247_4246cb702c_o.jpg
-  [ZFrame Network Diagram]: http://farm4.static.flickr.com/3557/3486290633_69ce3f6881_o.png
-  [UI demo]: http://www.zframe.com/uidemo.html
-  [Page Overview]: http://farm4.static.flickr.com/3304/3487085516_665a31be18_o.jpg
-  [Zoomed Page]: http://farm4.static.flickr.com/3639/3487085480_98f3275009_o.jpg
-  [Text Viewer]: http://farm4.static.flickr.com/3615/3486271387_01040fd1dd_o.jpg
-  [Text View with Links]: http://farm4.static.flickr.com/3410/3486271415_3dce2591e3_o.jpg
-  [Bookmarks]: http://farm4.static.flickr.com/3411/3486271681_7fd7319146_o.jpg
-  [Email]: http://farm4.static.flickr.com/3548/3486271623_98823f20f7_o.jpg
-  [Email Inbox]: http://farm4.static.flickr.com/3332/3487085558_d2fefa1188_o.jpg
+  [PinPoint Corporation]: https://www.pinpointco.com
+  [ZFrame]: https://www.zframe.com/
+  [Omnisky Modem]: https://farm4.static.flickr.com/3553/3486066247_4246cb702c_o.jpg
+  [ZFrame Network Diagram]: https://farm4.static.flickr.com/3557/3486290633_69ce3f6881_o.png
+  [UI demo]: https://www.zframe.com/uidemo.html
+  [Page Overview]: https://farm4.static.flickr.com/3304/3487085516_665a31be18_o.jpg
+  [Zoomed Page]: https://farm4.static.flickr.com/3639/3487085480_98f3275009_o.jpg
+  [Text Viewer]: https://farm4.static.flickr.com/3615/3486271387_01040fd1dd_o.jpg
+  [Text View with Links]: https://farm4.static.flickr.com/3410/3486271415_3dce2591e3_o.jpg
+  [Bookmarks]: https://farm4.static.flickr.com/3411/3486271681_7fd7319146_o.jpg
+  [Email]: https://farm4.static.flickr.com/3548/3486271623_98823f20f7_o.jpg
+  [Email Inbox]: https://farm4.static.flickr.com/3332/3487085558_d2fefa1188_o.jpg

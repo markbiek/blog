@@ -15,7 +15,7 @@ The REST API is dead-simple to use. The basic url format is
 
 
 ~~~~ {.html name="code"}
-  http://api.flickr.com/services/rest/?method=<method-name>&name=value...
+  https://api.flickr.com/services/rest/?method=<method-name>&name=value...
 ~~~~
 
 
@@ -27,7 +27,7 @@ Here's what a call to [flickr.photos.search][] method might look like:
 
 
 ~~~~ {.html name="code"}
-  http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=YOURKEY&tags=monkey
+  https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=YOURKEY&tags=monkey
 ~~~~
 
 
@@ -56,7 +56,7 @@ Here's a very basic function I threw together for making API calls:
 
 
 ~~~~ {.python name="code"}
-def flickrRequest(method, params):    args = '&' + '&'.join([key + '=' + str(params[key]) for key in params.keys()])    url = "http://api.flickr.com/services/rest/?method=" + method + args    resp = urllib2.urlopen(url)    raw_xml = unicode(resp.read(), errors="ignore")    return minidom.parseString(raw_xml.encode("utf-8"))
+def flickrRequest(method, params):    args = '&' + '&'.join([key + '=' + str(params[key]) for key in params.keys()])    url = "https://api.flickr.com/services/rest/?method=" + method + args    resp = urllib2.urlopen(url)    raw_xml = unicode(resp.read(), errors="ignore")    return minidom.parseString(raw_xml.encode("utf-8"))
 ~~~~
 
 
@@ -87,7 +87,7 @@ Now let's say I want to call **flickr.photos.getInfo** for each image:
 
 
 ~~~~ {.python name="code"}
-#This gives me all of the 'photo' nodes in the XMLphotos = dom.getElementsByTagName("photo")for photo in photos:  dom = flickrRequest('flickr.photos.getInfo', {'api_key': FLICKR_API_KEY, 'photo_id': photo.attributes["id"].value})  #The dom object now contains XML with info about the current photo  #You can take a look at the format here:  http://www.flickr.com/services/api/flickr.photos.getInfo.html
+#This gives me all of the 'photo' nodes in the XMLphotos = dom.getElementsByTagName("photo")for photo in photos:  dom = flickrRequest('flickr.photos.getInfo', {'api_key': FLICKR_API_KEY, 'photo_id': photo.attributes["id"].value})  #The dom object now contains XML with info about the current photo  #You can take a look at the format here:  https://www.flickr.com/services/api/flickr.photos.getInfo.html
 ~~~~
 
 
@@ -97,10 +97,10 @@ with learning the API is to write some sort of script that will let me
 backup all of the meta-information (tags, sets, collections,
 descriptions) of my Flickr account.
 
-  [Flickr API]: http://www.flickr.com/services/api/
-  [REST]: http://www.flickr.com/services/api/request.rest.html
-  [API key]: http://www.flickr.com/services/api/misc.api_keys.html
-  [flickr.photos.search]: http://www.flickr.com/services/api/flickr.photos.search.html
-  [flickr.photos.getinfo]: http://www.flickr.com/services/api/flickr.photos.getInfo.html
-  [flickr.photos.getSizes]: http://www.flickr.com/services/api/flickr.photos.getSizes.html
-  [minidom]: http://docs.python.org/library/xml.dom.minidom.html
+  [Flickr API]: https://www.flickr.com/services/api/
+  [REST]: https://www.flickr.com/services/api/request.rest.html
+  [API key]: https://www.flickr.com/services/api/misc.api_keys.html
+  [flickr.photos.search]: https://www.flickr.com/services/api/flickr.photos.search.html
+  [flickr.photos.getinfo]: https://www.flickr.com/services/api/flickr.photos.getInfo.html
+  [flickr.photos.getSizes]: https://www.flickr.com/services/api/flickr.photos.getSizes.html
+  [minidom]: https://docs.python.org/library/xml.dom.minidom.html

@@ -9,13 +9,13 @@ Slug: let-s-end-the-trope-of-the-idiot-dad
 
 > Merriam-Webster gives a definition of “trope” as a “figure of speech.” In storytelling, a trope is just that — a conceptual figure of speech, a storytelling shorthand for a concept that the audience will recognize and understand instantly.
 
-> Above all, a trope is a convention. It can be [a pl](http://tvtropes.org/pmwiki/pmwiki.php/Main/Plot)ot trick, a setup, a narrative structure, a character type, a linguistic idiom you know it when you see it.
+> Above all, a trope is a convention. It can be [a pl](https://tvtropes.org/pmwiki/pmwiki.php/Main/Plot)ot trick, a setup, a narrative structure, a character type, a linguistic idiom you know it when you see it.
 
-[> http://tvtropes'org/pmwiki/pmwiki'php/Main/Tro](http://tvtropes.org/pmwiki/pmwiki.php/Main/Trope)pe
+[> https://tvtropes'org/pmwiki/pmwiki'php/Main/Tro](https://tvtropes.org/pmwiki/pmwiki.php/Main/Trope)pe
 
-I had high hopes for The [Jim Gaffigan Show](http://www.imdb.com/title/tt3484406/). I really did.
+I had high hopes for The [Jim Gaffigan Show](https://www.imdb.com/title/tt3484406/). I really did.
 
-I shouldnt have because I've been burned so many times before by stand-up comics trying their hand at a sitcom (Jo[hn Mulaney, ](http://www.imdb.com/title/tt2753110/)I'm looking at you.). At this point, I'm starting to think Louis CK and Jerry Seinfeld might be the only ones who can pull it off.
+I shouldnt have because I've been burned so many times before by stand-up comics trying their hand at a sitcom (Jo[hn Mulaney, ](https://www.imdb.com/title/tt2753110/)I'm looking at you.). At this point, I'm starting to think Louis CK and Jerry Seinfeld might be the only ones who can pull it off.
 
 I’ve been watching Jim Gaffigan’s stand-up for years so I had to give him the chance. Man, was I disappointed. It’s all the same boring sitcom shlock we’ve been subjected to over and over again.
 

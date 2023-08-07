@@ -27,8 +27,8 @@ They operate under the assumption that there will be a separate test database th
 
 There are several projects with very large databases and it's easier and makes more sense for me to run the unit tests against my local development copy.
 
-To that end, I've started a Github project: [https://github.com/markbiek/wordpress-dev](https://github.com/markbiek/wordpress-dev) which is a clone of [http://develop.svn.wordpress.org/trunk/](http://develop.svn.wordpress.org/trunk/).
+To that end, I've started a Github project: [https://github.com/markbiek/wordpress-dev](https://github.com/markbiek/wordpress-dev) which is a clone of [https://develop.svn.wordpress.org/trunk/](https://develop.svn.wordpress.org/trunk/).
 
-The only difference is, my version doesn't delete any data when the tests are run. We've just removed the contents of the `_delete_all_data` and `_delete_all_posts` functions in [functions.php](http://develop.svn.wordpress.org/trunk/tests/phpunit/includes/functions.php).
+The only difference is, my version doesn't delete any data when the tests are run. We've just removed the contents of the `_delete_all_data` and `_delete_all_posts` functions in [functions.php](https://develop.svn.wordpress.org/trunk/tests/phpunit/includes/functions.php).
 
 If you can, I'd recommend sticking with the official WordPress way of testing. But hopefully this will be useful to some other people.

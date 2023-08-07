@@ -13,7 +13,7 @@ So you know all about Web.config transformations, right?
 
 What? You don't!?!
 
-You *must* learn about [Web.config transformations](http://msdn.microsoft.com/en-us/library/dd465326%28VS.100%29.aspx)!
+You *must* learn about [Web.config transformations](https://msdn.microsoft.com/en-us/library/dd465326%28VS.100%29.aspx)!
 
 But here's a quick overview.
 
@@ -23,13 +23,13 @@ You put the bulk of the settings that don't change into the main Web.config. The
 
 In short, no more manually changing values before publishing your site.
 
-In addition, there's a fantastic Studio plugin call [SlowCheetah - XML Transforms](http://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5) which lets you do exactly the same thing with *any* XML file in your project, not just Web.config.
+In addition, there's a fantastic Studio plugin call [SlowCheetah - XML Transforms](https://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5) which lets you do exactly the same thing with *any* XML file in your project, not just Web.config.
 
 But I digress. Back to our strange transformation error.
 
 My Web.config looked something like this:
 
-    <configuration xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0">
+    <configuration xmlns="https://schemas.microsoft.com/.NetConfiguration/v2.0">
         <system.web>
             <!-- stuff -->
         </system.web>
@@ -37,7 +37,7 @@ My Web.config looked something like this:
 
 And my Web.Release.config looked a bit like this:
 
-    <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <configuration xmlns:xdt="https://schemas.microsoft.com/XML-Document-Transform">
          <system.web>
              <identity impersonate="true" userName="USER" password="PASS" xdt:Transform="Insert" />
          </system.web>
@@ -45,7 +45,7 @@ And my Web.Release.config looked a bit like this:
 
 Basically, on the production server, the website has to run under a certain user account using *identity impersonate*.
 
-After lots of head-bashing and scouring over other websites that weren't throwing the error, I found that the `xmlns="http://schemas.microsoft.com/.NetConfiguration/v2.0"` attribute was causing the error.
+After lots of head-bashing and scouring over other websites that weren't throwing the error, I found that the `xmlns="https://schemas.microsoft.com/.NetConfiguration/v2.0"` attribute was causing the error.
 
 I just changed the main Web.config to this and all was well:
 

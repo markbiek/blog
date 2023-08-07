@@ -31,7 +31,7 @@ name, version, window size, etc.
 
 
 ~~~~ {.xml name="code"}
-<?xml version="1.0" encoding="UTF-8"?><application xmlns="http://ns.adobe.com/air/application/1.5">    <id>testing.html.TwitterTrends</id>    <version>0.1</version>    <filename>TwitterTrends</filename>    <initialWindow>        <content>TwitterTrends.html</content>        <visible>true</visible>        <width>300</width>        <height>400</height>    </initialWindow></application>
+<?xml version="1.0" encoding="UTF-8"?><application xmlns="https://ns.adobe.com/air/application/1.5">    <id>testing.html.TwitterTrends</id>    <version>0.1</version>    <filename>TwitterTrends</filename>    <initialWindow>        <content>TwitterTrends.html</content>        <visible>true</visible>        <width>300</width>        <height>400</height>    </initialWindow></application>
 ~~~~
 
 
@@ -55,7 +55,7 @@ the way Air handles sandboxing seems to prevent that.
 Here's what our simple application is going to do:
 
 1.  Make an Ajax call to the Twitter API to get the current top 10
-    trends ([http://search.twitter.com/trends/current.json][])
+    trends ([https://search.twitter.com/trends/current.json][])
 2.  
     
 3.  Put the results into a div
@@ -69,7 +69,7 @@ And here's the Javascript code for it
 
 
 ~~~~ {.javascript name="code"}
-function getTrends() {                new Ajax.Request('http://search.twitter.com/trends/current.json', {                    method:  'get',                    onSuccess:  function(response) {                        try {                            if(response.responseJSON) {                                var json = response.responseText;                                var data = json.evalJSON(true);                                //air.trace(json);                                air.trace(data.as_of);                                //air.trace(data.trends);                                //air.trace(Object.toJSON(data.trends));                                //The actual trend items are in a hash with a single element.                                //The key for that element is the "as_of" date/time string                                //Get the date/time key                                var key = Object.keys(data.trends);                                //This is an array of trend Objects which have name & query elements                                var trends = data.trends[key];                                $('output').innerHTML = '';                                trends.each( function(trend) {                                    var url = 'http://search.twitter.com/search?q=' + escape(trend.query);                                    air.trace(url);                                    $('output').innerHTML += '' + trend.name + '';                                });                                new Effect.Highlight('output');                                air.trace('done');                            }else {                                air.trace('Empty response');                            }                        }catch(e) {                            $('errors').innerHTML += 'Request failed. (' + e.message + ')';                        }                    },                    onFailure:  function() {                        $('errors').innerHTML += 'Request failed.';                    }                });            }            function appLoad() {                air.trace('appLoad()');                getTrends();                //Retrieve the current trends every 60 seconds                new PeriodicalExecuter( getTrends, 60);            }            Event.observe(window, 'load', function() {                appLoad();            });
+function getTrends() {                new Ajax.Request('https://search.twitter.com/trends/current.json', {                    method:  'get',                    onSuccess:  function(response) {                        try {                            if(response.responseJSON) {                                var json = response.responseText;                                var data = json.evalJSON(true);                                //air.trace(json);                                air.trace(data.as_of);                                //air.trace(data.trends);                                //air.trace(Object.toJSON(data.trends));                                //The actual trend items are in a hash with a single element.                                //The key for that element is the "as_of" date/time string                                //Get the date/time key                                var key = Object.keys(data.trends);                                //This is an array of trend Objects which have name & query elements                                var trends = data.trends[key];                                $('output').innerHTML = '';                                trends.each( function(trend) {                                    var url = 'https://search.twitter.com/search?q=' + escape(trend.query);                                    air.trace(url);                                    $('output').innerHTML += '' + trend.name + '';                                });                                new Effect.Highlight('output');                                air.trace('done');                            }else {                                air.trace('Empty response');                            }                        }catch(e) {                            $('errors').innerHTML += 'Request failed. (' + e.message + ')';                        }                    },                    onFailure:  function() {                        $('errors').innerHTML += 'Request failed.';                    }                });            }            function appLoad() {                air.trace('appLoad()');                getTrends();                //Retrieve the current trends every 60 seconds                new PeriodicalExecuter( getTrends, 60);            }            Event.observe(window, 'load', function() {                appLoad();            });
 ~~~~
 
 
@@ -78,7 +78,7 @@ The HTML is pretty basic as well
 
 
 ~~~~ {.html name="code"}
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml">    <head>        <title>Twitter Trends</title>        <script src="AIRAliases.js" type="text/javascript"></script>        <script src="prototype-1.6.0.3.js" type="text/javascript"></script>        <script src="scriptaculous.js?load=effects" type="text/javascript"></script>        <style type="text/css">            body {                text-align:  left;            }            h3 {                text-align:  center;            }            #MainContent {                width:  250px;                margin:  auto;                padding-left:  10px;            }            #output {                width:  200px;            }        </style>              <script>            //Javascript goes here        </script>    </head>    <body>        <div id="MainContent">            <h3>Twitter Trends</h3>            <div id="errors"></div>            <div id="output"></div>        </div> <!-- /MainContent -->    </body></html>    
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="https://www.w3.org/1999/xhtml">    <head>        <title>Twitter Trends</title>        <script src="AIRAliases.js" type="text/javascript"></script>        <script src="prototype-1.6.0.3.js" type="text/javascript"></script>        <script src="scriptaculous.js?load=effects" type="text/javascript"></script>        <style type="text/css">            body {                text-align:  left;            }            h3 {                text-align:  center;            }            #MainContent {                width:  250px;                margin:  auto;                padding-left:  10px;            }            #output {                width:  200px;            }        </style>              <script>            //Javascript goes here        </script>    </head>    <body>        <div id="MainContent">            <h3>Twitter Trends</h3>            <div id="errors"></div>            <div id="output"></div>        </div> <!-- /MainContent -->    </body></html>    
 ~~~~
 
 
@@ -149,17 +149,17 @@ Thus concludes our brief Adobe Air tutorial. You can download a [.zip
 file][] with all of the files used in this example, including the sample
 certificate and a batch file for packaging things up.
 
-  [Tweet Deck]: http://tweetdeck.com/beta/
-  [Flash]: http://www.adobe.com/devnet/air/flash/
-  [Flex]: http://www.adobe.com/devnet/air/flex/
-  [HTML/Ajax]: http://www.adobe.com/devnet/air/ajax/
-  [Air SDK tutorial]: http://help.adobe.com/en_US/AIR/1.5/devappshtml/WS5b3ccc516d4fbf351e63e3d118666ade46-7ecc.html
-  [Twitter API]: http://apiwiki.twitter.com/
-  [Air SDK]: http://www.adobe.com/products/air/tools/sdk/
-  [PrototypeJS]: http://www.prototypejs.org/
-  [Scriptaculous]: http://script.aculo.us/
-  [Google Code]: http://code.google.com/apis/ajaxlibs/documentation/#prototype
-  [http://search.twitter.com/trends/current.json]: http://search.twitter.com/trends/current.json
-  [Twitter Trends app window]: http://farm4.static.flickr.com/3413/3638165969_0ba229fe56_o.png
-  [debug message]: http://farm4.static.flickr.com/3607/3638980812_0d1a0b9916_o.png
-  [.zip file]: http://mark.biek.org/blog/static/TwitterTrends.zip
+  [Tweet Deck]: https://tweetdeck.com/beta/
+  [Flash]: https://www.adobe.com/devnet/air/flash/
+  [Flex]: https://www.adobe.com/devnet/air/flex/
+  [HTML/Ajax]: https://www.adobe.com/devnet/air/ajax/
+  [Air SDK tutorial]: https://help.adobe.com/en_US/AIR/1.5/devappshtml/WS5b3ccc516d4fbf351e63e3d118666ade46-7ecc.html
+  [Twitter API]: https://apiwiki.twitter.com/
+  [Air SDK]: https://www.adobe.com/products/air/tools/sdk/
+  [PrototypeJS]: https://www.prototypejs.org/
+  [Scriptaculous]: https://script.aculo.us/
+  [Google Code]: https://code.google.com/apis/ajaxlibs/documentation/#prototype
+  [https://search.twitter.com/trends/current.json]: https://search.twitter.com/trends/current.json
+  [Twitter Trends app window]: https://farm4.static.flickr.com/3413/3638165969_0ba229fe56_o.png
+  [debug message]: https://farm4.static.flickr.com/3607/3638980812_0d1a0b9916_o.png
+  [.zip file]: https://mark.biek.org/blog/static/TwitterTrends.zip
