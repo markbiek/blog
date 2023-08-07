@@ -4,7 +4,7 @@
         <title>Mark Biek - Blog</title>
         <link>https://mark.biek.org/</link>
         <description></description>
-        <lastBuildDate>Sun, 15 Jan 2023 15:30:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Aug 2023 15:30:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Mark Biek's Blog</generator>
         <image>
@@ -13,6 +13,377 @@
             <link>https://mark.biek.org/</link>
         </image>
         <copyright>All rights reserved 2023, Mark Biek</copyright>
+        <item>
+            <title><![CDATA[Let's Talk About AI]]></title>
+            <link>https://mark.biek.org//2023/05/lets-talk-about-ai</link>
+            <guid>https://mark.biek.org//2023/05/lets-talk-about-ai</guid>
+            <pubDate>Wed, 03 May 2023 18:13:18 GMT</pubDate>
+            <description><![CDATA[<h3>Let's talk about AI</h3>
+<p>Obviously AI chat bots (like ChatGPT, Bing AI, Google Bard, etc) are the hotness for 2023. There's a lot of discussion about the ways AI is going to affect work, education, and society at large.</p>
+<p>Will it help bridge the divides created by the Internet and social media? Or will it just make things worse? Are jobs going to disappear because of AI? If so, which jobs? Will software development become a thing of the past? How will AI transform education (or not)?</p>
+<h3>AI in Education</h3>
+<p>The article <a href="https://biblioracle.substack.com/p/chatgpt-cant-kill-anything-worth">ChatGPT Can't Kill Anything Worth Preserving</a> is my favorite take on ChatGPT in education. Please go and read this article, then go back and read it again.</p>
+<p>The short version is, if your students can do entire assignments you've given them using ChatGPT, you're assigning crappy assignments. That said, we want to be careful and intentional about <em>how</em> we let AI do things for us.</p>
+<p>While I find Paul Graham to be hit or miss (love his <a href="http://paulgraham.com/writing44.html">stuff on writing</a>), I definitely think this <a href="https://twitter.com/paulg/status/1655925905527537666">Twitter thread</a> brings up a lot of important points about AI and writing.</p>
+<p>If you don't want to read the whole thread, just read this quote:</p>
+<blockquote>
+<p>I'm not warning about the switch to AI in the hope of averting it, but to warn the few people who care enough to save themselves, or their kids. Learn to use AI. It's a powerful technology, and you should know how to use it. But also learn how to write.</p>
+</blockquote>
+<p>I think ChatGPT and its ilk have the power to radically transform education for the better. I don't know of a single teenager who adores school anymore. Maybe these new tools can take away the busy-work they get buried in and let them get back to the joy and process of learning.</p>
+<p>The question is, how can we fit new tools like AI into a broken and underfunded education system? My fear is that these tools will only be used by the schools with the most money. In the US, that means that private schools will reap the benefits long before public schools and only widen the education gap.</p>
+<h3>Bing Search</h3>
+<p>Microsoft <a href="https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/">announced</a> a new AI-powered version of Bing and the initial reviews of it are a bit...unhinged.</p>
+<ul>
+<li><a href="https://simonwillison.net/2023/Feb/15/bing/">Bing: "I will not harm you unless you harm me first"</a>.</li>
+<li><a href="https://dkb.blog/p/bing-ai-cant-be-trusted">Bing AI Can't be Trusted</a></li>
+</ul>
+<p>The short version is that Bing just makes stuff up. It takes all of this information from different sources and uses to answer questions with total nonsense. To be fair, ChatGPT can and does do the same thing. But ChatGPT isn't posing as <strong>A SEARCH ENGINE</strong>.</p>
+<p>On the surface, some of Bing AI's behavior is funny but the thought of people using it to, say, <a href="https://dkb.blog/i/102643499/gap-financial-statement-summary">get financial information</a> (or political details or anything of important) is terrifying.</p>
+<p>Most of the people using this are going to take the information from different AI-powered systems as absolute fact. As AI generated video gets better and better, this has far reaching and dangerous consequences for news media. In the end, my biggest fear is that this just becomes another avenue (or maybe THE avenue) for dangerous, false information to spread online.</p>
+<p>It's not all doom and gloom though. When used properly, things like ChatGPT can definitely be a productivity multiplier.</p>
+<h2>Recent things I've used ChatGPT for</h2>
+<p>I don't think that AI is going to do away with software development. But I <em>do</em> think that software developers who know how to leverage AI are going to have an advantage in the job market. Just like good Internet searches are a skill, so is writing good ChatGPT prompts.</p>
+<p>It'll be interesting to see how this changes the shape of <em>learning</em> software development though. I think AI will be a great learning resource. But, like anything else, be careful that you're not using AI as too much of a crutch. Use it to augment and refine what you're learning, but make sure you're still learning all the core concepts.</p>
+<p>Here are a handful of things, personal and professional, that ChatGPT was super helpful with.</p>
+<h3>A dice roller</h3>
+<p>It's slow-ish but, in a pinch, you can ask ChatGPT to roll dice for you.</p>
+<pre><code>> 🧍 Can you be a dice roller?
+> 🤖 Yes, I can be a virtual dice roller. What kind of dice would you like me to roll for you?
+> 🧍 3d8
+> 🤖 Certainly! Here are your 3 rolls of an 8-sided die:
+> 🤖 Roll 1: 6
+> 🤖 Roll 2: 2
+> 🤖 Roll 3: 8
+</code></pre>
+<p>I won't try to speak to how good the randomness is. It's probably insufficient for anything security-related but should be fine for a game.</p>
+<h3>Automation script using simple-git and Inquirer.js.</h3>
+<p>I needed to write an automation script using <a href="https://github.com/simple-git-js/simple-git">simple-git</a> (for git operations) and <a href="https://github.com/SBoudrias/Inquirer.js">Inquirer.js</a> (for nice user prompts).</p>
+<pre><code>> 🧍 Can you read the documentation for the libraries https://github.com/simple-git-js/simple-git and https://github.com/SBoudrias/Inquirer.js?
+> 🤖 Yes, I can read the documentation for those libraries. Would you like me to provide you with a summary or answer any specific questions?
+> 🧍 I have specific questions.
+> 🤖 Please go ahead and ask your questions.
+> 🧍 How would I use simple-git to check the git status of the current directory?
+</code></pre>
+<p>The first response was accurate (and useful) because it broke down the steps of creating a new simple-git instance and calling <code>git.status</code>. The only problem was that it used Promises and callbacks.</p>
+<p>So then I asked</p>
+<pre><code>> 🧍 Can you rewrite that using async/await?
+> 🤖 Sure! Here's how you can use async/await to check the git status of the current directory using the simple-git library:
+</code></pre>
+<pre><code>const simpleGit = require('simple-git');
+
+async function getStatus() {
+  try {
+    const git = simpleGit();
+    const status = await git.status();
+    console.log(status);
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+getStatus();
+</code></pre>
+<p>I kept periodically asking ChatGPT to provide code snippets of various actions using the two libraries. It often forgot that I wanted <code>async/await</code> code or that I was using ESM (<code>import whatever from 'whatever'</code>) instead of CommonJS (<code>const whatever = require('whatever')</code>) but I either asked it to rewrite the code or just tweaked it myself.</p>
+<p>There were a number of cases where I didn't like the code it generated and refactored it or wrote it differently. Either way, it still saved me a ton of time trying to figure out how to use the libraries.</p>
+<h3>Comparing raw tables of data.</h3>
+<p>I had two spreadsheets of pricing data for different currencies that I need to compare and double-check. I was concerned about duplicate rows and mismatched values. As an added bonus, I didn't even have to format the data. I just copied straight from Google Sheets into ChatGPT.</p>
+<p>In reality, these spreadsheets were quite large but I can demonstrate how ChatGPT helped using a smaller dataset.</p>
+<pre><code>> 🧍 I'm going to give you a table of currencies and prices
+> 
+> 🧍 currency,price
+> 🧍 AUD,100
+> 🧍 EUR,200
+> 🧍 USD,300
+>
+> 🤖 Thank you for providing me with the table of currencies and prices. Is there anything specific you would like me to do with this information, or do you have any questions regarding currencies and exchange rates?
+> 
+> 🧍 I'm going to give you another table. Can you tell me if all the prices for each currency match the first table?
+> 
+> 🧍 currency,price
+> 🧍 USD 400
+> 🧍 USD 300
+> 🧍 EUR 200
+> 🧍 AUD 100
+>
+> 🤖 Sure. Here's a comparison of the two tables. As we can see, the prices for AUD and EUR match in both tables, but the prices for USD differ. In the first table, the price for USD is 300, whereas in the second table, there are two prices for USD, 300 and 400.
+</code></pre>
+<h3>Writing TypeScript stuff.</h3>
+<p>My TypeScript knowledge is OK but not great. I've found a number of cases where ChatGPT gave me better answers than a regular Internet search.</p>
+<pre><code>> 🧍 Let's say I have this type
+> 🧍 export type MaximumFootnotes = '1' | '2' | '3' | '4' | '5';
+> 🧍 How can I make a new object type that only allows keys that are the values in MaximumFootnotes but doesn't require all of them?
+> 
+> 🤖 Here's an example of how you can define a new object type MyFootnotes that allows keys that are values in MaximumFootnotes, but doesn't require all of them:
+</code></pre>
+<pre><code>export type MaximumFootnotes = '1' | '2' | '3' | '4' | '5';
+
+type MyFootnotes = {
+  [key in MaximumFootnotes]?: string;
+};
+</code></pre>
+<h3>Generating repeated blocks of code.</h3>
+<p>This is something that Github CoPilot does well with sometimes. My only complaint there is it often takes a while for Github Copilot to figure out what I'm doing.</p>
+<p>As an experiment, I tried using ChatGPT to do it in the following manner</p>
+<pre><code>> 🧍 I'm going to give you a list of Javascript constants. For each constant, give me code with the following structure and use the comment at the end of the line as the return value for the getTitle function
+</code></pre>
+<pre><code>export [ MY_CONSTANT ]: {
+	getConstant: () => MY_CONSTANT,
+	getTitle: () => translate('TITLE'),
+}
+</code></pre>
+<pre><code>> 🤖 Sure, I'd be happy to help you with that. Please provide me with the list of Javascript constants.
+</code></pre>
+<pre><code>export const FOO = 'foo'; // This is foo
+export const BAR = 'bar'; // This is bar
+export const BAZ = 'baz'; // This is baz
+</code></pre>
+<pre><code>> 🤖 Here is the code structure you requested for the given constants:
+</code></pre>
+<pre><code>export [ FOO ]: {
+	getConstant: () => FOO,
+	getTitle: () => translate('This is foo'),
+}
+export [ BAR ]: {
+	getConstant: () => BAR,
+	getTitle: () => translate('This is bar'),
+}
+export [ BAZ ]: {
+	getConstant: () => BAZ,
+	getTitle: () => translate('This is baz'),
+}
+</code></pre>
+<pre><code>> 🧍 Now give me the Javascript import statement for all of the constants.
+>
+> 🤖 Sure, here's the import statement for all the constants:
+</code></pre>
+<pre><code>import {
+	FOO,
+	BAR,
+	BAZ
+} from './constants';
+</code></pre>
+<h3>Generating a triage schedule.</h3>
+<p>We needed a schedule for my team where each person was in charge of triaging incoming issues for two weeks.</p>
+<pre><code>> 🧍 I'm going to give you a comma-separated list of names. Please put the list in random order starting with Mark and ending with Alice?
+> Mark, Alice, Beth, Charlie, David, Eddie
+>
+> 🤖 Sure, here are the names in a randomized order starting with Mark and ending with Alice:
+> 🤖 Mark, Beth, David, Eddie, Charlie, Alice.
+>
+> 🧍 Using that order, give me a 6 month schedule where each person is in charge for two week.
+>
+> 🤖 Sure, here is a 6-month schedule starting with Mark and ending with Alice, where each person is in charge for two weeks:
+> 🤖 Mar 27 - Apr 9: Mark
+> 🤖 Apr 10 - Apr 23: Beth
+> 🤖 Apr 24 - May 7: David
+> 🤖 May 8 - May 21: Eddie
+> 🤖 May 22 - Jun 4: Charlie
+> 🤖 Jun 5 - Jun 18: Alice
+> 🤖 Jun 19 - Jul 2: Mark
+> 🤖 Jul 3 - Jul 16: Beth
+> 🤖 Jul 17 - Jul 30: David
+> 🤖 Jul 31 - Aug 13: Eddie
+> 🤖 Aug 14 - Aug 27: Charlie
+> 🤖 Aug 28 - Sep 10: Beth
+</code></pre>
+<h3>SQL queries.</h3>
+<p>I have a personal project that's a web-based image gallery. Images can be assigned any number of tags. I've been working on a feature that lets you query all images that have one or more tags (eg <code>/tags/pets+cute</code>) and was feeling lazy coming up with the SQL query.</p>
+<pre><code>> 🧍 Write a sql query which shows all images that have all of the specified tag ids.
+>
+> 🤖 To find all images that have all of the specified tag IDs, you can use the following query:
+</code></pre>
+<pre><code>SELECT i.*
+FROM images i
+JOIN image_tags it ON i.id = it.image_id
+WHERE it.tag_id IN (tag_id_1, tag_id_2, ..., tag_id_n)
+GROUP BY i.id
+HAVING COUNT(*) = n
+</code></pre>
+]]></description>
+            <content:encoded><![CDATA[<h3>Let's talk about AI</h3>
+<p>Obviously AI chat bots (like ChatGPT, Bing AI, Google Bard, etc) are the hotness for 2023. There's a lot of discussion about the ways AI is going to affect work, education, and society at large.</p>
+<p>Will it help bridge the divides created by the Internet and social media? Or will it just make things worse? Are jobs going to disappear because of AI? If so, which jobs? Will software development become a thing of the past? How will AI transform education (or not)?</p>
+<h3>AI in Education</h3>
+<p>The article <a href="https://biblioracle.substack.com/p/chatgpt-cant-kill-anything-worth">ChatGPT Can't Kill Anything Worth Preserving</a> is my favorite take on ChatGPT in education. Please go and read this article, then go back and read it again.</p>
+<p>The short version is, if your students can do entire assignments you've given them using ChatGPT, you're assigning crappy assignments. That said, we want to be careful and intentional about <em>how</em> we let AI do things for us.</p>
+<p>While I find Paul Graham to be hit or miss (love his <a href="http://paulgraham.com/writing44.html">stuff on writing</a>), I definitely think this <a href="https://twitter.com/paulg/status/1655925905527537666">Twitter thread</a> brings up a lot of important points about AI and writing.</p>
+<p>If you don't want to read the whole thread, just read this quote:</p>
+<blockquote>
+<p>I'm not warning about the switch to AI in the hope of averting it, but to warn the few people who care enough to save themselves, or their kids. Learn to use AI. It's a powerful technology, and you should know how to use it. But also learn how to write.</p>
+</blockquote>
+<p>I think ChatGPT and its ilk have the power to radically transform education for the better. I don't know of a single teenager who adores school anymore. Maybe these new tools can take away the busy-work they get buried in and let them get back to the joy and process of learning.</p>
+<p>The question is, how can we fit new tools like AI into a broken and underfunded education system? My fear is that these tools will only be used by the schools with the most money. In the US, that means that private schools will reap the benefits long before public schools and only widen the education gap.</p>
+<h3>Bing Search</h3>
+<p>Microsoft <a href="https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/">announced</a> a new AI-powered version of Bing and the initial reviews of it are a bit...unhinged.</p>
+<ul>
+<li><a href="https://simonwillison.net/2023/Feb/15/bing/">Bing: "I will not harm you unless you harm me first"</a>.</li>
+<li><a href="https://dkb.blog/p/bing-ai-cant-be-trusted">Bing AI Can't be Trusted</a></li>
+</ul>
+<p>The short version is that Bing just makes stuff up. It takes all of this information from different sources and uses to answer questions with total nonsense. To be fair, ChatGPT can and does do the same thing. But ChatGPT isn't posing as <strong>A SEARCH ENGINE</strong>.</p>
+<p>On the surface, some of Bing AI's behavior is funny but the thought of people using it to, say, <a href="https://dkb.blog/i/102643499/gap-financial-statement-summary">get financial information</a> (or political details or anything of important) is terrifying.</p>
+<p>Most of the people using this are going to take the information from different AI-powered systems as absolute fact. As AI generated video gets better and better, this has far reaching and dangerous consequences for news media. In the end, my biggest fear is that this just becomes another avenue (or maybe THE avenue) for dangerous, false information to spread online.</p>
+<p>It's not all doom and gloom though. When used properly, things like ChatGPT can definitely be a productivity multiplier.</p>
+<h2>Recent things I've used ChatGPT for</h2>
+<p>I don't think that AI is going to do away with software development. But I <em>do</em> think that software developers who know how to leverage AI are going to have an advantage in the job market. Just like good Internet searches are a skill, so is writing good ChatGPT prompts.</p>
+<p>It'll be interesting to see how this changes the shape of <em>learning</em> software development though. I think AI will be a great learning resource. But, like anything else, be careful that you're not using AI as too much of a crutch. Use it to augment and refine what you're learning, but make sure you're still learning all the core concepts.</p>
+<p>Here are a handful of things, personal and professional, that ChatGPT was super helpful with.</p>
+<h3>A dice roller</h3>
+<p>It's slow-ish but, in a pinch, you can ask ChatGPT to roll dice for you.</p>
+<pre><code>> 🧍 Can you be a dice roller?
+> 🤖 Yes, I can be a virtual dice roller. What kind of dice would you like me to roll for you?
+> 🧍 3d8
+> 🤖 Certainly! Here are your 3 rolls of an 8-sided die:
+> 🤖 Roll 1: 6
+> 🤖 Roll 2: 2
+> 🤖 Roll 3: 8
+</code></pre>
+<p>I won't try to speak to how good the randomness is. It's probably insufficient for anything security-related but should be fine for a game.</p>
+<h3>Automation script using simple-git and Inquirer.js.</h3>
+<p>I needed to write an automation script using <a href="https://github.com/simple-git-js/simple-git">simple-git</a> (for git operations) and <a href="https://github.com/SBoudrias/Inquirer.js">Inquirer.js</a> (for nice user prompts).</p>
+<pre><code>> 🧍 Can you read the documentation for the libraries https://github.com/simple-git-js/simple-git and https://github.com/SBoudrias/Inquirer.js?
+> 🤖 Yes, I can read the documentation for those libraries. Would you like me to provide you with a summary or answer any specific questions?
+> 🧍 I have specific questions.
+> 🤖 Please go ahead and ask your questions.
+> 🧍 How would I use simple-git to check the git status of the current directory?
+</code></pre>
+<p>The first response was accurate (and useful) because it broke down the steps of creating a new simple-git instance and calling <code>git.status</code>. The only problem was that it used Promises and callbacks.</p>
+<p>So then I asked</p>
+<pre><code>> 🧍 Can you rewrite that using async/await?
+> 🤖 Sure! Here's how you can use async/await to check the git status of the current directory using the simple-git library:
+</code></pre>
+<pre><code>const simpleGit = require('simple-git');
+
+async function getStatus() {
+  try {
+    const git = simpleGit();
+    const status = await git.status();
+    console.log(status);
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+getStatus();
+</code></pre>
+<p>I kept periodically asking ChatGPT to provide code snippets of various actions using the two libraries. It often forgot that I wanted <code>async/await</code> code or that I was using ESM (<code>import whatever from 'whatever'</code>) instead of CommonJS (<code>const whatever = require('whatever')</code>) but I either asked it to rewrite the code or just tweaked it myself.</p>
+<p>There were a number of cases where I didn't like the code it generated and refactored it or wrote it differently. Either way, it still saved me a ton of time trying to figure out how to use the libraries.</p>
+<h3>Comparing raw tables of data.</h3>
+<p>I had two spreadsheets of pricing data for different currencies that I need to compare and double-check. I was concerned about duplicate rows and mismatched values. As an added bonus, I didn't even have to format the data. I just copied straight from Google Sheets into ChatGPT.</p>
+<p>In reality, these spreadsheets were quite large but I can demonstrate how ChatGPT helped using a smaller dataset.</p>
+<pre><code>> 🧍 I'm going to give you a table of currencies and prices
+> 
+> 🧍 currency,price
+> 🧍 AUD,100
+> 🧍 EUR,200
+> 🧍 USD,300
+>
+> 🤖 Thank you for providing me with the table of currencies and prices. Is there anything specific you would like me to do with this information, or do you have any questions regarding currencies and exchange rates?
+> 
+> 🧍 I'm going to give you another table. Can you tell me if all the prices for each currency match the first table?
+> 
+> 🧍 currency,price
+> 🧍 USD 400
+> 🧍 USD 300
+> 🧍 EUR 200
+> 🧍 AUD 100
+>
+> 🤖 Sure. Here's a comparison of the two tables. As we can see, the prices for AUD and EUR match in both tables, but the prices for USD differ. In the first table, the price for USD is 300, whereas in the second table, there are two prices for USD, 300 and 400.
+</code></pre>
+<h3>Writing TypeScript stuff.</h3>
+<p>My TypeScript knowledge is OK but not great. I've found a number of cases where ChatGPT gave me better answers than a regular Internet search.</p>
+<pre><code>> 🧍 Let's say I have this type
+> 🧍 export type MaximumFootnotes = '1' | '2' | '3' | '4' | '5';
+> 🧍 How can I make a new object type that only allows keys that are the values in MaximumFootnotes but doesn't require all of them?
+> 
+> 🤖 Here's an example of how you can define a new object type MyFootnotes that allows keys that are values in MaximumFootnotes, but doesn't require all of them:
+</code></pre>
+<pre><code>export type MaximumFootnotes = '1' | '2' | '3' | '4' | '5';
+
+type MyFootnotes = {
+  [key in MaximumFootnotes]?: string;
+};
+</code></pre>
+<h3>Generating repeated blocks of code.</h3>
+<p>This is something that Github CoPilot does well with sometimes. My only complaint there is it often takes a while for Github Copilot to figure out what I'm doing.</p>
+<p>As an experiment, I tried using ChatGPT to do it in the following manner</p>
+<pre><code>> 🧍 I'm going to give you a list of Javascript constants. For each constant, give me code with the following structure and use the comment at the end of the line as the return value for the getTitle function
+</code></pre>
+<pre><code>export [ MY_CONSTANT ]: {
+	getConstant: () => MY_CONSTANT,
+	getTitle: () => translate('TITLE'),
+}
+</code></pre>
+<pre><code>> 🤖 Sure, I'd be happy to help you with that. Please provide me with the list of Javascript constants.
+</code></pre>
+<pre><code>export const FOO = 'foo'; // This is foo
+export const BAR = 'bar'; // This is bar
+export const BAZ = 'baz'; // This is baz
+</code></pre>
+<pre><code>> 🤖 Here is the code structure you requested for the given constants:
+</code></pre>
+<pre><code>export [ FOO ]: {
+	getConstant: () => FOO,
+	getTitle: () => translate('This is foo'),
+}
+export [ BAR ]: {
+	getConstant: () => BAR,
+	getTitle: () => translate('This is bar'),
+}
+export [ BAZ ]: {
+	getConstant: () => BAZ,
+	getTitle: () => translate('This is baz'),
+}
+</code></pre>
+<pre><code>> 🧍 Now give me the Javascript import statement for all of the constants.
+>
+> 🤖 Sure, here's the import statement for all the constants:
+</code></pre>
+<pre><code>import {
+	FOO,
+	BAR,
+	BAZ
+} from './constants';
+</code></pre>
+<h3>Generating a triage schedule.</h3>
+<p>We needed a schedule for my team where each person was in charge of triaging incoming issues for two weeks.</p>
+<pre><code>> 🧍 I'm going to give you a comma-separated list of names. Please put the list in random order starting with Mark and ending with Alice?
+> Mark, Alice, Beth, Charlie, David, Eddie
+>
+> 🤖 Sure, here are the names in a randomized order starting with Mark and ending with Alice:
+> 🤖 Mark, Beth, David, Eddie, Charlie, Alice.
+>
+> 🧍 Using that order, give me a 6 month schedule where each person is in charge for two week.
+>
+> 🤖 Sure, here is a 6-month schedule starting with Mark and ending with Alice, where each person is in charge for two weeks:
+> 🤖 Mar 27 - Apr 9: Mark
+> 🤖 Apr 10 - Apr 23: Beth
+> 🤖 Apr 24 - May 7: David
+> 🤖 May 8 - May 21: Eddie
+> 🤖 May 22 - Jun 4: Charlie
+> 🤖 Jun 5 - Jun 18: Alice
+> 🤖 Jun 19 - Jul 2: Mark
+> 🤖 Jul 3 - Jul 16: Beth
+> 🤖 Jul 17 - Jul 30: David
+> 🤖 Jul 31 - Aug 13: Eddie
+> 🤖 Aug 14 - Aug 27: Charlie
+> 🤖 Aug 28 - Sep 10: Beth
+</code></pre>
+<h3>SQL queries.</h3>
+<p>I have a personal project that's a web-based image gallery. Images can be assigned any number of tags. I've been working on a feature that lets you query all images that have one or more tags (eg <code>/tags/pets+cute</code>) and was feeling lazy coming up with the SQL query.</p>
+<pre><code>> 🧍 Write a sql query which shows all images that have all of the specified tag ids.
+>
+> 🤖 To find all images that have all of the specified tag IDs, you can use the following query:
+</code></pre>
+<pre><code>SELECT i.*
+FROM images i
+JOIN image_tags it ON i.id = it.image_id
+WHERE it.tag_id IN (tag_id_1, tag_id_2, ..., tag_id_n)
+GROUP BY i.id
+HAVING COUNT(*) = n
+</code></pre>
+]]></content:encoded>
+            <author>info@biek.org (Mark Biek)</author>
+        </item>
         <item>
             <title><![CDATA[Learning a Large System]]></title>
             <link>https://mark.biek.org//2022/12/learning-a-large-system</link>
@@ -491,53 +862,6 @@ let bad2: MyType = {
 <h2>Update</h2>
 <p>The aforementioned <a href="https://github.com/acrobertson">coworker</a> also showed me a nice way to do the same as the above using Interfaces which gives you slightly nicer error messages.</p>
 <p><a href="https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgEJwM4oN4CgCQYwYANhAFzIZhSgDmA3AWAJ4AOFyA5AG5wkBXCF2QAfbiAD2YABb0uTAL65coSLEQoAavyEAVdiggAPSCAAmGNJhzNDlXruFN8fQZ2q0QjXMtXhoeCRkADlpOW8DDmQTM0trLGQ8QntuNyEFAnTOEAgeaCUVVmiAWRYolABeZB13CrFQ8PoKplwyMGQ6SUlzSjL66uSiUk4uPTkrYCs4Tu7zZEkAIwArCAQwLgAaOw4HbK2spwcZ-d9WtogOxbhzAEY+8sNkQeZiMgdxqeQvma6ehZWaw22xSuzSTgOila7WQ13MACYHgMkq8Rh8Jt9prN-ktVusDqDRlJZPIQdljsSZNBkKcoUA">Typescript playground example</a></p>
-]]></content:encoded>
-            <author>info@biek.org (Mark Biek)</author>
-        </item>
-        <item>
-            <title><![CDATA[Recreating Laravel Accessor attributes]]></title>
-            <link>https://mark.biek.org//2021/04/recreating-laravel-accessor-attributes</link>
-            <guid>https://mark.biek.org//2021/04/recreating-laravel-accessor-attributes</guid>
-            <pubDate>Thu, 08 Apr 2021 18:15:00 GMT</pubDate>
-            <description><![CDATA[<p><a href="https://laravel.com">Laravel</a> models have a great feature called <a href="https://laravel.com/docs/8.x/eloquent-mutators#defining-an-accessor">Accessors</a>.</p>
-<p>The basic idea is that you define a class method like this</p>
-<pre><code>public function getFullNameAttribute() {
-	return "{$this->first_name} {$this->last_name}";
-}
-</code></pre>
-<p>Then doing something like <code>$myClass->full_name</code> actually executes the <code>getFullNameAttribute</code> function.</p>
-<p>Obviously Laravel's model class is much more full-featured and can do a lot more.</p>
-<p>That said, it's pretty easy to mimic Laravel's Accessor functionality.</p>
-<p>The first piece is a simple <code>Str</code> class which turns <a href="https://en.wikipedia.org/wiki/Snake_case">snake-case</a> names into <a href="https://en.wikipedia.org/wiki/Camel_case">camel-case</a> names. In a real Laravel application, you're better off using the <a href="https://laravel.com/docs/8.x/helpers">Laravel Helpers</a>.</p>
-<p>Then we're going to implement a simple <code>Model</code> class</p>
-<p>Now we can create a simple <code>Person</code> class which extends our <code>Model</code></p>
-<p>In this case, we have two public properties for first &#x26; last name and then we've defined a <code>full_name</code> accessor.</p>
-<p>To tie it all together, we can use our new class like this</p>
-<p>The above script will output</p>
-<pre><code>First name: Mark
-Last name: Biek
-Full name: Mark Biek
-</code></pre>
-]]></description>
-            <content:encoded><![CDATA[<p><a href="https://laravel.com">Laravel</a> models have a great feature called <a href="https://laravel.com/docs/8.x/eloquent-mutators#defining-an-accessor">Accessors</a>.</p>
-<p>The basic idea is that you define a class method like this</p>
-<pre><code>public function getFullNameAttribute() {
-	return "{$this->first_name} {$this->last_name}";
-}
-</code></pre>
-<p>Then doing something like <code>$myClass->full_name</code> actually executes the <code>getFullNameAttribute</code> function.</p>
-<p>Obviously Laravel's model class is much more full-featured and can do a lot more.</p>
-<p>That said, it's pretty easy to mimic Laravel's Accessor functionality.</p>
-<p>The first piece is a simple <code>Str</code> class which turns <a href="https://en.wikipedia.org/wiki/Snake_case">snake-case</a> names into <a href="https://en.wikipedia.org/wiki/Camel_case">camel-case</a> names. In a real Laravel application, you're better off using the <a href="https://laravel.com/docs/8.x/helpers">Laravel Helpers</a>.</p>
-<p>Then we're going to implement a simple <code>Model</code> class</p>
-<p>Now we can create a simple <code>Person</code> class which extends our <code>Model</code></p>
-<p>In this case, we have two public properties for first &#x26; last name and then we've defined a <code>full_name</code> accessor.</p>
-<p>To tie it all together, we can use our new class like this</p>
-<p>The above script will output</p>
-<pre><code>First name: Mark
-Last name: Biek
-Full name: Mark Biek
-</code></pre>
 ]]></content:encoded>
             <author>info@biek.org (Mark Biek)</author>
         </item>

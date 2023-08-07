@@ -96,15 +96,15 @@ letting me know that it's captured another picture.
 A picture trapped forever, wanting for a cable and a computer old enough
 to connect to.
 
-  [Logitech Fotoman]: http://farm4.static.flickr.com/3593/3345542683_cfa3673b3f_o.jpg
-  [Pencil Lighthouse]: http://farm4.static.flickr.com/3069/2843592175_57da7cdeb1_o.jpg
-  [Me in Color]: http://farm4.static.flickr.com/3197/2844429532_e910c8f036_o.jpg
-  [Inner Child]: http://farm4.static.flickr.com/3142/2844428376_2de46b9333_o.jpg
-  [image]: http://farm4.static.flickr.com/3259/2843588821_10b78f5ae7_o.jpg
-  [1]: http://farm4.static.flickr.com/3054/2843590003_529422a76f_o.jpg
-  [2]: http://farm4.static.flickr.com/3262/2843589219_44129f357a_o.jpg
-  [3]: http://farm4.static.flickr.com/3125/2843589759_1ab0984403_o.jpg
-  [Merry Pranksters]: http://en.wikipedia.org/wiki/Furthur
-  [4]: http://farm4.static.flickr.com/3115/2844418454_93bdba0a91_o.jpg
-  [5]: http://farm4.static.flickr.com/3185/2843584363_1de92f2a77_o.jpg
-  [6]: http://farm4.static.flickr.com/3190/2844420720_bd4cde007d_o.jpg
+  [Logitech Fotoman]: https://farm4.static.flickr.com/3593/3345542683_cfa3673b3f_o.jpg
+  [Pencil Lighthouse]: https://farm4.static.flickr.com/3069/2843592175_57da7cdeb1_o.jpg
+  [Me in Color]: https://farm4.static.flickr.com/3197/2844429532_e910c8f036_o.jpg
+  [Inner Child]: https://farm4.static.flickr.com/3142/2844428376_2de46b9333_o.jpg
+  [image]: https://farm4.static.flickr.com/3259/2843588821_10b78f5ae7_o.jpg
+  [1]: https://farm4.static.flickr.com/3054/2843590003_529422a76f_o.jpg
+  [2]: https://farm4.static.flickr.com/3262/2843589219_44129f357a_o.jpg
+  [3]: https://farm4.static.flickr.com/3125/2843589759_1ab0984403_o.jpg
+  [Merry Pranksters]: https://en.wikipedia.org/wiki/Furthur
+  [4]: https://farm4.static.flickr.com/3115/2844418454_93bdba0a91_o.jpg
+  [5]: https://farm4.static.flickr.com/3185/2843584363_1de92f2a77_o.jpg
+  [6]: https://farm4.static.flickr.com/3190/2844420720_bd4cde007d_o.jpg
