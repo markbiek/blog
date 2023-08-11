@@ -11,7 +11,7 @@ export default function CV() {
 				<p>
 					Mark Biek
 					<br />
-					<a href="mailto:info@biek.org">info@biek.org</a>
+					<a href="mailto:mark@janustech.net">mark@janustech.net</a>
 					<br />
 					+1 502-509-9545
 					<br />
