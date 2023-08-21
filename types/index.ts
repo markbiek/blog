@@ -14,6 +14,11 @@ export interface PostType {
 	url: string;
 }
 
+export interface WordPressPost {
+	title: string;
+	content: string;
+}
+
 export type PostTitleType = Pick<PostType, "title" | "date" | "url">;
 
 export interface PostViewProps {

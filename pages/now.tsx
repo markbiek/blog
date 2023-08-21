@@ -1,6 +1,7 @@
 import Layout from "../views/Layout";
 
 import { CmsPageType } from "../types";
+import { getWordPressPostBySlug } from "../lib/api";
 
 interface NowProps {
 	post: CmsPageType;
@@ -21,14 +22,7 @@ export default function Now({ post }: NowProps) {
 }
 
 export async function getStaticProps() {
-	const url = "https://mark.biek.dev/wp-json/wp/v2/pages?slug=now";
-	const res = await fetch(url);
-	const posts = await res.json();
-
-	const post = {
-		title: posts[0].title.rendered,
-		content: posts[0].content.rendered,
-	};
+	const post = await getWordPressPostBySlug("now");
 
 	return {
 		props: { post },

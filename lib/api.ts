@@ -3,7 +3,7 @@ import { join } from 'path';
 
 import markdownToHtml from './markdownToHtml';
 
-import { PostType, PostTitleType } from '../types';
+import { PostType, PostTitleType, WordPressPost } from '../types';
 
 interface PostDetails {
 	meta: string[];
@@ -152,6 +152,19 @@ export async function getPosts() {
 export async function getMostRecentPost() {
 	const files = postFiles('desc');
 	const post = await postFromFile(files[0]);
+
+	return post;
+}
+
+export async function getWordPressPostBySlug(slug: string) {
+	const url = `https://mark.biek.dev/wp-json/wp/v2/pages?slug=${slug}`;
+	const res = await fetch(url);
+	const posts = await res.json();
+
+	const post = {
+		title: posts[0].title.rendered,
+		content: posts[0].content.rendered,
+	};
 
 	return post;
 }
