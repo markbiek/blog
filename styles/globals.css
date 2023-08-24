@@ -180,3 +180,28 @@ main {
 
 .image-grid-item img {
 }
+
+.wp-block-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: normal;
+}
+
+.wp-block-gallery .wp-block-image {
+	width: calc(20% - var(--wp--style--unstable-gallery-gap, 16px)*.8);
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 100%;
+	position: relative;
+	text-align: center;
+	margin: 0.5em;
+}
+
+.wp-block-gallery .wp-block-image img {
+	display: block;
+	height: auto;
+	max-width: 100% !important;
+	width: auto;
+}
