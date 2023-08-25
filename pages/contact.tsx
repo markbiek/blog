@@ -1,24 +1,10 @@
-import Layout from "../views/Layout";
+import CmsPage from "../components/CmsPage";
 
-import { CmsPageType } from "../types";
+import { CmsPageProps } from "../types";
 import { getWordPressPostBySlug } from "../lib/api";
 
-interface ContactProps {
-	post: CmsPageType;
-}
-
-export default function Contact({post}: ContactProps) {
-	const { title, content } = post;
-
-	return (
-		<Layout>
-			<article>
-				<h1>{title}</h1>
-
-				<div dangerouslySetInnerHTML={{ __html: content }} />
-			</article>
-		</Layout>
-	);
+export default function Contact({post}: CmsPageProps ) {
+	return <CmsPage post={post} />;
 }
 
 export async function getStaticProps() {

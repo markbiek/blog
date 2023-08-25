@@ -3,6 +3,10 @@ export interface CmsPageType {
 	content: string;
 }
 
+export interface CmsPageProps {
+	post: CmsPageType;
+}
+
 export interface PostType {
 	title: string;
 	date: string;
