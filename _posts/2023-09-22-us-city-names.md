@@ -77,7 +77,10 @@ And the most common city names (which I defined as cities that were duplicated 1
 * Oak Grove (15)
 * Union (15)
 
+Here's a [Github project](https://github.com/markbiek/us-city-frequency) which has a basic composer file and docker setup for running locally.
+
 And here's the code for parsing the data:
+
 
 ```
 <?php
