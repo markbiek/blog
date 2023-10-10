@@ -7,7 +7,8 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"export": "next export"
+		"export": "next export",
+		"create-post": "node bin/create-post.js"
 	},
 	"dependencies": {
 		"@types/node": "^16.11.1",
