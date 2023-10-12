@@ -84,7 +84,24 @@ export default function CV() {
 						</a>
 						.
 					</li>
-					<li>PHP development for the WordPress.com backend.</li>
+					<li>
+						PHP development for <a href="https://jetpack.com/">Jetpack</a>
+						<br />
+						<a href="https://github.com/Automattic/jetpack/pulls?q=is%3Apr+is%3Aclosed+author%3Amarkbiek">
+							View my Jetpack PRs
+						</a>
+					</li>
+					<li>
+						Worked on implementing Tumblr's{" "}
+						<a href="https://github.com/Automattic/stream-builder/">
+							StreamBuilder
+						</a>{" "}
+						on WordPress.com <br />
+						<a href="https://github.com/Automattic/stream-builder/pulls?q=is%3Apr+author%3Amarkbiek+is%3Aclosed">
+							View my StreamBuilder PRs
+						</a>
+					</li>
+					<li>Other PHP development for the WordPress.com backend.</li>
 				</ul>
 				<h4 className={styles.job_title}>
 					Development Team Lead &mdash;
