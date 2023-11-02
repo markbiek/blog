@@ -53,6 +53,10 @@
 	page-break-after: always;
 }
 
+.hidden {
+	display: none;
+}
+
 @media print {
 	.hide_print {
 		display: none;

@@ -224,7 +224,7 @@ export default function CV() {
 							Studymaker, LLC{" "}
 						</a>
 					</span>{" "}
-					<span className={styles.when}>(2002 - Present)</span>
+					<span className={styles.when}>(2002 - 2022)</span>
 				</h4>
 				<p>
 					<span className={styles.tag}>php</span>
@@ -395,7 +395,7 @@ export default function CV() {
 					<span className={styles.tag}>asp.net-mvc</span>
 					<span className={styles.tag}>php</span>
 				</p>
-				<ul className={`${styles.did} ${styles.hide_print}`}>
+				<ul className={`${styles.did} ${styles.hide_print} ${styles.hidden}`}>
 					<li>
 						Lead developer on custom Windows service to route data from an AIX
 						interface to SQL Server. Service requires high availability in order
