@@ -17,6 +17,7 @@ const promptQuestion = (question) => {
 };
 
 const generateSlug = (title) => {
+	title = title.toLowerCase().replace(/[^a-z0-9 ]/g, "");
 	return title.toLowerCase().replace(/\s+/g, "-");
 };
 
