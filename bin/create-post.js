@@ -22,11 +22,16 @@ const generateSlug = (title) => {
 };
 
 (async () => {
+	let defaultDate = new Date().toISOString();
+
 	const title = await promptQuestion("Title: ");
+	const inputDate = await promptQuestion(
+		`Enter date/time (default is ${defaultDate}): `
+	);
 	const category = await promptQuestion("Category: ");
 	const tags = await promptQuestion("Tags (comma separated): ");
 
-	const date = new Date();
+	const date = inputDate ? new Date(inputDate) : new Date(defaultDate);
 	const formattedDate = `${date.getFullYear()}-${String(
 		date.getMonth() + 1
 	).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
