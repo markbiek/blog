@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import dayjs from 'dayjs';
+import Link from "next/link";
+import dayjs from "dayjs";
 
-import { PostType } from '../types';
+import { PostType } from "../types";
 
 interface PostProps {
 	post: PostType;
@@ -9,7 +9,7 @@ interface PostProps {
 export default function Post({ post }: PostProps) {
 	const { title, date, url, html } = post;
 
-	const fmtDate = dayjs(date).format('YYYY-MM');
+	const fmtDate = dayjs(date).format("YYYY-MM-DD");
 
 	return (
 		<>
@@ -19,7 +19,7 @@ export default function Post({ post }: PostProps) {
 				</Link>
 			</h2>
 			<h4>
-				<span className='post-date'>{fmtDate}</span>
+				<span className="post-date">{fmtDate}</span>
 			</h4>
 			<article
 				dangerouslySetInnerHTML={{
