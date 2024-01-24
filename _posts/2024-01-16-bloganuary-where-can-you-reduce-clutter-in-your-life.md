@@ -1,5 +1,5 @@
 Title: Bloganuary: Where can you reduce clutter in your life?
-Date: 2014-01-16T15:23:14.183Z
+Date: 2024-01-16T15:23:14.183Z
 Author: mark
 Category: personal
 Tags: bloganuary
