@@ -240,6 +240,26 @@ export default function CV() {
 				</p>
 				<ul className={styles.did}>
 					<li>
+						Development on Studymaker's Recover platform for the
+						[CDC](https://www.cdc.gov/).
+						<ul className={styles.subdid}>
+							<li>
+								Worked on the web platform and admin website using Laravel PHP
+								and React.
+							</li>
+							<li>
+								Developed the process to pull data from the CDC's Google Cloud
+								instance to import into the website.
+							</li>
+							<li>
+								Developed the process to export processed data as Parquet files
+								for CDC reporting. This was later replaced by a special database
+								instance which CDC connects to directly.
+							</li>
+							<li>Set up the AWS resources for hosting.</li>
+						</ul>
+					</li>
+					<li>
 						Development on Studymaker's EDC platform for tracking medical
 						research study data.{" "}
 						<ul className={styles.subdid}>
