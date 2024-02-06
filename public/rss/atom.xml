@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mark.biek.org/</id>
     <title>Mark Biek - Blog</title>
-    <updated>2023-08-07T16:15:17.201Z</updated>
+    <updated>2024-02-06T21:35:13.091Z</updated>
     <generator>Feed for Mark Biek's Blog</generator>
     <author>
         <name>Mark Biek</name>
@@ -13,375 +13,53 @@
     <link rel="self" href="https://mark.biek.org//rss/atom.xml"/>
     <logo>https://static.biek.org/blog/img/mark-in-code.png</logo>
     <icon>https://mark.biek.org//unicorn.svg</icon>
-    <rights>All rights reserved 2023, Mark Biek</rights>
+    <rights>All rights reserved 2024, Mark Biek</rights>
     <entry>
-        <title type="html"><![CDATA[Let's Talk About AI]]></title>
-        <id>https://mark.biek.org//2023/05/lets-talk-about-ai</id>
-        <link href="https://mark.biek.org//2023/05/lets-talk-about-ai"/>
-        <updated>2023-05-03T18:13:18.000Z</updated>
-        <summary type="html"><![CDATA[<h3>Let's talk about AI</h3>
-<p>Obviously AI chat bots (like ChatGPT, Bing AI, Google Bard, etc) are the hotness for 2023. There's a lot of discussion about the ways AI is going to affect work, education, and society at large.</p>
-<p>Will it help bridge the divides created by the Internet and social media? Or will it just make things worse? Are jobs going to disappear because of AI? If so, which jobs? Will software development become a thing of the past? How will AI transform education (or not)?</p>
-<h3>AI in Education</h3>
-<p>The article <a href="https://biblioracle.substack.com/p/chatgpt-cant-kill-anything-worth">ChatGPT Can't Kill Anything Worth Preserving</a> is my favorite take on ChatGPT in education. Please go and read this article, then go back and read it again.</p>
-<p>The short version is, if your students can do entire assignments you've given them using ChatGPT, you're assigning crappy assignments. That said, we want to be careful and intentional about <em>how</em> we let AI do things for us.</p>
-<p>While I find Paul Graham to be hit or miss (love his <a href="https://paulgraham.com/writing44.html">stuff on writing</a>), I definitely think this <a href="https://twitter.com/paulg/status/1655925905527537666">Twitter thread</a> brings up a lot of important points about AI and writing.</p>
-<p>If you don't want to read the whole thread, just read this quote:</p>
-<blockquote>
-<p>I'm not warning about the switch to AI in the hope of averting it, but to warn the few people who care enough to save themselves, or their kids. Learn to use AI. It's a powerful technology, and you should know how to use it. But also learn how to write.</p>
-</blockquote>
-<p>I think ChatGPT and its ilk have the power to radically transform education for the better. I don't know of a single teenager who adores school anymore. Maybe these new tools can take away the busy-work they get buried in and let them get back to the joy and process of learning.</p>
-<p>The question is, how can we fit new tools like AI into a broken and underfunded education system? My fear is that these tools will only be used by the schools with the most money. In the US, that means that private schools will reap the benefits long before public schools and only widen the education gap.</p>
-<h3>Bing Search</h3>
-<p>Microsoft <a href="https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/">announced</a> a new AI-powered version of Bing and the initial reviews of it are a bit...unhinged.</p>
-<ul>
-<li><a href="https://simonwillison.net/2023/Feb/15/bing/">Bing: "I will not harm you unless you harm me first"</a>.</li>
-<li><a href="https://dkb.blog/p/bing-ai-cant-be-trusted">Bing AI Can't be Trusted</a></li>
-</ul>
-<p>The short version is that Bing just makes stuff up. It takes all of this information from different sources and uses to answer questions with total nonsense. To be fair, ChatGPT can and does do the same thing. But ChatGPT isn't posing as <strong>A SEARCH ENGINE</strong>.</p>
-<p>On the surface, some of Bing AI's behavior is funny but the thought of people using it to, say, <a href="https://dkb.blog/i/102643499/gap-financial-statement-summary">get financial information</a> (or political details or anything of important) is terrifying.</p>
-<p>Most of the people using this are going to take the information from different AI-powered systems as absolute fact. As AI generated video gets better and better, this has far reaching and dangerous consequences for news media. In the end, my biggest fear is that this just becomes another avenue (or maybe THE avenue) for dangerous, false information to spread online.</p>
-<p>It's not all doom and gloom though. When used properly, things like ChatGPT can definitely be a productivity multiplier.</p>
-<h2>Recent things I've used ChatGPT for</h2>
-<p>I don't think that AI is going to do away with software development. But I <em>do</em> think that software developers who know how to leverage AI are going to have an advantage in the job market. Just like good Internet searches are a skill, so is writing good ChatGPT prompts.</p>
-<p>It'll be interesting to see how this changes the shape of <em>learning</em> software development though. I think AI will be a great learning resource. But, like anything else, be careful that you're not using AI as too much of a crutch. Use it to augment and refine what you're learning, but make sure you're still learning all the core concepts.</p>
-<p>Here are a handful of things, personal and professional, that ChatGPT was super helpful with.</p>
-<h3>A dice roller</h3>
-<p>It's slow-ish but, in a pinch, you can ask ChatGPT to roll dice for you.</p>
-<pre><code>> 🧍 Can you be a dice roller?
-> 🤖 Yes, I can be a virtual dice roller. What kind of dice would you like me to roll for you?
-> 🧍 3d8
-> 🤖 Certainly! Here are your 3 rolls of an 8-sided die:
-> 🤖 Roll 1: 6
-> 🤖 Roll 2: 2
-> 🤖 Roll 3: 8
-</code></pre>
-<p>I won't try to speak to how good the randomness is. It's probably insufficient for anything security-related but should be fine for a game.</p>
-<h3>Automation script using simple-git and Inquirer.js.</h3>
-<p>I needed to write an automation script using <a href="https://github.com/simple-git-js/simple-git">simple-git</a> (for git operations) and <a href="https://github.com/SBoudrias/Inquirer.js">Inquirer.js</a> (for nice user prompts).</p>
-<pre><code>> 🧍 Can you read the documentation for the libraries https://github.com/simple-git-js/simple-git and https://github.com/SBoudrias/Inquirer.js?
-> 🤖 Yes, I can read the documentation for those libraries. Would you like me to provide you with a summary or answer any specific questions?
-> 🧍 I have specific questions.
-> 🤖 Please go ahead and ask your questions.
-> 🧍 How would I use simple-git to check the git status of the current directory?
-</code></pre>
-<p>The first response was accurate (and useful) because it broke down the steps of creating a new simple-git instance and calling <code>git.status</code>. The only problem was that it used Promises and callbacks.</p>
-<p>So then I asked</p>
-<pre><code>> 🧍 Can you rewrite that using async/await?
-> 🤖 Sure! Here's how you can use async/await to check the git status of the current directory using the simple-git library:
-</code></pre>
-<pre><code>const simpleGit = require('simple-git');
-
-async function getStatus() {
-  try {
-    const git = simpleGit();
-    const status = await git.status();
-    console.log(status);
-  } catch (err) {
-    console.error(err);
-  }
-}
-
-getStatus();
-</code></pre>
-<p>I kept periodically asking ChatGPT to provide code snippets of various actions using the two libraries. It often forgot that I wanted <code>async/await</code> code or that I was using ESM (<code>import whatever from 'whatever'</code>) instead of CommonJS (<code>const whatever = require('whatever')</code>) but I either asked it to rewrite the code or just tweaked it myself.</p>
-<p>There were a number of cases where I didn't like the code it generated and refactored it or wrote it differently. Either way, it still saved me a ton of time trying to figure out how to use the libraries.</p>
-<h3>Comparing raw tables of data.</h3>
-<p>I had two spreadsheets of pricing data for different currencies that I need to compare and double-check. I was concerned about duplicate rows and mismatched values. As an added bonus, I didn't even have to format the data. I just copied straight from Google Sheets into ChatGPT.</p>
-<p>In reality, these spreadsheets were quite large but I can demonstrate how ChatGPT helped using a smaller dataset.</p>
-<pre><code>> 🧍 I'm going to give you a table of currencies and prices
-> 
-> 🧍 currency,price
-> 🧍 AUD,100
-> 🧍 EUR,200
-> 🧍 USD,300
->
-> 🤖 Thank you for providing me with the table of currencies and prices. Is there anything specific you would like me to do with this information, or do you have any questions regarding currencies and exchange rates?
-> 
-> 🧍 I'm going to give you another table. Can you tell me if all the prices for each currency match the first table?
-> 
-> 🧍 currency,price
-> 🧍 USD 400
-> 🧍 USD 300
-> 🧍 EUR 200
-> 🧍 AUD 100
->
-> 🤖 Sure. Here's a comparison of the two tables. As we can see, the prices for AUD and EUR match in both tables, but the prices for USD differ. In the first table, the price for USD is 300, whereas in the second table, there are two prices for USD, 300 and 400.
-</code></pre>
-<h3>Writing TypeScript stuff.</h3>
-<p>My TypeScript knowledge is OK but not great. I've found a number of cases where ChatGPT gave me better answers than a regular Internet search.</p>
-<pre><code>> 🧍 Let's say I have this type
-> 🧍 export type MaximumFootnotes = '1' | '2' | '3' | '4' | '5';
-> 🧍 How can I make a new object type that only allows keys that are the values in MaximumFootnotes but doesn't require all of them?
-> 
-> 🤖 Here's an example of how you can define a new object type MyFootnotes that allows keys that are values in MaximumFootnotes, but doesn't require all of them:
-</code></pre>
-<pre><code>export type MaximumFootnotes = '1' | '2' | '3' | '4' | '5';
-
-type MyFootnotes = {
-  [key in MaximumFootnotes]?: string;
-};
-</code></pre>
-<h3>Generating repeated blocks of code.</h3>
-<p>This is something that Github CoPilot does well with sometimes. My only complaint there is it often takes a while for Github Copilot to figure out what I'm doing.</p>
-<p>As an experiment, I tried using ChatGPT to do it in the following manner</p>
-<pre><code>> 🧍 I'm going to give you a list of Javascript constants. For each constant, give me code with the following structure and use the comment at the end of the line as the return value for the getTitle function
-</code></pre>
-<pre><code>export [ MY_CONSTANT ]: {
-	getConstant: () => MY_CONSTANT,
-	getTitle: () => translate('TITLE'),
-}
-</code></pre>
-<pre><code>> 🤖 Sure, I'd be happy to help you with that. Please provide me with the list of Javascript constants.
-</code></pre>
-<pre><code>export const FOO = 'foo'; // This is foo
-export const BAR = 'bar'; // This is bar
-export const BAZ = 'baz'; // This is baz
-</code></pre>
-<pre><code>> 🤖 Here is the code structure you requested for the given constants:
-</code></pre>
-<pre><code>export [ FOO ]: {
-	getConstant: () => FOO,
-	getTitle: () => translate('This is foo'),
-}
-export [ BAR ]: {
-	getConstant: () => BAR,
-	getTitle: () => translate('This is bar'),
-}
-export [ BAZ ]: {
-	getConstant: () => BAZ,
-	getTitle: () => translate('This is baz'),
-}
-</code></pre>
-<pre><code>> 🧍 Now give me the Javascript import statement for all of the constants.
->
-> 🤖 Sure, here's the import statement for all the constants:
-</code></pre>
-<pre><code>import {
-	FOO,
-	BAR,
-	BAZ
-} from './constants';
-</code></pre>
-<h3>Generating a triage schedule.</h3>
-<p>We needed a schedule for my team where each person was in charge of triaging incoming issues for two weeks.</p>
-<pre><code>> 🧍 I'm going to give you a comma-separated list of names. Please put the list in random order starting with Mark and ending with Alice?
-> Mark, Alice, Beth, Charlie, David, Eddie
->
-> 🤖 Sure, here are the names in a randomized order starting with Mark and ending with Alice:
-> 🤖 Mark, Beth, David, Eddie, Charlie, Alice.
->
-> 🧍 Using that order, give me a 6 month schedule where each person is in charge for two week.
->
-> 🤖 Sure, here is a 6-month schedule starting with Mark and ending with Alice, where each person is in charge for two weeks:
-> 🤖 Mar 27 - Apr 9: Mark
-> 🤖 Apr 10 - Apr 23: Beth
-> 🤖 Apr 24 - May 7: David
-> 🤖 May 8 - May 21: Eddie
-> 🤖 May 22 - Jun 4: Charlie
-> 🤖 Jun 5 - Jun 18: Alice
-> 🤖 Jun 19 - Jul 2: Mark
-> 🤖 Jul 3 - Jul 16: Beth
-> 🤖 Jul 17 - Jul 30: David
-> 🤖 Jul 31 - Aug 13: Eddie
-> 🤖 Aug 14 - Aug 27: Charlie
-> 🤖 Aug 28 - Sep 10: Beth
-</code></pre>
-<h3>SQL queries.</h3>
-<p>I have a personal project that's a web-based image gallery. Images can be assigned any number of tags. I've been working on a feature that lets you query all images that have one or more tags (eg <code>/tags/pets+cute</code>) and was feeling lazy coming up with the SQL query.</p>
-<pre><code>> 🧍 Write a sql query which shows all images that have all of the specified tag ids.
->
-> 🤖 To find all images that have all of the specified tag IDs, you can use the following query:
-</code></pre>
-<pre><code>SELECT i.*
-FROM images i
-JOIN image_tags it ON i.id = it.image_id
-WHERE it.tag_id IN (tag_id_1, tag_id_2, ..., tag_id_n)
-GROUP BY i.id
-HAVING COUNT(*) = n
-</code></pre>
+        <title type="html"><![CDATA[We're Breaking the Web (again)]]></title>
+        <id>https://mark.biek.org//2024/02/were-breaking-the-web-again</id>
+        <link href="https://mark.biek.org//2024/02/were-breaking-the-web-again"/>
+        <updated>2024-02-06T21:21:48.867Z</updated>
+        <summary type="html"><![CDATA[<p>I was accessing a medical website the other day (using Firefox, my go-to browser since 2013) and I was greeted with this lovely popup.</p>
+<p>I was immediately reminded of the bad old days when every other website (especially commercial ones) had this on them somewhere:</p>
+<p>We're at a point where Google Chrome is currently the default browser for just about everyone. With Chrome having 65% of the browser market, nobody else is even close. The next highest is Safari (primarily from iPhone use) at 19%. Microsoft Edge is 5%, Firefox is 3%.</p>
+<p>Let's be perfectly clear, this is not a good thing. The Free Software Foundation (who, yes, has their issues as an organization) has a <a href="https://www.gnu.org/proprietary/malware-google.en.html">great breakdown of why Chrome is so terrible from a privacy perspective</a>. There are <a href="https://duckduckgo.com/?q=%27google+chrome+is+spyware%27&#x26;t=ffab&#x26;atb=v354-1&#x26;ia=web">loads of other articles</a> saying the same things and more.</p>
+<p>Multiple times a week, I try to access a website using Firefox and it doesn't work at all. Sometimes I can get it to work by disabling some of Firefox's privacy protections but I often have to pull out Google Chrome just to do what I need.</p>
+<p>It's absolutely maddening because we've been here before with Internet Explorer.</p>
+<p>Let's start at the beginning.</p>
+<p>After numerous free trials of the walled-gardens of <a href="https://en.wikipedia.org/wiki/AOL">AOL</a> and <a href="https://en.wikipedia.org/wiki/CompuServe">CompuServe</a>, I got access to the open Internet in roughly 1992.</p>
+<p>Our provider was <a href="https://en.wikipedia.org/wiki/Delphi_(online_service)">Delphi</a> and while it also had a walled-garden aspect to it, it also had general-use FTP, telnet, Usenet, and <a href="https://en.wikipedia.org/wiki/Gopher_(protocol)">Gopher</a>.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/World_Wide_Web#History">web</a> was still in its infancy. There were a handful of places (Delphi) included offering limited text-based web access but I don't think I ever used it, sticking mainly to Gopher. Gopher was <em>awesome</em> and I spent hours going through different Gopher sites all over the world.</p>
+<p>It's important to note that, at this point, everything was still text. Gopher didn't have images or any kind of styling. I wouldn't get to experience any kind of formatted HTML until I took a Human Computer Interaction psychology class in college.</p>
+<p>At some point around in 1994, I got to start using <a href="https://en.wikipedia.org/wiki/Mosaic_(web_browser)">NCSA Mosaic</a> on various college computers. The next year brought access to <a href="https://en.wikipedia.org/wiki/Netscape_Navigator">Netscape Navigator</a> which felt absolutely space-age in comparison to Mosaic.</p>
+<p>From 1998 (IE4) until 2011 (IE9), Internet Explorer was the defacto browser for most people. Some sites didn't work in anything else. Other sites had popups encouraging you to use Internet Explorer. There were even sites that flat-out wouldn't let you access them with anything other than Internet Explorer.</p>
+<p>Internet Explorer was terrible. It didn't work well, it was a security nightmare, trying to build websites for it was maddening because they didn't implement any of the standards properly. Talk to any web developer who had to support IE6 - IE8 and they will curl up into a little ball and start weeping.</p>
+<p>I think I stuck with Netscape for personal use until the launch of <a href="https://en.wikipedia.org/wiki/Firefox">Firefox</a> in 2004. But I started working as a software developer in 1998 and using Internet Explorer was pretty much a requirement in the business world, both using it and developing for it.</p>
+<p>I did spend a couple of years using Google Chrome and I loved it at first. It was fast, tidy, rendered websites well, and wasn't quite the spyware monster that it is now.</p>
+<p>I don't remember the exact year but, at some point, Chrome started trying to force you to sign into it with a Google account. As someone with multiple Google accounts (personal, work, etc), this quickly became a nightmare and I decided to give <a href="https://www.mozilla.org/en-US/">Firefox</a> another try.</p>
+<p>I was delighted to find how much faster it had gotten, how good the privacy controls were, how nice it was to use for development, and so on. I've been using Firefox ever since and it gets better with each iteration. There are versions for Android and iOS which are both great.</p>
+<p>But I fear that we're rapidly approaching a world where it won't be possible to use Firefox (or any of the other smaller browsers like <a href="https://www.opera.com/">Opera</a> or <a href="https://brave.com/">Brave</a>.</p>
+<p>We made so much progress after the decline of Internet Explorer. But now we've picked a new browser to break the web again.</p>
 ]]></summary>
-        <content type="html"><![CDATA[<h3>Let's talk about AI</h3>
-<p>Obviously AI chat bots (like ChatGPT, Bing AI, Google Bard, etc) are the hotness for 2023. There's a lot of discussion about the ways AI is going to affect work, education, and society at large.</p>
-<p>Will it help bridge the divides created by the Internet and social media? Or will it just make things worse? Are jobs going to disappear because of AI? If so, which jobs? Will software development become a thing of the past? How will AI transform education (or not)?</p>
-<h3>AI in Education</h3>
-<p>The article <a href="https://biblioracle.substack.com/p/chatgpt-cant-kill-anything-worth">ChatGPT Can't Kill Anything Worth Preserving</a> is my favorite take on ChatGPT in education. Please go and read this article, then go back and read it again.</p>
-<p>The short version is, if your students can do entire assignments you've given them using ChatGPT, you're assigning crappy assignments. That said, we want to be careful and intentional about <em>how</em> we let AI do things for us.</p>
-<p>While I find Paul Graham to be hit or miss (love his <a href="https://paulgraham.com/writing44.html">stuff on writing</a>), I definitely think this <a href="https://twitter.com/paulg/status/1655925905527537666">Twitter thread</a> brings up a lot of important points about AI and writing.</p>
-<p>If you don't want to read the whole thread, just read this quote:</p>
-<blockquote>
-<p>I'm not warning about the switch to AI in the hope of averting it, but to warn the few people who care enough to save themselves, or their kids. Learn to use AI. It's a powerful technology, and you should know how to use it. But also learn how to write.</p>
-</blockquote>
-<p>I think ChatGPT and its ilk have the power to radically transform education for the better. I don't know of a single teenager who adores school anymore. Maybe these new tools can take away the busy-work they get buried in and let them get back to the joy and process of learning.</p>
-<p>The question is, how can we fit new tools like AI into a broken and underfunded education system? My fear is that these tools will only be used by the schools with the most money. In the US, that means that private schools will reap the benefits long before public schools and only widen the education gap.</p>
-<h3>Bing Search</h3>
-<p>Microsoft <a href="https://blogs.microsoft.com/blog/2023/02/07/reinventing-search-with-a-new-ai-powered-microsoft-bing-and-edge-your-copilot-for-the-web/">announced</a> a new AI-powered version of Bing and the initial reviews of it are a bit...unhinged.</p>
-<ul>
-<li><a href="https://simonwillison.net/2023/Feb/15/bing/">Bing: "I will not harm you unless you harm me first"</a>.</li>
-<li><a href="https://dkb.blog/p/bing-ai-cant-be-trusted">Bing AI Can't be Trusted</a></li>
-</ul>
-<p>The short version is that Bing just makes stuff up. It takes all of this information from different sources and uses to answer questions with total nonsense. To be fair, ChatGPT can and does do the same thing. But ChatGPT isn't posing as <strong>A SEARCH ENGINE</strong>.</p>
-<p>On the surface, some of Bing AI's behavior is funny but the thought of people using it to, say, <a href="https://dkb.blog/i/102643499/gap-financial-statement-summary">get financial information</a> (or political details or anything of important) is terrifying.</p>
-<p>Most of the people using this are going to take the information from different AI-powered systems as absolute fact. As AI generated video gets better and better, this has far reaching and dangerous consequences for news media. In the end, my biggest fear is that this just becomes another avenue (or maybe THE avenue) for dangerous, false information to spread online.</p>
-<p>It's not all doom and gloom though. When used properly, things like ChatGPT can definitely be a productivity multiplier.</p>
-<h2>Recent things I've used ChatGPT for</h2>
-<p>I don't think that AI is going to do away with software development. But I <em>do</em> think that software developers who know how to leverage AI are going to have an advantage in the job market. Just like good Internet searches are a skill, so is writing good ChatGPT prompts.</p>
-<p>It'll be interesting to see how this changes the shape of <em>learning</em> software development though. I think AI will be a great learning resource. But, like anything else, be careful that you're not using AI as too much of a crutch. Use it to augment and refine what you're learning, but make sure you're still learning all the core concepts.</p>
-<p>Here are a handful of things, personal and professional, that ChatGPT was super helpful with.</p>
-<h3>A dice roller</h3>
-<p>It's slow-ish but, in a pinch, you can ask ChatGPT to roll dice for you.</p>
-<pre><code>> 🧍 Can you be a dice roller?
-> 🤖 Yes, I can be a virtual dice roller. What kind of dice would you like me to roll for you?
-> 🧍 3d8
-> 🤖 Certainly! Here are your 3 rolls of an 8-sided die:
-> 🤖 Roll 1: 6
-> 🤖 Roll 2: 2
-> 🤖 Roll 3: 8
-</code></pre>
-<p>I won't try to speak to how good the randomness is. It's probably insufficient for anything security-related but should be fine for a game.</p>
-<h3>Automation script using simple-git and Inquirer.js.</h3>
-<p>I needed to write an automation script using <a href="https://github.com/simple-git-js/simple-git">simple-git</a> (for git operations) and <a href="https://github.com/SBoudrias/Inquirer.js">Inquirer.js</a> (for nice user prompts).</p>
-<pre><code>> 🧍 Can you read the documentation for the libraries https://github.com/simple-git-js/simple-git and https://github.com/SBoudrias/Inquirer.js?
-> 🤖 Yes, I can read the documentation for those libraries. Would you like me to provide you with a summary or answer any specific questions?
-> 🧍 I have specific questions.
-> 🤖 Please go ahead and ask your questions.
-> 🧍 How would I use simple-git to check the git status of the current directory?
-</code></pre>
-<p>The first response was accurate (and useful) because it broke down the steps of creating a new simple-git instance and calling <code>git.status</code>. The only problem was that it used Promises and callbacks.</p>
-<p>So then I asked</p>
-<pre><code>> 🧍 Can you rewrite that using async/await?
-> 🤖 Sure! Here's how you can use async/await to check the git status of the current directory using the simple-git library:
-</code></pre>
-<pre><code>const simpleGit = require('simple-git');
-
-async function getStatus() {
-  try {
-    const git = simpleGit();
-    const status = await git.status();
-    console.log(status);
-  } catch (err) {
-    console.error(err);
-  }
-}
-
-getStatus();
-</code></pre>
-<p>I kept periodically asking ChatGPT to provide code snippets of various actions using the two libraries. It often forgot that I wanted <code>async/await</code> code or that I was using ESM (<code>import whatever from 'whatever'</code>) instead of CommonJS (<code>const whatever = require('whatever')</code>) but I either asked it to rewrite the code or just tweaked it myself.</p>
-<p>There were a number of cases where I didn't like the code it generated and refactored it or wrote it differently. Either way, it still saved me a ton of time trying to figure out how to use the libraries.</p>
-<h3>Comparing raw tables of data.</h3>
-<p>I had two spreadsheets of pricing data for different currencies that I need to compare and double-check. I was concerned about duplicate rows and mismatched values. As an added bonus, I didn't even have to format the data. I just copied straight from Google Sheets into ChatGPT.</p>
-<p>In reality, these spreadsheets were quite large but I can demonstrate how ChatGPT helped using a smaller dataset.</p>
-<pre><code>> 🧍 I'm going to give you a table of currencies and prices
-> 
-> 🧍 currency,price
-> 🧍 AUD,100
-> 🧍 EUR,200
-> 🧍 USD,300
->
-> 🤖 Thank you for providing me with the table of currencies and prices. Is there anything specific you would like me to do with this information, or do you have any questions regarding currencies and exchange rates?
-> 
-> 🧍 I'm going to give you another table. Can you tell me if all the prices for each currency match the first table?
-> 
-> 🧍 currency,price
-> 🧍 USD 400
-> 🧍 USD 300
-> 🧍 EUR 200
-> 🧍 AUD 100
->
-> 🤖 Sure. Here's a comparison of the two tables. As we can see, the prices for AUD and EUR match in both tables, but the prices for USD differ. In the first table, the price for USD is 300, whereas in the second table, there are two prices for USD, 300 and 400.
-</code></pre>
-<h3>Writing TypeScript stuff.</h3>
-<p>My TypeScript knowledge is OK but not great. I've found a number of cases where ChatGPT gave me better answers than a regular Internet search.</p>
-<pre><code>> 🧍 Let's say I have this type
-> 🧍 export type MaximumFootnotes = '1' | '2' | '3' | '4' | '5';
-> 🧍 How can I make a new object type that only allows keys that are the values in MaximumFootnotes but doesn't require all of them?
-> 
-> 🤖 Here's an example of how you can define a new object type MyFootnotes that allows keys that are values in MaximumFootnotes, but doesn't require all of them:
-</code></pre>
-<pre><code>export type MaximumFootnotes = '1' | '2' | '3' | '4' | '5';
-
-type MyFootnotes = {
-  [key in MaximumFootnotes]?: string;
-};
-</code></pre>
-<h3>Generating repeated blocks of code.</h3>
-<p>This is something that Github CoPilot does well with sometimes. My only complaint there is it often takes a while for Github Copilot to figure out what I'm doing.</p>
-<p>As an experiment, I tried using ChatGPT to do it in the following manner</p>
-<pre><code>> 🧍 I'm going to give you a list of Javascript constants. For each constant, give me code with the following structure and use the comment at the end of the line as the return value for the getTitle function
-</code></pre>
-<pre><code>export [ MY_CONSTANT ]: {
-	getConstant: () => MY_CONSTANT,
-	getTitle: () => translate('TITLE'),
-}
-</code></pre>
-<pre><code>> 🤖 Sure, I'd be happy to help you with that. Please provide me with the list of Javascript constants.
-</code></pre>
-<pre><code>export const FOO = 'foo'; // This is foo
-export const BAR = 'bar'; // This is bar
-export const BAZ = 'baz'; // This is baz
-</code></pre>
-<pre><code>> 🤖 Here is the code structure you requested for the given constants:
-</code></pre>
-<pre><code>export [ FOO ]: {
-	getConstant: () => FOO,
-	getTitle: () => translate('This is foo'),
-}
-export [ BAR ]: {
-	getConstant: () => BAR,
-	getTitle: () => translate('This is bar'),
-}
-export [ BAZ ]: {
-	getConstant: () => BAZ,
-	getTitle: () => translate('This is baz'),
-}
-</code></pre>
-<pre><code>> 🧍 Now give me the Javascript import statement for all of the constants.
->
-> 🤖 Sure, here's the import statement for all the constants:
-</code></pre>
-<pre><code>import {
-	FOO,
-	BAR,
-	BAZ
-} from './constants';
-</code></pre>
-<h3>Generating a triage schedule.</h3>
-<p>We needed a schedule for my team where each person was in charge of triaging incoming issues for two weeks.</p>
-<pre><code>> 🧍 I'm going to give you a comma-separated list of names. Please put the list in random order starting with Mark and ending with Alice?
-> Mark, Alice, Beth, Charlie, David, Eddie
->
-> 🤖 Sure, here are the names in a randomized order starting with Mark and ending with Alice:
-> 🤖 Mark, Beth, David, Eddie, Charlie, Alice.
->
-> 🧍 Using that order, give me a 6 month schedule where each person is in charge for two week.
->
-> 🤖 Sure, here is a 6-month schedule starting with Mark and ending with Alice, where each person is in charge for two weeks:
-> 🤖 Mar 27 - Apr 9: Mark
-> 🤖 Apr 10 - Apr 23: Beth
-> 🤖 Apr 24 - May 7: David
-> 🤖 May 8 - May 21: Eddie
-> 🤖 May 22 - Jun 4: Charlie
-> 🤖 Jun 5 - Jun 18: Alice
-> 🤖 Jun 19 - Jul 2: Mark
-> 🤖 Jul 3 - Jul 16: Beth
-> 🤖 Jul 17 - Jul 30: David
-> 🤖 Jul 31 - Aug 13: Eddie
-> 🤖 Aug 14 - Aug 27: Charlie
-> 🤖 Aug 28 - Sep 10: Beth
-</code></pre>
-<h3>SQL queries.</h3>
-<p>I have a personal project that's a web-based image gallery. Images can be assigned any number of tags. I've been working on a feature that lets you query all images that have one or more tags (eg <code>/tags/pets+cute</code>) and was feeling lazy coming up with the SQL query.</p>
-<pre><code>> 🧍 Write a sql query which shows all images that have all of the specified tag ids.
->
-> 🤖 To find all images that have all of the specified tag IDs, you can use the following query:
-</code></pre>
-<pre><code>SELECT i.*
-FROM images i
-JOIN image_tags it ON i.id = it.image_id
-WHERE it.tag_id IN (tag_id_1, tag_id_2, ..., tag_id_n)
-GROUP BY i.id
-HAVING COUNT(*) = n
-</code></pre>
+        <content type="html"><![CDATA[<p>I was accessing a medical website the other day (using Firefox, my go-to browser since 2013) and I was greeted with this lovely popup.</p>
+<p>I was immediately reminded of the bad old days when every other website (especially commercial ones) had this on them somewhere:</p>
+<p>We're at a point where Google Chrome is currently the default browser for just about everyone. With Chrome having 65% of the browser market, nobody else is even close. The next highest is Safari (primarily from iPhone use) at 19%. Microsoft Edge is 5%, Firefox is 3%.</p>
+<p>Let's be perfectly clear, this is not a good thing. The Free Software Foundation (who, yes, has their issues as an organization) has a <a href="https://www.gnu.org/proprietary/malware-google.en.html">great breakdown of why Chrome is so terrible from a privacy perspective</a>. There are <a href="https://duckduckgo.com/?q=%27google+chrome+is+spyware%27&#x26;t=ffab&#x26;atb=v354-1&#x26;ia=web">loads of other articles</a> saying the same things and more.</p>
+<p>Multiple times a week, I try to access a website using Firefox and it doesn't work at all. Sometimes I can get it to work by disabling some of Firefox's privacy protections but I often have to pull out Google Chrome just to do what I need.</p>
+<p>It's absolutely maddening because we've been here before with Internet Explorer.</p>
+<p>Let's start at the beginning.</p>
+<p>After numerous free trials of the walled-gardens of <a href="https://en.wikipedia.org/wiki/AOL">AOL</a> and <a href="https://en.wikipedia.org/wiki/CompuServe">CompuServe</a>, I got access to the open Internet in roughly 1992.</p>
+<p>Our provider was <a href="https://en.wikipedia.org/wiki/Delphi_(online_service)">Delphi</a> and while it also had a walled-garden aspect to it, it also had general-use FTP, telnet, Usenet, and <a href="https://en.wikipedia.org/wiki/Gopher_(protocol)">Gopher</a>.</p>
+<p>The <a href="https://en.wikipedia.org/wiki/World_Wide_Web#History">web</a> was still in its infancy. There were a handful of places (Delphi) included offering limited text-based web access but I don't think I ever used it, sticking mainly to Gopher. Gopher was <em>awesome</em> and I spent hours going through different Gopher sites all over the world.</p>
+<p>It's important to note that, at this point, everything was still text. Gopher didn't have images or any kind of styling. I wouldn't get to experience any kind of formatted HTML until I took a Human Computer Interaction psychology class in college.</p>
+<p>At some point around in 1994, I got to start using <a href="https://en.wikipedia.org/wiki/Mosaic_(web_browser)">NCSA Mosaic</a> on various college computers. The next year brought access to <a href="https://en.wikipedia.org/wiki/Netscape_Navigator">Netscape Navigator</a> which felt absolutely space-age in comparison to Mosaic.</p>
+<p>From 1998 (IE4) until 2011 (IE9), Internet Explorer was the defacto browser for most people. Some sites didn't work in anything else. Other sites had popups encouraging you to use Internet Explorer. There were even sites that flat-out wouldn't let you access them with anything other than Internet Explorer.</p>
+<p>Internet Explorer was terrible. It didn't work well, it was a security nightmare, trying to build websites for it was maddening because they didn't implement any of the standards properly. Talk to any web developer who had to support IE6 - IE8 and they will curl up into a little ball and start weeping.</p>
+<p>I think I stuck with Netscape for personal use until the launch of <a href="https://en.wikipedia.org/wiki/Firefox">Firefox</a> in 2004. But I started working as a software developer in 1998 and using Internet Explorer was pretty much a requirement in the business world, both using it and developing for it.</p>
+<p>I did spend a couple of years using Google Chrome and I loved it at first. It was fast, tidy, rendered websites well, and wasn't quite the spyware monster that it is now.</p>
+<p>I don't remember the exact year but, at some point, Chrome started trying to force you to sign into it with a Google account. As someone with multiple Google accounts (personal, work, etc), this quickly became a nightmare and I decided to give <a href="https://www.mozilla.org/en-US/">Firefox</a> another try.</p>
+<p>I was delighted to find how much faster it had gotten, how good the privacy controls were, how nice it was to use for development, and so on. I've been using Firefox ever since and it gets better with each iteration. There are versions for Android and iOS which are both great.</p>
+<p>But I fear that we're rapidly approaching a world where it won't be possible to use Firefox (or any of the other smaller browsers like <a href="https://www.opera.com/">Opera</a> or <a href="https://brave.com/">Brave</a>.</p>
+<p>We made so much progress after the decline of Internet Explorer. But now we've picked a new browser to break the web again.</p>
 ]]></content>
         <author>
             <name>Mark Biek</name>
@@ -395,29 +73,17 @@ HAVING COUNT(*) = n
         </contributor>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Learning a Large System]]></title>
-        <id>https://mark.biek.org//2022/12/learning-a-large-system</id>
-        <link href="https://mark.biek.org//2022/12/learning-a-large-system"/>
-        <updated>2022-12-01T18:18:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Starting work in a large, existing system is very much like trying to find your way around a very dark and very cluttered warehouse.</p>
-<p>When you start, your flashlight is very small (if you even <em>have</em> a flashlight). You can only see tiny pieces of the room at a time. Nothing really makes sense and you have no sense of how any of the piles of clutter are related to each other.</p>
-<p>After spending some time poking around the warehouse, you get to upgrade your flashlight. You can start to see more swaths of the room and once and can even infer a little bit about how different piles work together. But this is where it gets tricky. It's easy to make false assumptions about the parts you're seeing when the reality is still hidden in the darkness.</p>
-<p>And the process continues like this as time goes by.</p>
-<p>You get bigger flashlights and can see more of the room.</p>
-<p>Spend enough time and you may even get to turn on some overhead lights.</p>
-<p>If the system isn't <em>too</em> huge, you may someday turn on all the lights and can see the whole room at once. But you may never get to that point if the system is massive enough.</p>
-<p>You may have a section of the room that you're most familiar with while someone else may know about other parts. This is great because then you can ask each other about what is in each pile of clutter.</p>
-<p>In that case, you and everyone else in the room has to rely on each other.</p>
+        <title type="html"><![CDATA[Bloganuary: What do you complain about the most?]]></title>
+        <id>https://mark.biek.org//2024/01/bloganuary-what-do-you-complain-about-the-most</id>
+        <link href="https://mark.biek.org//2024/01/bloganuary-what-do-you-complain-about-the-most"/>
+        <updated>2024-01-30T15:23:14.183Z</updated>
+        <summary type="html"><![CDATA[<p>My biggest complaint is people being dumb (or not following the rules) in a way that's inconsiderate to everyone. Standing in an open doorway having a conversation with someone and blocking the way for everyone else. Driving and making illegal turns where people drift into the wrong lane. Driving and hanging out in the left lane on the freeway when they're slower than everyone else.</p>
+<p>My absolute pet peeve is people who are inconsiderate to pedestrians and cyclists. I don't encounter much actual aggression anymore. Mostly it's just people not thinking or paying attention. A person who's turning right out of a parking lot and only looks left and almost runs you over because you're walking down the sidewalk from the other direction. People who don't stop when you're in the crosswalk.</p>
+<p>I honestly think it's gotten worse since COVID started. COVID brought out this extreme self-centered-ness in a subset of our population and it's carried over into everything, especially driving.</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>Starting work in a large, existing system is very much like trying to find your way around a very dark and very cluttered warehouse.</p>
-<p>When you start, your flashlight is very small (if you even <em>have</em> a flashlight). You can only see tiny pieces of the room at a time. Nothing really makes sense and you have no sense of how any of the piles of clutter are related to each other.</p>
-<p>After spending some time poking around the warehouse, you get to upgrade your flashlight. You can start to see more swaths of the room and once and can even infer a little bit about how different piles work together. But this is where it gets tricky. It's easy to make false assumptions about the parts you're seeing when the reality is still hidden in the darkness.</p>
-<p>And the process continues like this as time goes by.</p>
-<p>You get bigger flashlights and can see more of the room.</p>
-<p>Spend enough time and you may even get to turn on some overhead lights.</p>
-<p>If the system isn't <em>too</em> huge, you may someday turn on all the lights and can see the whole room at once. But you may never get to that point if the system is massive enough.</p>
-<p>You may have a section of the room that you're most familiar with while someone else may know about other parts. This is great because then you can ask each other about what is in each pile of clutter.</p>
-<p>In that case, you and everyone else in the room has to rely on each other.</p>
+        <content type="html"><![CDATA[<p>My biggest complaint is people being dumb (or not following the rules) in a way that's inconsiderate to everyone. Standing in an open doorway having a conversation with someone and blocking the way for everyone else. Driving and making illegal turns where people drift into the wrong lane. Driving and hanging out in the left lane on the freeway when they're slower than everyone else.</p>
+<p>My absolute pet peeve is people who are inconsiderate to pedestrians and cyclists. I don't encounter much actual aggression anymore. Mostly it's just people not thinking or paying attention. A person who's turning right out of a parking lot and only looks left and almost runs you over because you're walking down the sidewalk from the other direction. People who don't stop when you're in the crosswalk.</p>
+<p>I honestly think it's gotten worse since COVID started. COVID brought out this extreme self-centered-ness in a subset of our population and it's carried over into everything, especially driving.</p>
 ]]></content>
         <author>
             <name>Mark Biek</name>
@@ -431,155 +97,15 @@ HAVING COUNT(*) = n
         </contributor>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Advice from a software-development old head]]></title>
-        <id>https://mark.biek.org//2022/07/advice-from-an-old-head</id>
-        <link href="https://mark.biek.org//2022/07/advice-from-an-old-head"/>
-        <updated>2022-07-14T15:06:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>After 25 years working as a software developer, I've been thinking a lot about the things that have been the most important over the course of my career. The interesting pattern I've noticed is that most of these things aren't unique to software development at all. You could easily apply them to just about anything.</p>
-<h1>Curiosity is your friend</h1>
-<ul>
-<li>Always wonder about things.</li>
-<li>Wonder how things work.</li>
-<li>Wonder <em>why</em> they work the way they do.</li>
-<li>Explore! Try to see things that other people aren't seeing.</li>
-</ul>
-<h1>Never stop learning</h1>
-<ul>
-<li>Fall in love with learning new things.</li>
-<li>Fall in love with learning more about things you already know.</li>
-<li>Get good at the process of learning so you can learn more things faster!</li>
-</ul>
-<h1>Communication is key</h1>
-<ul>
-<li>We don't do work in a vacuum. Being able to communicate your ideas to others is paramount.</li>
-<li>Learn to writing clearly and simply.
-<ul>
-<li>The <a href="https://fieldguide.automattic.com/the-automattic-style-guide/">Automattic Style Guide</a> is a good compilation of resources.</li>
-</ul>
-</li>
-<li>
-<blockquote>
-<p>"Programs are meant to be read by humans and only incidentally for computers to execute." - Donald Knuth</p>
-</blockquote>
-</li>
-</ul>
-<h1>Master your tools</h1>
-<ul>
-<li>Learn the ins and outs and full capabilities of your tools. Nothing makes work faster than efficient tool use.
-<ul>
-<li><a href="https://code.visualstudio.com/docs">Visual Studio Code docs</a></li>
-<li><a href="https://vimhelp.org/">Vim help</a></li>
-</ul>
-</li>
-<li>Collect keyboard shortcuts for all the programs you use. Make it a game where you lose points when you touch the mouse. Write the shortcuts on post-its stuck to your monitor to help you remember.
-<ul>
-<li><a href="https://www.alfredapp.com/">AlfredApp</a></li>
-<li><a href="https://support.apple.com/en-us/HT201236">OSX shortcuts</a></li>
-</ul>
-</li>
-<li>Get good at the command-line. At a minimum, get comfortable manipulating files and strings from the cli.
-<ul>
-<li><a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">Beginner's guide to the cli</a></li>
-</ul>
-</li>
-</ul>
-<h1>Get good at searching</h1>
-<p>There's to much stuff to remember so you're going to spend a lot of time trying to find what you need.</p>
-<h2>Searching for information</h2>
-<p>Get good at searching the Internet.</p>
-<ul>
-<li>You need to be able to track down the source of error messages.</li>
-<li>There will be things you don't know how to do and other people have already done them. Learn how to find those details!</li>
-</ul>
-<h2>Searching Code</h2>
-<p>How do you know where the code you need to change lives? You have to search for it!</p>
-<ul>
-<li>Your editor probably has all kinds of fancy search tools. Learn how to use them.</li>
-<li>Learn cli search tools (<code>grep</code>, <code>ack</code>, <code>ripgrep</code>, etc). There are lots of them.
-<ul>
-<li><a href="https://beyondgrep.com/">ack</a></li>
-</ul>
-</li>
-<li>Learn enough regex to make your searches more efficient.
-<ul>
-<li><a href="https://regextutorial.org/">Regex tutorial</a></li>
-</ul>
-</li>
-<li>Learn how to trace your way through code. Maybe you need to change the functionality of a button and you don't know where the code is. Start by finding where the button markup is, then trace your way back up through the code.</li>
-</ul>
+        <title type="html"><![CDATA[Bloganuary: What are your favorite sports to watch and play?]]></title>
+        <id>https://mark.biek.org//2024/01/bloganuary-what-are-your-favorite-sports-to-watch-and-play</id>
+        <link href="https://mark.biek.org//2024/01/bloganuary-what-are-your-favorite-sports-to-watch-and-play"/>
+        <updated>2024-01-29T15:23:14.183Z</updated>
+        <summary type="html"><![CDATA[<p>I'm not really into sports at all but my sons both are (football and futbol respectively). Even though I don't follow either, it makes for fun discussions. They tell me about the teams and players they're interested in. They get to tease me when I don't know something basic. It's all lovely.</p>
+<p>My wife and I used to play one-on-one basketball a lot in college but we had to stop because the games got too competitive and rough. We're normally super chill but, for some reason, our games got real rough. We switched to tennis instead. It's better to have some physical separation and a net in between us 😜. We haven't played in a long time ago, though I'd love to start again.</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>After 25 years working as a software developer, I've been thinking a lot about the things that have been the most important over the course of my career. The interesting pattern I've noticed is that most of these things aren't unique to software development at all. You could easily apply them to just about anything.</p>
-<h1>Curiosity is your friend</h1>
-<ul>
-<li>Always wonder about things.</li>
-<li>Wonder how things work.</li>
-<li>Wonder <em>why</em> they work the way they do.</li>
-<li>Explore! Try to see things that other people aren't seeing.</li>
-</ul>
-<h1>Never stop learning</h1>
-<ul>
-<li>Fall in love with learning new things.</li>
-<li>Fall in love with learning more about things you already know.</li>
-<li>Get good at the process of learning so you can learn more things faster!</li>
-</ul>
-<h1>Communication is key</h1>
-<ul>
-<li>We don't do work in a vacuum. Being able to communicate your ideas to others is paramount.</li>
-<li>Learn to writing clearly and simply.
-<ul>
-<li>The <a href="https://fieldguide.automattic.com/the-automattic-style-guide/">Automattic Style Guide</a> is a good compilation of resources.</li>
-</ul>
-</li>
-<li>
-<blockquote>
-<p>"Programs are meant to be read by humans and only incidentally for computers to execute." - Donald Knuth</p>
-</blockquote>
-</li>
-</ul>
-<h1>Master your tools</h1>
-<ul>
-<li>Learn the ins and outs and full capabilities of your tools. Nothing makes work faster than efficient tool use.
-<ul>
-<li><a href="https://code.visualstudio.com/docs">Visual Studio Code docs</a></li>
-<li><a href="https://vimhelp.org/">Vim help</a></li>
-</ul>
-</li>
-<li>Collect keyboard shortcuts for all the programs you use. Make it a game where you lose points when you touch the mouse. Write the shortcuts on post-its stuck to your monitor to help you remember.
-<ul>
-<li><a href="https://www.alfredapp.com/">AlfredApp</a></li>
-<li><a href="https://support.apple.com/en-us/HT201236">OSX shortcuts</a></li>
-</ul>
-</li>
-<li>Get good at the command-line. At a minimum, get comfortable manipulating files and strings from the cli.
-<ul>
-<li><a href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">Beginner's guide to the cli</a></li>
-</ul>
-</li>
-</ul>
-<h1>Get good at searching</h1>
-<p>There's to much stuff to remember so you're going to spend a lot of time trying to find what you need.</p>
-<h2>Searching for information</h2>
-<p>Get good at searching the Internet.</p>
-<ul>
-<li>You need to be able to track down the source of error messages.</li>
-<li>There will be things you don't know how to do and other people have already done them. Learn how to find those details!</li>
-</ul>
-<h2>Searching Code</h2>
-<p>How do you know where the code you need to change lives? You have to search for it!</p>
-<ul>
-<li>Your editor probably has all kinds of fancy search tools. Learn how to use them.</li>
-<li>Learn cli search tools (<code>grep</code>, <code>ack</code>, <code>ripgrep</code>, etc). There are lots of them.
-<ul>
-<li><a href="https://beyondgrep.com/">ack</a></li>
-</ul>
-</li>
-<li>Learn enough regex to make your searches more efficient.
-<ul>
-<li><a href="https://regextutorial.org/">Regex tutorial</a></li>
-</ul>
-</li>
-<li>Learn how to trace your way through code. Maybe you need to change the functionality of a button and you don't know where the code is. Start by finding where the button markup is, then trace your way back up through the code.</li>
-</ul>
+        <content type="html"><![CDATA[<p>I'm not really into sports at all but my sons both are (football and futbol respectively). Even though I don't follow either, it makes for fun discussions. They tell me about the teams and players they're interested in. They get to tease me when I don't know something basic. It's all lovely.</p>
+<p>My wife and I used to play one-on-one basketball a lot in college but we had to stop because the games got too competitive and rough. We're normally super chill but, for some reason, our games got real rough. We switched to tennis instead. It's better to have some physical separation and a net in between us 😜. We haven't played in a long time ago, though I'd love to start again.</p>
 ]]></content>
         <author>
             <name>Mark Biek</name>
@@ -593,65 +119,19 @@ HAVING COUNT(*) = n
         </contributor>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Launching vim from a PHP cli app and reading the output.]]></title>
-        <id>https://mark.biek.org//2022/02/php-launch-vim-read-output</id>
-        <link href="https://mark.biek.org//2022/02/php-launch-vim-read-output"/>
-        <updated>2022-02-25T15:56:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>I've always wondered if it's possible to write a PHP command-line script that launches an editor, lets the user type something, then reads in whatever they type (like a git commit log message).</p>
-<p>Turns out, it's pretty straightforward with the <a href="https://symfony.com/doc/current/components/process.html#using-php-streams-as-the-standard-input-of-a-process">Symfony Process</a> component.</p>
-<pre><code>&#x3C;?php
-
-require_once __DIR__ . '/vendor/autoload.php';
-
-use Symfony\Component\Process\Process;
-
-// Create a temporary file so the user has something to type into
-$edit_file = tempnam(sys_get_temp_dir(), "_log");
-
-// Attempt to load the user's EDITOR from the environment. Default to vim otherwise.
-$editor = getenv('EDITOR') !== false ? getenv('EDITOR') : 'vim';
-
-// Launch the editor and open the temp file
-// This will pause execution of our script until they save and close the editor.
-$process = new Process(['vim', $edit_file]);
-$process->setTty(true);
-$process->run();
-
-// Read back the data they entered.
-$data = file_get_contents($edit_file);
-echo "$data\n";
-
-// Clean up after ourselves.
-unlink($edit_file);
-</code></pre>
+        <title type="html"><![CDATA[Bloganuary: What would you do if you won the lottery?]]></title>
+        <id>https://mark.biek.org//2024/01/bloganuary-what-would-you-do-if-you-won-the-lottery</id>
+        <link href="https://mark.biek.org//2024/01/bloganuary-what-would-you-do-if-you-won-the-lottery"/>
+        <updated>2024-01-28T15:23:14.183Z</updated>
+        <summary type="html"><![CDATA[<p>The first thing would be to set up an LLC/trust so nobody knows we won!</p>
+<p>I like working so I wouldn't quit my job or anything. Maybe pay off our house?</p>
+<p>We're super fortunate in our lives. There isn't much we want or need. It'd be nice to be able to use some of the money to improve our local community. Setup free day cares, pay for people to go to school, help with housing. All the things that taxes on rich people <em>should</em> be doing already.</p>
+<p>It'd also be nice to have some generational wealth to pass along so I'd try set things up for that. If we have grandkids, pay for them to go to college.</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>I've always wondered if it's possible to write a PHP command-line script that launches an editor, lets the user type something, then reads in whatever they type (like a git commit log message).</p>
-<p>Turns out, it's pretty straightforward with the <a href="https://symfony.com/doc/current/components/process.html#using-php-streams-as-the-standard-input-of-a-process">Symfony Process</a> component.</p>
-<pre><code>&#x3C;?php
-
-require_once __DIR__ . '/vendor/autoload.php';
-
-use Symfony\Component\Process\Process;
-
-// Create a temporary file so the user has something to type into
-$edit_file = tempnam(sys_get_temp_dir(), "_log");
-
-// Attempt to load the user's EDITOR from the environment. Default to vim otherwise.
-$editor = getenv('EDITOR') !== false ? getenv('EDITOR') : 'vim';
-
-// Launch the editor and open the temp file
-// This will pause execution of our script until they save and close the editor.
-$process = new Process(['vim', $edit_file]);
-$process->setTty(true);
-$process->run();
-
-// Read back the data they entered.
-$data = file_get_contents($edit_file);
-echo "$data\n";
-
-// Clean up after ourselves.
-unlink($edit_file);
-</code></pre>
+        <content type="html"><![CDATA[<p>The first thing would be to set up an LLC/trust so nobody knows we won!</p>
+<p>I like working so I wouldn't quit my job or anything. Maybe pay off our house?</p>
+<p>We're super fortunate in our lives. There isn't much we want or need. It'd be nice to be able to use some of the money to improve our local community. Setup free day cares, pay for people to go to school, help with housing. All the things that taxes on rich people <em>should</em> be doing already.</p>
+<p>It'd also be nice to have some generational wealth to pass along so I'd try set things up for that. If we have grandkids, pay for them to go to college.</p>
 ]]></content>
         <author>
             <name>Mark Biek</name>
@@ -665,97 +145,19 @@ unlink($edit_file);
         </contributor>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Using jq to filter JSON by regex]]></title>
-        <id>https://mark.biek.org//2021/11/using-jq-to-filter-json-by-regex</id>
-        <link href="https://mark.biek.org//2021/11/using-jq-to-filter-json-by-regex"/>
-        <updated>2021-11-17T16:04:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>If you're not already familiar with using <a href="https://stedolan.github.io/jq/">jq</a> to manipulate JSON on the command-line, go download it immediately. While it can be a little tricky to learn at first, it'll make your life so much easier.</p>
-<p>For example, I recently learned how to filter a JSON result set using a regex to match the value of a particular object property.</p>
-<p>Let's say I have a JSON payload that looks like this:</p>
-<pre><code>{
-	"total": 4,
-	"domains": [
-		{
-			"id": 100,
-			"account": 999,
-			"name": "alice.com",
-			"created": "2021-01-01 00:00:00"
-		},
-		{
-			"id": 101,
-			"account": 999,
-			"name": "bob.com",
-			"created": "2021-01-01 00:00:00"
-		},
-		{
-			"id": 102,
-			"account": 999,
-			"name": "charlie.com",
-			"created": "2021-01-01 00:00:00"
-		},
-		{
-			"id": 103,
-			"account": 999,
-			"name": "eve.com",
-			"created": "2021-01-01 00:00:00"
-		}
-	]
-}
-</code></pre>
-<p>It's super easy to get all of the domain objects using the jq filter <code>.domains[]</code> and it's also trivial to get at only specific fields of each domain object (eg <code>.domains[] | {id,name}</code>).</p>
-<p>Now let's say we want to only get the domain object where the name is "charlie.com".</p>
-<p>That's where the <a href="https://stedolan.github.io/jq/manual/#select(boolean_expression)">select()</a> and <a href="https://stedolan.github.io/jq/manual/#test(val),test(regex;flags)">test()</a> functions come in.</p>
-<p>We can use the following filter to accomplish 👆️:</p>
-<p><code>.domains[] | {id,name} | select(.name | test("charlie"))</code></p>
-<p><code>select</code> takes a boolean expression and, if that expression is true, returns that particular item. Everything else is filtered out.</p>
-<p>The <code>test</code> function takes a regex (or simple string to match). In our particular case, <code>test</code> is checking against the <code>name</code> property of each object.</p>
-<p>Now let's saw only want the <code>id</code> <em>value</em> of the object that matches our test.</p>
-<p>We simply change our filter to the below:</p>
-<p><code>.domains[] | {id,name} | select(.name | test("charlie")) | .id</code></p>
+        <title type="html"><![CDATA[Bloganuary: What books do you want to read?]]></title>
+        <id>https://mark.biek.org//2024/01/bloganuary-what-books-do-you-want-to-read</id>
+        <link href="https://mark.biek.org//2024/01/bloganuary-what-books-do-you-want-to-read"/>
+        <updated>2024-01-27T15:23:14.183Z</updated>
+        <summary type="html"><![CDATA[<p>I have a habit (not good or bad, just a habit) of reading the same books over and over and over. But I also have a list of books that I'm working my way through. Some things have been on the list so long that I don't even remember what they are anymore. I keep the list as a spreadsheet in Google Sheets.</p>
+<p>The next book will definitely be "Beasts of Extraordinary Circumstance" by Ruth Emmie Lang. The CEO of our company recently recommendeded "Reboot: Leadership and the Art of Growing Up" by Jerry Colonna. I don't usually read that sort of thing but it seems intriguing so I'd like to try it out.</p>
+<p>I read "The-Body Problem" by Cixin Liu last Fall and it was wonderful. The next two books in the trilogy are high on my list.</p>
+<p>So many books, so many possibilities!</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>If you're not already familiar with using <a href="https://stedolan.github.io/jq/">jq</a> to manipulate JSON on the command-line, go download it immediately. While it can be a little tricky to learn at first, it'll make your life so much easier.</p>
-<p>For example, I recently learned how to filter a JSON result set using a regex to match the value of a particular object property.</p>
-<p>Let's say I have a JSON payload that looks like this:</p>
-<pre><code>{
-	"total": 4,
-	"domains": [
-		{
-			"id": 100,
-			"account": 999,
-			"name": "alice.com",
-			"created": "2021-01-01 00:00:00"
-		},
-		{
-			"id": 101,
-			"account": 999,
-			"name": "bob.com",
-			"created": "2021-01-01 00:00:00"
-		},
-		{
-			"id": 102,
-			"account": 999,
-			"name": "charlie.com",
-			"created": "2021-01-01 00:00:00"
-		},
-		{
-			"id": 103,
-			"account": 999,
-			"name": "eve.com",
-			"created": "2021-01-01 00:00:00"
-		}
-	]
-}
-</code></pre>
-<p>It's super easy to get all of the domain objects using the jq filter <code>.domains[]</code> and it's also trivial to get at only specific fields of each domain object (eg <code>.domains[] | {id,name}</code>).</p>
-<p>Now let's say we want to only get the domain object where the name is "charlie.com".</p>
-<p>That's where the <a href="https://stedolan.github.io/jq/manual/#select(boolean_expression)">select()</a> and <a href="https://stedolan.github.io/jq/manual/#test(val),test(regex;flags)">test()</a> functions come in.</p>
-<p>We can use the following filter to accomplish 👆️:</p>
-<p><code>.domains[] | {id,name} | select(.name | test("charlie"))</code></p>
-<p><code>select</code> takes a boolean expression and, if that expression is true, returns that particular item. Everything else is filtered out.</p>
-<p>The <code>test</code> function takes a regex (or simple string to match). In our particular case, <code>test</code> is checking against the <code>name</code> property of each object.</p>
-<p>Now let's saw only want the <code>id</code> <em>value</em> of the object that matches our test.</p>
-<p>We simply change our filter to the below:</p>
-<p><code>.domains[] | {id,name} | select(.name | test("charlie")) | .id</code></p>
+        <content type="html"><![CDATA[<p>I have a habit (not good or bad, just a habit) of reading the same books over and over and over. But I also have a list of books that I'm working my way through. Some things have been on the list so long that I don't even remember what they are anymore. I keep the list as a spreadsheet in Google Sheets.</p>
+<p>The next book will definitely be "Beasts of Extraordinary Circumstance" by Ruth Emmie Lang. The CEO of our company recently recommendeded "Reboot: Leadership and the Art of Growing Up" by Jerry Colonna. I don't usually read that sort of thing but it seems intriguing so I'd like to try it out.</p>
+<p>I read "The-Body Problem" by Cixin Liu last Fall and it was wonderful. The next two books in the trilogy are high on my list.</p>
+<p>So many books, so many possibilities!</p>
 ]]></content>
         <author>
             <name>Mark Biek</name>
@@ -769,145 +171,15 @@ unlink($edit_file);
         </contributor>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Making a Typescript property dependent on the value of another property]]></title>
-        <id>https://mark.biek.org//2021/09/making-a-typescript-property-dependent-on-the-value-of-another-property</id>
-        <link href="https://mark.biek.org//2021/09/making-a-typescript-property-dependent-on-the-value-of-another-property"/>
-        <updated>2021-09-30T00:42:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>I recently ran into a situation where I wanted Typescript to require a certain property, only if the <em>value</em> of a different property was a specific value.</p>
-<p>With some help from a <a href="https://github.com/acrobertson">coworker</a> and some additional reading, I found a solution that uses a combination of <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types">Union</a> and <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types">Intersection</a> types.</p>
-<p>Let's say I have a couple of contrived objects like this</p>
-<pre><code>let a = {
-	title: 'A title';
-	type: 'value';
-	value: 'This is a value';
-};
-
-let b = {
-	title: 'Another title';
-	type: 'nothing';
-};
-</code></pre>
-<p>What I want is for the property <code>value</code> to only be required when <code>type == 'value'</code>.</p>
-<p>To start, I declare a base type which contains the properties I always want to have:</p>
-<pre><code>type Base = {
-	title: string;
-	type: 'value' | 'nothing';
-}
-</code></pre>
-<p>Then I can declare intersection types for each possible value of the <code>type</code> property:</p>
-<pre><code>type ValueType = Base &#x26; {
-	type: 'value';
-	value: string;
-};
-
-type NothingType = Base &#x26; {
-	type: 'nothing';
-	value: never;
-}
-</code></pre>
-<p>For <code>ValueType</code>, we inherit all of the type properties of the <code>Base</code> type but require a string <code>value</code> property when <code>type == 'value'</code>;</p>
-<p>For <code>NothingType</code>, we also inherit everything from <code>Base</code> but specify that the <code>value</code> property should never exist.</p>
-<p>Then we create a union type that we'll use on the actual objects we declare:</p>
-<pre><code>type MyType = ValueType | NothingType;
-</code></pre>
-<p>Here are examples of objects that pass all of our type checks:</p>
-<pre><code>let good1: MyType = {
-	title: 'This is a good object',
-	type: 'value',
-	value: 'a value'
-};
-
-let good2: MyType = {
-	title: 'This is a good object',
-	type: 'nothing',
-};
-</code></pre>
-<p>And here are some objects that throw type errors:</p>
-<pre><code>let bad1: MyType = {
-	title: 'This is a good object',
-	type: 'value',
-	// Here, we're missing the `value` property
-};
-
-let bad2: MyType = {
-	title: 'This is a good object',
-	type: 'nothing',
-	value: 'another value'
-	// Here, we shouldn't have a `value` property at all
-};
-</code></pre>
-<p><a href="https://www.typescriptlang.org/play?#code/C4TwDgpgBAQghgZ2gXigbwFAEhgEtgA2EAXFAsAE64B2A5gNzaiSkDkAbnAQK4StQAfKK2oB7YAAsatVowC+GDM2gA1LrwAq4FLETQAZOiba2nHn0ZYzvUuSp15jJdqgA5cVLpbIUVPCRQhpg4JsJiktKy2NYkUNQQ7BAU8orKUACyIN46aubZgm4e0tlORMBQtKKiACakmfmowXiEsawaUghQuJ1wFVXVUKIARgBWEADGwKwANMYswjEz0eqtvYsYcqUQ5UNw1QCMdVkujUz4RGzt3V09fTWDoxNTsyHzHCtLm4plULvVAExHBpGHDnVpXTrXXqVe7DMaTJavVrhTwyF4xNhwFFJKDrTZAA">Typescript playground example</a></p>
-<h2>Update</h2>
-<p>The aforementioned <a href="https://github.com/acrobertson">coworker</a> also showed me a nice way to do the same as the above using Interfaces which gives you slightly nicer error messages.</p>
-<p><a href="https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgEJwM4oN4CgCQYwYANhAFzIZhSgDmA3AWAJ4AOFyA5AG5wkBXCF2QAfbiAD2YABb0uTAL65coSLEQoAavyEAVdiggAPSCAAmGNJhzNDlXruFN8fQZ2q0QjXMtXhoeCRkADlpOW8DDmQTM0trLGQ8QntuNyEFAnTOEAgeaCUVVmiAWRYolABeZB13CrFQ8PoKplwyMGQ6SUlzSjL66uSiUk4uPTkrYCs4Tu7zZEkAIwArCAQwLgAaOw4HbK2spwcZ-d9WtogOxbhzAEY+8sNkQeZiMgdxqeQvma6ehZWaw22xSuzSTgOila7WQ13MACYHgMkq8Rh8Jt9prN-ktVusDqDRlJZPIQdljsSZNBkKcoUA">Typescript playground example</a></p>
+        <title type="html"><![CDATA[Bloganuary: Write about a few of your favorite family traditions.]]></title>
+        <id>https://mark.biek.org//2024/01/bloganuary-write-about-a-few-of-your-favorite-family-traditions</id>
+        <link href="https://mark.biek.org//2024/01/bloganuary-write-about-a-few-of-your-favorite-family-traditions"/>
+        <updated>2024-01-26T15:23:14.183Z</updated>
+        <summary type="html"><![CDATA[<p>One of my favorite family traditions was, when the kids were little, we used to walk to buy our Christmas tree. The grocery store across the street sold trees. We would all bundle up, get the wagon, and walk over and pick out our tree. We'd hoist the tree into the wagon and I would pull it home, usually with the tree resting against my back to keep it from falling over. Some years, we did it in the bright sun, some years it was dark and actively snowing. It was always so fun to live through the kid's excitement. We'd pick out the perfect tree and then some of us would stand outside and guard it while the others went inside to pay.</p>
+<p>Another favorite tradition is our annual (sometimes twice-annual!) trip to the beach in <a href="https://maps.app.goo.gl/qNGaQ719X5ibdtT29">Hilton Head Island, SC</a>. We've been going there since before all of the kids were even born and we still go now. We hang out with my in-laws, go to the beach, ride bikes around, eat at the Salty Dog Cafe. It's all wonderful but the beach was one of my favorite places. I love to dig in the sand and build sandcastles. Even though they're practically grown, the kids still join me in digging. Our favorite game is to build a giant castle with a moat and wall just a little bit up the beach from the waves. Then we have to race the incoming tide to finish and see how long the castle survives. Sometimes, we do a good enough job that the remnants of the castle are still there the next day!</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>I recently ran into a situation where I wanted Typescript to require a certain property, only if the <em>value</em> of a different property was a specific value.</p>
-<p>With some help from a <a href="https://github.com/acrobertson">coworker</a> and some additional reading, I found a solution that uses a combination of <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types">Union</a> and <a href="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types">Intersection</a> types.</p>
-<p>Let's say I have a couple of contrived objects like this</p>
-<pre><code>let a = {
-	title: 'A title';
-	type: 'value';
-	value: 'This is a value';
-};
-
-let b = {
-	title: 'Another title';
-	type: 'nothing';
-};
-</code></pre>
-<p>What I want is for the property <code>value</code> to only be required when <code>type == 'value'</code>.</p>
-<p>To start, I declare a base type which contains the properties I always want to have:</p>
-<pre><code>type Base = {
-	title: string;
-	type: 'value' | 'nothing';
-}
-</code></pre>
-<p>Then I can declare intersection types for each possible value of the <code>type</code> property:</p>
-<pre><code>type ValueType = Base &#x26; {
-	type: 'value';
-	value: string;
-};
-
-type NothingType = Base &#x26; {
-	type: 'nothing';
-	value: never;
-}
-</code></pre>
-<p>For <code>ValueType</code>, we inherit all of the type properties of the <code>Base</code> type but require a string <code>value</code> property when <code>type == 'value'</code>;</p>
-<p>For <code>NothingType</code>, we also inherit everything from <code>Base</code> but specify that the <code>value</code> property should never exist.</p>
-<p>Then we create a union type that we'll use on the actual objects we declare:</p>
-<pre><code>type MyType = ValueType | NothingType;
-</code></pre>
-<p>Here are examples of objects that pass all of our type checks:</p>
-<pre><code>let good1: MyType = {
-	title: 'This is a good object',
-	type: 'value',
-	value: 'a value'
-};
-
-let good2: MyType = {
-	title: 'This is a good object',
-	type: 'nothing',
-};
-</code></pre>
-<p>And here are some objects that throw type errors:</p>
-<pre><code>let bad1: MyType = {
-	title: 'This is a good object',
-	type: 'value',
-	// Here, we're missing the `value` property
-};
-
-let bad2: MyType = {
-	title: 'This is a good object',
-	type: 'nothing',
-	value: 'another value'
-	// Here, we shouldn't have a `value` property at all
-};
-</code></pre>
-<p><a href="https://www.typescriptlang.org/play?#code/C4TwDgpgBAQghgZ2gXigbwFAEhgEtgA2EAXFAsAE64B2A5gNzaiSkDkAbnAQK4StQAfKK2oB7YAAsatVowC+GDM2gA1LrwAq4FLETQAZOiba2nHn0ZYzvUuSp15jJdqgA5cVLpbIUVPCRQhpg4JsJiktKy2NYkUNQQ7BAU8orKUACyIN46aubZgm4e0tlORMBQtKKiACakmfmowXiEsawaUghQuJ1wFVXVUKIARgBWEADGwKwANMYswjEz0eqtvYsYcqUQ5UNw1QCMdVkujUz4RGzt3V09fTWDoxNTsyHzHCtLm4plULvVAExHBpGHDnVpXTrXXqVe7DMaTJavVrhTwyF4xNhwFFJKDrTZAA">Typescript playground example</a></p>
-<h2>Update</h2>
-<p>The aforementioned <a href="https://github.com/acrobertson">coworker</a> also showed me a nice way to do the same as the above using Interfaces which gives you slightly nicer error messages.</p>
-<p><a href="https://www.typescriptlang.org/play?#code/JYOwLgpgTgZghgYwgAgEJwM4oN4CgCQYwYANhAFzIZhSgDmA3AWAJ4AOFyA5AG5wkBXCF2QAfbiAD2YABb0uTAL65coSLEQoAavyEAVdiggAPSCAAmGNJhzNDlXruFN8fQZ2q0QjXMtXhoeCRkADlpOW8DDmQTM0trLGQ8QntuNyEFAnTOEAgeaCUVVmiAWRYolABeZB13CrFQ8PoKplwyMGQ6SUlzSjL66uSiUk4uPTkrYCs4Tu7zZEkAIwArCAQwLgAaOw4HbK2spwcZ-d9WtogOxbhzAEY+8sNkQeZiMgdxqeQvma6ehZWaw22xSuzSTgOila7WQ13MACYHgMkq8Rh8Jt9prN-ktVusDqDRlJZPIQdljsSZNBkKcoUA">Typescript playground example</a></p>
+        <content type="html"><![CDATA[<p>One of my favorite family traditions was, when the kids were little, we used to walk to buy our Christmas tree. The grocery store across the street sold trees. We would all bundle up, get the wagon, and walk over and pick out our tree. We'd hoist the tree into the wagon and I would pull it home, usually with the tree resting against my back to keep it from falling over. Some years, we did it in the bright sun, some years it was dark and actively snowing. It was always so fun to live through the kid's excitement. We'd pick out the perfect tree and then some of us would stand outside and guard it while the others went inside to pay.</p>
+<p>Another favorite tradition is our annual (sometimes twice-annual!) trip to the beach in <a href="https://maps.app.goo.gl/qNGaQ719X5ibdtT29">Hilton Head Island, SC</a>. We've been going there since before all of the kids were even born and we still go now. We hang out with my in-laws, go to the beach, ride bikes around, eat at the Salty Dog Cafe. It's all wonderful but the beach was one of my favorite places. I love to dig in the sand and build sandcastles. Even though they're practically grown, the kids still join me in digging. Our favorite game is to build a giant castle with a moat and wall just a little bit up the beach from the waves. Then we have to race the incoming tide to finish and see how long the castle survives. Sometimes, we do a good enough job that the remnants of the castle are still there the next day!</p>
 ]]></content>
         <author>
             <name>Mark Biek</name>
