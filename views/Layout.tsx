@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -7,10 +8,13 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
 	return (
+		<>
 		<main>
 			<Header />
 			{children}
 			<Footer />
 		</main>
+		<Analytics />
+		</>
 	);
 }
